@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive;
+  background: url("../images/pexels-rachel-claire-4992465.jpg");
+  background-position: 55%;
+  background-size: cover;
+}
+
+.section {
+  max-width: 800px;
+  margin: 10rem auto;
+}
+
+.card {
+  background-color: #f4ebda;
+  border-radius: 0.125rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 30px;
+  /* background: repeating-linear-gradient(
+        #0000 0 calc(1.2rem - 1px),
+        #78baf3 0 1.2rem
+      )
+      right bottom / 100% 100%,
+    linear-gradient(#ffcecd 0 0) 30px 0/2px 100% #f4ebda; */
+  background-repeat: no-repeat;
+  line-height: 1.2rem;
+  transform: rotate(-2deg);
+  padding: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.card_image {
+  height: calc(13 * 1.2rem);
+  padding: 1.2rem 1.2rem 0;
+  position: relative;
+}
+.card_image:before,
+.card_image:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  left: 88%;
+  top: 4px;
+  height: 45px;
+  /* background: #e8bd3f; */
+
+  background: #e9d69d;
+  transform: rotate(45deg);
+  opacity: 0.7;
+}
+
+.card_image:after {
+  transform: rotate(-45deg);
+  top: auto;
+  bottom: 200px;
+  left: 21%;
+}
+
+.card_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 4px;
+}
+
+.card_content {
+  padding: 1.2rem;
+}
+
+.card_text {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  line-height: 19.2px;
+}
+/* .card_text_container {
+  padding-top: 1px;
+} */
+
+h2 {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  text-decoration: underline;
+  margin-bottom: 1.5rem;
+}
+
+.spacer {
+  padding-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    transform: rotate(0deg);
+  }
+}

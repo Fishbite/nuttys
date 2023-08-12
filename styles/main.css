@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive;
+  background: url("../images/pexels-rachel-claire-4992465.jpg");
+  background-position: 10% 75%;
+}
+
+.section {
+  max-width: 800px;
+  margin: 10rem auto;
+}
+
+.card {
+  background-color: #f4ebda;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 30px;
+  background: repeating-linear-gradient(
+        #0000 0 calc(1.2rem - 1px),
+        #78baf3 0 1.2rem
+      )
+      right bottom / 100% 100%,
+    linear-gradient(#ffcecd 0 0) 30px 0/2px 100% #f4ebda;
+  background-repeat: no-repeat;
+  line-height: 1.2rem;
+  transform: rotate(-4deg);
+  padding: 1rem;
+  clip-path: polygon(
+    72% 0%,
+    77% 0%,
+    75% 0%,
+    80% 0%,
+    90% 2%,
+    92% 2%,
+    95% 0,
+    100% 2%,
+    99% 8%,
+    100% 11%,
+    98% 12%,
+    99% 18%,
+    99% 25%,
+    100% 31%,
+    98% 32%,
+    100% 38%,
+    99% 42%,
+    100% 47%,
+    97% 50%,
+    100% 56%,
+    99% 60%,
+    100% 64%,
+    97% 68%,
+    100% 72%,
+    98% 78%,
+    99% 82%,
+    96% 87%,
+    100% 92%,
+    96% 97%,
+    98% 100%,
+    91% 99%,
+    86% 100%,
+    85% 98%,
+    84% 100%,
+    82% 100%,
+    78% 100%,
+    74% 99%,
+    68% 97%,
+    64% 100%,
+    58% 100%,
+    54% 99%,
+    50% 100%,
+    45% 100%,
+    40% 99%,
+    36% 100%,
+    31% 99%,
+    26% 100%,
+    21% 100%,
+    18% 100%,
+    11% 99%,
+    2% 100%,
+    1% 100%,
+    4% 93%,
+    1% 89%,
+    3% 85%,
+    0% 81%,
+    2% 73%,
+    0% 66%,
+    1% 60%,
+    1% 54%,
+    0 49%,
+    0% 44%,
+    1% 41%,
+    0% 37%,
+    4% 33%,
+    1% 28%,
+    1% 24%,
+    2% 22%,
+    2% 18%,
+    1% 17%,
+    1% 12%,
+    4% 13%,
+    1% 7%,
+    2% 5%,
+    2% 1%,
+    2% 0%,
+    6% 0%,
+    11% 0%,
+    13% 0%,
+    17% 1%,
+    19% 1%,
+    25% 0%,
+    29% 0%,
+    33% 0%,
+    36% 0%,
+    40% 0%,
+    43% 1%,
+    48% 0%,
+    51% 0%,
+    54% 0%,
+    58% 0,
+    63% 2%,
+    68% 3%
+  );
+  /* clip-path: polygon(
+    1% 2%,
+    3.5% 0.1%,
+    8.9% 2.7%,
+    16.2% 1.2%,
+    19.7% 0.8%,
+    24.7% 2%,
+    31.2% 0%,
+    35.9% 2.3%,
+    40.6% 0.5%,
+    47.1% 1.8%,
+    49.9% 1%,
+    53.8% 2.5%,
+    62.2% 0.4%,
+    67.3% 1.2%,
+    70.3% 0.3%,
+    75.8% 1.4%,
+    78.5% 1.7%,
+    84% 2.6%,
+    91.1% 0.5%,
+    93.6% 2.4%,
+    97.3% 0.3%,
+    98.9% 6%,
+    98.1% 11.4%,
+    98.6% 15.5%,
+    97.3% 17.8%,
+    97.7% 27.4%,
+    98.3% 28.5%,
+    99.7% 34.1%,
+    98.8% 41.9%,
+    98.3% 45.7%,
+    98.4% 50.9%,
+    98.7% 57.4%,
+    99.6% 60.4%,
+    99.4% 66.6%,
+    99.2% 69.5%,
+    97.4% 77.1%,
+    98.1% 82.3%,
+    99.9% 83.5%,
+    98.2% 91.5%,
+    99.3% 95.3%,
+    98% 98.6%,
+    93.6% 97.4%,
+    90.3% 98.3%,
+    86.8% 98.3%,
+    78.6% 98.5%,
+    76.4% 99.2%,
+    69.7% 99.8%,
+    64.2% 99.3%,
+    61.8% 99.2%,
+    57.2% 98.1%,
+    48.7% 98.3%,
+    46.8% 99%,
+    39.6% 98.9%,
+    33.8% 97.3%,
+    28.2% 99.4%,
+    27% 98.3%,
+    22.1% 98.6%,
+    13.1% 97.1%,
+    8.7% 99.3%,
+    2.7% 97.4%,
+    2% 98.2%,
+    2.1% 94.3%,
+    0.7% 90.5%,
+    0.9% 86.3%,
+    2.2% 78.2%,
+    0.4% 76.7%,
+    1.2% 72.1%,
+    2% 64%,
+    1.4% 59.8%,
+    0.4% 57.3%,
+    0.3% 49.1%,
+    2.9% 44.7%,
+    1.9% 41.3%,
+    0.8% 35.7%,
+    2.9% 31.3%,
+    0.8% 24.9%,
+    2.7% 20.5%,
+    0.8% 17.4%,
+    2.5% 8.6%,
+    1.1% 5.5%
+  ); */
+}
+
+.card_image {
+  height: calc(13 * 1.2rem);
+  padding: 1.2rem 1.2rem 0;
+  position: relative;
+}
+.card_image:before,
+.card_image:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  left: 88%;
+  top: 0;
+  height: 45px;
+  background: #e8bd3f;
+  transform: rotate(45deg);
+  opacity: 0.7;
+}
+
+.card_image:after {
+  transform: rotate(-45deg);
+  top: auto;
+  bottom: -22px;
+  left: 21%;
+}
+
+.card_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_content {
+  padding: 1.2rem;
+}
+
+.card_text {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  line-height: 19.2px;
+}
+/* .card_text_container {
+  padding-top: 1px;
+} */
+
+h2 {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  text-decoration: underline;
+  margin-bottom: 1.5rem;
+}
