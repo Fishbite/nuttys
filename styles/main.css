@@ -2,13 +2,27 @@
 *,
 *::before,
 *::after {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: "Shadows Into Light", cursive;
   background: url("../images/pexels-rachel-claire-4992465.jpg");
-  background-position: 10% 75%;
+  background-position: 90% 60%;
+  /* background-size: cover; */
+  height: 100%;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid rgb(151, 0, 0); */
+  border-top: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 2rem;
 }
 
 .section {
