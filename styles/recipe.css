@@ -1,12 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-*,
+/* @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 body {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light Two", cursive;
   background: url("../images/pexels-rachel-claire-4992465.jpg");
   background-position: 50%;
   background-size: cover;
@@ -14,7 +17,7 @@ body {
 
 .section {
   max-width: 800px;
-  margin: 10rem auto;
+  margin: 1rem auto;
 }
 
 .card {
@@ -38,8 +41,8 @@ body {
 }
 
 .card_image {
-  /* height: calc(13 * 1.2rem); */
-  height: 366px;
+  height: calc(13 * 1.2rem);
+  /* height: 366px; */
   padding: 1.2rem 1.2rem 0;
   position: relative;
 }
@@ -60,7 +63,7 @@ body {
   transform: rotate(-45deg);
   top: 2%;
   bottom: 200px;
-  left: 21%;
+  left: 4%;
 }
 
 .card_image img {
@@ -69,6 +72,14 @@ body {
   object-fit: cover;
 
   border-radius: 4px;
+}
+
+.card_image_round img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid rgb(66, 66, 66);
+  border-radius: 50%;
 }
 
 .card_content {
@@ -99,7 +110,11 @@ h3 {
   padding-bottom: 2.4rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
+  body {
+    font-family: "Shadows Into Light Two", cursive;
+    background: none;
+  }
   .card {
     transform: rotate(0deg);
   }
