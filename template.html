@@ -9,49 +9,39 @@
     <link rel="stylesheet" href="./styles/tabs.css" />
   </head>
   <body>
-    <section class="section">
+    <section>
       <div class="title">
         <h2>Sausage & Pepper Pie</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-          aperiam!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          quis
         </p>
       </div>
 
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
       <div class="about-center section-center">
         <article class="about-img">
           <img
-            src="./images/sausagepie/650x366/sausageandpepperpie02.jpg"
+            src="./images/sausagepepperpie/sausageandpepperpie03.jpg"
             alt="sausage and pepper pie"
           />
         </article>
+
         <article class="about">
-          <!-- btn container -->
+          <!-- buttons container -->
           <div class="btn-container">
-            <button class="tab-btn active" data-id="history">
-              Description
+            <!-- class active = show content -->
+            <button class="tab-btn active" data-id="ingredients">
+              ingredients
             </button>
-            <button class="tab-btn" data-id="vision">Ingredients</button>
-            <button class="tab-btn" data-id="goals">Method</button>
+            <button class="tab-btn" data-id="method">method</button>
           </div>
-          <div class="about-content">
+          <!-- about content -->
+          <article class="about-content">
             <!-- single item -->
-            <div class="content active" id="history">
-              <h4>Description</h4>
-              <p>
-                I'm baby wolf pickled schlitz try-hard normcore marfa man bun
-                mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
-                rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
-                tilde try-hard, woke fixie banjo man bun. Small batch tumeric
-                mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
-                direct trade hoodie ugh chambray, craft beer pork belly flannel
-                tacos single-origin coffee art party migas plaid pop-up.
-              </p>
-            </div>
-            <!-- end of single item -->
-            <!-- single item -->
-            <div class="content" id="vision">
-              <h4>Ingredients</h4>
+            <div class="content active" id="ingredients">
+              <h4>ingredients</h4>
               <p>
                 Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
                 crucifix offal deep v hella biodiesel. Church-key listicle
@@ -70,9 +60,10 @@
               </ul>
             </div>
             <!-- end of single item -->
+
             <!-- single item -->
-            <div class="content" id="goals">
-              <h4>Method</h4>
+            <div class="content" id="method">
+              <h4>method</h4>
               <p>
                 Chambray authentic truffaut, kickstarter brunch taxidermy vape
                 heirloom four dollar toast raclette shoreditch church-key.
@@ -86,10 +77,11 @@
               </p>
             </div>
             <!-- end of single item -->
-          </div>
+          </article>
         </article>
       </div>
     </section>
+
     <!-- javascript -->
     <script src="./src/tabs.js"></script>
   </body>

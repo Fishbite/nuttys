@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/tabs.css" />
+  </head>
+  <body>
+    <section>
+      <div class="title">
+        <h2>Sausage & Pepper Pie</h2>
+        <p>
+          A beautifully savoury mash covered family pleaser in a lovely rich
+          sauce with sausage, onions & peppers
+        </p>
+      </div>
+
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img
+            src="./images/sausagepepperpie/650x366/sausageandpepperpie03.jpg"
+            alt="sausage and pepper pie"
+          />
+        </article>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button class="tab-btn active" data-id="ingredients">
+              ingredients
+            </button>
+            <button class="tab-btn" data-id="method">method</button>
+          </div>
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="ingredients">
+              <h4>ingredients</h4>
+              <p>Here's what you need :¬)</p>
+              <ul>
+                <li>1 pack sausages, skinned & cut into 3 pieces</li>
+                <li>1 white onion, sliced</li>
+                <li>3 cloves of garlic, finely chopped</li>
+                <li>1tsp dried mixed herbs</li>
+                <li>1/2 tsp dried oregano</li>
+                <li>1 440ml of tomato soup (cheapest you can buy will do!)</li>
+                <li>1 veg stock cube</li>
+                <li>1 - 2 tsp Worcestershire sauce</li>
+                <li>1 red, yellow & green pepper, 2.5cm cubes</li>
+                <li>salt & pepper for seasoning</li>
+                <li>mashed potato to finish</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <div class="content" id="method">
+              <h4>method</h4>
+              <p>
+                The ingredients of this are very similar to the sausage & pepper
+                casserole except here we use a tin of tomato soup instead of
+                beans and tomatoes. We also keep the peppers a little crispier
+                because we'll finish the dish in the oven to give the mash a
+                wonderful golden crispy toasted finish.
+              </p>
+
+              <ol class="card_text">
+                <li>pre-heat large pan / wok</li>
+                <li>add sausage to the pan & brown all over</li>
+
+                <div class="spacer"></div>
+
+                <div class="card_image">
+                  <caption>
+                    brown sausages
+                  </caption>
+                  <img
+                    src="./img_1480x833/sausageinpan.jpg"
+                    alt="sausage in a pan"
+                  />
+                </div>
+                <div class="spacer"></div>
+
+                <li>add onions, fry for 5mins</li>
+
+                <li>add salt, pepper, mixed herbs & oregano</li>
+                <li>crumble in veg stock cube</li>
+                <li>
+                  add tomato puree, worcestershire sauce, tomato soup then stir
+                  & combine well
+                </li>
+                <li>cover & simmer for about 10mins</li>
+                <li>
+                  add cubed peppers, cover & simmer for 5mins or less so they
+                  still have a little bit of a crunch to them
+                </li>
+
+                <div class="spacer"></div>
+
+                <div class="card_image">
+                  <caption>
+                    sausage & pepper pie mix
+                  </caption>
+                  <img
+                    src="./images/sausagepepperpie/650x366/sausageandpepperpie03.jpg"
+                    alt="sausage and pepper pie"
+                  />
+                </div>
+                <div class="spacer"></div>
+                <li>
+                  transfer to a deep casserole dish and cover with mashed potato
+                </li>
+
+                <div class="spacer"></div>
+
+                <div class="card_image_round">
+                  <caption>
+                    sausage & pepper pie covered with mash
+                  </caption>
+                  <img
+                    src="./images/sausagepepperpie/650x366/sausageandpepperpiemash.jpg"
+                    alt="Sausage & pepper pie"
+                  />
+                  <caption>
+                    Ready to brown in the oven
+                  </caption>
+                </div>
+              </ol>
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="./src/tabs.js"></script>
+  </body>
+</html>
