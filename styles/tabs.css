@@ -100,7 +100,7 @@ h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   font-family: var(--ff-primary);
 }
 h1 {
@@ -116,7 +116,7 @@ h4 {
   font-size: 0.875rem;
 }
 p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
@@ -189,7 +189,7 @@ About
 */
 .title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin: 2rem 0 2rem 0;
 }
 .title p {
   width: 80%;
@@ -207,6 +207,14 @@ About
 @media screen and (min-width: 992px) {
   .about-img {
     margin-bottom: 0;
+  }
+
+  .about-img img {
+    margin-bottom: 0;
+    position: sticky;
+    top: 9rem;
+    border: 3px solid var(--clr-grey-9);
+    box-shadow: 1px 1px 6px 2px var(--clr-grey-8);
   }
 
   .about-center {
@@ -271,7 +279,8 @@ About
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
-  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+  /* padding-bottom: 0.75rem; */
 }
 
 .spacer {

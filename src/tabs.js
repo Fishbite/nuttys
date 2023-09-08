@@ -27,19 +27,21 @@ function clickhandler(e) {
   // we want to show the article with id="ingredients" &
   // hide the other article at the same time
 
-  // remove `active` from all buttons
-  btns.forEach(function (btn) {
-    btn.classList.remove("active");
-    console.log("clicked button:", btn);
-    // add the class `active` to the button that was clicked
-    e.target.classList.add("active");
+  if (id) {
+    btns.forEach(function (btn) {
+      // remove `active` from all buttons
+      btn.classList.remove("active");
+      console.log("clicked button:", btn);
+      // add the class `active` to the button that was clicked
+      e.target.classList.add("active");
 
-    // hide all articles with a class of`active
-    articles.forEach(function (article) {
-      article.classList.remove("active");
+      // hide all articles with a class of`active
+      articles.forEach(function (article) {
+        article.classList.remove("active");
+      });
+      // add class 'active' to the relevant article
+      const element = document.getElementById(id);
+      element.classList.add("active");
     });
-    // add class 'active' to the relevant article
-    const element = document.getElementById(id);
-    element.classList.add("active");
-  });
+  }
 }
