@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+  </head>
+  <body>
+
+    <!-- Navigation START -->
+    <div class="nav-container">
+      <nav class="nav">
+        <div class="nav-overlay">
+          <span class="nav-title">:¬)</span>
+          <ul class="nav-list nav-btn">
+            <li><a href="./index.html">Welcome</a></li>
+            <li><a href="./sausagepepperpie.html">Sausage & Pepper Pie</a></li>
+            <li><a href="./sausagecasserole.html">Sausage Casserole</a></li>
+            <li><a href="./sausagepasta.html">Sausage Pasta</a></li>
+            <li>
+            <li><a href="./chickensoup.html">Chicken Soup</a></li>
+            
+              <a href="">------</a>
+            </li>
+            <li><a href="test.html">test</a></li>
+            <li><a href="">Contact Info</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Navigation END -->
+
+    <section>
+      <div class="title">
+        <h2>Sausage Pasta</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          quis
+        </p>
+      </div>
+
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img
+            src="./images/sausagepepperpie/650x366/sausageandpepperpie03.jpg"
+            alt="sausage and pepper pie"
+          />
+        </article>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button class="tab-btn active" data-id="ingredients">
+              ingredients
+            </button>
+            <button class="tab-btn" data-id="method">method</button>
+          </div>
+
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="ingredients">
+              <h4>ingredients</h4>
+              <p>
+                Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                crucifix offal deep v hella biodiesel. Church-key listicle
+                polaroid put a bird on it chillwave palo santo enamel pin,
+                tattooed meggings franzen la croix cray. Retro yr aesthetic four
+                loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
+                Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+                Roof party hammock master cleanse pop-up truffaut, bicycle
+                rights skateboard affogato readymade sustainable deep v
+                live-edge schlitz narwhal.
+              </p>
+
+              <!-- Ingredients List Goes Below Here!!! -->
+              <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+              </ul>
+              <!-- Ingredients List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <div class="content" id="method">
+              <h4>method</h4>
+              <p>
+                Description about the method here please!!! Poutine etsy tote
+                bag, cred fingerstache leggings cornhole everyday carry blog
+                gastropub. Brunch biodiesel sartorial mlkshk swag, mixtape
+                hashtag marfa readymade direct trade man braid cold-pressed roof
+                party. Small batch adaptogen coloring book heirloom. Letterpress
+                food truck hammock literally hell of wolf beard adaptogen
+                everyday carry. Dreamcatcher pitchfork yuccie, banh mi salvia
+                venmo photo booth quinoa chicharrones.
+              </p>
+              <!-- Method List Goes Below Here!!! -->
+
+              <!-- Method List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="./src/tabs.js"></script>
+  </body>
+</html>

@@ -3,45 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sausage Casserole</title>
-    <link rel="stylesheet" href="./styles/recipe.css" />
-    <link rel="stylesheet" href="./styles/menu.css">
+    <title>Tabs</title>
+
+    <!-- styles -->
+
+    <!-- <link rel="stylesheet" href="./styles/menu.css" /> -->
+    <link rel="stylesheet" href="./styles/tabs-nav.css" />
   </head>
   <body>
-    <div class="menu-container">
-      <nav class="menu">
-        <div class="menu-overlay">
-          <div class="menu-title">menu</div>
-          <ul class="menu-list menu-btn">
-            <li><a href="index.html">Welcome</a></li>
-            <li><a href="sausagecasserole.html">Sausage Casserole</a></li>
-            <li><a href="chickensoup.html">Chicken Soup</a></li>
-            <li><a href="">------</a></li>
+    <!-- Navigation START -->
+    <div class="nav-container">
+      <nav class="nav">
+        <div class="nav-overlay">
+          <span class="nav-title">:¬)</span>
+          <ul class="nav-list nav-btn">
+            <li><a href="./index.html">Welcome</a></li>
+            <li><a href="./sausagepepperpie.html">Sausage & Pepper Pie</a></li>
+            <li><a href="./sausagecasserole.html">Sausage Casserole</a></li>
+            <li><a href="./sausagepasta.html">Sausage Pasta</a></li>
             <li>
+            <li><a href="./chickensoup.html">Chicken Soup</a></li>
+            
               <a href="">------</a>
             </li>
-            <li><a href="">------</a></li>
+            <li><a href="test.html">test</a></li>
             <li><a href="">Contact Info</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="section">
-        <div class="card">
+    <!-- Navigation END -->
 
-          <div class="card_image">
-            <img src="./img_1480x833/sausagecasserole.jpg" alt="sausage casserole">
+    <section>
+      <div class="title">
+        <h2>Nutty's Super Scrummy Sausage Casserole</h2>
+        <p>Some words about this dish here please!!!</p>
+      </div>
+
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img
+            src="./img650x366/sausagecasserole.jpg"
+            alt="sausage casserole"
+          />
+        </article>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button class="tab-btn active" data-id="ingredients">
+              ingredients
+            </button>
+            <button class="tab-btn" data-id="method">method</button>
           </div>
-        
-        <div class="card_content">
-          <h2 class="card_title">Nutty's Super Scrummy Sausage Casserole</h2>
-
-          <h3>Ingredients:</h3>
-          <div class="">
-            <ul>
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="ingredients">
+              <h4>ingredients</h4>
+              <p>Here's what you need :¬)</p>
+              <ul>
                 <li>1 pack sausages, skinned & cut into 3 pieces</li>
-                <li>2 red onions, sliced
-                </li>
+                <li>2 red onions, sliced</li>
                 <li>2 medium carrots, grated</li>
                 <li>2 sticks of celery, sliced</li>
                 <li>3 cloves of garlic, finely chopped</li>
@@ -55,67 +81,101 @@
                 <li>salt & pepper for seasoning</li>
                 <li>sprinkle of fresh marjoram</li>
                 <li>100g fusilli pasta (or pasta of choice)</li>
-            </ul>
-
-            <div class="card_image ">
-              <caption>veg prep</caption>
-              <img src="./img_1480x833/suasagecasseroleveg.jpg" alt="Sausage Casserole Veg on Chopping Board">
+              </ul>
             </div>
-            <div class="spacer"></div>
+            <!-- end of single item -->
 
-              <h3>Method:</h3>
-              <div class="card_text_container">
-                <ol class="card_text">
-                    <li>pre-heat large pan / wok</li>
-                    <li>add sausage to the pan & brown all over</li>
+            <!-- single item -->
+            <div class="content" id="method">
+              <h4>method</h4>
+              <p>
+                A few words here wouldn't go a miss........ Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Rem necessitatibus
+                dignissimos maiores possimus tempora quod architecto
+                repudiandae.
+              </p>
 
-                    <div class="card_image ">
-                      <caption>brown suasages</caption>
-                      <img src="./img_1480x833/sausageinpan.jpg" alt="sausage in a pan">                
-                    </div>
-                    <div class="spacer"></div>     
+              <ol class="card_text">
+                <li>Pre-heat large pan / wok</li>
+                <li>Add sausage to the pan & brown all over</li>
 
-                    <li>add onions, fry for 5mins</li>
-                    <li>add carrots, fry for 5mins</li>
-                    <li>add celery & garlic, fry for 5mins</li>
+                <div class="spacer"></div>
 
-                    <div class="card_image ">
-                      <caption>add veg</caption>
-                      <img src="./img_1480x833/suasageandveginpan02.jpg" alt="Sausage Casserole In Pan">
-                    </div>
-                    <div class="spacer"></div>
+                <div class="card_image">
+                  <caption>
+                    brown suasages
+                  </caption>
+                  <img
+                    src="./img650x366/sausageinpan.jpg"
+                    alt="sausage in a pan"
+                  />
+                </div>
+                <div class="spacer"></div>
 
+                <li>Add onions, fry for 5mins</li>
+                <li>Add carrots, fry for 5mins</li>
+                <li>Add celery & garlic, fry for 5mins</li>
 
-                    <li>add salt, pepper, mixed herbs & oregano</li>
-                    <li>crumble in veg stock cube</li>
-                    <li>add tomato puree, worcestershire sauce, tomatoes, stir & combine well</li>
-                    <li>add beans, stir gently</li>
-                    <li>cover & simmer for about 10mins</li>
-                    <li>add sliced peppers, cover & simmer for 5mins, or, until they are as soft as you like</li>
+                <div class="spacer"></div>
 
-                    <div class="card_image ">
-                      <caption>add peppers</caption>
-                      <img src="./img_1480x833/sausagecasserolewithpeppers.jpg" alt="Sausage Casserole In Pan">
-                    </div>
-                    <div class="spacer"></div>
+                <div class="card_image">
+                  <caption>
+                    add veg
+                  </caption>
+                  <img
+                    src="./img650x366/suasageandveginpan.jpg"
+                    alt="Sausage Casserole In Pan"
+                  />
+                </div>
+                <div class="spacer"></div>
 
-                    <li>add cooked pasta & stir well</li>
-                    <li>sprinkle with fresh marjoram to serve</li>
+                <li>Add salt, pepper, mixed herbs & oregano</li>
+                <li>Crumble in veg stock cube</li>
+                <li>Add tomato puree, worcestershire sauce, tomatoes</li>
+                <li>Add beans & stir gently</li>
+                <li>Cover & simmer for about 10mins</li>
+                <li>Add sliced peppers</li>
+                <li>Cover and simmer until peppers are soft as you like</li>
 
-                    <div class="spacer"></div>
+                <div class="spacer"></div>
 
-                    <div class="card_image_round ">
-                      <caption>sausage casserole</caption>
-                      <img src="./img_1480x833/sausagecasserole.jpg" alt="Sausage Casserole In Pan">
-                      <caption>Ready to Serve :¬)</caption>
-                    </div>
+                <div class="card_image">
+                  <caption>
+                    add peppers
+                  </caption>
+                  <img
+                    src="./img650x366/sausagecasserolewithpeppers.jpg"
+                    alt="Sausage Casserole In Pan"
+                  />
+                </div>
+                <div class="spacer"></div>
 
+                <li>Add cooked pasta & stir well</li>
+                <li>Sprinkle with fresh marjoram or thyme to serve</li>
 
-                    
-                </ol>
-              </div>
-              
-          </div>
-        </div>
+                <div class="spacer"></div>
+
+                <div class="card_image_round">
+                  <caption>
+                    sausage casserole
+                  </caption>
+                  <img
+                    src="./img650x366/sausagecasserole.jpg"
+                    alt="Sausage Casserole In Pan"
+                  />
+                  <caption>
+                    Ready to Serve :¬)
+                  </caption>
+                </div>
+              </ol>
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="./src/tabs.js"></script>
   </body>
 </html>
