@@ -1,0 +1,5 @@
+"./images/chickensoup/1480x833/chickensoup.jpg"
+
+"./images/chickensoup/1480x833/stocksieved.jpg"
+
+"./images/chickensoup/1480x833/chickenstock.jpg"
