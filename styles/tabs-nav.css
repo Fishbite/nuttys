@@ -440,3 +440,39 @@ Navigation
     padding: 0.25rem;
   }
 }
+
+/* ============
+   ** Footer **
+   ============
+*/
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: space-around;
+  border-top: 1px solid var(--clr-grey-7);
+  padding-bottom: 1rem;
+}
+
+footer p {
+  padding-top: 0.5rem;
+  margin: 0;
+  list-style: none;
+}
+footer,
+li {
+  padding-top: 0.5rem;
+}
+footer,
+a:visited {
+  color: var(--clr-grey-4);
+}
+
+@media screen and (max-width: 650px) {
+  footer {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}
