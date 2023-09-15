@@ -1,23 +1,33 @@
+// Import the components we need
+import { MakeFooter } from "./components.js";
+
+/*    ======================
+            START TABS
+      ======================
+*/
+
 // get all the buttons from the document
 // this will create a node list
-btns = document.querySelectorAll(".tab-btn");
-console.log("Buttons node list:", btns);
+const btns = document.querySelectorAll(".tab-btn");
+// console.log("Buttons node list:", btns);
 
 //  get the about class
-about = document.querySelector(".about");
-console.log("about", about);
+const about = document.querySelector(".about");
+// console.log("about", about);
 
 // get our articles to show/hide
 const articles = document.querySelectorAll(".content");
-console.log("articles node list", articles);
+// console.log("articles node list", articles);
 
 // attach an event listener to the about class
-about.addEventListener("click", clickhandler, false);
+if (about) {
+  about.addEventListener("click", clickhandler, false);
+}
 
 function clickhandler(e) {
   // we want to identify which button was clicked
   // each button has a custom data attribute of `data-id`
-  console.log(e.target.dataset.id);
+  // console.log(e.target.dataset.id);
   // create a reference to e.target.dataset.id (the article)
   const id = e.target.dataset.id;
 
@@ -31,7 +41,7 @@ function clickhandler(e) {
     btns.forEach(function (btn) {
       // remove `active` from all buttons
       btn.classList.remove("active");
-      console.log("clicked button:", btn);
+      // console.log("clicked button:", btn);
       // add the class `active` to the button that was clicked
       e.target.classList.add("active");
 
@@ -45,3 +55,31 @@ function clickhandler(e) {
     });
   }
 }
+/*    ======================
+             END TABS
+      ======================
+*/
+
+/*    ======================
+            START FOOTER
+      ======================
+*/
+const footerEmail = "email: kitchen4nutty@gmail.com";
+/*
+    The `footerList` parameter of `MakeFooter` expects a chain of
+    `<li>List items</li>` enclosed  in backticks:
+    `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="#">test list</a></li>`;
+    the <li> element can contain anythig that a list item can normally
+    take
+*/
+const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="#">more links coming soon!</a></li>`;
+const footerIp = `copyright: fishbite 2023`;
+
+const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
+const footer = document.createElement("footer");
+document.body.appendChild(footer);
+footer.innerHTML = footerContent.render();
+/*    ======================
+             END FOOTER
+      ======================
+*/

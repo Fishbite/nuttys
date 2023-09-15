@@ -4,11 +4,23 @@ export class MakeFooter {
     this.ip = ip;
     this.list = list;
   }
+  // createFooter() {
+  //   const footer = document.createElement("footer");
+
+  //   return document.body.appendChild(this.footer);
+  // }
   render() {
     return `<p>${this.email}</p> <ul>${this.list}</ul><p>${this.ip}</p>`;
   }
 }
 
+// function createFooter() {
+//   const footer = document.createElement("footer");
+//   document.body.appendChild(footer);
+//   return footer;
+// }
+
+/*
 const footerEmail = "kitchen4nutty@gmail.com";
 const footerList = `<li><a href="#">test list</a></li><li><a href="#">test list</a></li><li><a href="#">test list</a></li>`;
 const footerIp = `copyright: fishbite 2023`;
@@ -18,3 +30,4 @@ const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
 const footer = document.createElement("footer");
 document.body.appendChild(footer);
 footer.innerHTML = footerContent.render();
+*/
