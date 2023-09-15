@@ -461,8 +461,7 @@ footer p {
   margin: 0;
   list-style: none;
 }
-footer,
-li {
+footer li {
   padding-top: 0.5rem;
 }
 footer,

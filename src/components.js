@@ -1,4 +1,4 @@
-class MakeFooter {
+export class MakeFooter {
   constructor(email, list, ip) {
     this.email = email;
     this.ip = ip;
