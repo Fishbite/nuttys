@@ -63,6 +63,15 @@ function clickhandler(e) {
 /*    ======================
             START FOOTER
       ======================
+
+    The `MakeFooter` class is designed to negate the need to manually
+    create a footer on each individual page. At this point in time
+    you have to create the `footer` element with:
+
+    `const footer = document.createElement("footer");
+     document.body.appendChild(footer);`
+
+     We'll add this in a method of the class, but for now it works as is..
 */
 const footerEmail = "email: kitchen4nutty@gmail.com";
 /*
