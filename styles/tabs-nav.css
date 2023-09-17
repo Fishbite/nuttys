@@ -329,18 +329,10 @@ About
 }
 
 /* 
-===========
-Navigation
-===========
+================================================================
+Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
+================================================================
 */
-
-/* *,
-*::before,
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
 
 .nav {
   position: fixed;
@@ -447,6 +439,8 @@ Navigation
 */
 
 footer {
+  font-size: 0.8rem;
+  color: var(--clr-grey-10);
   display: flex;
   flex-flow: row wrap;
   text-align: center;

@@ -31,3 +31,52 @@ const footer = document.createElement("footer");
 document.body.appendChild(footer);
 footer.innerHTML = footerContent.render();
 */
+
+/* =======================
+    Navigation Menu START
+   =======================
+*/
+export function navMenu(navContent) {
+  // get the element to put the navigation menu into
+  const wrapper = document.getElementById("nav-container");
+
+  // var to hold the `<li></li>` elements
+  let navList = ``;
+
+  // var used to copy each `<li>` element to `navList`
+  let tmp;
+
+  // loop through the object holding `HTML` file names & maenu titles
+  for (let prop in navContent) {
+    tmp = navList.concat(
+      `<li> <a href="./${prop}.html">${navContent[prop]}</a> </li>`
+    );
+
+    // copy tmp to `navList`
+    navList = tmp;
+  }
+
+  // object to write the `navList` to
+  const menu = {
+    nav: `<nav class="nav">
+  <div class="nav-overlay">
+    <span class="nav-title"><b>{:¬)</b></span>
+    <ul class="nav-list nav-btn">
+
+    ${navList}
+    
+    </ul>
+  </div>
+  </nav>`,
+  };
+
+  // write the navigation menu to the navigation menu wrapper element
+  wrapper.innerHTML = menu.nav;
+
+  return wrapper;
+}
+
+/* =======================
+    Navigation Menu END
+   =======================
+*/

@@ -1,5 +1,5 @@
 // Import the components we need
-import { MakeFooter } from "./components.js";
+import { MakeFooter, navMenu } from "./components.js";
 
 /*    ======================
             START TABS
@@ -91,4 +91,32 @@ footer.innerHTML = footerContent.render();
 /*    ======================
              END FOOTER
       ======================
+*/
+
+/*    ==============================
+             START NAVIGATION
+      ==============================
+
+      NB: key = file name & value = nav btn text
+      e.g. index = ./index.html & value = "Welcome To My Kitchen"
+*/
+
+const navContent = {
+  index: "Welcome To My Kitchen",
+  sausagecasserole: "Sausage & Bean Casserole",
+  sausagepasta: "Sausage & Penne Pasta",
+  sausagepepperpie: "Sausage & Mash Pie",
+  sausageonionpie: "Mum's Sausage & Onion Pie",
+  chickensoup: "Grandma's Chicken Soup",
+  chickenchilimex: "Chicken Chilli Mexican",
+  easychickencurry: "Easy Chicken Curry",
+  test: "Test",
+  "#": "Contact Info",
+};
+
+navMenu(navContent);
+
+/*    ==============================
+             END NAVIGATION
+      ==============================
 */
