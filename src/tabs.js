@@ -97,7 +97,7 @@ footer.innerHTML = footerContent.render();
              START NAVIGATION
       ==============================
 
-      NB: key = file name & value = nav btn text
+      NB: `navContent` Object: key = file name & value = nav btn text
       e.g. index = ./index.html & value = "Welcome To My Kitchen"
 */
 
