@@ -110,6 +110,8 @@ const navContent = {
   chickensoup: "Grandma's Chicken Soup",
   chickenchilimex: "Chicken Chilli Mexican",
   easychickencurry: "Easy Chicken Curry",
+  cheesesauce: "Cheese Sauce",
+  chickenmushroompasta: "Chicken & Mushroom Pasta",
   // test: "Test",
   // "#": "Contact Info",
 };

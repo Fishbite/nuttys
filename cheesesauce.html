@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheese Sauce</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- NAVIGATION -->
+
+    <section>
+      <div class="title">
+        <h2>Cheese Sauce</h2>
+        <p>
+          My cheese sauce is quick and easy to make and can be used in a variety
+          of recipes, so bookmark this page for a quick reference in the future!
+        </p>
+        <ul>
+          <li>Lasagne</li>
+          <li>Pasta Bakes</li>
+          <li>Cauliflower Cheese</li>
+        </ul>
+      </div>
+
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img
+            src="./images/cheesesauce/650x366/cheese-sauce-in-pan.jpg"
+            alt="cheese sauce in a pan"
+          />
+        </article>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button class="tab-btn active" data-id="ingredients">
+              ingredients
+            </button>
+            <button class="tab-btn" data-id="method">method</button>
+          </div>
+
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="ingredients">
+              <h4>ingredients</h4>
+              <p>Here's what you need :-)</p>
+
+              <!-- Ingredients List Goes Below Here!!! -->
+              <ul>
+                <li>50g butter</li>
+                <li>50g flour</li>
+                <li>Pinch of Salt & black pepper</li>
+                <li>1 tsp Dijon mustard</li>
+                <li>1 tsp English mustard powder</li>
+                <li>1 tsp onion powder</li>
+                <li>1 OXO vegetable stock cube</li>
+                <li>150g extra mature (No. 6 strength) cheddar cheese</li>
+                <li>1 pint of whole or semi-skimmed milk</li>
+              </ul>
+              <!-- Ingredients List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <div class="content" id="method">
+              <h4>method</h4>
+              <p>
+                This cheese sauce can be used for loads of dishes, just add
+                extra milk to make it thinner
+              </p>
+              <!-- Method List Goes Below Here!!! -->
+
+              <ol>
+                <li>Melt the butter in a small - med pan</li>
+                <li>Add all the flour</li>
+                <li>Add the mustard powder with the English & Dyjon mustard</li>
+                <li>Stir with a whisk or spoon to make a roux</li>
+
+                <div class="spacer"></div>
+                <div class="card_image">
+                  <caption>
+                    make the roux
+                  </caption>
+                  <img
+                    src="./images/cheesesauce/650x366/roux-in-pan.jpg"
+                    alt="roux in pan"
+                  />
+                </div>
+                <div class="spacer"></div>
+
+                <li>Add a little milk at a time while whisking</li>
+                <div class="spacer"></div>
+                <p>
+                  Don't worry about the lumps, keep stirring and whisking as you
+                  add the milk and they will melt into the sauce
+                </p>
+                <li>Stir continuously to form a thick white sauce</li>
+                <div class="spacer"></div>
+                <div class="card_image">
+                  <caption>
+                    white sauce
+                  </caption>
+                  <img
+                    src="./images/cheesesauce/650x366/white-sauce-in-pan.jpg"
+                    alt="white sauce in pan"
+                  />
+                </div>
+                <div class="spacer"></div>
+                <li>When thickened, it should coat the back of a spoon</li>
+                <li>Turn the heat off</li>
+                <li>Add the cheese</li>
+
+                <div class="spacer"></div>
+                <div class="card_image">
+                  <caption>
+                    grated cheese
+                  </caption>
+                  <img
+                    src="./images/cheesesauce/650x366/grated-cheese-02.jpg"
+                    alt="grated cheese"
+                  />
+                </div>
+                <div class="spacer"></div>
+
+                <li>Stir until the cheese has melted</li>
+
+                <div class="spacer"></div>
+                <div class="card_image_round">
+                  <caption>
+                    cheese sauce
+                  </caption>
+                  <img
+                    src="./images/cheesesauce/650x366/cheese-sauce-in-pan.jpg"
+                    alt="cheese sauce in pan"
+                  />
+                </div>
+                <div class="spacer"></div>
+              </ol>
+              <!-- Method List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+    <script type="module" src="./src/tabs.js"></script>
+  </body>
+</html>
