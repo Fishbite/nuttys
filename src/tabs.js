@@ -82,7 +82,7 @@ const footerEmail = "email: kitchen4nutty@gmail.com";
     take
 */
 const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="#">more links coming soon!</a></li>`;
-const footerIp = `copyright: fishbite 2023`;
+const footerIp = `copyright © fishbite 2023`;
 
 const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
 const footer = document.createElement("footer");
@@ -110,8 +110,8 @@ const navContent = {
   chickensoup: "Grandma's Chicken Soup",
   chickenchilimex: "Chicken Chilli Mexican",
   easychickencurry: "Easy Chicken Curry",
-  test: "Test",
-  "#": "Contact Info",
+  // test: "Test",
+  // "#": "Contact Info",
 };
 
 navMenu(navContent);
