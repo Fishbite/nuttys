@@ -73,7 +73,7 @@ function clickhandler(e) {
 
      We'll add this in a method of the class, but for now it works as is..
 */
-const footerEmail = "email: kitchen4nutty@gmail.com";
+const footerEmail = `<a href="mailto:kitchen4nutty@gmail.com">email: kitchen4nutty@gmail.com</a>`;
 /*
     The `footerList` parameter of `MakeFooter` expects a chain of
     `<li>List items</li>` enclosed  in backticks:

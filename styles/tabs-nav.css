@@ -447,9 +447,9 @@ header a {
 header a:visited {
   color: var(--clr-grey-4);
 }
+
 header li {
   padding: 1rem;
-  padding-bottom: 0;
 }
 
 /* ============
