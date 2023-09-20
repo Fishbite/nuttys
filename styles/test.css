@@ -1,0 +1,27 @@
+/* =================
+   ** RECIPE GRID **
+   =================
+*/
+
+.recipe-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+
+  justify-items: center;
+  align-items: start;
+}
+
+.recipe-grid div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(204, 225, 226);
+}
+
+.recipe-grid,
+img {
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
