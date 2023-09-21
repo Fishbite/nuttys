@@ -449,7 +449,7 @@ header a:visited {
 }
 
 header li {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 /* ============
@@ -619,21 +619,36 @@ footer a:visited {
 }
 
 /* 
-      ==================
-      ** Cheese Sauce **
-      ==================
+      ==========
+      ** Pork **
+      ==========
 */
+
 .item-m {
   grid-column: 1 / 2;
   grid-row: 6 / 7;
 }
 .item-n {
-  grid-column: 2 / 3;
-  grid-row: 6 / 7;
-}
-.item-o {
   grid-column: 3 / 4;
   grid-row: 6 / 7;
+}
+
+/* 
+      ==================
+      ** Cheese Sauce **
+      ==================
+*/
+.item-o {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+}
+.item-p {
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+}
+.item-q {
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
 }
 
 @media screen and (max-width: 650px) {
@@ -707,7 +722,21 @@ footer a:visited {
   }
   .item-l {
     grid-column: 1 / 2;
+    grid-row: 13 / 14;
+  }
+
+  /* 
+      ==================
+      ** Pork **
+      ==================
+  */
+  .item-m {
+    grid-column: 1 / 2;
     grid-row: 14 / 15;
+  }
+  .item-n {
+    grid-column: 1 / 2;
+    grid-row: 15 / 16;
   }
 
   /* 
@@ -715,17 +744,17 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
   */
-  .item-m {
+  .item-o {
     grid-column: 1 / 2;
-    grid-row: 15 / 16;
+    grid-row: 16 / 17;
   }
-  .item-n {
+  .item-p {
     grid-column: 1 / 2;
     grid-row: 17 / 18;
   }
-  .item-o {
+  .item-q {
     grid-column: 1 / 2;
-    grid-row: 19 / 20;
+    grid-row: 18 / 19;
   }
 }
 
