@@ -490,6 +490,9 @@ header a:visited {
   box-shadow: 0px 0px 5px 1px var(--clr-yellow-golden);
   cursor: pointer;
 }
+.list-btn a {
+  color: var(--clr-grey-4);
+}
 .list-btn a:visited {
   color: var(--clr-grey-4);
 }
