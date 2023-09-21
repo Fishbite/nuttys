@@ -438,6 +438,18 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 }
 
 /* ============
+   ** Recipe Method Specific Styles **
+   ============
+*/
+.recipe-links li {
+  color: var(--clr-grey-4);
+  padding: 0.5rem;
+}
+.recipe-links a:visited {
+  color: var(--clr-grey-4);
+}
+
+/* ============
    ** Header **
    ============
 */
@@ -596,10 +608,14 @@ footer a:visited {
 
 /* ROW 4 */
 .item-i {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   grid-row: 4 / 5;
 }
 .item-j {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+.item-k {
   grid-column: 3 / 4;
   grid-row: 4 / 5;
 }
@@ -609,11 +625,11 @@ footer a:visited {
       ** Beef **
       ==========
 */
-.item-k {
+.item-l {
   grid-column: 1 / 2;
   grid-row: 5 / 6;
 }
-.item-l {
+.item-m {
   grid-column: 3 / 4;
   grid-row: 5 / 6;
 }
@@ -624,11 +640,11 @@ footer a:visited {
       ==========
 */
 
-.item-m {
+.item-n {
   grid-column: 1 / 2;
   grid-row: 6 / 7;
 }
-.item-n {
+.item-o {
   grid-column: 3 / 4;
   grid-row: 6 / 7;
 }
@@ -638,15 +654,15 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
 */
-.item-o {
+.item-p {
   grid-column: 1 / 2;
   grid-row: 7 / 8;
 }
-.item-p {
+.item-q {
   grid-column: 2 / 3;
   grid-row: 7 / 8;
 }
-.item-q {
+.item-r {
   grid-column: 3 / 4;
   grid-row: 7 / 8;
 }
@@ -755,6 +771,10 @@ footer a:visited {
   .item-q {
     grid-column: 1 / 2;
     grid-row: 18 / 19;
+  }
+  .item-r {
+    grid-column: 1 / 2;
+    grid-row: 19 / 20;
   }
 }
 
