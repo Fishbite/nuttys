@@ -32,11 +32,22 @@
       <!-- class about-center = set columns -->
       <!-- class section-center = set width -->
       <div class="about-center section-center">
-        <article class="about-img">
-          <img
-            src="./images/sausagepepperpie/sausageandpepperpie03.jpg"
-            alt="sausage and pepper pie"
-          />
+        <!-- <article class="about-img"> -->
+          <picture>
+            <source
+              srcset="./images/originals/650x366/bacon-added-to-veg.jpg" media="(max-width: 200px)"
+            />
+            <source
+              srcset="
+                ./images/chickenmushroompasta/650x366/mushrooms-added-to-pan.jpg
+              " media="(min-width: 201px)" 
+            />
+                        
+            <img
+              src="./images/originals/650x366/bacon-added-to-veg.jpg"
+              alt="sausage and pepper pie"
+            />
+          </picture>
         </article>
 
         <article class="about">
