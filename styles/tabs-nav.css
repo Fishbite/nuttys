@@ -497,6 +497,23 @@ header a:visited {
   color: var(--clr-grey-4);
 }
 
+/* =====================
+   ** Title with Icon **
+   =====================
+*/
+.title-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title-icon img {
+  width: 32px;
+  padding-bottom: 0.75rem;
+}
+
 /* ============
    ** Footer **
    ============

@@ -46,10 +46,10 @@ export function navMenu(navContent) {
   // var used to copy each `<li>` element to `navList`
   let tmp;
 
-  // loop through the object holding `HTML` file names & maenu titles
+  // loop through the object holding `HTML` file names & menu titles
   for (let prop in navContent) {
     tmp = navList.concat(
-      `<li> <a href="./${prop}.html">${navContent[prop]}</a> </li>`
+      `<li> <a href="./${prop}">${navContent[prop]}</a> </li>`
     );
 
     // copy tmp to `navList`

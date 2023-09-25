@@ -81,7 +81,7 @@ const footerEmail = `<a href="mailto:kitchen4nutty@gmail.com">email: kitchen4nut
     the <li> element can contain anythig that a list item can normally
     take
 */
-const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="#">more links coming soon!</a></li>`;
+const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="https://icons8.com" target="_blank">freezer icon by icons8</a></li>`;
 const footerIp = `copyright © fishbite 2023`;
 
 const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
@@ -102,13 +102,13 @@ footer.innerHTML = footerContent.render();
 */
 
 const navContent = {
-  index: "Welcome To My Kitchen",
-  recipepage: "Nutty's Recipe Page",
-  // sausagepasta: "Sausage & Penne Pasta",
-  // sausagepepperpie: "Sausage & Mash Pie",
-  // sausageonionpie: "Mum's Sausage & Onion Pie",
-  // chickensoup: "Grandma's Chicken Soup",
-  // chickenchilimex: "Chicken Chilli Mexican",
+  "index.html": "Welcome To My Kitchen",
+  "recipepage.html": "Nutty's Recipe Page",
+  "recipepage.html#sausages": "Super Sausage Recipies",
+  "recipepage.html#chicken": "Chicken lickin' Recipies",
+  "recipepage.html#beef": "Beef Bangin' Recipies",
+  "recipepage.html#pork": "Pork Packin' Recipies",
+  "recipepage.html#sauce": "Saucey Basics Recipies",
   // easychickencurry: "Easy Chicken Curry",
   // cheesesauce: "Cheese Sauce",
   // chickenmushroompasta: "Chicken & Mushroom Pasta",
