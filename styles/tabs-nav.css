@@ -417,6 +417,11 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 .nav:hover {
   left: 0;
 }
+.nav:hover .nav-title {
+  rotate: 90deg;
+  transition: 0.35s;
+  padding-left: 1.5rem;
+}
 
 .nav-btn a:hover {
   text-decoration: none;
