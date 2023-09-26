@@ -700,21 +700,35 @@ footer a:visited {
 }
 
 /* 
+      =================
+      ** Vege' Bakes **
+      =================
+*/
+.item-s {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+}
+.item-t {
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
+}
+
+/* 
       ==================
       ** Cheese Sauce **
       ==================
 */
 .item-p {
   grid-column: 1 / 2;
-  grid-row: 7 / 8;
+  grid-row: 8 / 9;
 }
 .item-q {
   grid-column: 2 / 3;
-  grid-row: 7 / 8;
+  grid-row: 8 / 9;
 }
 .item-r {
   grid-column: 3 / 4;
-  grid-row: 7 / 8;
+  grid-row: 8 / 9;
 }
 
 @media screen and (max-width: 650px) {
@@ -754,7 +768,6 @@ footer a:visited {
       ** Chicken **
       =============
   */
-
   .item-f {
     grid-column: 1 / 2;
     grid-row: 7 / 8;
@@ -775,20 +788,23 @@ footer a:visited {
     grid-column: 1 / 2;
     grid-row: 11 / 12;
   }
+  .item-k {
+    grid-column: 1 / 2;
+    grid-row: 12 / 13;
+  }
 
   /* 
       ==================
       ** Beef **
       ==================
   */
-
-  .item-k {
-    grid-column: 1 / 2;
-    grid-row: 12 / 13;
-  }
   .item-l {
     grid-column: 1 / 2;
     grid-row: 13 / 14;
+  }
+  .item-m {
+    grid-column: 1 / 2;
+    grid-row: 14 / 15;
   }
 
   /* 
@@ -796,13 +812,27 @@ footer a:visited {
       ** Pork **
       ==================
   */
-  .item-m {
-    grid-column: 1 / 2;
-    grid-row: 14 / 15;
-  }
   .item-n {
     grid-column: 1 / 2;
     grid-row: 15 / 16;
+  }
+  .item-o {
+    grid-column: 1 / 2;
+    grid-row: 16 / 17;
+  }
+
+  /* 
+      ================
+      ** Vege Bakes **
+      ================
+  */
+  .item-s {
+    grid-column: 1 / 2;
+    grid-row: 17 / 18;
+  }
+  .item-t {
+    grid-column: 1 / 2;
+    grid-row: 18 / 19;
   }
 
   /* 
@@ -810,21 +840,17 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
   */
-  .item-o {
-    grid-column: 1 / 2;
-    grid-row: 16 / 17;
-  }
   .item-p {
     grid-column: 1 / 2;
-    grid-row: 17 / 18;
+    grid-row: 19 / 20;
   }
   .item-q {
     grid-column: 1 / 2;
-    grid-row: 18 / 19;
+    grid-row: 21 / 22;
   }
   .item-r {
     grid-column: 1 / 2;
-    grid-row: 19 / 20;
+    grid-row: 22 / 23;
   }
 }
 

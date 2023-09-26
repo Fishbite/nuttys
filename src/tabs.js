@@ -104,12 +104,13 @@ footer.innerHTML = footerContent.render();
 const navContent = {
   "index.html": "Welcome To My Kitchen",
   "recipepage.html": "Nutty's Recipe Page",
-  "recipepage.html#sausages": "Super Sausage Recipies",
-  "recipepage.html#chicken": "Chicken lickin' Recipies",
+  "recipepage.html#sausages": "Sausage Chopin' Recipies",
+  "recipepage.html#chicken": "Chicken Lickin' Recipies",
   "recipepage.html#beef": "Beef Bangin' Recipies",
   "recipepage.html#pork": "Pork Packin' Recipies",
+  "recipepage.html#vegebakes": "Vege Bakin' Recipies",
   "recipepage.html#sauce": "Saucey Basics Recipies",
-  // easychickencurry: "Easy Chicken Curry",
+
   // cheesesauce: "Cheese Sauce",
   // chickenmushroompasta: "Chicken & Mushroom Pasta",
   // test: "Test",
