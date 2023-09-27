@@ -709,11 +709,11 @@ footer a:visited {
       ** Vege' Bakes **
       =================
 */
-.item-s {
+.item-p {
   grid-column: 1 / 2;
   grid-row: 7 / 8;
 }
-.item-t {
+.item-q {
   grid-column: 3 / 4;
   grid-row: 7 / 8;
 }
@@ -723,17 +723,35 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
 */
-.item-p {
+.item-r {
   grid-column: 1 / 2;
   grid-row: 8 / 9;
 }
-.item-q {
+.item-s {
   grid-column: 2 / 3;
   grid-row: 8 / 9;
 }
-.item-r {
+.item-t {
   grid-column: 3 / 4;
   grid-row: 8 / 9;
+}
+
+/* 
+      ==============
+      ** Puddings **
+      ==============
+  */
+.item-u {
+  grid-column: 1 / 2;
+  grid-row: 9 / 10;
+}
+.item-v {
+  grid-column: 2 / 3;
+  grid-row: 9 / 10;
+}
+.item-w {
+  grid-column: 3 / 4;
+  grid-row: 9 / 10;
 }
 
 @media screen and (max-width: 650px) {
@@ -831,11 +849,11 @@ footer a:visited {
       ** Vege Bakes **
       ================
   */
-  .item-s {
+  .item-p {
     grid-column: 1 / 2;
     grid-row: 17 / 18;
   }
-  .item-t {
+  .item-q {
     grid-column: 1 / 2;
     grid-row: 18 / 19;
   }
@@ -845,17 +863,35 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
   */
-  .item-p {
+  .item-r {
     grid-column: 1 / 2;
     grid-row: 19 / 20;
   }
-  .item-q {
+  .item-s {
     grid-column: 1 / 2;
     grid-row: 21 / 22;
   }
-  .item-r {
+  .item-t {
     grid-column: 1 / 2;
     grid-row: 22 / 23;
+  }
+
+  /* 
+      ==============
+      ** Puddings **
+      ==============
+  */
+  .item-u {
+    grid-column: 1 / 2;
+    grid-row: 23 / 24;
+  }
+  .item-v {
+    grid-column: 1 / 2;
+    grid-row: 24 / 25;
+  }
+  .item-w {
+    grid-column: 1 / 2;
+    grid-row: 25 / 26;
   }
 }
 
