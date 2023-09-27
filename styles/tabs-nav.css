@@ -619,6 +619,11 @@ footer a:visited {
   text-transform: capitalize;
 }
 
+.list-btn img {
+  width: 32px;
+  margin: 0 auto;
+}
+
 /* 
       ==============
       ** Sausages **
