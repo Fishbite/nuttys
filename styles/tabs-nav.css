@@ -493,7 +493,7 @@ header a:visited {
 }
 .list-btn img {
   width: 32px;
-  align-self: center;
+  margin: 0 auto;
 }
 
 .list-btn:hover {
