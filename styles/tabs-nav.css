@@ -481,6 +481,8 @@ header a:visited {
 }
 
 .list-btn {
+  display: flex;
+  flex-direction: column;
   color: var(--clr-grey-4);
   border: 1px solid var(--clr-grey-9);
   border-radius: var(--radius-sml);
@@ -488,6 +490,10 @@ header a:visited {
   padding: 0.025rem 0.5rem;
   width: fit-content;
   margin: 0 auto;
+}
+.list-btn img {
+  width: 32px;
+  align-self: center;
 }
 
 .list-btn:hover {
@@ -714,6 +720,10 @@ footer a:visited {
   grid-row: 7 / 8;
 }
 .item-q {
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+}
+.item-r {
   grid-column: 3 / 4;
   grid-row: 7 / 8;
 }
@@ -723,15 +733,15 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
 */
-.item-r {
+.item-s {
   grid-column: 1 / 2;
   grid-row: 8 / 9;
 }
-.item-s {
+.item-t {
   grid-column: 2 / 3;
   grid-row: 8 / 9;
 }
-.item-t {
+.item-u {
   grid-column: 3 / 4;
   grid-row: 8 / 9;
 }
@@ -741,15 +751,15 @@ footer a:visited {
       ** Puddings **
       ==============
   */
-.item-u {
+.item-v {
   grid-column: 1 / 2;
   grid-row: 9 / 10;
 }
-.item-v {
+.item-w {
   grid-column: 2 / 3;
   grid-row: 9 / 10;
 }
-.item-w {
+.item-x {
   grid-column: 3 / 4;
   grid-row: 9 / 10;
 }
@@ -857,21 +867,25 @@ footer a:visited {
     grid-column: 1 / 2;
     grid-row: 18 / 19;
   }
+  .item-r {
+    grid-column: 1 / 2;
+    grid-row: 19 / 20;
+  }
 
   /* 
       ==================
       ** Cheese Sauce **
       ==================
   */
-  .item-r {
-    grid-column: 1 / 2;
-    grid-row: 19 / 20;
-  }
   .item-s {
+    grid-column: 1 / 2;
+    grid-row: 20 / 21;
+  }
+  .item-t {
     grid-column: 1 / 2;
     grid-row: 21 / 22;
   }
-  .item-t {
+  .item-u {
     grid-column: 1 / 2;
     grid-row: 22 / 23;
   }
@@ -881,15 +895,15 @@ footer a:visited {
       ** Puddings **
       ==============
   */
-  .item-u {
+  .item-v {
     grid-column: 1 / 2;
     grid-row: 23 / 24;
   }
-  .item-v {
+  .item-w {
     grid-column: 1 / 2;
     grid-row: 24 / 25;
   }
-  .item-w {
+  .item-x {
     grid-column: 1 / 2;
     grid-row: 25 / 26;
   }

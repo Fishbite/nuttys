@@ -81,7 +81,7 @@ const footerEmail = `<a href="mailto:kitchen4nutty@gmail.com">email: kitchen4nut
     the <li> element can contain anythig that a list item can normally
     take
 */
-const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="https://icons8.com" target="_blank">freezer icon by icons8</a></li>`;
+const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="https://icons8.com" target="_blank">icons by icons8</a></li>`;
 const footerIp = `copyright © fishbite 2023`;
 
 const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
