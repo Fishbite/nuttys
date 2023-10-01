@@ -932,6 +932,10 @@ footer a:visited {
     grid-column: 1 / 2;
     grid-row: 28 / 29;
   }
+  .item-z {
+    grid-column: 1 / 2;
+    grid-row: 29 / 30;
+  }
 }
 
 /* =====================
