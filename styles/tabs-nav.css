@@ -358,7 +358,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 .nav-title {
   text-align: center;
   /* padding-right: 0.5rem; */
-  background: rgba(222, 229, 235, 0.75);
+  background: rgba(222, 229, 235, 1);
   border-radius: 4px;
   width: 3.25rem;
   float: right;
@@ -696,8 +696,16 @@ footer a:visited {
   grid-row: 5 / 6;
 }
 .item-m {
-  grid-column: 3 / 4;
+  grid-column: 2/ 3;
   grid-row: 5 / 6;
+}
+.item-n {
+  grid-column: 3/ 4;
+  grid-row: 5 / 6;
+}
+.item-o {
+  grid-column: 3/ 4;
+  grid-row: 6 / 7;
 }
 
 /* 
@@ -706,13 +714,13 @@ footer a:visited {
       ==========
 */
 
-.item-n {
+.item-p {
   grid-column: 1 / 2;
-  grid-row: 6 / 7;
+  grid-row: 7 / 8;
 }
-.item-o {
+.item-q {
   grid-column: 3 / 4;
-  grid-row: 6 / 7;
+  grid-row: 7 / 8;
 }
 
 /* 
@@ -720,17 +728,17 @@ footer a:visited {
       ** Vege' Bakes **
       =================
 */
-.item-p {
-  grid-column: 1 / 2;
-  grid-row: 7 / 8;
-}
-.item-q {
-  grid-column: 2 / 3;
-  grid-row: 7 / 8;
-}
 .item-r {
+  grid-column: 1 / 2;
+  grid-row: 8 / 9;
+}
+.item-s {
+  grid-column: 2 / 3;
+  grid-row: 8 / 9;
+}
+.item-t {
   grid-column: 3 / 4;
-  grid-row: 7 / 8;
+  grid-row: 8 / 9;
 }
 
 /* 
@@ -738,17 +746,17 @@ footer a:visited {
       ** Cheese Sauce **
       ==================
 */
-.item-s {
-  grid-column: 1 / 2;
-  grid-row: 8 / 9;
-}
-.item-t {
-  grid-column: 2 / 3;
-  grid-row: 8 / 9;
-}
 .item-u {
+  grid-column: 1 / 2;
+  grid-row: 9 / 10;
+}
+.item-v {
+  grid-column: 2 / 3;
+  grid-row: 9 / 10;
+}
+.item-w {
   grid-column: 3 / 4;
-  grid-row: 8 / 9;
+  grid-row: 9 / 10;
 }
 
 /* 
@@ -756,17 +764,17 @@ footer a:visited {
       ** Puddings **
       ==============
   */
-.item-v {
-  grid-column: 1 / 2;
-  grid-row: 9 / 10;
-}
-.item-w {
-  grid-column: 2 / 3;
-  grid-row: 9 / 10;
-}
 .item-x {
+  grid-column: 1 / 2;
+  grid-row: 10 / 11;
+}
+.item-y {
+  grid-column: 2 / 3;
+  grid-row: 10 / 11;
+}
+.item-z {
   grid-column: 3 / 4;
-  grid-row: 9 / 10;
+  grid-row: 10 / 11;
 }
 
 @media screen and (max-width: 650px) {
@@ -844,12 +852,6 @@ footer a:visited {
     grid-column: 1 / 2;
     grid-row: 14 / 15;
   }
-
-  /* 
-      ==================
-      ** Pork **
-      ==================
-  */
   .item-n {
     grid-column: 1 / 2;
     grid-row: 15 / 16;
@@ -860,21 +862,35 @@ footer a:visited {
   }
 
   /* 
+      ==================
+      ** Pork **
+      ==================
+  */
+  .item-n {
+    grid-column: 1 / 2;
+    grid-row: 17 / 18;
+  }
+  .item-o {
+    grid-column: 1 / 2;
+    grid-row: 18 / 19;
+  }
+
+  /* 
       ================
       ** Vege Bakes **
       ================
   */
   .item-p {
     grid-column: 1 / 2;
-    grid-row: 17 / 18;
+    grid-row: 19 / 20;
   }
   .item-q {
     grid-column: 1 / 2;
-    grid-row: 18 / 19;
+    grid-row: 20 / 21;
   }
   .item-r {
     grid-column: 1 / 2;
-    grid-row: 19 / 20;
+    grid-row: 21 / 22;
   }
 
   /* 
@@ -884,15 +900,15 @@ footer a:visited {
   */
   .item-s {
     grid-column: 1 / 2;
-    grid-row: 20 / 21;
+    grid-row: 22 / 23;
   }
   .item-t {
     grid-column: 1 / 2;
-    grid-row: 21 / 22;
+    grid-row: 23 / 24;
   }
   .item-u {
     grid-column: 1 / 2;
-    grid-row: 22 / 23;
+    grid-row: 24 / 25;
   }
 
   /* 
@@ -902,15 +918,19 @@ footer a:visited {
   */
   .item-v {
     grid-column: 1 / 2;
-    grid-row: 23 / 24;
+    grid-row: 25 / 26;
   }
   .item-w {
     grid-column: 1 / 2;
-    grid-row: 24 / 25;
+    grid-row: 26 / 27;
   }
   .item-x {
     grid-column: 1 / 2;
-    grid-row: 25 / 26;
+    grid-row: 27 / 28;
+  }
+  .item-y {
+    grid-column: 1 / 2;
+    grid-row: 28 / 29;
   }
 }
 
