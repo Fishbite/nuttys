@@ -801,6 +801,10 @@ footer a:visited {
   grid-row: 12 / 13;
 }
 .item-ze {
+  grid-column: 2 / 3;
+  grid-row: 13 / 14;
+}
+.item-zf {
   grid-column: 3 / 4;
   grid-row: 13 / 14;
 }
@@ -981,6 +985,10 @@ footer a:visited {
   .item-ze {
     grid-column: 1 / 2;
     grid-row: 32 / 33;
+  }
+  .item-zf {
+    grid-column: 1 / 2;
+    grid-row: 33 / 34;
   }
 }
 
