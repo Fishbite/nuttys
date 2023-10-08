@@ -35,7 +35,7 @@ class GridEntry {
 
       div.addEventListener(
         "click",
-        () => (location.href = `../${this.page}.html`)
+        () => (location.href = `./${this.page}.html`)
       );
 
       grid.appendChild(div);
@@ -77,7 +77,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: "../images/sausagecasserole/200/sausagecasserole.jpg",
+    imgSrc: "./images/sausagecasserole/200/sausagecasserole.jpg",
     caption: "sausage casserole",
     page: `sausagecasserole`,
   },
