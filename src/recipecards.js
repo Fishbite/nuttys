@@ -129,7 +129,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "../images/chickenchillimex/200/chicken-chilli-cooking.jpg",
+    imgSrc: ".\\images\\chickenchillimex\\200\\chicken-chilli-cooking.jpg",
     caption: "chicken chilli mexican",
     page: `chickenchilimex`,
   },
@@ -194,7 +194,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "../images/beefporkchilli/200/peppers-and-chilli.jpg",
+    imgSrc: ".\\images\\beefporkchilli\\200\\peppers-and-chilli.jpg",
     caption: "beef & pork mexican chilli",
     page: `beefporkchilli`,
   },
@@ -310,7 +310,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: ".\\images\\pineapplepud\\200cake-cooked.jpg",
+    imgSrc: ".\\images\\pineapplepud\\200\\cake-cooked.jpg",
     caption: "pineapple pudding upside down",
     page: `pineapplepudding`,
   },
