@@ -77,7 +77,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: "./images/sausagecasserole/200/sausagecasserole.jpg",
+    imgSrc: `.\\images\\sausagecasserole\\200\\sausagecasserole.jpg`,
     caption: "sausage casserole",
     page: `sausagecasserole`,
   },
