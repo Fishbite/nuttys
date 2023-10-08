@@ -164,7 +164,7 @@ const gridContent = [
   {
     type: "category",
     cat: "beef",
-    text: `Buying beef is more complicated as cheaper cuts require longer cooking times or need pressure cooking. So for now, please try my corned beef mash pie and beef & pasta sauce dishes while I work on more recipies for this type of meat.`,
+    text: `Buying beef is more complicated as cheaper cuts require longer cooking times or need pressure cooking. Try my corned beef mash pie, beef & pasta sauce dishes or, my beef & spinach curry is a nice delicate dish if you fancy a little spice!`,
   },
 
   {
@@ -178,13 +178,17 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "../images/beefporkpastasauce/200/pasta-sauce-marjoram.jpg",
-    caption: "beef & pork pasta sauce",
-    page: `beefporkpastasauce`,
+    imgSrc: "../images/beefspinachcurry/200/spinach-added-to-curry.jpg",
+    caption: "beef & spinach curry",
+    page: `beefspinachcurry`,
   },
 
   {
-    type: "blank",
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "../images/beefporkpastasauce/200/pasta-sauce-marjoram.jpg",
+    caption: "beef & pork pasta sauce",
+    page: `beefporkpastasauce`,
   },
 
   {
