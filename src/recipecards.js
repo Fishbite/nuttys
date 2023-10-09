@@ -77,7 +77,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: `.\\images\\sausagecasserole\\200\\sausagecasserole.jpg`,
+    imgSrc: `./images/sausagecasserole/200/sausagecasserole.jpg`,
     caption: "sausage casserole",
     page: `sausagecasserole`,
   },
@@ -85,7 +85,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: ".\\images\\sausagepasta\\200\\16-add-marjoram-leaves.jpg",
+    imgSrc: "./images/sausagepasta/200/16-add-marjoram-leaves.jpg",
     caption: "sausage & penne pasta",
     page: `sausagepasta`,
   },
@@ -98,7 +98,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: ".\\images\\sausagepepperpie\\200\\sausagepeppermashpie-01.jpg",
+    imgSrc: "./images/sausagepepperpie/200/sausagepeppermashpie-01.jpg",
     caption: "sausage & pepper mash pie",
     page: `sausagepepperpie`,
   },
@@ -106,7 +106,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: ".\\images\\sausageonionpie\\200\\pie-on-board-07.jpg",
+    imgSrc: "./images/sausageonionpie/200/pie-on-board-07.jpg",
     caption: "sausage & onion pie",
     page: `sausageonionpie`,
   },
@@ -121,7 +121,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: ".\\images\\chickensoup\\200\\chickensoup.jpg",
+    imgSrc: "./images/chickensoup/200/chickensoup.jpg",
     caption: "grandma's chicken soup",
     page: `chickensoup`,
   },
@@ -129,7 +129,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: ".\\images\\chickenchillimex\\200\\chicken-chilli-cooking.jpg",
+    imgSrc: "./images/chickenchillimex/200/chicken-chilli-cooking.jpg",
     caption: "chicken chilli mexican",
     page: `chickenchilimex`,
   },
@@ -137,7 +137,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: ".\\images\\easychickencurry\\200\\finished-curry-in-pan.png",
+    imgSrc: "./images/easychickencurry/200/finished-curry-in-pan.png",
     caption: "indian chicken curry",
     page: `easychickencurry`,
   },
@@ -145,7 +145,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: ".\\images\\chickenmushroompasta\\200\\pasta-sauce-in-pan.jpg",
+    imgSrc: "./images/chickenmushroompasta/200/pasta-sauce-in-pan.jpg",
     caption: "chicken & mushroom pasta",
     page: `chickenmushroompasta`,
   },
@@ -153,7 +153,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: ".\\images\\chickenlasagne\\200\\chicken-lasagne-01.jpg",
+    imgSrc: "./images/chickenlasagne/200/chicken-lasagne-01.jpg",
     caption: "chicken & mushroom lasgne",
     page: `chickenlasagne`,
   },
@@ -170,7 +170,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: ".\\images\\cornedbeefmash\\200\\cornedbeef-mash-pie.jpg",
+    imgSrc: "./images/cornedbeefmash/200/cornedbeef-mash-pie.jpg",
     caption: "corned beef mash pie",
     page: `cornedbeefmashpie`,
   },
@@ -178,7 +178,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: ".\\images\\beefspinachcurry\\200\\spinach-added-to-curry.jpg",
+    imgSrc: "./images/beefspinachcurry/200/spinach-added-to-curry.jpg",
     caption: "beef & spinach curry",
     page: `beefspinachcurry`,
   },
@@ -186,7 +186,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: ".\\images\\beefporkpastasauce\\200\\pasta-sauce-marjoram.jpg",
+    imgSrc: "./images/beefporkpastasauce/200/pasta-sauce-marjoram.jpg",
     caption: "beef & pork pasta sauce",
     page: `beefporkpastasauce`,
   },
@@ -194,7 +194,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: ".\\images\\beefporkchilli\\200\\peppers-and-chilli.jpg",
+    imgSrc: "./images/beefporkchilli/200/peppers-and-chilli.jpg",
     caption: "beef & pork mexican chilli",
     page: `beefporkchilli`,
   },
@@ -202,7 +202,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: ".\\images\\beefporkpastabake\\200\\pasta-bake-done.jpg",
+    imgSrc: "./images/beefporkpastabake/200/pasta-bake-done.jpg",
     caption: "beef & pork pasta bake",
     page: `beefporkpastabake`,
   },
@@ -222,7 +222,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc: ".\\images\\porksupreme\\200\\pork-in-creamy-pepper-sauce.jpg",
+    imgSrc: "./images/porksupreme/200/pork-in-creamy-pepper-sauce.jpg",
     caption: "pork in creamy pepper sauce",
     page: `porksupreme`,
   },
@@ -243,7 +243,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "lamb",
-    imgSrc: ".\\images\\lambmashpie\\200\\lamb-mash-pie-ready.jpg",
+    imgSrc: "./images/lambmashpie/200/lamb-mash-pie-ready.jpg",
     caption: "lamb & mash pie",
     page: `lambmashpie`,
   },
@@ -260,7 +260,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "vege' bakes",
-    imgSrc: ".\\images\\caulicheese\\200/cauli-cheese-ready-02.jpg",
+    imgSrc: "./images/caulicheese/200/cauli-cheese-ready-02.jpg",
     caption: "cauliflower cheese & beans bake",
     page: `caulicheese`,
   },
@@ -279,7 +279,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "vege' bakes",
-    imgSrc: ".\\images\\tomatomexicanrice\\200\\cooked-rice-in-pan.jpg",
+    imgSrc: "./images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
     caption: "tomato mexican rice",
     page: `tomatomexicanrice`,
   },
@@ -304,7 +304,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
-    imgSrc: ".\\images\\cheesesauce\\200\\cheese-sauce-in-pan.jpg",
+    imgSrc: "./images/cheesesauce/200/cheese-sauce-in-pan.jpg",
     caption: "home made cheese sauce",
     page: `cheesesauce`,
   },
@@ -329,7 +329,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: ".\\images\\pearalmondtart\\200\\pear-almond-tart-cooling.jpg",
+    imgSrc: "./images/pearalmondtart/200/pear-almond-tart-cooling.jpg",
     caption: "pear almond tart",
     page: `pearalmondtart`,
   },
@@ -339,7 +339,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: ".\\images\\gingerbread\\200\\cake-finished.jpg",
+    imgSrc: "./images/gingerbread/200/cake-finished.jpg",
     caption: "sticky gingerbread pud",
     page: `gingerbread`,
   },
@@ -347,7 +347,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: ".\\images\\blackcherrypie\\200\\cherry-pie-cooked.jpg",
+    imgSrc: "./images/blackcherrypie/200/cherry-pie-cooked.jpg",
     caption: "black cherry lattice tart",
     page: `blackcherrypie`,
   },
@@ -355,6 +355,8 @@ const gridContent = [
   // ****** puddings END ****** \\
 ];
 
+// loop through the `gridContent` object
+// to make an entry for the recipe grid
 gridContent.forEach(function (card) {
   const el = new GridEntry(card);
   el.render();
