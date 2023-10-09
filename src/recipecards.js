@@ -268,7 +268,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "vege' bakes",
-    imgSrc: "../images/caulifrankcheese/200/meal-cooked-01.jpg",
+    imgSrc: "./images/caulifrankcheese/200/meal-cooked-01.jpg",
     caption: "cauliflower cheese & frankfurter bake",
     page: `caulifrankcheese`,
   },
