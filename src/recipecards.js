@@ -268,6 +268,17 @@ const gridContent = [
   {
     type: "recipe",
     cat: "vege' bakes",
+    imgSrc: "../images/caulifrankcheese/200/meal-cooked-01.jpg",
+    caption: "cauliflower cheese & frankfurter bake",
+    page: `caulifrankcheese`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "vege' bakes",
     imgSrc: ".\\images\\tomatomexicanrice\\200\\cooked-rice-in-pan.jpg",
     caption: "tomato mexican rice",
     page: `tomatomexicanrice`,
