@@ -97,7 +97,7 @@ footer.innerHTML = footerContent.render();
              START NAVIGATION
       ==============================
 
-      NB: `navContent` Object: key = file name : value = nav btn text
+      NB: `navContent` Object: key = filename.html#ID : value = nav btn text
       e.g. index = ./index.html & value = "Welcome To My Kitchen"
 */
 
@@ -108,9 +108,10 @@ const navContent = {
   "recipepage.html#chicken": "Chicken Lickin' Recipies",
   "recipepage.html#beef": "Beef Bangin' Recipies",
   "recipepage.html#pork": "Pork Packin' Recipies",
-  "recipepage.html#vegebakes": "Vege Bakin' Recipies",
+  "recipepage.html#lamb": "Lamb Bam Thank You Mam!",
+  "recipepage.html#vege' bakes": "Vege Bakin' Recipies",
   "recipepage.html#sauce": "Saucey Basics Recipies",
-  "recipepage.html#puds": "Puddin' Passion Recipies",
+  "recipepage.html#puddings": "Puddin' Passion Recipies",
 
   // cheesesauce: "Cheese Sauce",
   // chickenmushroompasta: "Chicken & Mushroom Pasta",
