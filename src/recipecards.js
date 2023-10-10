@@ -296,7 +296,7 @@ const gridContent = [
   {
     type: "info",
     cat: "sauce",
-    imgSrc: ".\\images\\cheesesauce\\shop-bought-ingredients.jpg",
+    imgSrc: "./images/cheesesauce/shop-bought-ingredients.jpg",
     caption: "ingredient NOT included!",
     page: ``,
   },
@@ -304,8 +304,19 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
+    imgSrc: "./images/whitesauce/200/white-sauce.jpg",
+    caption: "white sauce",
+    page: `cheesesauce`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "sauce",
     imgSrc: "./images/cheesesauce/200/cheese-sauce-in-pan.jpg",
-    caption: "home made cheese sauce",
+    caption: "cheese sauce",
     page: `cheesesauce`,
   },
 
@@ -321,7 +332,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: ".\\images\\pineapplepud\\200\\cake-cooked.jpg",
+    imgSrc: "./images/pineapplepud/200/cake-cooked.jpg",
     caption: "pineapple pudding upside down",
     page: `pineapplepudding`,
   },
@@ -360,5 +371,8 @@ const gridContent = [
 gridContent.forEach(function (card) {
   const el = new GridEntry(card);
   el.render();
-  //   console.log(el);
+
+  if (el.cat === "sauce" && el.type === "recipe") {
+    console.log(el);
+  }
 });

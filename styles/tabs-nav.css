@@ -391,7 +391,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 .nav-btn a {
   display: flex;
   flex-direction: row; /* make main axis horizontal*/
-  min-height: 2em;
+  min-height: 3em;
   text-decoration: none;
   align-items: center; /* center items vertically - in flex row*/
   justify-content: center; /* center items horizontally - in flex row*/
