@@ -306,7 +306,7 @@ const gridContent = [
     cat: "sauce",
     imgSrc: "./images/whitesauce/200/white-sauce.jpg",
     caption: "white sauce",
-    page: `cheesesauce`,
+    page: `whitesauce`,
   },
 
   { type: "blank" },
