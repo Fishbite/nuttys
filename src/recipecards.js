@@ -290,7 +290,7 @@ const gridContent = [
   {
     type: "category",
     cat: "sauce",
-    text: `Many of these sauces are used throughout my recipies. For now here's a couple to get us going, without a jar, sachet, chemical additive or flavouring in sight.`,
+    text: `A good sauce is what elevates a dish to the next level of wonderful and these sauces are used throughout my recipies. For now here's a couple to get us going, without a jar, sachet, chemical additive or flavouring in sight.`,
   },
 
   {
