@@ -290,13 +290,13 @@ const gridContent = [
   {
     type: "category",
     cat: "sauce",
-    text: `Many of these sauces are used throughout my recipies. For now here's a couple to get us going, without a jar, sachet, chemical additive or flavouring in sight.`,
+    text: `A good sauce is what elevates a dish to the next level of wonderful and these sauces are used throughout my recipies. For now here's a couple to get us going, without a jar, sachet, chemical additive or flavouring in sight.`,
   },
 
   {
     type: "info",
     cat: "sauce",
-    imgSrc: ".\\images\\cheesesauce\\shop-bought-ingredients.jpg",
+    imgSrc: "./images/cheesesauce/shop-bought-ingredients.jpg",
     caption: "ingredient NOT included!",
     page: ``,
   },
@@ -304,8 +304,26 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
+    imgSrc: "./images/whitesauce/200/white-sauce.jpg",
+    caption: "white sauce",
+    page: `whitesauce`,
+  },
+
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "sauce",
+    imgSrc: "./images/whitesauce/200/white-sauce.jpg",
+    caption: "onion sauce",
+    page: `onionsauce`,
+  },
+
+  {
+    type: "recipe",
+    cat: "sauce",
     imgSrc: "./images/cheesesauce/200/cheese-sauce-in-pan.jpg",
-    caption: "home made cheese sauce",
+    caption: "cheese sauce",
     page: `cheesesauce`,
   },
 
@@ -321,7 +339,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: ".\\images\\pineapplepud\\200\\cake-cooked.jpg",
+    imgSrc: "./images/pineapplepud/200/cake-cooked.jpg",
     caption: "pineapple pudding upside down",
     page: `pineapplepudding`,
   },
@@ -360,5 +378,8 @@ const gridContent = [
 gridContent.forEach(function (card) {
   const el = new GridEntry(card);
   el.render();
-  //   console.log(el);
+
+  if (el.cat === "sauce" && el.type === "recipe") {
+    console.log(el);
+  }
 });

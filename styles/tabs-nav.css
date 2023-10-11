@@ -391,7 +391,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 .nav-btn a {
   display: flex;
   flex-direction: row; /* make main axis horizontal*/
-  min-height: 2em;
+  min-height: 3em;
   text-decoration: none;
   align-items: center; /* center items vertically - in flex row*/
   justify-content: center; /* center items horizontally - in flex row*/
@@ -487,8 +487,9 @@ header a:visited {
   border: 1px solid var(--clr-grey-9);
   border-radius: var(--radius-sml);
   /* margin: 0.5rem; */
-  padding: 0.025rem 0.5rem;
-  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  width: 76px;
+  font-size: 0.75rem;
   margin: 0 auto;
 }
 .list-btn img {
