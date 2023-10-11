@@ -487,8 +487,9 @@ header a:visited {
   border: 1px solid var(--clr-grey-9);
   border-radius: var(--radius-sml);
   /* margin: 0.5rem; */
-  padding: 0.025rem 0.5rem;
-  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  width: 76px;
+  font-size: 0.75rem;
   margin: 0 auto;
 }
 .list-btn img {

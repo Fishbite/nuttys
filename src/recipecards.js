@@ -310,7 +310,14 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "sauce",
+    imgSrc: "./images/whitesauce/200/white-sauce.jpg",
+    caption: "onion sauce",
+    page: `onionsauce`,
+  },
 
   {
     type: "recipe",
