@@ -229,18 +229,19 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc: "./images/bellyporkdinner/200/belly-pork-plated.jpg",
-    caption: "belly pork dinner",
-    page: `bellyporkdinner`,
+    imgSrc: "./images/porksupreme/200/pork-in-creamy-pepper-sauce.jpg",
+    caption: "pork in creamy pepper sauce",
+    page: `porksupreme`,
   },
 
   {
     type: "recipe",
     cat: "pork",
-    imgSrc: "./images/porksupreme/200/pork-in-creamy-pepper-sauce.jpg",
-    caption: "pork in creamy pepper sauce",
-    page: `porksupreme`,
+    imgSrc: "./images/bellyporkdinner/200/belly-pork-plated.jpg",
+    caption: "belly pork dinner",
+    page: `bellyporkdinner`,
   },
+
   // ****** pork END ****** \\
 
   // ****** lamb ****** \\

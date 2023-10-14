@@ -217,6 +217,27 @@ About
   padding-bottom: 1rem;
 }
 
+.title-wrap {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.title-wrap img {
+  width: 64px;
+  height: 32px;
+  padding: 0 0.25rem 0 0;
+  align-self: flex-end;
+  margin-bottom: 0.5rem;
+}
+.title-wrap h2 {
+  width: max-content;
+}
+@media screen and (max-width: 450px) {
+  .title-wrap h2 {
+    width: min-content;
+  }
+}
+
 .justify {
   text-align: justify;
 }
@@ -638,6 +659,11 @@ footer a:visited {
     grid-template-columns: 1fr;
     max-width: 85vw;
     gap: 1rem;
+  }
+  .title-wrap img {
+    width: 64px;
+    height: 32px;
+    padding: 0;
   }
 }
 
