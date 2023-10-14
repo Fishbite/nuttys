@@ -158,6 +158,17 @@ const gridContent = [
     page: `chickenlasagne`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "./images/chickenmushroompie/200/chicken-pie-cooked-01.jpg",
+    caption: "chicken pie cooked",
+    page: `chickenmushroompie`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
