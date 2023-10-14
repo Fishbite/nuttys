@@ -165,7 +165,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc: "./images/chickenmushroompie/200/chicken-pie-cooked-01.jpg",
-    caption: "chicken pie cooked",
+    caption: "chicken & mushroom pie",
     page: `chickenmushroompie`,
   },
 
