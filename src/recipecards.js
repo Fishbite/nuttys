@@ -330,7 +330,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
-    imgSrc: "./images/whitesauce/200/white-sauce.jpg",
+    imgSrc: "./images/onionsauce/200/onion-sauce-jug-01.webp",
     caption: "onion sauce",
     page: `onionsauce`,
   },
