@@ -375,7 +375,14 @@ const gridContent = [
     page: `pearalmondtart`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc:
+      "./images/appleblackberrycrumble/650x366/apple-blackberry-crumble-01.webp",
+    caption: "apple & blackberry crumble",
+    page: `appleblackberrycrumble`,
+  },
 
   {
     type: "recipe",
