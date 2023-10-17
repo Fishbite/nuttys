@@ -159,7 +159,14 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "./images/chickenvindaloo/650x366/vindaloo-simmering.webp",
+    caption: "chicken vindaloo",
+    page: `chickenvindaloo`,
+  },
 
   {
     type: "recipe",
