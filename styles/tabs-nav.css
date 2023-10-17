@@ -515,11 +515,11 @@ header a:visited {
   color: var(--clr-grey-4);
   border: 1px solid var(--clr-grey-9);
   border-radius: var(--radius-sml);
-  /* margin: 0.5rem; */
   padding: 0.5rem 0.5rem;
   width: 76px;
   font-size: 0.75rem;
   margin: 0 auto;
+  text-align: center;
 }
 .list-btn img {
   width: 32px;
@@ -530,7 +530,6 @@ header a:visited {
   border: 1px solid var(--clr-yellow-golden-pale);
   box-shadow: 0px 0px 5px 1px var(--clr-yellow-golden);
   cursor: pointer;
-  font-weight: bold;
 }
 .list-btn a {
   color: var(--clr-grey-4);
@@ -540,6 +539,18 @@ header a:visited {
 }
 .list-btn a:visited {
   color: var(--clr-grey-4);
+}
+.list-btn img {
+  width: 32px;
+  margin: 0 auto;
+}
+
+.cta {
+  margin-top: 1rem;
+  margin-bottom: 2.2rem;
+}
+.cta:hover {
+  font-weight: bold;
 }
 
 /* =====================
@@ -656,11 +667,6 @@ footer a:hover {
   color: var(--clr-grey-4);
   margin: 1rem auto 0;
   text-transform: capitalize;
-}
-
-.list-btn img {
-  width: 32px;
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 650px) {
