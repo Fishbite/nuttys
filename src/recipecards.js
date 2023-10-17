@@ -164,7 +164,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc: "./images/chickenvindaloo/650x366/vindaloo-simmering.webp",
-    caption: "chicken vindaloo",
+    caption: "indian chicken vindaloo",
     page: `chickenvindaloo`,
   },
 
