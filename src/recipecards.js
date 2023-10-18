@@ -154,7 +154,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc: "./images/chickenlasagne/200/chicken-lasagne-01.jpg",
-    caption: "chicken & mushroom lasgne",
+    caption: "chicken & mushroom lasagne",
     page: `chickenlasagne`,
   },
 
