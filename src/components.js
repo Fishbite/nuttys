@@ -64,7 +64,7 @@ export function navMenu(navContent) {
     <ul class="nav-list nav-btn">
 
     ${navList}
-    
+
     </ul>
   </div>
   </nav>`,
