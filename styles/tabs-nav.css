@@ -392,7 +392,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   padding: 0.25rem;
   list-style: none;
   /* background-color: var(--clr-grey-5); */
-  background-color: var(--clr-grey-2);
+  background-color: var(--clr-grey-9);
 }
 .menu ul {
   margin-bottom: 2rem;
@@ -409,7 +409,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   display: flex;
   background-color: var(--clr-grey-10);
   color: var(--clr-grey-0);
-  border: 4px solid var(--clr-grey-0);
+  border: 4px solid var(--clr-grey-8);
   box-shadow: -1px -1px rgba(252, 252, 252, 0.1),
     1px 1px rgba(252, 252, 252, 0.1), 1px -1px rgba(252, 252, 252, 0.1),
     -1px 1px rgba(252, 252, 252, 0.1);
@@ -422,7 +422,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   text-decoration: none;
 }
 .menu a:hover {
-  background-color: var(--clr-grey-0);
+  background-color: var(--clr-grey-4);
   color: var(--clr-grey-10);
   border: 4px solid var(--clr-grey-10);
 }
