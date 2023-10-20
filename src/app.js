@@ -1,6 +1,3 @@
-// Import the components we need
-import { MakeFooter } from "./components.js";
-
 /*    ======================
             START TABS
       ======================
@@ -73,6 +70,22 @@ function clickhandler(e) {
 
      We'll add this in a method of the class, but for now it works as is..
 */
+class MakeFooter {
+  constructor(email, list, ip) {
+    this.email = email;
+    this.ip = ip;
+    this.list = list;
+  }
+  // createFooter() {
+  //   const footer = document.createElement("footer");
+
+  //   return document.body.appendChild(this.footer);
+  // }
+  render() {
+    return `<p>${this.email}</p> <ul>${this.list}</ul><p>${this.ip}</p>`;
+  }
+}
+
 const footerEmail = `<a href="mailto:kitchen4nutty@gmail.com">email: kitchen4nutty@gmail.com</a>`;
 /*
     The `footerList` parameter of `MakeFooter` expects a chain of
@@ -93,13 +106,17 @@ footer.innerHTML = footerContent.render();
       ======================
 */
 
-/*    ==============================
-             START NAVIGATION
-      ==============================
-
-      NB: `navContent` Object: key = filename.html#ID : value = nav btn text
-      e.g. index = ./index.html & value = "Welcome To My Kitchen"
+/* =======================
+    Navigation Menu START
+   =======================
 */
+function toggleClass(e) {
+  const bap = document.getElementById("bap");
+  const menu = document.getElementById("menu");
+
+  e.classList.toggle("x");
+  menu.classList.toggle("left");
+}
 
 const navContent = {
   "index.html": "Welcome To Nutty's",
@@ -144,33 +161,25 @@ function navMenu(navContent) {
   // object to write the `navList` to
   const menu = {
     nav: `<div id="menu" class="menu" >
-              <div id="bap" class="bap" onclick="toggleClass(this)">
-                  <div class="bar1"></div>
-                  <div class="bar2"></div>
-                  <div class="bar3"></div>
-              </div>
+            <div id="bap" class="bap" onclick="toggleClass(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
 
-          <ul>${navList}</ul>
+        <ul>${navList}</ul>
 
-         </div>`,
+       </div>`,
   };
 
   // write the navigation menu to the navigation menu wrapper element
   wrapper.innerHTML = menu.nav;
-  console.log("menu done, toggle class there?", toggleClass);
+  console.log("menu done");
 
   return wrapper;
 }
 
-function toggleClass(e) {
-  const bap = document.getElementById("bap");
-  const menu = document.getElementById("menu");
-
-  e.classList.toggle("x");
-  menu.classList.toggle("left");
-}
-
-/*    ==============================
-             END NAVIGATION
-      ==============================
+/* =======================
+    Navigation Menu END
+   =======================
 */

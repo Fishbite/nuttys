@@ -30,7 +30,6 @@ Variables
   --clr-primary-9: hsl(205, 90%, 88%);
   --clr-primary-10: hsl(205, 100%, 96%);
   /* darkest grey - used for headings */
-  --clr-grey-0: rgb(24, 22, 20);
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -42,7 +41,6 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-grey-10-1: rgba(241, 245, 248, 0.75);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -50,13 +48,12 @@ Variables
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-yellow-golden: hsla(43, 100%, 57%, 0.5);
   --clr-yellow-golden-pale: hsla(43, 50%, 62%);
-  --clr-yellow-bg: hsla(43, 50%, 62%, 1);
+  --clr-yellow-bg: hsla(43, 50%, 62%, 0.25);
 
   --clr-black: #222;
   --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Poppins", sans-serif;
   --transition: all 0.15s linear;
-  --trans: 0.35s;
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --radius-sml: 0.25rem;
@@ -374,102 +371,121 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 ================================================================
 */
 
-.nav-container {
+.nav {
   position: fixed;
-  top: 5px;
+  top: 0%;
+  background-color: rgba(255, 255, 255, 0.01);
+  padding: 0.2em 2em 0.2em 0;
+  border-radius: 0 5px 5px 0;
+  left: -11.5em;
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+  letter-spacing: 0.125em;
   z-index: 10;
 }
-.menu {
-  position: absolute;
-  top: 0;
-  color: var(--clr-grey-0);
-  width: 15rem;
-  left: -12.5rem;
-  transition: var(--trans);
-}
-.menu li {
-  width: 12rem;
-  padding: 0.25rem;
-  list-style: none;
-  /* background-color: var(--clr-grey-5); */
-  background-color: var(--clr-grey-2);
-}
-.menu ul {
-  margin-bottom: 2rem;
-}
-.menu li:first-child {
-  border-radius: 0 4px 0 0;
-  padding-top: 0.5rem;
-}
-.menu li:last-child {
-  border-radius: 0 0 4px 0;
-  padding-bottom: 0.5rem;
-}
-.menu a {
-  display: flex;
-  background-color: var(--clr-grey-10);
-  color: var(--clr-grey-0);
-  border: 4px solid var(--clr-grey-0);
-  box-shadow: -1px -1px rgba(252, 252, 252, 0.1),
-    1px 1px rgba(252, 252, 252, 0.1), 1px -1px rgba(252, 252, 252, 0.1),
-    -1px 1px rgba(252, 252, 252, 0.1);
-  border-radius: 1.25rem;
-  padding: 2px 0;
-  min-height: 35px;
-  align-items: center;
-  justify-content: center;
+
+.nav-title {
   text-align: center;
+  /* padding-right: 0.5rem; */
+  background: rgba(222, 229, 235, 1);
+  border-radius: 4px;
+  width: 3.25rem;
+  float: right;
+}
+
+.nav-overlay {
+  /* background: rgba(41, 51, 59, 0.1); */
+  width: 15em;
+  padding: 0.2em 0.2em 0.2em 0;
+  border-radius: 0 5px 5px 0;
+  /* border: 2px outset rgba(58, 58, 58, 0.75); */
+  border-left: 0;
+}
+
+.nav-overlay:hover {
+  background: rgba(222, 229, 235, 0.85);
+}
+
+.nav-list {
+  background-color: rgba(150, 0, 150, 0);
+  width: 11.5em;
+  list-style: none;
+}
+
+.nav-list a {
   text-decoration: none;
+  color: white;
 }
-.menu a:hover {
-  background-color: var(--clr-grey-0);
-  color: var(--clr-grey-10);
-  border: 4px solid var(--clr-grey-10);
-}
-.bap {
+
+.nav-btn a {
   display: flex;
-  flex-direction: column;
-  align-items: end;
+  flex-direction: row; /* make main axis horizontal*/
+  min-height: 3em;
+  text-decoration: none;
+  align-items: center; /* center items vertically - in flex row*/
+  justify-content: center; /* center items horizontally - in flex row*/
+  text-align: center; /* center anything misbehaving - top & bot row of list*/
+  color: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 33, 66, 0.1) 2px,
+    rgba(49, 61, 71, 0.1) 2px,
+    rgba(49, 61, 71, 0.1) 94%,
+    rgb(184, 238, 248)
+  );
+  padding: 5px 5px 5px 5px;
+  border-bottom: 2px solid rgb(30, 34, 43);
+  border-right: 1px solid rgb(64, 70, 77);
+  border-left: 1px solid rgb(23, 41, 58);
+  border-radius: 2.5px;
 }
-.bap:hover {
-  cursor: pointer;
+.nav {
+  transition: 0.35s;
 }
-.bar1,
-.bar2,
-.bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: var(--clr-grey-0);
-  margin: 2.5px 0;
-  transition: var(--trans);
-}
-.x .bar1 {
-  transform: translate(0, 10px) rotate(405deg);
-}
-.x .bar2 {
-  opacity: 0;
-}
-.x .bar3 {
-  transform: translate(0, -10px) rotate(-405deg);
-}
-.left {
+
+.nav:hover {
   left: 0;
-  transition: var(--trans);
-  background-color: var(--clr-grey-10-1);
-  border-radius: 0 4px 4px 0;
+}
+.nav:hover .nav-title {
+  rotate: 90deg;
+  transition: 0.35s;
+  padding-left: 1.5rem;
+}
+
+.nav-btn a:hover {
+  text-decoration: none;
+  color: rgb(255, 238, 0);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 33, 66, 0.85) 2px,
+    rgba(49, 61, 71, 0.85) 2px,
+    rgba(49, 61, 71, 0.85) 94%,
+    rgb(184, 238, 248)
+  );
+  border-bottom: 2px solid #1e222b;
+  border-right: 1px solid #1e222b;
+  box-shadow: inset 2px 2px 2px #1e222b;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-title {
+    background: rgba(222, 229, 235, 1);
+    padding: 0.25rem;
+  }
 }
 
 /* ============
    ** Recipe Method Specific Styles **
    ============
 */
-/* .recipe-links li {
+.recipe-links li {
   color: var(--clr-grey-4);
   padding: 0.5rem;
 }
 .recipe-links a:visited {
   color: var(--clr-grey-4);
-} */
+}
 
 /* ============
    ** Header **

@@ -58,20 +58,21 @@ export function navMenu(navContent) {
 
   // object to write the `navList` to
   const menu = {
-    nav: `<nav class="nav">
-  <div class="nav-overlay">
-    <span class="nav-title"><b>{:¬)</b></span>
-    <ul class="nav-list nav-btn">
+    nav: `<div id="menu" class="menu" >
+              <div id="bap" class="bap" onclick="toggleClass(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+              </div>
 
-    ${navList}
+          <ul>${navList}</ul>
 
-    </ul>
-  </div>
-  </nav>`,
+         </div>`,
   };
 
   // write the navigation menu to the navigation menu wrapper element
   wrapper.innerHTML = menu.nav;
+  console.log("menu done");
 
   return wrapper;
 }
