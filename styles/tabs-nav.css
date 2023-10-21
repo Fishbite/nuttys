@@ -81,7 +81,7 @@ Global Styles
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-3);
   line-height: 1.5;
   font-size: 1rem;
   font-weight: 400;
@@ -442,7 +442,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 .bar3 {
   width: 35px;
   height: 5px;
-  background-color: var(--clr-grey-0);
+  background-color: var(--clr-grey-4);
   margin: 2.5px 0;
   transition: var(--trans);
 }
