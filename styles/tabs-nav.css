@@ -410,7 +410,7 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   background-color: var(--clr-grey-10);
   color: var(--clr-grey-0);
   border: 4px solid var(--clr-grey-8);
-  box-shadow: -1px -1px rgba(252, 252, 252, 0.1),
+  box-shadow: -1px -1px rgba(252, 252, 252, 0.35),
     1px 1px rgba(252, 252, 252, 0.1), 1px -1px rgba(252, 252, 252, 0.1),
     -1px 1px rgba(252, 252, 252, 0.1);
   border-radius: 1.25rem;
@@ -425,6 +425,9 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   background-color: var(--clr-grey-4);
   color: var(--clr-grey-10);
   border: 4px solid var(--clr-grey-10);
+  box-shadow: -1px -1px rgba(168, 168, 168, 0.75),
+    1px 1px rgba(168, 168, 168, 0.75), 1px -1px rgba(168, 168, 168, 0.75),
+    -1px 1px rgba(168, 168, 168, 0.75);
 }
 .bap {
   display: flex;
@@ -562,6 +565,7 @@ header a:visited {
 footer {
   font-size: 0.8rem;
   color: var(--clr-grey-10);
+  background-color: var(--clr-grey-4);
   display: flex;
   flex-flow: row wrap;
   text-align: center;
@@ -574,27 +578,33 @@ footer {
 
 footer p {
   padding-top: 0.5rem;
+  color: var(--clr-grey-10);
   margin: 0;
   list-style: none;
 }
 footer li {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 footer a {
-  color: var(--clr-grey-4);
+  display: inline-block;
+  color: var(--clr-grey-10);
+  height: 1.25rem;
 }
 footer a:visited {
-  color: var(--clr-grey-4);
+  color: var(--clr-grey-10);
 }
 footer a:hover {
   text-decoration: underline;
-  color: var(--clr-black);
+  color: var(--clr-yellow-golden);
 }
 
 @media screen and (max-width: 650px) {
   footer {
     flex-flow: column wrap;
     align-items: center;
+  }
+  footer p {
+    padding-top: 1rem;
   }
 }
 
