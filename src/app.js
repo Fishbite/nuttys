@@ -86,7 +86,7 @@ class MakeFooter {
   }
 }
 
-const footerEmail = `<a href="mailto:kitchen4nutty@gmail.com">email: kitchen4nutty@gmail.com</a>`;
+const footerEmail = `<a href="mailto:nutty@nuttyskitchen.co.uk">email: nutty@nuttyskitchen</a>`;
 /*
     The `footerList` parameter of `MakeFooter` expects a chain of
     `<li>List items</li>` enclosed  in backticks:
