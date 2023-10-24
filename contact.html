@@ -14,13 +14,26 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="./styles/tabs-nav.css" />
+    <!-- styles -->
   </head>
   <body>
+    <style>
+      body {
+        height: auto;
+        min-height: 100vh;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+      }
+    </style>
     <!-- NAVIGATION -->
     <div id="nav-container" class="nav-container"></div>
     <!-- NAVIGATION -->
 
-    <section>
+    <section class="container">
       <div class="title">
         <h2>contact us</h2>
         <h6
@@ -36,96 +49,15 @@
         </h6>
         <div class="spacer"></div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
-          quis
+          Please feel free to contact me directly by sending a personal email.
+          Your email will only be kept in my inbox so that I can reply to you!
         </p>
-      </div>
-
-      <!-- class about-center = set columns -->
-      <!-- class section-center = set width -->
-      <div class="about-center section-center">
-        <article class="about-img">
-          <img
-            width="516"
-            height="314"
-            src="./images/sausagepepperpie/sausageandpepperpie03.jpg"
-            alt="sausage and pepper pie"
-          />
-        </article>
-
-        <article class="about">
-          <!-- buttons container -->
-          <div class="btn-container">
-            <!-- class active = show content -->
-            <button class="tab-btn active" data-id="ingredients">
-              ingredients
-            </button>
-            <button class="tab-btn" data-id="method">method</button>
-          </div>
-
-          <!-- about content -->
-          <article class="about-content">
-            <!-- single item -->
-            <div class="content active" id="ingredients">
-              <h4>ingredients</h4>
-              <p>
-                Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
-                crucifix offal deep v hella biodiesel. Church-key listicle
-                polaroid put a bird on it chillwave palo santo enamel pin,
-                tattooed meggings franzen la croix cray. Retro yr aesthetic four
-                loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
-                Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
-                Roof party hammock master cleanse pop-up truffaut, bicycle
-                rights skateboard affogato readymade sustainable deep v
-                live-edge schlitz narwhal.
-              </p>
-
-              <!-- Ingredients List Goes Below Here!!! -->
-              <ul>
-                <li>list item</li>
-                <li>list item</li>
-                <li>list item</li>
-              </ul>
-              <!-- Ingredients List Goes Above Here!!! -->
-            </div>
-            <!-- end of single item -->
-
-            <!-- single item -->
-            <div class="content" id="method">
-              <h4>method</h4>
-              <p>
-                Description about the method here please!!! Poutine etsy tote
-                bag, cred fingerstache leggings cornhole everyday carry blog
-                gastropub. Brunch biodiesel sartorial mlkshk swag, mixtape
-                hashtag marfa readymade direct trade man braid cold-pressed roof
-                party. Small batch adaptogen coloring book heirloom. Letterpress
-                food truck hammock literally hell of wolf beard adaptogen
-                everyday carry. Dreamcatcher pitchfork yuccie, banh mi salvia
-                venmo photo booth quinoa chicharrones.
-              </p>
-              <!-- Method List Goes Below Here!!! -->
-
-              <ol>
-                <li>do this</li>
-                <li>do that</li>
-              </ol>
-
-              <div class="spacer"></div>
-              <div class="card_image">
-                <caption>
-                  brown suasages
-                </caption>
-                <img
-                  src="./images/sausagepasta/650x366/sausage-browning-in-pan-02.jpg"
-                />
-              </div>
-              <div class="spacer"></div>
-
-              <!-- Method List Goes Above Here!!! -->
-            </div>
-            <!-- end of single item -->
-          </article>
-        </article>
+        <div class="spacer"></div>
+        <div class="mail">
+          <a href="mailto:nutty@nuttyskitchen.co.uk"
+            ><h3>nutty@nuttysKitchen.co.uk</h3></a
+          >
+        </div>
       </div>
     </section>
 

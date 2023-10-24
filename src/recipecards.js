@@ -249,6 +249,17 @@ const gridContent = [
     page: `bellyporkdinner`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc: "./images/porkvindaloo/200/pork-vindaloo-simmering.webp",
+    caption: "roast pork vindaloo",
+    page: `porkvindaloo`,
+  },
+
   // ****** pork END ****** \\
 
   // ****** lamb ****** \\
