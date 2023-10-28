@@ -416,6 +416,24 @@ const gridContent = [
   },
 
   // ****** puddings END ****** \\
+
+  // ****** breads START ****** \\
+  {
+    type: "category",
+    cat: "breads",
+    text: `Indian dishes cry out for flat breads, however, most folks don't cook Naan breads at , as they really need a clay Tandor oven, and that's a little overkill for most including me! So we'll stick with breads that don't need that kind of heat here!`,
+  },
+
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "breads",
+    imgSrc: "./images/chapati/200/chapati-cooking-01.webp",
+    caption: "chapati flat bread",
+    page: `chapati`,
+  },
+  // ****** breads END ****** \\
 ];
 
 // loop through the `gridContent` object
