@@ -271,7 +271,11 @@ const gridContent = [
   },
 
   {
-    type: "blank",
+    type: "recipe",
+    cat: "lamb",
+    imgSrc: "./images/lambpeasmintcurry/200/curry-in-pan.webp",
+    caption: "lamb peas & mint curry",
+    page: `lamb-peas-mint-curry`,
   },
 
   {
