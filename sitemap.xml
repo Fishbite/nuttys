@@ -86,11 +86,6 @@
 		<lastmod>2023-10-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/easychickencurry.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-10-28</lastmod>
-	</url>
-	<url>
 		<loc>https://www.nuttyskitchen.co.uk/cornedbeefmashpie.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-28</lastmod>
@@ -179,5 +174,10 @@
 		<loc>https://www.nuttyskitchen.co.uk/appleblackberrycrumble.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/easy-chicken-curry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-10-29</lastmod>
 	</url>
 </urlset>
