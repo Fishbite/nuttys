@@ -154,10 +154,10 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc: "./images/easychickencurry/200/finished-curry-in-pan.png",
-    imgTitle: "indian chicken curry",
+    imgTitle: "easy chicken curry",
     imgAlt: "finished curry in pan",
-    caption: "indian chicken curry",
-    page: `easychickencurry`,
+    caption: "easy chicken curry",
+    page: `easy-chicken-curry`,
   },
 
   {
