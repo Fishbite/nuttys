@@ -178,6 +178,7 @@ ul {
 
 .zf-templateWidth {
   width: 800px;
+  max-width: 80vw;
 }
 
 .zf-templateWrapper {
@@ -1152,4 +1153,13 @@ ul {
   background-color: #000;
   margin: 0 auto;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.zoho h1 {
+  font-size: 2rem;
+}
+.zoho p {
+  max-width: 66ch;
+  text-align: center;
+  margin: 0 auto;
 }
