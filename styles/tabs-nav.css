@@ -245,6 +245,9 @@ About
 .justify {
   text-align: justify;
 }
+.center {
+  text-align: center;
+}
 p {
   text-align: justify;
 }
@@ -679,4 +682,48 @@ footer a:hover {
 /* =====================
    ** RECIPE GRID END **
    =====================
+*/
+
+/* =======================
+   ** FEEDBACK FORM START **
+   =======================
+*/
+.fb-form {
+  display: grid;
+  max-width: 80vw;
+  width: 600px;
+  background-color: var(--clr-grey-1);
+  color: var(--clr-grey-10);
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  margin: 1rem auto;
+}
+header .fb-form {
+  text-align: center;
+}
+.fb-form .wrap {
+  display: flex;
+  flex-direction: column;
+}
+.fb-form .row {
+  margin: 1rem 0;
+}
+.fb-form .form-control {
+  min-height: 2rem;
+  border-radius: var(--radius-sml);
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.fb-form .btn {
+  border: 2px solid var(--clr-grey-8);
+  color: var(--clr-white);
+  font-size: large;
+}
+.fb-form .btn:hover {
+  background-color: var(--clr-grey-4);
+  color: var(--clr-grey-10);
+}
+/* =======================
+   ** FEEDBACK FORM END **
+   =======================
 */
