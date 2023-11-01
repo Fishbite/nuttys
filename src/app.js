@@ -94,7 +94,7 @@ const footerEmail = `<a href="mailto:nutty@nuttyskitchen.co.uk">email: nutty@nut
     the <li> element can contain anythig that a list item can normally
     take
 */
-const footerList = `<li><a href="#">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="https://icons8.com" target="_blank">icons by icons8</a></li>`;
+const footerList = `<li><a href="./contact-form.html">Contact Us</a></li><li><a href="#">test link</a></li><li><a href="https://icons8.com" target="_blank">icons by icons8</a></li>`;
 const footerIp = `copyright © fishbite 2023`;
 
 const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
@@ -129,6 +129,7 @@ const navContent = {
   "recipepage.html#vege' bakes": "Vege Bakin'",
   "recipepage.html#sauce": "Saucey Basics",
   "recipepage.html#puddings": "Puddin' Passion",
+  "contact-form.html": "Contact Nutty",
 
   // cheesesauce: "Cheese Sauce",
   // chickenmushroompasta: "Chicken & Mushroom Pasta",

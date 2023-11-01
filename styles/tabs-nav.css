@@ -701,6 +701,10 @@ footer a:hover {
 header .fb-form {
   text-align: center;
 }
+.head-p {
+  background-color: var(--clr-grey-10);
+  color: var(--clr-grey-4);
+}
 .fb-form .wrap {
   display: flex;
   flex-direction: column;
@@ -718,6 +722,8 @@ header .fb-form {
   border: 2px solid var(--clr-grey-8);
   color: var(--clr-white);
   font-size: large;
+  width: 50%;
+  justify-self: center;
 }
 .fb-form .btn:hover {
   background-color: var(--clr-grey-4);
