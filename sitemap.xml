@@ -8,7 +8,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/zoho-contact-form.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-11-01</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chapati.html</loc>
@@ -184,5 +184,15 @@
 		<loc>https://www.nuttyskitchen.co.uk/easy-chicken-curry.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-10-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/contact-formbold.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-11-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/contact-ratufa.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-11-01</lastmod>
 	</url>
 </urlset>
