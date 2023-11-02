@@ -209,7 +209,7 @@ About
 */
 .title {
   text-align: center;
-  margin: 2rem 0 2rem 0;
+  margin: 3.5rem 0 2rem 0;
 }
 .title p {
   width: 80%;
@@ -240,6 +240,10 @@ About
   .title-wrap h2 {
     width: min-content;
   }
+}
+.logo-main {
+  position: absolute;
+  top: 6px;
 }
 
 .justify {
