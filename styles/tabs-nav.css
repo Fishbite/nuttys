@@ -252,6 +252,9 @@ About
 .center {
   text-align: center;
 }
+.underline {
+  text-decoration: underline;
+}
 p {
   text-align: justify;
 }

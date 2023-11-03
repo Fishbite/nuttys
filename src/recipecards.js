@@ -362,7 +362,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "vege' bakes",
+    imgSrc:
+      "./images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked.webp",
+    imgTitle: "cauliflower cheese smoked haddock bake",
+    imgAlt: "cauli cheese smoked hadock baked",
+    caption: "cauli cheese & smoked haddock",
+    page: `cauli-cheese-smoked-haddock-bake`,
+  },
 
   {
     type: "recipe",
@@ -490,7 +500,7 @@ const gridContent = [
   // ****** breads START ****** \\
   {
     type: "category",
-    cat: "breads",
+    cat: "accompaniments",
     text: `Indian dishes cry out for flat breads, however, most folks don't cook Naan breads at home, as they really need a clay Tandor oven, and that's a little overkill for most, including me! So we'll stick with breads that don't need that kind of heat here!`,
   },
 
@@ -498,7 +508,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "breads",
+    cat: "accompaniments",
     imgSrc: "./images/chapati/200/chapati-cooking-01.webp",
     imgTitle: "chapati flat bread",
     imgAlt: "chapati cooking",
