@@ -260,6 +260,19 @@ const gridContent = [
     caption: "beef & pork pasta bake",
     page: `beefporkpastabake`,
   },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "./images/beefy-meatballs/200/meatballs-finished.webp",
+    imgTitle: "beefy meatballs in onion gravy",
+    imgAlt: "meatballs finished",
+    caption: "beefy meatballs in onion gravy",
+    page: `beefy-meatballs-onion-gravy`,
+  },
   // ****** beef END ****** \\
 
   // ****** pork ****** \\

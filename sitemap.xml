@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-11-04</lastmod>
+		<lastmod>2023-11-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/cauli-cheese-smoked-haddock-bake.html</loc>
@@ -143,7 +143,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/recipepage.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-11-03</lastmod>
+		<lastmod>2023-11-04</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/sausagecasserole.html</loc>
@@ -178,11 +178,16 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/lamb-peas-mint-curry.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-11-02</lastmod>
+		<lastmod>2023-11-04</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chapati.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-11-02</lastmod>
+		<lastmod>2023-11-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beefy-meatballs-onion-gravy.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-11-05</lastmod>
 	</url>
 </urlset>
