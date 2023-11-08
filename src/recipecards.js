@@ -262,7 +262,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "./images/beef-pork-madras/200/beef-and-pork-madras.webp",
+    imgTitle: "beef and pork madras",
+    imgAlt: "beef pork madras in pan",
+    caption: "beef & pork madras",
+    page: `beef-pork-madras`,
+  },
 
   {
     type: "recipe",
