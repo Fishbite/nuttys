@@ -105,6 +105,9 @@ img:not(.logo) {
 img {
   display: block;
 }
+.inline {
+  display: inline;
+}
 
 h1,
 h2,
