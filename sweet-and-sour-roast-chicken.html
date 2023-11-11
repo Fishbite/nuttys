@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Sweet & Sour Roast Chicken | Nutty's Kitchen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- NAVIGATION -->
+
+    <section>
+      <header class="title">
+        <div class="title-wrap">
+          <img
+            width="60"
+            height="32"
+            src="./images/logo-left.svg"
+            alt="logo left"
+            title="nuttys kitchen logo left"
+          />
+          <h1>template title</h1>
+
+          <img
+            width="60"
+            height="32"
+            src="./images/logo-right.svg"
+            alt="logo right"
+            title="nuttys kitchen logo right"
+          />
+        </div>
+        <img
+          src="./images/nuttys-kitchen-logo.svg"
+          alt="nuttys kitchen logo"
+          width="160"
+          height="40"
+          title="nuttys kitchen logo"
+          class="logo-main"
+        />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          quis
+        </p>
+        <p>
+          Click the <b>Method</b> tab below to see a step by step guide with
+          pictures.
+        </p>
+      </header>
+
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img
+            src="./images/sausagepepperpie/sausageandpepperpie03.jpg"
+            alt="sausage and pepper pie"
+            title=""
+          />
+        </article>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button
+              title="Click this tab to reveal the ingredients"
+              class="tab-btn active"
+              data-id="ingredients"
+            >
+              ingredients
+            </button>
+            <button
+              title="Click this tab to read the recipe method and see pictures of how to make this dish"
+              class="tab-btn"
+              data-id="method"
+            >
+              method
+            </button>
+          </div>
+
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="ingredients">
+              <h4>ingredients</h4>
+              <p>
+                Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                crucifix offal deep v hella biodiesel. Church-key listicle
+                polaroid put a bird on it chillwave palo santo enamel pin,
+                tattooed meggings franzen la croix cray. Retro yr aesthetic four
+                loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
+                Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+                Roof party hammock master cleanse pop-up truffaut, bicycle
+                rights skateboard affogato readymade sustainable deep v
+                live-edge schlitz narwhal.
+              </p>
+
+              <!-- Ingredients List Goes Below Here!!! -->
+              <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+              </ul>
+              <!-- Ingredients List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <div class="content" id="method">
+              <h4>method</h4>
+              <p>
+                Description about the method here please!!! Poutine etsy tote
+                bag, cred fingerstache leggings cornhole everyday carry blog
+                gastropub. Brunch biodiesel sartorial mlkshk swag, mixtape
+                hashtag marfa readymade direct trade man braid cold-pressed roof
+                party. Small batch adaptogen coloring book heirloom. Letterpress
+                food truck hammock literally hell of wolf beard adaptogen
+                everyday carry. Dreamcatcher pitchfork yuccie, banh mi salvia
+                venmo photo booth quinoa chicharrones.
+              </p>
+              <!-- Method List Goes Below Here!!! -->
+
+              <ol>
+                <li>do this</li>
+                <li>do that</li>
+              </ol>
+
+              <div class="spacer"></div>
+              <div class="card_image">
+                <caption>
+                  brown suasages
+                </caption>
+                <img
+                  src="./images/sausagepasta/650x366/sausage-browning-in-pan-02.jpg"
+                  alt=""
+                  title=""
+                />
+              </div>
+              <div class="spacer"></div>
+
+              <!-- Method List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+    <!-- <script type="module" src="./src/tabs.js"></script> -->
+    <script src="./src/app.js"></script>
+  </body>
+</html>
