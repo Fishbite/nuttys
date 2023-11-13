@@ -421,7 +421,7 @@ const gridContent = [
     imgSrc: "./images/cheesesauce/shop-bought-ingredients.jpg",
     imgTitle: "ingredients NOT included",
     imgAlt: "shop bought ingredients",
-    caption: "ingredient NOT included!",
+    caption: "ingredients NOT included!",
     page: ``,
   },
 
@@ -545,6 +545,20 @@ const gridContent = [
     caption: "chapati flat bread",
     page: `chapati`,
   },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "./images/egg-fried-rice/200/egg-fried-rice-cooked.webp",
+    imgTitle: "egg fried rice",
+    imgAlt: "egg fried rice",
+    caption: "egg fried rice",
+    page: `egg-fried-rice`,
+  },
+
   // ****** breads END ****** \\
 ];
 
