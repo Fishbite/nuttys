@@ -180,7 +180,16 @@ const gridContent = [
     page: `chickenlasagne`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "./images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg",
+    imgTitle: "sweet & sour chicken",
+    imgAlt: "spring onion added to sauce",
+    caption: "sweet & sour roast chicken",
+    page: `sweet-and-sour-roast-chicken`,
+  },
 
   {
     type: "recipe",
@@ -384,6 +393,7 @@ const gridContent = [
   },
 
   { type: "blank" },
+  { type: "blank" },
 
   {
     type: "recipe",
@@ -394,16 +404,6 @@ const gridContent = [
     imgAlt: "cauli cheese smoked hadock baked",
     caption: "cauli cheese & smoked haddock",
     page: `cauli-cheese-smoked-haddock-bake`,
-  },
-
-  {
-    type: "recipe",
-    cat: "vege' bakes",
-    imgSrc: "./images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
-    imgTitle: "tomato mexican rice",
-    imgAlt: "cooked rice in pan",
-    caption: "tomato mexican rice",
-    page: `tomatomexicanrice`,
   },
 
   // ****** vege END ****** \\
@@ -526,7 +526,15 @@ const gridContent = [
     text: `Indian dishes cry out for flat breads, however, most folks don't cook Naan breads at home, as they really need a clay Tandor oven, and that's a little overkill for most, including me! So we'll stick with breads that don't need that kind of heat here!`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "./images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
+    imgTitle: "tomato mexican rice",
+    imgAlt: "cooked rice in pan",
+    caption: "tomato mexican rice",
+    page: `tomatomexicanrice`,
+  },
 
   {
     type: "recipe",
