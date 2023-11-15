@@ -472,7 +472,49 @@ const gridContent = [
 
   // ****** sauce END ****** \\
 
-  // ****** puddings ****** \\
+  // ****** accompaniments START ****** \\
+  {
+    type: "category",
+    cat: "accompaniments",
+    text: `Indian dishes cry out for flat breads, however, most folks don't cook Naan breads at home, as they really need a clay Tandor oven, and that's a little overkill for most, including me! So we'll stick with breads that don't need that kind of heat here!`,
+  },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "./images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
+    imgTitle: "tomato mexican rice",
+    imgAlt: "cooked rice in pan",
+    caption: "tomato mexican rice",
+    page: `tomatomexicanrice`,
+  },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "./images/chapati/200/chapati-cooking-01.webp",
+    imgTitle: "chapati flat bread",
+    imgAlt: "chapati cooking",
+    caption: "chapati flat bread",
+    page: `chapati`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "./images/egg-fried-rice/200/egg-fried-rice-cooked.webp",
+    imgTitle: "egg fried rice",
+    imgAlt: "egg fried rice",
+    caption: "egg fried rice",
+    page: `egg-fried-rice`,
+  },
+
+  // ****** accompaniments END ****** \\
+
+  // ****** puddings START ****** \\
   {
     type: "category",
     cat: "puddings",
@@ -531,48 +573,6 @@ const gridContent = [
   },
 
   // ****** puddings END ****** \\
-
-  // ****** breads START ****** \\
-  {
-    type: "category",
-    cat: "accompaniments",
-    text: `Indian dishes cry out for flat breads, however, most folks don't cook Naan breads at home, as they really need a clay Tandor oven, and that's a little overkill for most, including me! So we'll stick with breads that don't need that kind of heat here!`,
-  },
-
-  {
-    type: "recipe",
-    cat: "accompaniments",
-    imgSrc: "./images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
-    imgTitle: "tomato mexican rice",
-    imgAlt: "cooked rice in pan",
-    caption: "tomato mexican rice",
-    page: `tomatomexicanrice`,
-  },
-
-  {
-    type: "recipe",
-    cat: "accompaniments",
-    imgSrc: "./images/chapati/200/chapati-cooking-01.webp",
-    imgTitle: "chapati flat bread",
-    imgAlt: "chapati cooking",
-    caption: "chapati flat bread",
-    page: `chapati`,
-  },
-
-  { type: "blank" },
-  { type: "blank" },
-
-  {
-    type: "recipe",
-    cat: "accompaniments",
-    imgSrc: "./images/egg-fried-rice/200/egg-fried-rice-cooked.webp",
-    imgTitle: "egg fried rice",
-    imgAlt: "egg fried rice",
-    caption: "egg fried rice",
-    page: `egg-fried-rice`,
-  },
-
-  // ****** breads END ****** \\
 ];
 
 // loop through the `gridContent` object
