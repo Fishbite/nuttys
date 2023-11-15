@@ -211,6 +211,19 @@ const gridContent = [
     page: `chickenmushroompie`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/chicken-and-gammon-pie/200/pie-cooked-trimmed-2.webp",
+    imgTitle: "chicken & gammon pie",
+    imgAlt: "pie cooked trimmed",
+    caption: "chicken & gammon pie",
+    page: `chicken-and-gammon-pie`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
