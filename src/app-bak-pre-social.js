@@ -71,8 +71,7 @@ function clickhandler(e) {
      We'll add this in a method of the class, but for now it works as is..
 */
 class MakeFooter {
-  constructor(social, email, list, ip) {
-    this.social = social;
+  constructor(email, list, ip) {
     this.email = email;
     this.ip = ip;
     this.list = list;
@@ -83,17 +82,9 @@ class MakeFooter {
   //   return document.body.appendChild(this.footer);
   // }
   render() {
-    return `<div class="social">
-    ${this.social}
-    <p>${this.email}</p>
-    </div> 
-    <ul>${this.list}</ul>
-    <p>${this.ip}</p>`;
+    return `<p>${this.email}</p> <ul>${this.list}</ul><p>${this.ip}</p>`;
   }
 }
-const social = `<a href="https://www.facebook.com/nutty.s.kitchen.co.uk" target="_blank" >
-    <img src="./images/facebook-circle.png" alt="facebook logo"  />
-  </a>`;
 
 const footerEmail = `<a href="mailto:nutty@nuttyskitchen.co.uk">email: nutty@nuttyskitchen.co.uk</a>`;
 /*
@@ -106,7 +97,7 @@ const footerEmail = `<a href="mailto:nutty@nuttyskitchen.co.uk">email: nutty@nut
 const footerList = `<li><a href="./contact-form.html">Contact Us</a></li><li><a href="https://www.ratufa.io/" target="_blank">ratufa.io</a></li><li><a href="https://icons8.com" target="_blank">icons by icons8</a></li>`;
 const footerIp = `copyright © fishbite 2023`;
 
-const footerContent = new MakeFooter(social, footerEmail, footerList, footerIp);
+const footerContent = new MakeFooter(footerEmail, footerList, footerIp);
 const footer = document.createElement("footer");
 document.body.appendChild(footer);
 footer.innerHTML = footerContent.render();
