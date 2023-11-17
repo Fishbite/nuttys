@@ -570,9 +570,9 @@ header a:visited {
   padding-bottom: 0.75rem;
 }
 
-/* ============
-   ** Footer **
-   ============
+/* =================
+   ** Footer START**
+   =================
 */
 
 footer {
@@ -619,7 +619,32 @@ footer a:hover {
   footer p {
     padding-top: 1rem;
   }
+
+  footer .social p {
+    margin-top: 1rem;
+  }
 }
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+.social img {
+  border: 2px solid var(--clr-grey-4);
+  border-radius: var(--radius-sml);
+  width: 32px;
+  margin: 0.75rem auto;
+}
+.social p {
+  margin-top: 1.75rem;
+}
+.social img:hover {
+  border-color: var(--clr-yellow-golden);
+}
+/* =================
+   ** Footer END**
+   =================
+*/
 
 /* =======================
    ** RECIPE GRID START **
