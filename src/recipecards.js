@@ -310,7 +310,7 @@ const gridContent = [
   {
     type: "category",
     cat: "pork",
-    text: `I tend to go for a shoulder cut, it has a lot more fat running through it, which keeps it moist, melt in your mouth tasty in any dish. Left over roast pork is particularly delicious as you have all those wonderful umami meatiness flavours baked right into the meat before you start.`,
+    text: `I tend to go for a shoulder cut, it has more fat, which keeps it moist, melt in your mouth tasty in any dish. Left over roast pork is particularly delicious as you have all those wonderful umami meatiness flavours baked right into the meat before you start. I'll put my gammon recipes here too until a later date.`,
   },
 
   {
@@ -334,7 +334,6 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
 
   {
     type: "recipe",
@@ -344,6 +343,17 @@ const gridContent = [
     imgAlt: "pork vindaloo simmering",
     caption: "roast pork vindaloo",
     page: `porkvindaloo`,
+  },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "./images/gammon-joint-and-mustard-sauce/650x366/gammon-slices-on-plate.webp",
+    imgTitle: "gammon slices on plate",
+    imgAlt: "gammon slices on plate",
+    caption: "gammon joint sliced",
+    page: `gammon-joint-with-mustard-sauce`,
   },
 
   // ****** pork END ****** \\
