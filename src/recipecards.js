@@ -340,9 +340,9 @@ const gridContent = [
     cat: "pork",
     imgSrc: "./images/porkvindaloo/200/pork-vindaloo-simmering.webp",
     imgTitle: "roast pork vindaloo",
-    imgAlt: "pork vindaloo simmering",
+    imgAlt: "roast pork vindaloo simmering",
     caption: "roast pork vindaloo",
-    page: `porkvindaloo`,
+    page: `roastporkvindaloo`,
   },
 
   {

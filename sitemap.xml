@@ -81,11 +81,6 @@
 		<lastmod>2023-11-17</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/porkvindaloo.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-11-17</lastmod>
-	</url>
-	<url>
 		<loc>https://www.nuttyskitchen.co.uk/porksupreme.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-11-17</lastmod>
@@ -224,5 +219,10 @@
 		<loc>https://www.nuttyskitchen.co.uk/sweet-and-sour-roast-chicken.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-11-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/roastporkvindaloo.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-11-19</lastmod>
 	</url>
 </urlset>
