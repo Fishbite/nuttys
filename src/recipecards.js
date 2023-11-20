@@ -333,7 +333,15 @@ const gridContent = [
     page: `bellyporkdinner`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc: "./images/pork-vindaloo-fresh/200/vindaloo-cooked-1.webp",
+    imgTitle: "pork vindaloo made with fresh pork",
+    imgAlt: "pork vindaloo cooked",
+    caption: "fresh pork vindaloo",
+    page: `pork-vindaloo`,
+  },
 
   {
     type: "recipe",
@@ -352,7 +360,7 @@ const gridContent = [
       "./images/gammon-joint-and-mustard-sauce/650x366/gammon-slices-on-plate.webp",
     imgTitle: "gammon slices on plate",
     imgAlt: "gammon slices on plate",
-    caption: "gammon joint sliced",
+    caption: "gammon joint & mustard sauce",
     page: `gammon-joint-with-mustard-sauce`,
   },
 
