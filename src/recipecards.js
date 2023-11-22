@@ -364,6 +364,20 @@ const gridContent = [
     page: `gammon-joint-with-mustard-sauce`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "./images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp",
+    imgTitle: "sweet and sour pork",
+    imgAlt: "sweet and sour pork cooked",
+    caption: "sweet and sour pork",
+    page: `sweet-and-sour-pork`,
+  },
+
   // ****** pork END ****** \\
 
   // ****** lamb ****** \\
