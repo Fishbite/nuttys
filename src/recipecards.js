@@ -127,7 +127,7 @@ const gridContent = [
   {
     type: "category",
     cat: "chicken",
-    text: `While contemplating cost, large packs of chicken thighs are excellent. Being time concious, if boneless chicken is required, I've bought it that way. If using chicken breast, cooking times will need to be reduced, so the chicken does not dry out while cooking`,
+    text: `While contemplating cost, large packs of chicken thighs are excellent. Being time concious, if boneless chicken is required, I've bought it that way. If using chicken breast, cooking times will need to be reduced, so the chicken does not dry out while cooking.`,
   },
 
   {
@@ -414,7 +414,7 @@ const gridContent = [
   {
     type: "category",
     cat: "vege' bakes",
-    text: `Vegetables! ...as you might have noticed, feature heavily in my recipies, hiding in amongst lots of meat. Here they are the star! You can try them on a "veg hater" and I wish you luck with that :¬) But, healthwise, we should eat more, it's a fact. Cooked well and treated with love, they are the star indeed`,
+    text: `Vegetables! ...as you might have noticed, feature heavily in my recipies, hiding in amongst lots of meat. Here they are the star! You can try them on a "veg hater" and I wish you luck with that :¬) But, healthwise, we should eat more, it's a fact. Cooked well and treated with love, they are the star indeed.`,
   },
 
   {
@@ -508,7 +508,7 @@ const gridContent = [
   {
     type: "category",
     cat: "accompaniments",
-    text: `What do I serve with the main star of my dish? Indian dishes cry out for flat breads, Chinese dishes needle for noodles, sausage and - has to be mash! So, every time I make a dish that really benefits from a specific side - I'll try and put it in here. Do shout out if you see something I've made that you would like me to put in here`,
+    text: `What do I serve with the main star of my dish? Indian dishes cry out for flat breads, Chinese dishes needle for noodles, sausage and - has to be mash! So, every time I make a dish that really benefits from a specific side - I'll try and put it in here. Do shout out if you would like me to put something here.`,
   },
 
   {
@@ -550,7 +550,7 @@ const gridContent = [
       "./images/chinese-noodles-with-beansprouts/200/stirfry-noodles.webp",
     imgTitle: "chinese noodles with beansprouts",
     imgAlt: "stirfry noodles",
-    caption: "chinese noodles with beansprouts",
+    caption: "noodles with beansprouts",
     page: `chinese-noodles-with-beansprouts`,
   },
 
