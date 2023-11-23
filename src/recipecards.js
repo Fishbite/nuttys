@@ -326,11 +326,12 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc: "./images/bellyporkdinner/200/belly-pork-plated.jpg",
-    imgTitle: "belly pork dinner",
-    imgAlt: "belly pork plated",
-    caption: "belly pork dinner",
-    page: `bellyporkdinner`,
+    imgSrc:
+      "./images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp",
+    imgTitle: "sweet and sour pork",
+    imgAlt: "sweet and sour pork cooked",
+    caption: "sweet and sour pork",
+    page: `sweet-and-sour-pork`,
   },
 
   {
@@ -357,11 +358,11 @@ const gridContent = [
     type: "recipe",
     cat: "pork",
     imgSrc:
-      "./images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp",
-    imgTitle: "sweet and sour pork",
-    imgAlt: "sweet and sour pork cooked",
-    caption: "sweet and sour pork",
-    page: `sweet-and-sour-pork`,
+      "./images/gammon-joint-and-mustard-sauce/650x366/gammon-slices-on-plate.webp",
+    imgTitle: "gammon slices on plate",
+    imgAlt: "gammon slices on plate",
+    caption: "gammon joint & mustard sauce",
+    page: `gammon-joint-with-mustard-sauce`,
   },
 
   { type: "blank" },
@@ -370,12 +371,11 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc:
-      "./images/gammon-joint-and-mustard-sauce/650x366/gammon-slices-on-plate.webp",
-    imgTitle: "gammon slices on plate",
-    imgAlt: "gammon slices on plate",
-    caption: "gammon joint & mustard sauce",
-    page: `gammon-joint-with-mustard-sauce`,
+    imgSrc: "./images/bellyporkdinner/200/belly-pork-plated.jpg",
+    imgTitle: "belly pork dinner",
+    imgAlt: "belly pork plated",
+    caption: "belly pork dinner",
+    page: `bellyporkdinner`,
   },
 
   // ****** pork END ****** \\
