@@ -401,7 +401,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "lamb",
-    imgSrc: "./images/lambmashpie/200/lamb-mash-pie-ready.jpg",
+    imgSrc: "./images/lambmashpie/200/lamb-mash-pie-ready.webp",
     imgTitle: "lamb & mash pie",
     imgAlt: "lamb mash-pie ready",
     caption: "lamb & mash pie",
