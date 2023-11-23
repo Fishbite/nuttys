@@ -508,7 +508,7 @@ const gridContent = [
   {
     type: "category",
     cat: "accompaniments",
-    text: `Indian dishes cry out for flat breads, however, most folks don't cook Naan breads at home, as they really need a clay Tandor oven, and that's a little overkill for most, including me! So we'll stick with breads that don't need that kind of heat here!`,
+    text: `What do I serve with the main star of my dish? Indian dishes cry out for flat breads, Chinese dishes needle for noodles, sausage and - has to be mash! So, every time I make a dish that really benefits from a specific side - I'll try and put it in here. Do shout out if you see something I've made that you would like me to put in here`,
   },
 
   {
@@ -532,7 +532,6 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
 
   {
     type: "recipe",
@@ -542,6 +541,17 @@ const gridContent = [
     imgAlt: "egg fried rice",
     caption: "egg fried rice",
     page: `egg-fried-rice`,
+  },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "./images/chinese-noodles-with-beansprouts/200/stirfry-noodles.webp",
+    imgTitle: "chinese noodles with beansprouts",
+    imgAlt: "stirfry noodles",
+    caption: "chinese noodles with beansprouts",
+    page: `chinese-noodles-with-beansprouts`,
   },
 
   // ****** accompaniments END ****** \\
