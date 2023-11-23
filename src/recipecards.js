@@ -371,7 +371,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc: "./images/bellyporkdinner/200/belly-pork-plated.jpg",
+    imgSrc: "./images/bellyporkdinner/200/dinner-plated.webp",
     imgTitle: "belly pork dinner",
     imgAlt: "belly pork plated",
     caption: "belly pork dinner",
