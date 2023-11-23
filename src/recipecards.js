@@ -373,7 +373,7 @@ const gridContent = [
     cat: "pork",
     imgSrc: "./images/bellyporkdinner/200/dinner-plated.webp",
     imgTitle: "belly pork dinner",
-    imgAlt: "belly pork plated",
+    imgAlt: "dinner plated",
     caption: "belly pork dinner",
     page: `bellyporkdinner`,
   },
