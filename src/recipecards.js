@@ -357,6 +357,18 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
+    imgSrc: "../images/pork-madras/200/pork-madras-curry-finished.webp",
+    imgTitle: "pork madras curry",
+    imgAlt: "pork madras curry",
+    caption: "pork madras curry",
+    page: `pork-madras`,
+  },
+
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
     imgSrc:
       "./images/gammon-joint-and-mustard-sauce/650x366/gammon-slices-on-plate.webp",
     imgTitle: "gammon slices on plate",
@@ -364,9 +376,6 @@ const gridContent = [
     caption: "gammon joint & mustard sauce",
     page: `gammon-joint-with-mustard-sauce`,
   },
-
-  { type: "blank" },
-  { type: "blank" },
 
   {
     type: "recipe",
