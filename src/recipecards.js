@@ -106,7 +106,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages",
-    imgSrc: "./images/sausagepepperpie/200/sausagepeppermashpie-01.jpg",
+    imgSrc: "./images/sausagepepperpie/200/sausagepeppermashpie-01.webp",
     imgTitle: "sausage pepper mash pie",
     imgAlt: "sausage peppermash pie",
     caption: "sausage & pepper mash pie",
@@ -283,7 +283,15 @@ const gridContent = [
     page: `beefporkpastabake`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "./images/cottage-pie/200/cottage-pie-cooked-2.jpg",
+    imgTitle: "cottage pie in square serving dish",
+    imgAlt: "cottage pie cooked 1",
+    caption: "cottage pie",
+    page: `cottage-pie`,
+  },
 
   {
     type: "recipe",
@@ -304,6 +312,21 @@ const gridContent = [
     caption: "beefy meatballs in onion gravy",
     page: `beefy-meatballs-onion-gravy`,
   },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "./images/beef-mushroom-suet-pie/200/pie-and-broccoli-plated-2.webp",
+    imgTitle: "beef and mushroom suet pastry pie & boccoli",
+    imgAlt: "pie and broccoli plated 2",
+    caption: "beef and mushroom suet pastry pie",
+    page: `beef-and-mushroom-suet-pastry-pie`,
+  },
+
   // ****** beef END ****** \\
 
   // ****** pork ****** \\
