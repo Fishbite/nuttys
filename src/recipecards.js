@@ -314,7 +314,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "./images/beef-curry-with-green-beans/200/beef-curry-with-green-beans-1.jpg",
+    imgTitle: "beef curry with green beans in a pan",
+    imgAlt: "beef curry with green beans 1",
+    caption: "beef curry with green beans",
+    page: `beef-curry-with-green-beans`,
+  },
 
   {
     type: "recipe",
@@ -563,8 +573,6 @@ const gridContent = [
     page: `chapati`,
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "accompaniments",
@@ -584,6 +592,16 @@ const gridContent = [
     imgAlt: "stirfry noodles",
     caption: "noodles with beansprouts",
     page: `chinese-noodles-with-beansprouts`,
+  },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "./images/basmati-rice/200/basmati-rice-2.webp",
+    imgTitle: "cooked basmati rice in a bowl",
+    imgAlt: "basmati rice 2",
+    caption: "basmati rice",
+    page: `basmati-rice`,
   },
 
   // ****** accompaniments END ****** \\
