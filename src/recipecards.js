@@ -653,7 +653,7 @@ const gridContent = [
     type: "recipe",
     cat: "puddings",
     imgSrc: "./images/victoria-sponge-cake/200/victoria-sponge-slice.webp",
-    imgTitle: "a slice of victoria spnge cake",
+    imgTitle: "a slice of victoria sponge cake",
     imgAlt: "victoria sponge slice",
     caption: "victoria sponge cake",
     page: `victoria-sponge-cake`,
