@@ -128,7 +128,7 @@ function toggleClass(e) {
 }
 
 const navContent = {
-  "index.html": "Welcome To Nutty's",
+  "": "Welcome To Nutty's",
   "recipepage.html": "Nutty's Recipies",
   "recipepage.html#sausages": "Sausage Chopin'",
   "recipepage.html#chicken": "Chicken Lickin'",
@@ -162,7 +162,8 @@ function navMenu(navContent) {
   // loop through the object holding `HTML` file names & menu titles
   for (let prop in navContent) {
     tmp = navList.concat(
-      `<li> <a href="./${prop}">${navContent[prop]}</a> </li>`
+      `<li> <a href="./${prop}">${navContent[prop]}</a> </li>`,
+      console.log(tmp)
     );
 
     // copy tmp to `navList`
