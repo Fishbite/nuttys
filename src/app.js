@@ -128,7 +128,7 @@ function toggleClass(e) {
 }
 
 const navContent = {
-  "": "Welcome To Nutty's",
+  "": "Welcome To Nutty's", //NB: link to root:- www.nuttyskitchen.co.uk
   "recipepage.html": "Nutty's Recipies",
   "recipepage.html#sausages": "Sausage Chopin'",
   "recipepage.html#chicken": "Chicken Lickin'",
@@ -161,8 +161,9 @@ function navMenu(navContent) {
 
   // loop through the object holding `HTML` file names & menu titles
   for (let prop in navContent) {
+    // note root reltive path ( href="/") used for SEO reasons
     tmp = navList.concat(
-      `<li> <a href="./${prop}">${navContent[prop]}</a> </li>`
+      `<li> <a href="/${prop}">${navContent[prop]}</a> </li>`
     );
 
     // copy tmp to `navList`
