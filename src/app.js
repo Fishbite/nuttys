@@ -162,8 +162,7 @@ function navMenu(navContent) {
   // loop through the object holding `HTML` file names & menu titles
   for (let prop in navContent) {
     tmp = navList.concat(
-      `<li> <a href="./${prop}">${navContent[prop]}</a> </li>`,
-      console.log(tmp)
+      `<li> <a href="./${prop}">${navContent[prop]}</a> </li>`
     );
 
     // copy tmp to `navList`
