@@ -698,8 +698,4 @@ const gridContent = [
 gridContent.forEach(function (card) {
   const el = new GridEntry(card);
   el.render();
-
-  if (el.cat === "sauce" && el.type === "recipe") {
-    console.log(el);
-  }
 });
