@@ -204,15 +204,25 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
+    imgSrc:
+      "/images/chicken-thighs-in-spicey-hot-sauce/650x366/lemon-garlic-ginger-added.webp",
+    imgTitle: "chicken thighs in spicy hot sauce",
+    imgAlt: "lemon garlic ginger added",
+    caption: "chicken thighs in spicy hot sauce",
+    page: `chicken-thighs-in-spicy-hot-sauce`,
+  },
+
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
     imgSrc: "./images/chickenmushroompie/200/chicken-pie-cooked-01.jpg",
     imgTitle: "chicken & mushroom pie",
     imgAlt: "chicken pie cooked",
     caption: "chicken & mushroom pie",
     page: `chickenmushroompie`,
   },
-
-  { type: "blank" },
-  { type: "blank" },
 
   {
     type: "recipe",
