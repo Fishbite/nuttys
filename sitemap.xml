@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-12-07</lastmod>
+		<lastmod>2023-12-11</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/beef-curry-with-green-beans.html</loc>
@@ -274,5 +274,10 @@
 		<loc>https://www.nuttyskitchen.co.uk/lamb-curry-with-spinach.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-12-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-thighs-in-hot-spicy-sauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-12-11</lastmod>
 	</url>
 </urlset>
