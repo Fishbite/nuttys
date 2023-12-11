@@ -205,7 +205,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/chicken-thighs-in-spicey-hot-sauce/650x366/lemon-garlic-ginger-added.webp",
+      "/images/chicken-thighs-in-spicey-hot-sauce/200/chicken-thighs-in-spicy-hot-sauce.webp",
     imgTitle: "chicken thighs in spicy hot sauce",
     imgAlt: "lemon garlic ginger added",
     caption: "chicken thighs in spicy hot sauce",
