@@ -205,14 +205,23 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/chicken-thighs-in-spicey-hot-sauce/650x366/lemon-garlic-ginger-added.webp",
+      "/images/chicken-thighs-in-spicey-hot-sauce/200/chicken-thighs-in-spicy-hot-sauce.webp",
     imgTitle: "chicken thighs in spicy hot sauce",
     imgAlt: "lemon garlic ginger added",
     caption: "chicken thighs in spicy hot sauce",
     page: `chicken-thighs-in-spicy-hot-sauce`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/karahi-chicken-curry.html/650x366/corriander-added-to-karahi-chicken-curry.webp",
+    imgTitle: "corriander added to finish the karahi chicken curry",
+    imgAlt: "corriander added to karahi chicken curry",
+    caption: "karahi chicken curry",
+    page: `karahi-chicken-curry`,
+  },
 
   {
     type: "recipe",
