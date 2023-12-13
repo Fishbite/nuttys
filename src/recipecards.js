@@ -416,15 +416,23 @@ const gridContent = [
     page: `pork-madras`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc: "/images/roast-pork-stroganoff/200/pork-stroganoff-plated-3.jpg",
+    imgTitle: "roast pork stroganoff plated with sweet root mash & brocolli",
+    imgAlt: "pork stroganoff plated 3",
+    caption: "roast pork stroganoff",
+    page: `roast-pork-stroganoff`,
+  },
 
   {
     type: "recipe",
     cat: "pork",
     imgSrc:
-      "./images/gammon-joint-and-mustard-sauce/650x366/gammon-slices-on-plate.webp",
-    imgTitle: "gammon slices on plate",
-    imgAlt: "gammon slices on plate",
+      "./images/gammon-joint-and-mustard-sauce/200/gammon-dinner-plated-1.webp",
+    imgTitle: "gammmon with mustard sauce, creamy mash & roast cauliflower",
+    imgAlt: "gammon dinner plated 1",
     caption: "gammon joint & mustard sauce",
     page: `gammon-joint-with-mustard-sauce`,
   },
@@ -629,11 +637,24 @@ const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc: "./images/basmati-rice/200/basmati-rice-2.webp",
+    imgSrc: "/images/basmati-rice/200/basmati-rice-2.webp",
     imgTitle: "cooked basmati rice in a bowl",
     imgAlt: "basmati rice 2",
     caption: "basmati rice",
     page: `basmati-rice`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/mashed-roots/650x366/swede-carrot-potato-mash-1.webp",
+    imgTitle: "mashed roots side dish",
+    imgAlt: "swede carrot potato mash 1",
+    caption: "mashed roots",
+    page: `mashed-roots`,
   },
 
   // ****** accompaniments END ****** \\
