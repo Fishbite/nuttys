@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-12-11</lastmod>
+		<lastmod>2023-12-20</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/roast-pork-stroganoff.html</loc>
@@ -13,7 +13,12 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/mashed-roots.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-12-13</lastmod>
+		<lastmod>2023-12-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/pork-fried-rice.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/beef-curry-with-green-beans.html</loc>
@@ -283,7 +288,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/lamb-curry-with-spinach.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-12-07</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chicken-thighs-in-spicy-hot-sauce.html</loc>
@@ -293,7 +298,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/karahi-chicken-curry.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-12-12</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/images/karahi-chicken-curry.html</loc>
