@@ -520,7 +520,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "vege' bakes",
+    imgSrc: "./images/macaroni-pie/200/macaroni-pie-baked.webp",
+    imgTitle: "macaroni pie baked in the oven",
+    imgAlt: "macaroni pie baked",
+    caption: "baked macaroni pie",
+    page: `macaroni-pie`,
+  },
 
   {
     type: "recipe",
