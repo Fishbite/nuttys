@@ -3,7 +3,12 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-02-04</lastmod>
+		<lastmod>2024-02-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/dodgy-kebab.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-02-11</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/pork-blackbean-sauce-and-peppers.html</loc>

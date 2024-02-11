@@ -478,7 +478,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc: "/images/dodgy-kebab/200/kebab-closed-with-salad-2.webp",
+    imgTitle: "Dodgy Kebab! with salad on the side",
+    imgAlt: "kebab closed with salad",
+    caption: "my dodgy kebab",
+    page: `dodgy-kebab`,
+  },
 
   {
     type: "recipe",
