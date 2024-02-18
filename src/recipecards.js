@@ -663,7 +663,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/tarka-dhal/200/tarka-dhal-finished.webp",
+    imgTitle: "tarka dhal",
+    imgAlt: "tarka-dhal",
+    caption: "tarka dhal",
+    page: `tarka-dhal`,
+  },
 
   {
     type: "recipe",
