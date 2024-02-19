@@ -662,15 +662,7 @@ const gridContent = [
     page: `basmati-rice`,
   },
 
-  {
-    type: "recipe",
-    cat: "accompaniments",
-    imgSrc: "/images/dodgy-kebab/200/kebab-closed-with-salad-2.webp",
-    imgTitle: "nuttys dodgy kebab closed with salad",
-    imgAlt: "dodgy kebab closed with salad 2",
-    caption: "dodgy kebab",
-    page: `dodgy-kebab`,
-  },
+  { type: "blank" },
 
   {
     type: "recipe",
