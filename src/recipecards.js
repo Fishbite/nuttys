@@ -244,7 +244,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/jerk-chicken/200/jerk-chicken-plated.webp",
+    imgTitle: "jerk chicken stacked on a plate ready to serve",
+    imgAlt: "jerk chicken plated",
+    caption: "jerk chicken",
+    page: `jerk-chicken`,
+  },
+
   {
     type: "recipe",
     cat: "chicken",
