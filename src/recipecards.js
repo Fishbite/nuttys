@@ -243,6 +243,19 @@ const gridContent = [
     page: `chicken-and-gammon-pie`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/spicy-masala-chicken/200/spicy-masala-chicken-tarka-dhal-naan-plated.webp",
+    imgTitle: "spicy masala chicken served with tarka dhal and naan bread",
+    imgAlt: "spicy  masala chicken tarka dhal naan plated",
+    caption: "spicy masala chicken",
+    page: `spicy-masala-chicken`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
