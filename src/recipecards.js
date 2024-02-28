@@ -243,8 +243,6 @@ const gridContent = [
     page: `chicken-and-gammon-pie`,
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "chicken",
@@ -264,6 +262,16 @@ const gridContent = [
     imgAlt: "spicy  masala chicken tarka dhal naan plated",
     caption: "spicy masala chicken",
     page: `spicy-masala-chicken`,
+  },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/balti-butter-chicken/200/balti-butter-chicken-cooked.webp",
+    imgTitle: "balti butter chicken in serving dish",
+    imgAlt: "balti butter chicken cooked",
+    caption: "balti butter chicken",
+    page: `balti-butter-chicken`,
   },
 
   // ****** chicken END ****** \\
