@@ -715,7 +715,15 @@ const gridContent = [
     page: `basmati-rice`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/dhal-fried-spices/200/dhal-with-fried-spices-in-dish.webp",
+    imgTitle: "dhal with fried spices served in a dish",
+    imgAlt: "dhal with fried spices in dish",
+    caption: "dhal with fried spices",
+    page: `dhal-with-fried-spices`,
+  },
 
   {
     type: "recipe",
