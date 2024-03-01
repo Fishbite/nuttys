@@ -478,7 +478,15 @@ const gridContent = [
     page: `bellyporkdinner`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc: "/images/pork-chilli/200/pork-chilli-served.webp",
+    imgTitle: "pork chilli served with a pitta bread",
+    imgAlt: "pork chilli served",
+    caption: "pork chilli",
+    page: `pork-chilli`,
+  },
 
   {
     type: "recipe",
