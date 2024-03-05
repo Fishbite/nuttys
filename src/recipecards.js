@@ -814,7 +814,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc: "/images/chocolate-cake/200/chocolate-cake-01.webp",
+    imgTitle:
+      "chocolate cake with butter cream and fruit & nut chocolate bar topping",
+    imgAlt: "chocolate cake",
+    caption: "chocolate cake",
+    page: `chocolate-cake`,
+  },
 
   {
     type: "recipe",
