@@ -572,7 +572,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "vege' bakes",
-    imgSrc: "./images/caulicheese/200/cauli-cheese-ready-02.jpg",
+    imgSrc: "/images/caulicheese/200/cauli-cheese-ready-02.jpg",
     imgTitle: "cauliflower cheese & beans bake",
     imgAlt: "cauli cheese ready",
     caption: "cauliflower cheese & beans bake",
@@ -582,19 +582,28 @@ const gridContent = [
   {
     type: "recipe",
     cat: "vege' bakes",
-    imgSrc: "./images/caulifrankcheese/200/meal-cooked-01.jpg",
+    imgSrc: "/images/caulifrankcheese/200/meal-cooked-01.jpg",
     imgTitle: "cauliflower cheese & frankfurter bake",
     imgAlt: "meal cooked",
     caption: "cauliflower cheese & frankfurter bake",
     page: `caulifrankcheese`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "vege' bakes",
+    imgSrc:
+      "/images/vegetarian-chilli/200/vegetarian-chilli-and-buttered-bread-03.webp",
+    imgTitle: "vegetarian-chilli and buttered bread",
+    imgAlt: "vegetarian-chilli and buttered bread",
+    caption: "vegetarian-chilli",
+    page: `vegetarian-chilli`,
+  },
 
   {
     type: "recipe",
     cat: "vege' bakes",
-    imgSrc: "./images/macaroni-pie/200/macaroni-pie-baked.webp",
+    imgSrc: "/images/macaroni-pie/200/macaroni-pie-baked.webp",
     imgTitle: "macaroni pie baked in the oven",
     imgAlt: "macaroni pie baked",
     caption: "baked macaroni pie",
@@ -605,7 +614,7 @@ const gridContent = [
     type: "recipe",
     cat: "vege' bakes",
     imgSrc:
-      "./images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked.webp",
+      "/images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked.webp",
     imgTitle: "cauliflower cheese smoked haddock bake",
     imgAlt: "cauli cheese smoked hadock baked",
     caption: "cauli cheese & smoked haddock",
