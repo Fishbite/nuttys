@@ -274,6 +274,20 @@ const gridContent = [
     page: `balti-butter-chicken`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/tandoori-chicken/200/cooked-tandori-chicken-on-plate-02.webp",
+    imgTitle: "tandoori chicken on plate ready to serve",
+    imgAlt: "cooked tandoori chicken on plate 02",
+    caption: "classic tandoori chicken",
+    page: `tandoori-chicken`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
