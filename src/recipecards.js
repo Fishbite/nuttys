@@ -98,9 +98,15 @@ const gridContent = [
     page: `sausagepasta`,
   },
 
-  //   use this to add an empty div
   {
-    type: "blank",
+    type: "recipe",
+    cat: "sausages",
+    imgSrc:
+      "images/sausage-pasta-sauce/200/sausage-pasta-sauce-and-fusilli.webp",
+    imgTitle: "sausage pasta sauce topped with cheese",
+    imgAlt: "sausage pasta sauce and fusilli",
+    caption: "sausage pasta sauce",
+    page: `sausage-pasta-sauce`,
   },
 
   {
