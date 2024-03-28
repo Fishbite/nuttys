@@ -383,7 +383,15 @@ const gridContent = [
     page: `beefy-meatballs-onion-gravy`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "/images/braised-steak/200/braised-steak-mash-and-broccoli.webp",
+    imgTitle: "mum's braised steak & mash",
+    imgAlt: "braised steak mash and broccoli",
+    caption: "mum's braised steak & mash",
+    page: `mums-braised-steak`,
+  },
 
   {
     type: "recipe",
