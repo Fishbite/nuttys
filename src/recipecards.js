@@ -803,6 +803,19 @@ const gridContent = [
     page: `mashed-roots`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/rice-and-peas/200/rice-and-peas-in-bowl-01.webp",
+    imgTitle: "jamaican rice & Peas",
+    imgAlt: "jamaican rice and Peas in a bowl",
+    caption: "jamaican rice & peas",
+    page: `jamaican-rice-and-peas`,
+  },
+
   // ****** accompaniments END ****** \\
 
   // ****** puddings START ****** \\
