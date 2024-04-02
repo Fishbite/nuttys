@@ -536,6 +536,19 @@ const gridContent = [
     page: `porksupreme`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc: "/images/jerked-pork-curry/200/jerked-pork-rice-and-peas-01.webp",
+    imgTitle: "jerked pork curry rice and peas",
+    imgAlt: "jerked pork rice and peas 01",
+    caption: "jerked pork curry",
+    page: `jerked-pork-curry`,
+  },
+
   // ****** pork END ****** \\
 
   // ****** lamb ****** \\
