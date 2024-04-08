@@ -662,9 +662,22 @@ const gridContent = [
     page: `cauli-cheese-smoked-haddock-bake`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "vege' bakes",
+    imgSrc: "/images/fish-pie/200/fish-pie-baked-02.webp",
+    imgTitle: "mum's fish pie",
+    imgAlt: "fish pie baked 02",
+    caption: "mum's fish pie",
+    page: `fish-pie`,
+  },
+
   // ****** vege END ****** \\
 
-  // ****** sauce ****** \\
+  // ****** sauce START ****** \\
   {
     type: "category",
     cat: "sauce",
