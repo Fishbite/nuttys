@@ -606,13 +606,13 @@ const gridContent = [
   // ****** vege ****** \\
   {
     type: "category",
-    cat: "vege' bakes",
-    text: `Vegetables! ...as you might have noticed, feature heavily in my recipies, hiding in amongst lots of meat. Here they are the star! You can try them on a "veg hater" and I wish you luck with that :¬) But, healthwise, we should eat more, it's a fact. Cooked well and treated with love, they are the star indeed.`,
+    cat: "fish & veg",
+    text: `Vegetables! ...as you might have noticed, feature heavily in my recipies, hiding in amongst lots of meat. Here they are the star! You can try them on a "veg hater" and I wish you luck with that :¬) But, healthwise, we should eat more, it's a fact. And, as a replacement for meat, you can't go wrong with a bit of fish!`,
   },
 
   {
     type: "recipe",
-    cat: "vege' bakes",
+    cat: "fish & veg",
     imgSrc: "/images/caulicheese/200/cauli-cheese-ready-02.jpg",
     imgTitle: "cauliflower cheese & beans bake",
     imgAlt: "cauli cheese ready",
@@ -622,7 +622,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "vege' bakes",
+    cat: "fish & veg",
     imgSrc: "/images/caulifrankcheese/200/meal-cooked-01.jpg",
     imgTitle: "cauliflower cheese & frankfurter bake",
     imgAlt: "meal cooked",
@@ -632,7 +632,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "vege' bakes",
+    cat: "fish & veg",
     imgSrc:
       "/images/vegetarian-chilli/200/vegetarian-chilli-and-buttered-bread-03.webp",
     imgTitle: "vegetarian-chilli and buttered bread",
@@ -643,7 +643,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "vege' bakes",
+    cat: "fish & veg",
     imgSrc: "/images/macaroni-pie/200/macaroni-pie-baked.webp",
     imgTitle: "macaroni pie baked in the oven",
     imgAlt: "macaroni pie baked",
@@ -653,7 +653,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "vege' bakes",
+    cat: "fish & veg",
     imgSrc:
       "/images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked.webp",
     imgTitle: "cauliflower cheese smoked haddock bake",
@@ -667,7 +667,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "vege' bakes",
+    cat: "fish & veg",
     imgSrc: "/images/fish-pie/200/fish-pie-baked-02.webp",
     imgTitle: "mum's fish pie",
     imgAlt: "fish pie baked 02",
