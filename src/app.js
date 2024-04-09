@@ -135,7 +135,7 @@ const navContent = {
   "recipepage.html#beef": "Beef Bangin'",
   "recipepage.html#pork": "Pork Packin'",
   "recipepage.html#lamb": "Lamb Huggin'",
-  "recipepage.html#fish & veg": "Fish 'n' Veg' Bakin'",
+  "recipepage.html#fish & veg": "Fish & Veg' Bakin'",
   "recipepage.html#sauce": "Saucey Basics",
   "recipepage.html#accompaniments": "Accompaniments",
   "recipepage.html#puddings": "Puddin' Passion",
