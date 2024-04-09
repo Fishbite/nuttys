@@ -913,8 +913,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc:
-      "/images/steamed-sponge-pudding/650x366/steamed-pudding-sliced.webp",
+    imgSrc: "/images/steamed-sponge-pudding/200/steamed-pudding-sliced.webp",
     imgTitle: "sliced steamed sponge pudding with jam topping",
     imgAlt: "steamed pudding sliced",
     caption: "steamed sponge pudding",
