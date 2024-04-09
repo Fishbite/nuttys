@@ -889,8 +889,6 @@ const gridContent = [
     page: `blackcherrypie`,
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "puddings",
@@ -910,6 +908,17 @@ const gridContent = [
     imgAlt: "victoria sponge slice",
     caption: "victoria sponge cake",
     page: `victoria-sponge-cake`,
+  },
+
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc:
+      "/images/steamed-sponge-pudding/650x366/steamed-pudding-sliced.webp",
+    imgTitle: "sliced steamed sponge pudding with jam topping",
+    imgAlt: "steamed pudding sliced",
+    caption: "steamed sponge pudding",
+    page: `steamed-sponge-pudding`,
   },
 
   // ****** puddings END ****** \\
