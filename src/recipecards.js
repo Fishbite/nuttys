@@ -663,7 +663,18 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/smoked-haddock-in-cheese-sauce/200/smoked-haddock-in-cheese-sauce-plated.webp",
+    imgTitle:
+      "smoked haddock in cheese sauce served with mashed potatoes and warm buttered baguette",
+    imgAlt: "smoked haddock in cheese sauce plated",
+    caption: "smoked haddock in cheese sauce",
+    page: `smoked-haddock-in-cheese-sauce`,
+  },
 
   {
     type: "recipe",
