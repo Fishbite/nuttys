@@ -281,7 +281,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chipotle-chicken-burrito/200/chipotle-chicken-chilli-burrito.webp",
+    imgTitle: "chipotle chicken burrito served with cheese and lettuce",
+    imgAlt: "chipotle chicken chilli burrito",
+    caption: "chipotle chicken burrito",
+    page: `chipotle-chicken-burrito`,
+  },
 
   {
     type: "recipe",
