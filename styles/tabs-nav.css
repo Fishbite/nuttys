@@ -475,9 +475,9 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   border-radius: 0 4px 4px 0;
 }
 
-/* ============
-   ** Recipe Method Specific Styles **
-   ============
+/* ====================================
+   ** Recipe Method Specific Styles START **
+   ====================================
 */
 /* .recipe-links li {
   color: var(--clr-grey-4);
@@ -486,6 +486,17 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
 .recipe-links a:visited {
   color: var(--clr-grey-4);
 } */
+
+/* space the list elements to make them more easily
+   readable when  */
+.spaced-ol-list ol > li:not(:last-child) {
+  padding-bottom: 1rem;
+}
+
+/* ====================================
+   ** Recipe Method Specific Styles END **
+   ====================================
+*/
 
 /* ============
    ** Header **

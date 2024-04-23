@@ -572,7 +572,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "lamb",
-    imgSrc: "./images/lambpeasmintcurry/200/curry-in-pan.webp",
+    imgSrc: "/images/lambpeasmintcurry/200/curry-in-pan.webp",
     imgTitle: "lamb peas & mint curry",
     imgAlt: "curry in pan",
     caption: "lamb peas & mint curry",
@@ -582,14 +582,22 @@ const gridContent = [
   {
     type: "recipe",
     cat: "lamb",
-    imgSrc: "./images/lambmashpie/200/lamb-mash-pie-ready.webp",
+    imgSrc: "/images/lambmashpie/200/lamb-mash-pie-ready.webp",
     imgTitle: "lamb & mash pie",
     imgAlt: "lamb mash-pie ready",
     caption: "lamb & mash pie",
     page: `lambmashpie`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc: "/images/lamb-kofta-curry/200/lamb-kofta-curry-and-rice.webp",
+    imgTitle: "lamb kofta curry served with basmati rice",
+    imgAlt: "lamb kofta curry and rice",
+    caption: "lamb kofta curry",
+    page: `lamb-kofta-curry`,
+  },
 
   {
     type: "recipe",
