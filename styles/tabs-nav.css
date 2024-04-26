@@ -99,7 +99,7 @@ ol {
 a {
   text-decoration: none;
 }
-img:not(.logo) {
+img:not(.logo, .overlay_image) {
   width: 100%;
 }
 img {
@@ -364,6 +364,18 @@ p {
   object-fit: cover;
   border: 2px solid var(--clr-grey-8);
   border-radius: 50%;
+}
+
+.image_container {
+  position: relative;
+}
+
+.overlay_image {
+  position: absolute;
+  width: 30%;
+  rotate: 45deg;
+  right: -10%;
+  top: 5%;
 }
 
 .spacer {
