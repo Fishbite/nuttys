@@ -1,0 +1,9 @@
+.fg {
+  background-color: #837960;
+  background-image: linear-gradient(
+      rgba(241, 245, 248, 1),
+      rgba(241, 245, 248, 0.25)
+    ),
+    url("/images/icons/veg.png");
+  background-color: rgba(92, 71, 25, 1);
+}
