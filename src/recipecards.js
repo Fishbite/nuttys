@@ -680,7 +680,15 @@ const gridContent = [
     page: `cauli-cheese-smoked-haddock-bake`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc: "/images/aloo-gobi/650x366/aloo-gobi-plated.webp",
+    imgTitle: "aloo gobi on a plate",
+    imgAlt: "aloo gobi plated",
+    caption: "aloo gobi",
+    page: `aloo-gobi`,
+  },
 
   {
     type: "recipe",
