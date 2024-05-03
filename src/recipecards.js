@@ -673,9 +673,9 @@ const gridContent = [
     type: "recipe",
     cat: "fish & veg",
     imgSrc:
-      "/images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked.webp",
+      "/images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked-02.webp",
     imgTitle: "cauliflower cheese smoked haddock bake",
-    imgAlt: "cauli cheese smoked hadock baked",
+    imgAlt: "cauli cheese smoked hadock baked 01",
     caption: "cauli cheese & smoked haddock",
     page: `cauli-cheese-smoked-haddock-bake`,
   },
