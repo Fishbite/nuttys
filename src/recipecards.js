@@ -741,7 +741,15 @@ const gridContent = [
     page: `whitesauce`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "sauce",
+    imgSrc: "/images/parsley-sauce/200/parsley-sauce.webp",
+    imgTitle: "probably the best home-made parsley in the world!",
+    imgAlt: "parsley sauce",
+    caption: "parsley sauce",
+    page: `parsley-sauce`,
+  },
 
   {
     type: "recipe",
