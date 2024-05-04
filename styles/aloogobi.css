@@ -1,10 +1,20 @@
+:root {
+  /* background images */
+  --bg-img: url("/images/blank.svg");
+
+  --bg-size: 32px; /* background size*/
+
+  --bg-1st-col-stop: 25%; /* */
+}
+
 .fg {
   /* background-color: #837960; */
   background-image: linear-gradient(
-      rgba(241, 245, 248, 1) 25%,
+      rgba(241, 245, 248, 1) var(--bg-1st-col-stop),
       hsla(209, 28%, 39%, 0.25)
     ),
-    url("/images/icons/veg.png");
+    var(--bg-img);
+  background-size: var(--bg-size);
   /* background-color: rgba(92, 71, 25, 1); */
   background-color: hsl(209, 28%, 39%);
 }
