@@ -712,6 +712,19 @@ const gridContent = [
     page: `fish-pie`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc: "/images/cauli-curry/200/cauliflower-curry-in-a-pan-01.webp",
+    imgTitle: "cauliflower curry finished cooking in a pan",
+    imgAlt: "cauliflower curry in a pan",
+    caption: "cauliflower curry",
+    page: `cauliflower-curry`,
+  },
+
   // ****** vege END ****** \\
 
   // ****** sauce START ****** \\
