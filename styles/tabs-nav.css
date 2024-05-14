@@ -468,17 +468,22 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   width: 35px;
   height: 5px;
   background-color: var(--clr-grey-4);
+  border: 1px solid white;
   margin: 2.5px 0;
   transition: var(--trans);
 }
 .x .bar1 {
   transform: translate(0, 10px) rotate(405deg);
+  /* background-color: rgb(218, 0, 0); */
+  border: none;
 }
 .x .bar2 {
   opacity: 0;
 }
 .x .bar3 {
   transform: translate(0, -10px) rotate(-405deg);
+  /* background-color: rgb(218, 0, 0); */
+  border: none;
 }
 .left {
   left: 0;
