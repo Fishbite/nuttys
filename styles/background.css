@@ -17,4 +17,5 @@
   background-size: var(--bg-size);
   /* background-color: rgba(92, 71, 25, 1); */
   background-color: hsl(209, 28%, 39%);
+  padding-bottom: 2rem;
 }

@@ -4,8 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <title>Tabs</title>
 
+    <!-- *********************FACEBOOK START******************** -->
+    <!-- facebook meta tags to ensure correct image / page is shared START-->
+
+    <!-- set the URL that you want Facebook to point in this tag -->
+    <meta
+      property="og:url"
+      content="https://www.nuttyskitchen.co.uk/cauliflower-curry.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cauliflower Curry" />
+
+    <!-- set a very short description of the page in this tag -->
+    <meta
+      property="og:description"
+      content="Cauliflower Curry, a delicate, not too spicy curry in a creamy coconut sauce"
+    />
+
+    <!-- set the image that you want Facebook to display in this tag-->
+    <meta
+      property="og:image"
+      content="https://www.nuttyskitchen.co.uk/images/cauli-curry/650x366/cauliflower-curry-in-a-pan-01.webp"
+    />
+    <!-- facebook meta tags to ensure correct image / page is shared END-->
+    <!-- *********************FACEBOOK END********************* -->
+
+    <!-- Set the webpage title here - it shows up in the browser tab -->
+    <title>A Recipe | Nutty's Kitchen</title>
+
+    <!--set the image that shows in the browser tabs -->
+    <link rel="icon" href="favicon.svg" />
+
+    <!-- Pre-load the font used on the website: "Poppins" -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,36 +44,56 @@
       rel="stylesheet"
     />
 
-    <!-- styles -->
-    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+    <!-- load the CSS stylesheets here -->
+    <link rel="stylesheet" href="/styles/tabs-nav.css" />
+    <link rel="stylesheet" href="/styles/background.css" />
+
+    <style>
+      :root {
+        /* set the background image */
+        --bg-img: url("/images/icons/blank.svg");
+
+        /* set the background size */
+        --bg-size: 32px;
+
+        /* set the start of the 2nd colour of the gradient */
+        --bg-1st-col-stop: 25%;
+      }
+    </style>
   </head>
   <body>
     <!-- NAVIGATION -->
+    <!-- 
+        this container must be here for the JavaScript program
+        to create the menu in
+    -->
     <div id="nav-container" class="nav-container"></div>
     <!-- NAVIGATION -->
 
-    <section>
+    <section class="fg">
       <header class="title">
         <div class="title-wrap">
           <img
             width="60"
             height="32"
-            src="./images/logo-left.svg"
+            src="/images/logo-left.svg"
             alt="logo left"
             title="nuttys kitchen logo left"
           />
+
+          <!-- Set the page title here -->
           <h1>template title</h1>
 
           <img
             width="60"
             height="32"
-            src="./images/logo-right.svg"
+            src="/images/logo-right.svg"
             alt="logo right"
             title="nuttys kitchen logo right"
           />
         </div>
         <img
-          src="./images/nuttys-kitchen-logo.svg"
+          src="/images/nuttys-kitchen-logo.svg"
           alt="nuttys kitchen logo"
           width="160"
           height="40"
@@ -50,10 +101,13 @@
           class="logo-main"
         />
 
+        <!-- First paragraph after the page title -->
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
           quis
         </p>
+
+        <!-- Second paragraph after the page title -->
         <p>
           Click the <b>Method</b> tab below to see a step by step guide with
           pictures.
@@ -63,9 +117,10 @@
       <!-- class about-center = set columns -->
       <!-- class section-center = set width -->
       <div class="about-center section-center">
+        <!-- first image on the page sits underneath the 1st & 2nd paragraphs -->
         <article class="about-img">
           <img
-            src="./images/sausagepepperpie/sausageandpepperpie03.jpg"
+            src="/images/sausagepepperpie/sausageandpepperpie03.jpg"
             alt="sausage and pepper pie"
             title=""
           />
@@ -91,9 +146,12 @@
             </button>
           </div>
 
+          <!-- This is where the "Ingredients" & "Method" tabs are created -->
           <!-- about content -->
           <article class="about-content">
             <!-- single item -->
+
+            <!-- the class `active` is applied to show the contents of the tab. "Ingredients" is active by default -->
             <div class="content active" id="ingredients">
               <h2>ingredients</h2>
               <p>
@@ -119,6 +177,11 @@
             <!-- end of single item -->
 
             <!-- single item -->
+            <!-- The method tab  does not have the call `active` by default, thus it is hidden from view. When the user clicks
+            the "Method" tab the `active` class is applied here and
+            removed from the "Ingredients" tab, which is then hidden
+            from view
+             -->
             <div class="content" id="method">
               <h2>method</h2>
               <p>
@@ -131,20 +194,57 @@
                 everyday carry. Dreamcatcher pitchfork yuccie, banh mi salvia
                 venmo photo booth quinoa chicharrones.
               </p>
+
               <!-- Method List Goes Below Here!!! -->
+
+              <!-- If you need to break the list to insert an image
+                   or paragraph, make sure to close the list:
+                  
+                   This list numbering starts at "1"
+
+                  <ol>
+                    <li>list content here</li>
+                    <li>list content here</li>
+                  </ol>
+
+                  <p>inserted paragraph or image here</p>
+
+                  Then restart the method list with a `start` parameter
+                  to tell the list what the first number should be:
+
+                  This list numbering starts at "3":
+
+                  <ol start="3">
+                    <li>More list content here</li>
+                    <li>More list content here</li>
+                  </ol>
+                
+                -->
 
               <ol>
                 <li>do this</li>
                 <li>do that</li>
               </ol>
 
+              <!-- 
+                   Image with spacers before and after, you can copy and
+                   paste this and change the details to point to a new
+                   image.
+
+                   NOTE: The `alt` & `title` parameters are REALLY
+                   important for Google and disabled folks! The text in
+                   the `alt` parameter should be exactly the same as the 
+                   descriptive filename but without the dashes!
+                   Use the title to push the key words of the page.
+                   e.g. "sausage pasta" in this instance!
+              -->
               <div class="spacer"></div>
               <div class="card_image">
                 <caption>
-                  brown suasages
+                  brown sausages
                 </caption>
                 <img
-                  src="./images/sausagepasta/650x366/sausage-browning-in-pan-02.jpg"
+                  src="/images/sausagepasta/650x366/sausage-browning-in-pan-02.jpg"
                   alt=""
                   title=""
                 />
@@ -152,6 +252,9 @@
               <div class="spacer"></div>
 
               <!-- Method List Goes Above Here!!! -->
+
+              <!-- This is THE END!!!!!! -->
+              <!-- don't fuk with the closing tags or anything below here!!! -->
             </div>
             <!-- end of single item -->
           </article>
@@ -160,7 +263,13 @@
     </section>
 
     <!-- javascript -->
-    <!-- <script type="module" src="./src/tabs.js"></script> -->
-    <script src="./src/app.js"></script>
+
+    <!-- `app.js` is the program that runs on every page to create 
+         the menu and footer amongst other things such as controlling
+         the visibility of the tabs when a user clicks on them
+    -->
+    <script src="/src/app.js"></script>
+
+    <!-- NOTE: recipecards.js only runs on the `recipepage.html` -->
   </body>
 </html>
