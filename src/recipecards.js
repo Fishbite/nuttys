@@ -713,7 +713,6 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
 
   {
     type: "recipe",
@@ -723,6 +722,17 @@ const gridContent = [
     imgAlt: "cauliflower curry in a pan",
     caption: "cauliflower curry",
     page: `cauliflower-curry`,
+  },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc: "/images/chorizo-cod/200/chorizo-cod-stew-plated-04.webp",
+    imgTitle:
+      "baked chorizo cod stew served with finely shredded iceberg lettuce",
+    imgAlt: "chorizo cod stew plated 04",
+    caption: "chorizo cod stew",
+    page: `chorizo-cod-stew`,
   },
 
   // ****** vege END ****** \\
@@ -976,6 +986,20 @@ const gridContent = [
     imgAlt: "steamed pudding sliced",
     caption: "steamed sponge pudding",
     page: `steamed-sponge-pudding`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc:
+      "/images/pear-coconut-balckberry-cake/200/pear-coconut-blackberry-cake-sliced-01.webp",
+    imgTitle: "Pear, Coconut & Blackberry Cake Sliced",
+    imgAlt: "pear coconut blackberry cake sliced 01",
+    caption: "Pear, Coconut & Blackberry Cake",
+    page: `pear-coconut-blackberry-cake`,
   },
 
   // ****** puddings END ****** \\
