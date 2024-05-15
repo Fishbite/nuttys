@@ -995,7 +995,7 @@ const gridContent = [
     type: "recipe",
     cat: "puddings",
     imgSrc:
-      "/images/pear-coconut-balckberry-cake/200/pear-coconut-blackberry-cake-sliced-01.webp",
+      "/images/pear-coconut-blackberry-cake/200/pear-coconut-blackberry-cake-sliced-01.webp",
     imgTitle: "Pear, Coconut & Blackberry Cake Sliced",
     imgAlt: "pear coconut blackberry cake sliced 01",
     caption: "Pear, Coconut & Blackberry Cake",
