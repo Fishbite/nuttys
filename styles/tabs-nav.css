@@ -382,6 +382,18 @@ p {
   padding-bottom: 1rem;
 }
 
+.rotatetext {
+  display: inline-block;
+  rotate: 90deg;
+  /* writing-mode: vertical-rl; */
+}
+
+.rotate {
+  display: inline-block;
+  /* position: absolute; */
+  rotate: -45deg;
+}
+
 /* hide content */
 .content {
   display: none;
