@@ -7,7 +7,36 @@
       name="description"
       content="I serve my baked macaroni pie with Jerk Chicken, but it's perfect straight from the dish for a lunch with a side of salad or toast and is just great with baked beans!"
     />
+
+    <!-- *********************FACEBOOK START******************** -->
+    <!-- facebook meta tags to ensure correct image / page is shared START-->
+
+    <!-- set the URL that you want Facebook to point in this tag -->
+    <meta
+      property="og:url"
+      content="https://www.nuttyskitchen.co.uk/macaroni-pie.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Macaroni Pie Recipe" />
+
+    <!-- set a very short description of the page in this tag -->
+    <meta
+      property="og:description"
+      content="Baked macaroni pie recipe, best served with Jamaican Jerked Chicken, or, Jerked Chicken/Pork Curry"
+    />
+
+    <!-- set the image that you want Facebook to display in this tag-->
+    <meta
+      property="og:image"
+      content="https://www.nuttyskitchen.co.uk/images/macaroni-pie/650x366/macaroni-pie-baked.webp"
+    />
+    <!-- facebook meta tags to ensure correct image / page is shared END-->
+    <!-- *********************FACEBOOK END********************* -->
+
     <title>Macaroni Pie | Nutty's Kitchen</title>
+
+    <!--set the image that shows in the browser tabs -->
+    <link rel="icon" href="favicon.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,14 +46,33 @@
     />
 
     <!-- styles -->
-    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+    <link rel="stylesheet" href="/styles/tabs-nav.css" />
+
+    <link rel="stylesheet" href="/styles/background.css" />
+
+    <style>
+      :root {
+        /* set the background image */
+        --bg-img: url("/images/icons/blank.png");
+
+        /* set the background size */
+        --bg-size: 32px;
+
+        /* set the start of the 2nd colour of the gradient */
+        --bg-1st-col-stop: 25%;
+        /* Note: it's important to set the colour stop to a position
+           that allows you to distinguish the ingredients/method tabs
+           from the background. The longer the heading paragraphs are
+           the greater the percentage colour stop needs to be. */
+      }
+    </style>
   </head>
   <body>
     <!-- NAVIGATION -->
     <div id="nav-container" class="nav-container"></div>
     <!-- NAVIGATION -->
 
-    <section>
+    <section class="fg">
       <header class="title">
         <div class="title-wrap">
           <img
