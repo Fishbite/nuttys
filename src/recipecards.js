@@ -280,7 +280,16 @@ const gridContent = [
     page: `balti-butter-chicken`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/jerked-chicken-curry/200/jerked-chicken-and-macaroni-pie-plated-03.webp",
+    imgTitle: "jerked chicken curry served with blue cheese macaroni pie",
+    imgAlt: "jerked chicken and macaroni pie plated 03",
+    caption: "jerked chicken curry",
+    page: `jerked-chicken-curry`,
+  },
 
   {
     type: "recipe",
