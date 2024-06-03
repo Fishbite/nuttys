@@ -712,7 +712,16 @@ const gridContent = [
     page: `fish-pie`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/blue-cheese-macaroni-pie/200/blue-cheese-macaroni-pie-baked.webp",
+    imgTitle: "cauliflower curry finished cooking in a pan",
+    imgAlt: "blue cheese macaroni pie baked",
+    caption: "blue cheese macaroni pie",
+    page: `blue-cheese-macaroni-pie`,
+  },
 
   {
     type: "recipe",
