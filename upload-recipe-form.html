@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="We're super excited that you want to contact nutty and let her know what you think, feedback, comments, requests and suggestions welcome, tell us what you think"
+    />
+    <title>Upload Recipe Form | Nuttys Kitchen</title>
+
+    <!--set the image that shows in the browser tabs -->
+    <link rel="icon" href="favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+    <!-- <link rel="stylesheet" href="./styles/tabs-nav-minified.css" /> -->
+  </head>
+  <body>
+    <!-- Navigation START -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- Navigation END -->
+
+    <header class="title">
+      <div class="title-wrap">
+        <img
+          width="60"
+          height="32"
+          src="./images/logo-left.svg"
+          alt="logo left"
+          title="nuttys kitchen logo left"
+        />
+        <h1>Upload Your Recipe</h1>
+
+        <img
+          width="60"
+          height="32"
+          src="./images/logo-right.svg"
+          alt="logo right"
+          title="nuttys kitchen logo right"
+        />
+      </div>
+      <img
+        src="./images/nuttys-kitchen-logo.svg"
+        alt="nuttys kitchen logo"
+        width="160"
+        height="40"
+        title="nuttys kitchen logo"
+        class="logo-main"
+      />
+
+      <p class="fb-form head-p">Send your recipe to us using the form below.</p>
+    </header>
+
+    <section class="justify">
+      <!-- modify this form HTML and place wherever you want your form -->
+      <!-- <h2>Feedback</h2> -->
+      <!-- <p class="mb-4 small">Please provide your feedback in the form below</p> -->
+
+      <form
+        class="fb-form"
+        name="feedback_form"
+        id="recipe_upload_form"
+        method="post"
+      >
+        <div class="wrap">
+          <label class="form-label" for="feedback_comments">Comments:</label>
+          <textarea
+            class="form-control"
+            required
+            rows="10"
+            name="comments"
+            id="feedback_comments"
+            placeholder="Please tell us a little about your recipe here and tell us your name & email address. We'll only use your email to send a 'Thank you' message and we wont give it to anyone else"
+          ></textarea>
+        </div>
+
+        <div class="row">
+          <div class="wrap">
+            <label class="form-label" for="feedback_name">Your Name:</label>
+            <input
+              type="text"
+              required
+              name="name"
+              class="form-control"
+              id="feedback_name"
+            />
+          </div>
+
+          <div class="wrap">
+            <label class="form-label" for="feedback_email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              required
+              class="form-control"
+              id="feedback_email"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="upload_recipe">Select Your Recipe:</label>
+          <input type="file" id="upload_recipe" />
+        </div>
+
+        <button type="submit" class="btn btn-success btn-lg">Post</button>
+      </form>
+    </section>
+
+    <script src="./src/app.js"></script>
+    <script
+      id="ratufa_loader"
+      src="https://www.ratufa.io/c/ld.js?f=d5hcjj5n&n=n1.ratufa.io"
+    ></script>
+  </body>
+</html>
