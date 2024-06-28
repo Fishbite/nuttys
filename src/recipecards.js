@@ -1013,7 +1013,7 @@ const gridContent = [
     cat: "puddings",
     imgSrc: "/images/fruit-cake/200/fruit-cake-sliced-02.webp",
     imgTitle: "Probably the best fruit cake in the world!",
-    imgAlt: "pear coconut blackberry cake sliced 01",
+    imgAlt: "fruit cake sliced 02",
     caption: "Probably the best fruit cake in the world!",
     page: `fruit-cake`,
   },
