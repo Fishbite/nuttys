@@ -222,7 +222,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/karahi-chicken-curry.html/650x366/corriander-added-to-karahi-chicken-curry.webp",
+      "/images/karahi-chicken-curry/650x366/corriander-added-to-karahi-chicken-curry.webp",
     imgTitle: "corriander added to finish the karahi chicken curry",
     imgAlt: "corriander added to karahi chicken curry",
     caption: "karahi chicken curry",
