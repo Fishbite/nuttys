@@ -24,6 +24,7 @@
       <form id="frmSearch" class="search2" method="get" action="searchbar.html" >
 
 <input class="search2" id="txtSearch" type="text" name="serach_bar" size="31" maxlength="255" value="" style="left: 396px; top: 153px; width: 293px; height: 26px;" />
+
 <input class="search1" type="submit" name="submition" value="Search" style=" padding-bottom:20px; left: 691px; top: 153px; height: 23px" />
 <input class="search2" type="hidden" name="sitesearch" value="searchbar.html" />
 
@@ -31,7 +32,7 @@
 
 <script type="text/javascript">
   document.getElementById('frmSearch').onsubmit = function() {
-      window.location = 'http://www.google.com/search?q=site:www.nuttyskitchen.co.uk' + " " + document.getElementById('txtSearch').value;
+      window.location = 'http://www.google.com/search?q=site:www.nuttyskitchen.co.uk ' + document.getElementById('txtSearch').value;
       return false;
   }
 </script>
