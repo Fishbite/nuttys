@@ -473,16 +473,11 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/karahi-chicken-curry.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-06-07</lastmod>
+		<lastmod>2024-07-22</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/images/vegetarian-chilli.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2024-03-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/images/karahi-chicken-curry.html</loc>
-		<priority>0.00</priority>
-		<lastmod>2023-12-12</lastmod>
 	</url>
 </urlset>
