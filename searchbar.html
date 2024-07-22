@@ -7,25 +7,35 @@
   </head>
   <link rel="stylesheet" href="/styles/searchbar.css" />
   <body>
-    <div class="container">
+
+
+    <!-- <div class="container">
       <form
         action="searchbar.html"
-        method="GET"
+        method="get"
         id="searchForm"
         target="_blank"
       >
         <label for="sb" class="sb-label">search</label>
         <input type="search" id="sb" class="sb" placeholder="Search..." />
         <input type="submit" id="btnSubmit" value="Search" />
-      </form>
-      <script type="text/javascript">
-        document.getElementById("searchForm").onsubmit = function () {
-          window.location =
-            "http://www.google.com/search?q=site:nuttyskitchen.co.uk " +
-            document.getElementById("txtSearch").value;
-          return false;
-        };
-      </script>
+      </form> -->
+
+      <form id="frmSearch" class="search2" method="get" action="searchbar.html" >
+
+<input class="search2" id="txtSearch" type="text" name="serach_bar" size="31" maxlength="255" value="" style="left: 396px; top: 153px; width: 293px; height: 26px;" />
+<input class="search1" type="submit" name="submition" value="Search" style=" padding-bottom:20px; left: 691px; top: 153px; height: 23px" />
+<input class="search2" type="hidden" name="sitesearch" value="searchbar.html" />
+
+
+
+<script type="text/javascript">
+  document.getElementById('frmSearch').onsubmit = function() {
+      window.location = 'http://www.google.com/search?q=site:www.nuttyskitchen.co.uk' + document.getElementById('txtSearch').value;
+      return false;
+  }
+</script>
+
     </div>
   </body>
 </html>
