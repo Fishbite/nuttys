@@ -22,11 +22,12 @@
       <script type="text/javascript">
         document.getElementById("searchForm").onsubmit = function () {
           let searchTxt = document.getElementById("sb").value;
-          console.log("The user searched for: ", sb);
+          console.log("The user searched for: ", searchTxt);
 
           window.location =
             "http://www.google.com/search?q=site:www.nuttyskitchen.co.uk " +
-            document.getElementById("sb").value;
+            searchTxt;
+          // toString(document.getElementById("sb").value);
           return false;
         };
       </script>
