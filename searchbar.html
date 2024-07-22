@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar</title>
+  </head>
+  <link rel="stylesheet" href="/styles/searchbar.css" />
+  <body>
+    <div class="container">
+      <form action="searchbar.html" method="GET" id="searchForm" target="_self">
+        <label for="sb" class="sb-label">search</label>
+        <input type="search" id="sb" class="sb" placeholder="Search..." />
+        <input type="submit" id="btnSubmit" value="Search" />
+      </form>
+      <script type="text/javascript">
+        document.getElementById("searchForm").onsubmit = function () {
+          window.location =
+            "http://www.google.com/search?q=site:nuttyskitchen.co.uk " +
+            document.getElementById("txtSearch").value;
+          return false;
+        };
+      </script>
+    </div>
+  </body>
+</html>
