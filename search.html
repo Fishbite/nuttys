@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Site Test</title>
+    <script>
+      (function () {
+        var cx = "b3fefa197fd1c4f41";
+        var gcse = document.createElement("script");
+        gcse.type = "text/javascript";
+        gcse.async = true;
+        gcse.src =
+          (document.location.protocol == "https:" ? "https:" : "http:") +
+          "//www.google.com/cse/cse.js?cx=" +
+          cx;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="main-content">
+      <h1>Search the site</h1>
+
+      <gcse:searchbox-only></gcse:searchbox-only>
+      <gcse:searchresults-only></gcse:searchresults-only>
+    </div>
+    <form
+      action="https://www.nuttyskitchen.co.uk/search.html"
+      method="get"
+      id="site-search"
+    >
+      <fieldset>
+        <!-- <label for="search">Search in website</label> -->
+        <input type="text" name="q" id="q" value="" />
+        <button type="submit" class="btn btn-inverse">search</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
