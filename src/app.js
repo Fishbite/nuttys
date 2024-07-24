@@ -129,7 +129,7 @@ function toggleClass(e) {
 
 const navContent = {
   "": "Welcome To Nutty's", //NB: link to root:- www.nuttyskitchen.co.uk
-  "recipepage.html": "Nutty's Recipies",
+  "recipepage.html": "Nutty's Recipes",
   "recipepage.html#sausages": "Sausage Chopin'",
   "recipepage.html#chicken": "Chicken Lickin'",
   "recipepage.html#beef": "Beef Bangin'",
