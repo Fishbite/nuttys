@@ -185,6 +185,38 @@ p {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+.nav-main {
+  display: flex;
+  height: 2.6rem;
+  background: var(--clr-grey-4);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-main ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav-main a {
+  padding-right: 2rem;
+  color: var(--clr-primary-10);
+}
+
+@media screen and (max-width: 350px) {
+  .nav-main a {
+    padding-right: 0.75rem;
+  }
+}
+
+.nav-main a:hover {
+  color: var(--clr-yellow-golden-pale) !important;
+}
+
+.nav-main a:visited {
+  color: var(--clr-primary-10);
+}
+
 /* section */
 .section {
   padding: 5rem 0;
@@ -246,7 +278,7 @@ About
 }
 .logo-main {
   position: absolute;
-  top: 6px;
+  top: 50px;
 }
 
 .justify {
