@@ -190,6 +190,7 @@ p {
   display: flex;
   height: 2.6rem;
   background: var(--clr-grey-4);
+  font-size: 0.8rem;
   justify-content: flex-end;
   align-items: center;
 }
