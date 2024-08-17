@@ -95,7 +95,7 @@ const social = `<a href="https://www.facebook.com/nutty.s.kitchen.co.uk" target=
     <img src="./images/facebook-circle.png" alt="facebook logo"  />
   </a>`;
 
-const footerEmail = `<a href="mailto:nutty@nuttyskitchen.co.uk">email: nutty@nuttyskitchen.co.uk</a>`;
+const footerEmail = `<a href="&#109;ailto&#58;nutty&#64;nuttyskitchen&#46;co&#46;uk">email: nutty@nuttyskitchen.co.uk</a>`;
 /*
     The `footerList` parameter of `MakeFooter` expects a chain of
     `<li>List items</li>` enclosed  in backticks:
