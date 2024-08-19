@@ -1006,16 +1006,15 @@ const gridContent = [
     page: `steamed-sponge-pudding`,
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: "/images/fruit-cake/200/fruit-cake-sliced-02.webp",
-    imgTitle: "Probably the best fruit cake in the world!",
-    imgAlt: "fruit cake sliced 02",
-    caption: "Probably the best fruit cake in the world!",
-    page: `fruit-cake`,
+    imgSrc:
+      "/images/damson-and-soured-cream-tart/200/damson-and-soured-cream-tart-plated-06.webp",
+    imgTitle: "a slice of damson and soured ceam tart on a plate",
+    imgAlt: "damson & soured cream tart plated",
+    caption: "damson & soured cream tart",
+    page: `damson-and-soured-cream-tart`,
   },
 
   {
