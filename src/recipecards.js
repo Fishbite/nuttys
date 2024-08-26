@@ -313,7 +313,17 @@ const gridContent = [
     page: `tandoori-chicken`,
   },
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-in-cashew-nut-sauce/200/chicken-in-cashew-nut-sauce-plated.webp",
+    imgTitle: "chicken in cashew nut sauce with basmati rice",
+    imgAlt: "chicken in cashew nut sauce plated",
+    caption: "chicken in cashew nut sauce",
+    page: `chicken-in-cashew-nut-sauce`,
+  },
 
   {
     type: "recipe",
