@@ -588,7 +588,18 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "/images/peri-peri-pork-steaks/200/peri-peri-pork-steaks-plated.webp",
+    imgTitle:
+      "peri peri pork steaks served with side salad & jacket potato with cheese",
+    imgAlt: "pork steaks plated",
+    caption: "peri peri pork steaks",
+    page: `peri-peri-pork-steaks`,
+  },
 
   {
     type: "recipe",
