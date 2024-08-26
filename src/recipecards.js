@@ -313,6 +313,38 @@ const gridContent = [
     page: `tandoori-chicken`,
   },
 
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/chicken-with-mango/200/chicken-with-mango-plated-02.webp",
+    imgTitle: "chicken with mango plated with plain basmati rice",
+    imgAlt: "chicken with mango plated",
+    caption: "chicken with mango",
+    page: `chicken-with-mango`,
+  },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-in-cashew-nut-sauce/200/chicken-in-cashew-nut-sauce-plated.webp",
+    imgTitle: "chicken in cashew nut sauce with basmati rice",
+    imgAlt: "chicken in cashew nut sauce plated",
+    caption: "chicken in cashew nut sauce",
+    page: `chicken-in-cashew-nut-sauce`,
+  },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-tandoori-grill/200/chicken-tandoori-grill-plated-01.webp",
+    imgTitle: "chicken tandoori grill, salad, rice salad & raita",
+    imgAlt: "chicken tandoori grill plated 01",
+    caption: "chicken tandoori grill",
+    page: `chicken-tandoori-grill`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
@@ -556,7 +588,18 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "/images/peri-peri-pork-steaks/200/peri-peri-pork-steaks-plated.webp",
+    imgTitle:
+      "peri peri pork steaks served with side salad & jacket potato with cheese",
+    imgAlt: "pork steaks plated",
+    caption: "peri peri pork steaks",
+    page: `peri-peri-pork-steaks`,
+  },
 
   {
     type: "recipe",
