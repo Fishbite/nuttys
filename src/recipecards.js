@@ -312,6 +312,19 @@ const gridContent = [
     caption: "classic tandoori chicken",
     page: `tandoori-chicken`,
   },
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-tandoori-grill/200/chicken-tandoori-grill-plated-01.webp",
+    imgTitle: "chicken tandoori grill, salad, rice salad & raita",
+    imgAlt: "chicken tandoori grill plated 01",
+    caption: "chicken tandoori grill",
+    page: `chicken-tandoori-grill`,
+  },
 
   // ****** chicken END ****** \\
 
