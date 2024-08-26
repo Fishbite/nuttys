@@ -312,7 +312,16 @@ const gridContent = [
     caption: "classic tandoori chicken",
     page: `tandoori-chicken`,
   },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/chicken-with-mango/200/chicken-with-mango-plated-02.webp",
+    imgTitle: "chicken with mango plated with plain basmati rice",
+    imgAlt: "chicken with mango plated",
+    caption: "chicken with mango",
+    page: `chicken-with-mango`,
+  },
 
   {
     type: "recipe",
