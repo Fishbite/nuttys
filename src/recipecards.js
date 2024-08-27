@@ -345,6 +345,20 @@ const gridContent = [
     page: `chicken-tandoori-grill`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/khara-masala-balti-chicken/200/khara-masala-balti-chicken-plated-03.webp",
+    imgTitle: "khara masala balti chicken with salad & naan",
+    imgAlt: "khara masala balti chicken plated",
+    caption: "khara masala balti chicken",
+    page: `khara-masala-balti-chicken`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
