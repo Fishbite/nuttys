@@ -357,8 +357,19 @@ const gridContent = [
     page: `khara-masala-balti-chicken`,
   },
 
-  // { type: "blank" },
-  // { type: "blank" },
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-and-tomato-balti/650x366/chicken-and-tomato-balti-plated-03.webp",
+    imgTitle: "chicken & tomato balti plated with plain basmati rice",
+    imgAlt: "chicken & tomato balti plated 03",
+    caption: "chicken & tomato balti",
+    page: `chicken-and-tomato-balti`,
+  },
 
   // ****** chicken END ****** \\
 
