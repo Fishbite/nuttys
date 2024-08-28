@@ -270,15 +270,16 @@ const gridContent = [
     page: `spicy-masala-chicken`,
   },
 
-  {
-    type: "recipe",
-    cat: "chicken",
-    imgSrc: "/images/balti-butter-chicken/200/balti-butter-chicken-cooked.webp",
-    imgTitle: "balti butter chicken in serving dish",
-    imgAlt: "balti butter chicken cooked",
-    caption: "balti butter chicken",
-    page: `balti-butter-chicken`,
-  },
+  // {
+  //   type: "recipe",
+  //   cat: "chicken",
+  //   imgSrc: "/images/balti-butter-chicken/200/balti-butter-chicken-cooked.webp",
+  //   imgTitle: "balti butter chicken in serving dish",
+  //   imgAlt: "balti butter chicken cooked",
+  //   caption: "balti butter chicken",
+  //   page: `balti-butter-chicken`,
+  // },
+  // { type: "blank" },
 
   {
     type: "recipe",
@@ -345,9 +346,6 @@ const gridContent = [
     page: `chicken-tandoori-grill`,
   },
 
-  { type: "blank" },
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "chicken",
@@ -358,6 +356,9 @@ const gridContent = [
     caption: "khara masala balti chicken",
     page: `khara-masala-balti-chicken`,
   },
+
+  // { type: "blank" },
+  // { type: "blank" },
 
   // ****** chicken END ****** \\
 
