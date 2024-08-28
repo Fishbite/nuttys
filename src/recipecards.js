@@ -413,9 +413,9 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beefporkchilli/200/peppers-and-chilli.jpg",
-    imgTitle: "beef & pork mexican chilli",
-    imgAlt: "peppers and chilli",
+    imgSrc: "./images/beefporkchilli/200/beef-and-pork-chilli.webp",
+    imgTitle: "beef & pork chilli ready to serve",
+    imgAlt: "beef & pork chilli",
     caption: "beef & pork mexican chilli",
     page: `beefporkchilli`,
   },
