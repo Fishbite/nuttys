@@ -492,6 +492,19 @@ const gridContent = [
     page: `beef-and-mushroom-suet-pastry-pie`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "/images/rogan-josh/650x366/rogan-josh-plated.webp",
+    imgTitle: "rogan josh beef curry with yogurt, basmati rice & naan",
+    imgAlt: "rogan josh plated",
+    caption: "rogan josh beef curry",
+    page: `rogan-josh-beef-curry`,
+  },
+
   // ****** beef END ****** \\
 
   // ****** pork ****** \\
@@ -613,7 +626,16 @@ const gridContent = [
     page: `porksupreme`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "/images/jerked-pork-steaks/650x366/jerked-pork-steak-plated-01.webp",
+    imgTitle: "jerked pork steak served with potato salad & salad",
+    imgAlt: "jerked pork steak plated",
+    caption: "jerke pork steaks grill",
+    page: `jerked-pork-steaks-grill`,
+  },
 
   {
     type: "recipe",
