@@ -83,7 +83,7 @@ body {
   background: var(--clr-grey-10);
   color: var(--clr-grey-3);
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
 }
 ul {

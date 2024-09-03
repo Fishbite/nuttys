@@ -492,6 +492,19 @@ const gridContent = [
     page: `beef-and-mushroom-suet-pastry-pie`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "/images/rogan-josh/650x366/rogan-josh-plated.webp",
+    imgTitle: "rogan josh beef curry with yogurt, basmati rice & naan",
+    imgAlt: "rogan josh plated",
+    caption: "rogan josh beef curry",
+    page: `rogan-josh-beef-curry`,
+  },
+
   // ****** beef END ****** \\
 
   // ****** pork ****** \\
