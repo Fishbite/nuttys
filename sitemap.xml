@@ -6,11 +6,6 @@
 		<lastmod>2024-08-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/jerked-pork-steaks.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-08-29</lastmod>
-	</url>
-	<url>
 		<loc>https://www.nuttyskitchen.co.uk/damson-and-soured-cream-tart.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2024-08-21</lastmod>
@@ -232,6 +227,11 @@
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/rogan-josh-beef-curry.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-09-03</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/jerked-pork-steaks-grill.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2024-09-03</lastmod>
 	</url>
