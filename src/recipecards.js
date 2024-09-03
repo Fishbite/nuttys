@@ -633,7 +633,7 @@ const gridContent = [
       "/images/jerked-pork-steaks/650x366/jerked-pork-steak-plated-01.webp",
     imgTitle: "jerked pork steak served with potato salad & salad",
     imgAlt: "jerked pork steak plated",
-    caption: "jerke pork steaks grill",
+    caption: "jerked pork steaks grill",
     page: `jerked-pork-steaks-grill`,
   },
 
