@@ -358,7 +358,18 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chinese-chicken-curry/650x366/chinese-chicken-curry-and-rice-01.webp",
+    imgTitle:
+      "chinese chicken curry and rice - just like the takeaway does it!",
+    imgAlt: "chinese chicken curry and rice",
+    caption: "chinese chicken curry",
+    page: `chinese-chicken-curry`,
+  },
 
   {
     type: "recipe",
