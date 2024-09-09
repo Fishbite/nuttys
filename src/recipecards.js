@@ -670,6 +670,20 @@ const gridContent = [
     page: `jerked-pork-curry`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "/images/mediterranean-style-vegetables-with-pork-steaks/200/mediterranean-style-veg-with-pork-steaks-plated-03.webp",
+    imgTitle: "Mediterranean style vegetables with pork steaks",
+    imgAlt: "Mediterranean style vegetables with pork steaks plated 03",
+    caption: "mediterranean style veg' with pork steaks",
+    page: `mediterranean-style-vegetables-with-pork-steaks`,
+  },
+
   // ****** pork END ****** \\
 
   // ****** lamb ****** \\
