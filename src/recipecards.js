@@ -1144,6 +1144,17 @@ const gridContent = [
     page: `pear-coconut-blackberry-cake`,
   },
 
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc:
+      "/images/blackberry-and-soured-cream-flan/200/blackberry-and-soured-cream-flan-02.webp",
+    imgTitle: "Blackberry & Soured Cream Flan",
+    imgAlt: "Blackberry & Soured Cream Flan 02",
+    caption: "Blackberry & Soured Cream Flan",
+    page: `blackberry-and-soured-cream-flan`,
+  },
+
   // ****** puddings END ****** \\
 ];
 
