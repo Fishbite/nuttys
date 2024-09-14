@@ -249,6 +249,7 @@ About
 }
 .title p {
   width: 80%;
+  /* max-width: 66ch; */
   margin: 0 auto;
   text-align: justify;
 }
