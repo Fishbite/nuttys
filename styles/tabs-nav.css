@@ -283,6 +283,22 @@ About
   top: 50px;
 }
 
+/* torn paper trial START */
+.intro-wrap {
+  max-width: 66ch;
+  margin: 2rem auto 0rem auto;
+  background-image: url(/images/tornpaper02.svg);
+  padding: 4rem 0 6rem;
+  border-radius: 4px;
+  box-shadow: 0px -3px 6px -3px rgb(138, 138, 138);
+  /* filter: opacity(0.75); */
+}
+.intro-wrap,
+p {
+  filter: opacity(1);
+}
+/* torn paper trial END */
+
 .justify {
   text-align: justify;
 }
