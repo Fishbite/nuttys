@@ -71,7 +71,7 @@ const gridContent = [
   // ****** sausages ****** \\
   {
     type: "category",
-    cat: "sausages",
+    cat: "sausages & bacon",
     text: `Such a versatile & in-expensive ingredient. I tend to use pork Cumberland or
     Lincolnshire, but please feel free to experiment with vegetarian or chicken
     sausages. With one exception, sausage & onion pie, I think that really needs
@@ -80,7 +80,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "sausages",
+    cat: "sausages & bacon",
     imgSrc: `./images/sausagecasserole/200/sausagecasserole.jpg`,
     imgTitle: "sausage casserole",
     imgAlt: "sausage casserole",
@@ -90,7 +90,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "sausages",
+    cat: "sausages & bacon",
     imgSrc: "./images/sausagepasta/200/16-add-marjoram-leaves.jpg",
     imgTitle: "sausage & penne pasta",
     imgAlt: "add marjoram leaves",
@@ -100,7 +100,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "sausages",
+    cat: "sausages & bacon",
     imgSrc:
       "images/sausage-pasta-sauce/200/sausage-pasta-sauce-and-fusilli.webp",
     imgTitle: "sausage pasta sauce topped with cheese",
@@ -111,7 +111,7 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "sausages",
+    cat: "sausages & bacon",
     imgSrc: "./images/sausagepepperpie/200/sausagepeppermashpie-01.webp",
     imgTitle: "sausage pepper mash pie",
     imgAlt: "sausage peppermash pie",
@@ -121,13 +121,45 @@ const gridContent = [
 
   {
     type: "recipe",
-    cat: "sausages",
+    cat: "sausages & bacon",
     imgSrc: "./images/sausageonionpie/200/pie-on-board-07.jpg",
     imgTitle: "sausage & onion pie",
     imgAlt: "pie on board",
     caption: "sausage & onion pie",
     page: `sausageonionpie`,
   },
+
+  {
+    type: "recipe",
+    cat: "sausages & bacon",
+    imgSrc: "/images/caulifrankcheese/200/meal-cooked-01.jpg",
+    imgTitle: "cauliflower cheese & frankfurter bake",
+    imgAlt: "meal cooked",
+    caption: "cauliflower cheese & frankfurter bake",
+    page: `caulifrankcheese`,
+  },
+
+  {
+    type: "recipe",
+    cat: "sausages & bacon",
+    imgSrc:
+      "/images/gammon-joint-and-mustard-sauce/200/gammon-dinner-plated-1.webp",
+    imgTitle: "gammon with mustard sauce, creamy mash & roast cauliflower",
+    imgAlt: "gammon dinner plated 1",
+    caption: "gammon joint & mustard sauce",
+    page: `gammon-joint-with-mustard-sauce`,
+  },
+
+  {
+    type: "recipe",
+    cat: "sausages & bacon",
+    imgSrc: "/images/quiche-lorraine/200/quiche-lorraine-cooked.webp",
+    imgTitle: "the ultimate quiche lorraine",
+    imgAlt: "quiche lorraine cooked",
+    caption: "quiche lorraine",
+    page: `quiche-lorraine`,
+  },
+
   // ****** sausages END ****** \\
   // ****** chicken ****** \\
   {
@@ -589,17 +621,6 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc:
-      "/images/gammon-joint-and-mustard-sauce/200/gammon-dinner-plated-1.webp",
-    imgTitle: "gammmon with mustard sauce, creamy mash & roast cauliflower",
-    imgAlt: "gammon dinner plated 1",
-    caption: "gammon joint & mustard sauce",
-    page: `gammon-joint-with-mustard-sauce`,
-  },
-
-  {
-    type: "recipe",
-    cat: "pork",
     imgSrc: "/images/bellyporkdinner/200/dinner-plated.webp",
     imgTitle: "belly pork dinner",
     imgAlt: "dinner plated",
@@ -670,8 +691,8 @@ const gridContent = [
     page: `jerked-pork-curry`,
   },
 
-  { type: "blank" },
-  { type: "blank" },
+  // { type: "blank" },
+  // { type: "blank" },
 
   {
     type: "recipe",
@@ -766,16 +787,6 @@ const gridContent = [
   {
     type: "recipe",
     cat: "fish & veg",
-    imgSrc: "/images/caulifrankcheese/200/meal-cooked-01.jpg",
-    imgTitle: "cauliflower cheese & frankfurter bake",
-    imgAlt: "meal cooked",
-    caption: "cauliflower cheese & frankfurter bake",
-    page: `caulifrankcheese`,
-  },
-
-  {
-    type: "recipe",
-    cat: "fish & veg",
     imgSrc:
       "/images/vegetarian-chilli/200/vegetarian-chilli-and-buttered-bread-03.webp",
     imgTitle: "vegetarian-chilli and buttered bread",
@@ -847,6 +858,8 @@ const gridContent = [
     caption: "blue cheese macaroni pie",
     page: `blue-cheese-macaroni-pie`,
   },
+
+  { type: "blank" },
 
   {
     type: "recipe",
