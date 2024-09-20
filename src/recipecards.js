@@ -3,6 +3,12 @@ console.log("Cooking on gas...");
 //
 const grid = document.querySelector(".recipe-grid");
 
+let numOfRecipes = 0;
+// ########################################################## \\
+// Turn this on when you need a total of each recipe category
+const doCount = false;
+// ########################################################## \\
+
 // class to render each grid element
 // parameter is a configuration object from `gridContent` array
 class GridEntry {
@@ -11,6 +17,7 @@ class GridEntry {
     Object.assign(this, config);
     // console.log(this);
   }
+
   render() {
     // used for each category element
     if (this.type === "category") {
@@ -34,6 +41,16 @@ class GridEntry {
       // add `link` class to apply `:hover` state
       div.className += `link`;
       div.style.flexDirection = "column-reverse";
+
+      // ########################################################## \\
+      // Turn this on when you need a total of each recipe category
+      // logging number of each recipe type (category)
+      // so nette doesn't have to count them!
+      if (doCount) {
+        console.log(this.cat);
+      }
+      numOfRecipes += 1;
+      // ########################################################## \\
 
       div.addEventListener(
         "click",
@@ -389,7 +406,16 @@ const gridContent = [
     page: `khara-masala-balti-chicken`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/jerked-chicken-escalope-grill/200/jerk-chicken-escalope-plated-03.webp",
+    imgTitle: "jerked chicken escalope grill with new potatoes & salad",
+    imgAlt: "jerked chicken escalope plated",
+    caption: "jerked chicken escalope grill",
+    page: `jerked-chicken-escalope-grill`,
+  },
 
   {
     type: "recipe",
@@ -412,6 +438,20 @@ const gridContent = [
     imgAlt: "chicken & tomato balti plated 03",
     caption: "chicken & tomato balti",
     page: `chicken-and-tomato-balti`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-tikka-grilled-escalope/200/chicken-tikka-dinner-01.webp",
+    imgTitle: "chicken tikka grilled escalope with naan raita & salad",
+    imgAlt: "chicken tikka grilled escalope",
+    caption: "chicken tikka grilled escalope",
+    page: `chicken-tikka-grilled-escalope`,
   },
 
   // ****** chicken END ****** \\
@@ -536,7 +576,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/authentic-seekh-kebabs/200/seekh-kebab-with-salad-raita-and-pita-bread-02.webp",
+    imgTitle: "authentic seekh kebab with salad raita and pita bread",
+    imgAlt: "seekh kebab with salad raita and pita bread",
+    caption: "authentic seekh kebab",
+    page: `authentic-seekh-kebabs`,
+  },
 
   {
     type: "recipe",
@@ -1177,3 +1227,5 @@ gridContent.forEach(function (card) {
   const el = new GridEntry(card);
   el.render();
 });
+
+console.log("Number of recipes = ", numOfRecipes);
