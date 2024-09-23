@@ -1218,6 +1218,19 @@ const gridContent = [
     page: `blackberry-and-soured-cream-flan`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc: "/images/fruit-cake/200/fruit-cake-sliced-02.webp",
+    imgTitle: "Probably the best fruit cake in the world",
+    imgAlt: "fruit cake sliced",
+    caption: "fruit cake",
+    page: `fruit-cake`,
+  },
+
   // ****** puddings END ****** \\
 ];
 
