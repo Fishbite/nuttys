@@ -188,9 +188,9 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickensoup/200/chickensoup.jpg",
+    imgSrc: "./images/chickensoup/200/Chicken-soup-in-large-dish.webp",
     imgTitle: "grandma's chicken soup",
-    imgAlt: "chickensoup",
+    imgAlt: "chickensoup soup in large dish",
     caption: "grandma's chicken soup",
     page: `chickensoup`,
   },
