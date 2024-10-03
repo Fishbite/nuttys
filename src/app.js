@@ -103,8 +103,10 @@ const footerEmail = `<a href="&#109;ailto&#58;nutty&#64;nuttyskitchen&#46;co&#46
     the <li> element can contain anythig that a list item can normally
     take
 */
+
+const year = new Date().getFullYear();
 const footerList = `<li><a href="./contact-form.html">Contact Us</a></li><li><a href="https://www.ratufa.io/" target="_blank">ratufa.io</a></li><li><a href="https://icons8.com" target="_blank">icons by icons8</a></li>`;
-const footerIp = `copyright © fishbite 2023`;
+const footerIp = `copyright © fishbite ${year}`;
 
 const footerContent = new MakeFooter(social, footerEmail, footerList, footerIp);
 const footer = document.createElement("footer");
