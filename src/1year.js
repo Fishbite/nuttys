@@ -6,14 +6,17 @@ flipBoxInner.addEventListener("click", flipHandler, { once: false });
 
 function flipHandler(e) {
   e.preventDefault();
-  console.log("event.target:", e.target);
+  // console.log("event.target:", e.target);
   spin(e);
 }
 
 function spin(e) {
-  spinDeg += 360;
+  // change direction of spin so that the rotate param's
+  // don't accumulate massive numbers
+  spinDeg > 0 ? (spinDeg -= 360) : (spinDeg += 360);
+
   e.target.style.transform = `rotateY(${spinDeg}deg) rotateZ(${
     spinDeg * 2
   }deg)`;
-  console.log("spin finished");
+  // console.log("spin finished");
 }

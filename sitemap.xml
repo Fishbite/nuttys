@@ -13,7 +13,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/smoked-haddock-bacon-bake.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2024-10-11</lastmod>
+		<lastmod>2024-10-20</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/savoury-mince-and-mash.html</loc>
@@ -316,6 +316,11 @@
 		<lastmod>2024-10-15</lastmod>
 	</url>
 	<url>
+		<loc>https://www.nuttyskitchen.co.uk/lamb-tikka-grill-steaks.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-10-19</lastmod>
+	</url>
+	<url>
 		<loc>https://www.nuttyskitchen.co.uk/beef-curry-with-green-beans.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-08-12</lastmod>
@@ -589,6 +594,11 @@
 		<loc>https://www.nuttyskitchen.co.uk/karahi-chicken-curry.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2024-08-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/images/template-bare.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-10-18</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/images/vegetarian-chilli.html</loc>
