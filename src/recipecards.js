@@ -319,17 +319,6 @@ const gridContent = [
     page: `spicy-masala-chicken`,
   },
 
-  // {
-  //   type: "recipe",
-  //   cat: "chicken",
-  //   imgSrc: "/images/balti-butter-chicken/200/balti-butter-chicken-cooked.webp",
-  //   imgTitle: "balti butter chicken in serving dish",
-  //   imgAlt: "balti butter chicken cooked",
-  //   caption: "balti butter chicken",
-  //   page: `balti-butter-chicken`,
-  // },
-  // { type: "blank" },
-
   {
     type: "recipe",
     cat: "chicken",
@@ -441,7 +430,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/butter-chicken/200/butter-chicken-plated.webp",
+    imgTitle: "butter chicken served with jeera rice",
+    imgAlt: "butter chicken plated",
+    caption: "butter chicken",
+    page: `butter-chicken`,
+  },
 
   {
     type: "recipe",

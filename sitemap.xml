@@ -3,7 +3,12 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/index-2.html</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-09-18</lastmod>
+		<lastmod>2024-10-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/index -BAK.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-10-22</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/fish-and-chorizo-potato-pie.html</loc>
@@ -268,7 +273,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>0.67</priority>
-		<lastmod>2024-10-10</lastmod>
+		<lastmod>2024-10-24</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/jerked-chicken-escalope-grill.html</loc>
@@ -308,7 +313,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/butter-chicken.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2024-10-15</lastmod>
+		<lastmod>2024-10-25</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chicken-in-creamy-peppercorn-sauce.html</loc>
