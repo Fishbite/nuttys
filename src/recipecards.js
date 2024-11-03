@@ -907,7 +907,16 @@ const gridContent = [
     page: `blue-cheese-macaroni-pie`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/cheese-and-onion-quiche/200/cheese-and-onion-quiche-cooked.webp",
+    imgTitle: "cheese and onion quiche cooked",
+    imgAlt: "cheese and onion quiche cooked",
+    caption: "cheese & onion quiche",
+    page: `cheese-and-onion-quiche`,
+  },
 
   {
     type: "recipe",
