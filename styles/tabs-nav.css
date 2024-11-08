@@ -285,6 +285,28 @@ About
   top: 50px;
 }
 
+.hero {
+  background-image: url(/images/spice-up-your-life/spice-arrangement.png);
+  height: 175vh;
+}
+
+.hero-txt {
+  position: relative;
+  top: 130px;
+  color: var(--clr-white);
+}
+
+.hero-txt p {
+  color: var(--clr-white);
+  margin-top: 1rem;
+  max-width: 66ch;
+}
+
+.intro {
+  max-width: 66ch;
+  margin: 4rem auto;
+}
+
 /* torn paper trial START */
 /* .intro-wrap {
   max-width: 66ch;
