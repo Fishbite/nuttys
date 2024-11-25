@@ -939,6 +939,20 @@ const gridContent = [
     page: `chorizo-cod-stew`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/fish-and-chorizo-potato-pie/200/fish-and-chorizo-potato-pie-cooked-01.webp",
+    imgTitle: "Fish & Chorizo Potato Pie",
+    imgAlt: "Fish & Chorizo Potato Pie",
+    caption: "Fish & Chorizo Potato Pie",
+    page: `fish-and-chorizo-potato-pie`,
+  },
+
   // ****** vege END ****** \\
 
   // ****** sauce START ****** \\
