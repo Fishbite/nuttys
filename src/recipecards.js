@@ -429,7 +429,16 @@ const gridContent = [
     page: `chicken-and-tomato-balti`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/chicken-in-creamy-peppercorn-sauce/650x366/chicken-in-creamy-peppercorn-sauce-and-mash-plated.webp",
+    imgTitle: "chicken creamy peppercorn sauce mash and veg",
+    imgAlt: "chicken creamy peppercorn sauce and mash plated",
+    caption: "chicken in creamy peppercorn sauce",
+    page: `chicken-in-creamy-peppercorn-sauce`,
+  },
 
   {
     type: "recipe",
