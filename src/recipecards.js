@@ -596,7 +596,16 @@ const gridContent = [
     page: `beef-and-mushroom-suet-pastry-pie`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/nuttys-braised-steak/200/braised-steak-mash-and-veg-plated.webp",
+    imgTitle: "nuttys braised steak served with mash & veg",
+    imgAlt: "braised steak mash and veg plated",
+    caption: "nutty's braised steak",
+    page: `nuttys-braised-steak`,
+  },
 
   {
     type: "recipe",
