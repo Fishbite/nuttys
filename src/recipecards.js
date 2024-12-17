@@ -1164,6 +1164,20 @@ const gridContent = [
     page: `jamaican-rice-and-peas`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "/images/spicy-baked-beans-and-peppers/650x366/spicy-baked-beans-and-peppers.webp",
+    imgTitle: "spicy baked beans & peppers with spicy potato wedges",
+    imgAlt: "spicy baked beans & peppers",
+    caption: "spicy baked beans & peppers",
+    page: `spicy-baked-beans-and-peppers`,
+  },
+
   // ****** accompaniments END ****** \\
 
   // ****** puddings START ****** \\
