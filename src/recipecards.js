@@ -1135,7 +1135,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/tomato-chutney/200/tomato-chutney.webp",
+    imgTitle: "home made tomato chutney in storage jar",
+    imgAlt: "tomato chutney",
+    caption: "tomato chutney",
+    page: `tomato-chutney`,
+  },
 
   {
     type: "recipe",
