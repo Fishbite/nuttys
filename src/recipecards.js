@@ -177,6 +177,20 @@ const gridContent = [
     page: `quiche-lorraine`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "sausages & bacon",
+    imgSrc:
+      "/images/sausage-roll-and-caramalised-onion/200/sausage-roll-sliced.webp",
+    imgTitle: "sausage roll sliced with home made tomato chutney",
+    imgAlt: "sausage roll sliced",
+    caption: "Sausage Roll & Caramalised Onion",
+    page: `sausage-roll-and-caramalised-onion`,
+  },
+
   // ****** sausages END ****** \\
   // ****** chicken ****** \\
   {
