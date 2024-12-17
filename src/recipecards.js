@@ -1134,7 +1134,15 @@ const gridContent = [
     page: `mashed-roots`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/spicy-potato-wedges/200/spicy-potato-wedges.webp",
+    imgTitle: "spicy potato wedges",
+    imgAlt: "spicy potato wedges",
+    caption: "spicy potato wedges",
+    page: `spicy-potato-wedges`,
+  },
 
   {
     type: "recipe",
