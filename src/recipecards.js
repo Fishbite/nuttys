@@ -845,6 +845,20 @@ const gridContent = [
     page: `lamb-curry-with-spinach`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc:
+      "/images/lamb-tikka-grill-steaks/200/lamb-tikka-grill-steaks-plated.webp",
+    imgTitle: "lamb tikka grill steaks with tomato rice & raita",
+    imgAlt: "lamb tikka grill steaks plated",
+    caption: "lamb tikka grill steaks",
+    page: `lamb-tikka-grill-steaks`,
+  },
+
   // ****** lamb END ****** \\
 
   // ****** vege ****** \\
