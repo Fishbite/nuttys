@@ -995,7 +995,17 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/smoked-haddock-bacon-bake/200/smoked-haddock-bacon-bake.webp",
+    imgTitle: "smoked haddock bacon bake straight from the oven",
+    imgAlt: "smoked haddock bacon bake",
+    caption: "smoked haddock bacon bake",
+    page: `smoked-haddock-bacon-bake`,
+  },
 
   {
     type: "recipe",
