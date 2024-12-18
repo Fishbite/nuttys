@@ -285,7 +285,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/karahi-chicken-curry/650x366/corriander-added-to-karahi-chicken-curry.webp",
+      "/images/karahi-chicken-curry/200/corriander-added-to-karahi-chicken-curry.webp",
     imgTitle: "corriander added to finish the karahi chicken curry",
     imgAlt: "corriander added to karahi chicken curry",
     caption: "karahi chicken curry",
@@ -424,7 +424,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/chinese-chicken-curry/650x366/chinese-chicken-curry-and-rice-01.webp",
+      "/images/chinese-chicken-curry/200/chinese-chicken-curry-and-rice.webp",
     imgTitle:
       "chinese chicken curry and rice - just like the takeaway does it!",
     imgAlt: "chinese chicken curry and rice",
@@ -436,7 +436,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/chicken-and-tomato-balti/650x366/chicken-and-tomato-balti-plated-03.webp",
+      "/images/chicken-and-tomato-balti/200/chicken-and-tomato-balti-plated-03.webp",
     imgTitle: "chicken & tomato balti plated with plain basmati rice",
     imgAlt: "chicken & tomato balti plated 03",
     caption: "chicken & tomato balti",
@@ -447,7 +447,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "/images/chicken-in-creamy-peppercorn-sauce/650x366/chicken-in-creamy-peppercorn-sauce-and-mash-plated.webp",
+      "/images/chicken-in-creamy-peppercorn-sauce/200/chicken-in-creamy-peppercorn-sauce-plated.webp",
     imgTitle: "chicken creamy peppercorn sauce mash and veg",
     imgAlt: "chicken creamy peppercorn sauce and mash plated",
     caption: "chicken in creamy peppercorn sauce",
@@ -621,7 +621,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "/images/rogan-josh/650x366/rogan-josh-plated.webp",
+    imgSrc: "/images/rogan-josh/200/rogan-josh-plated.webp",
     imgTitle: "rogan josh beef curry with yogurt, basmati rice & naan",
     imgAlt: "rogan josh plated",
     caption: "rogan josh beef curry",
@@ -681,7 +681,7 @@ const gridContent = [
     type: "recipe",
     cat: "pork",
     imgSrc:
-      "/images/pork-blackbean-peppers/650x366/pork-and-peppers-in-blackbean-sauce.webp",
+      "/images/pork-blackbean-peppers/200/pork-and-peppers-in-blackbean-sauce.webp",
     imgTitle: "pork and peppers in black bean sauce",
     imgAlt: "pork and peppers in black bean sauce",
     caption: "pork and peppers in black bean sauce",
@@ -741,8 +741,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc:
-      "/images/jerked-pork-steaks/650x366/jerked-pork-steak-plated-01.webp",
+    imgSrc: "/images/jerked-pork-steaks/200/jerked-pork-steak-plated-01.webp",
     imgTitle: "jerked pork steak served with potato salad & salad",
     imgAlt: "jerked pork steak plated",
     caption: "jerked pork steaks grill",
