@@ -770,9 +770,6 @@ const gridContent = [
     page: `jerked-pork-curry`,
   },
 
-  // { type: "blank" },
-  // { type: "blank" },
-
   {
     type: "recipe",
     cat: "pork",
@@ -782,6 +779,19 @@ const gridContent = [
     imgAlt: "Mediterranean style vegetables with pork steaks plated 03",
     caption: "mediterranean style veg' with pork steaks",
     page: `mediterranean-style-vegetables-with-pork-steaks`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc: "/images/rogan-josh-pork-curry/200/rogan-josh-pork-curry.webp",
+    imgTitle: "rogan josh pork curry",
+    imgAlt: "rogan josh pork curry",
+    caption: "rogan josh pork curry",
+    page: `rogan-josh-pork-curry`,
   },
 
   // ****** pork END ****** \\
