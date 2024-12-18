@@ -838,11 +838,25 @@ const gridContent = [
   {
     type: "recipe",
     cat: "lamb",
-    imgSrc: "/images/lamb-curry-with-spinach/650x366/garam-masala-added-1.webp",
+    imgSrc: "/images/lamb-curry-with-spinach/200/garam-masala-added-1.webp",
     imgTitle: "lamb curry with spinach",
     imgAlt: "garam masala added",
     caption: "lamb curry with spinach",
     page: `lamb-curry-with-spinach`,
+  },
+
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc:
+      "/images/lamb-tikka-grill-steaks/200/lamb-tikka-grill-steaks-plated.webp",
+    imgTitle: "lamb tikka grill steaks with tomato rice & raita",
+    imgAlt: "lamb tikka grill steaks plated",
+    caption: "lamb tikka grill steaks",
+    page: `lamb-tikka-grill-steaks`,
   },
 
   // ****** lamb END ****** \\
