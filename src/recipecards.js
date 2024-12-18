@@ -838,7 +838,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "lamb",
-    imgSrc: "/images/lamb-curry-with-spinach/650x366/garam-masala-added-1.webp",
+    imgSrc: "/images/lamb-curry-with-spinach/200/garam-masala-added-1.webp",
     imgTitle: "lamb curry with spinach",
     imgAlt: "garam masala added",
     caption: "lamb curry with spinach",
