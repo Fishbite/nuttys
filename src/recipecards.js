@@ -263,7 +263,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickenvindaloo/650x366/vindaloo-simmering.webp",
+    imgSrc: "./images/chickenvindaloo/200/vindaloo-simmering.webp",
     imgTitle: "indian chicken vindaloo",
     imgAlt: "vindaloo simmering",
     caption: "indian chicken vindaloo",
@@ -913,7 +913,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "fish & veg",
-    imgSrc: "/images/aloo-gobi/650x366/aloo-gobi-plated.webp",
+    imgSrc: "/images/aloo-gobi/200/aloo-gobi-plated.webp",
     imgTitle: "aloo gobi on a plate",
     imgAlt: "aloo gobi plated",
     caption: "aloo gobi",
@@ -1141,7 +1141,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc: "/images/mashed-roots/650x366/swede-carrot-potato-mash-1.webp",
+    imgSrc: "/images/mashed-roots/200/swede-carrot-potato-mash-1.webp",
     imgTitle: "mashed roots side dish",
     imgAlt: "swede carrot potato mash 1",
     caption: "mashed roots",
@@ -1185,7 +1185,7 @@ const gridContent = [
     type: "recipe",
     cat: "accompaniments",
     imgSrc:
-      "/images/spicy-baked-beans-and-peppers/650x366/spicy-baked-beans-and-peppers.webp",
+      "/images/spicy-baked-beans-and-peppers/200/spicy-baked-beans-and-peppers.webp",
     imgTitle: "spicy baked beans & peppers with spicy potato wedges",
     imgAlt: "spicy baked beans & peppers",
     caption: "spicy baked beans & peppers",
@@ -1225,7 +1225,7 @@ const gridContent = [
     type: "recipe",
     cat: "puddings",
     imgSrc:
-      "./images/appleblackberrycrumble/650x366/apple-blackberry-crumble-01.webp",
+      "./images/appleblackberrycrumble/200/apple-blackberry-crumble-01.webp",
     imgTitle: "apple & blackberry crumble",
     imgAlt: "apple blackberry crumble",
     caption: "apple & blackberry crumble",
