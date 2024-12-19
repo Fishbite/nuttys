@@ -1198,7 +1198,18 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "/images/christmas-prepared/650x366/bacon-and-cheese-puffs-raw.webp",
+    imgTitle: "bacon and cheese puffs raw",
+    imgAlt:
+      "Christmas prepared savoury sides & snacks ready to pop into the oven",
+    caption: "Christmas prepared!",
+    page: `christmas-prepared`,
+  },
 
   {
     type: "recipe",
