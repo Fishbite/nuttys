@@ -707,6 +707,7 @@ header a:visited {
 
 .badge:hover {
   filter: sepia(100%);
+  cursor: pointer;
 }
 
 /* height & width can be set to anything you want
