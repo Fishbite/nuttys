@@ -994,8 +994,6 @@ const gridContent = [
     page: `chorizo-cod-stew`,
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "fish & veg",
@@ -1016,6 +1014,17 @@ const gridContent = [
     imgAlt: "Fish & Chorizo Potato Pie",
     caption: "Fish & Chorizo Potato Pie",
     page: `fish-and-chorizo-potato-pie`,
+  },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/fish-fillets-with-chilli-sauce/650x366/fish-fillets-with-chilli-sauce-and-saffron-rice-02.webp",
+    imgTitle: "fish fillets with chilli sauce & safron rice",
+    imgAlt: "fish fillets with chilli sauce & safron rice",
+    caption: "fish fillets with chilli sauce",
+    page: `fish-fillets-with-chilli-sauce`,
   },
 
   // ****** vege END ****** \\
@@ -1197,8 +1206,6 @@ const gridContent = [
     page: `jamaican-rice-and-peas`,
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "accompaniments",
@@ -1220,6 +1227,17 @@ const gridContent = [
     imgAlt: "spicy baked beans & peppers",
     caption: "spicy baked beans & peppers",
     page: `spicy-baked-beans-and-peppers`,
+  },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "/images/saffron-and-cardamom-rice/650x366/saffron-and-cardamom-rice.webp",
+    imgTitle: "saffron and cardamom rice in a serving dish",
+    imgAlt: "saffron and cardamom rice",
+    caption: "saffron and cardamom rice",
+    page: `saffron-and-cardamom-rice`,
   },
 
   // ****** accompaniments END ****** \\
