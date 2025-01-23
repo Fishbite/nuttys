@@ -240,6 +240,7 @@ main {
   display: grid;
   place-items: start;
 }
+
 /*
 =============== 
 About
@@ -306,21 +307,6 @@ About
   max-width: 66ch;
   margin: 4rem auto;
 }
-
-/* torn paper trial START */
-/* .intro-wrap {
-  max-width: 66ch;
-  margin: 0 auto 2rem auto;
-  background-image: url(/images/tornpaper02.svg);
-  padding: 4rem 0.5rem 2rem;
-  border-radius: 4px;
-  box-shadow: 0px -3px 6px -3px rgb(138, 138, 138);
-}
-.intro-wrap,
-p {
-  filter: opacity(1);
-} */
-/* torn paper trial END */
 
 .justify {
   text-align: justify;
@@ -480,7 +466,7 @@ p {
 
 /* 
 ================================================================
-Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
+Navigation START NB: Dynamically Gernerated with `navMenu(navContent)`
 ================================================================
 */
 
@@ -576,6 +562,12 @@ Navigation NB: Dynamically Gernerated with `navMenu(navContent)`
   background-color: var(--clr-grey-10-1);
   border-radius: 0 4px 4px 0;
 }
+
+/* 
+================================================================
+Navigation END NB: Dynamically Gernerated with `navMenu(navContent)`
+================================================================
+*/
 
 /* ====================================
    ** Recipe Method Specific Styles START **
@@ -952,3 +944,20 @@ header .fb-form {
    ** FEEDBACK FORM END **
    =======================
 */
+
+/* =======================
+   ** ODD BALLS **
+   =======================
+*/
+.in-link {
+  text-decoration: underline double var(--clr-grey-4);
+}
+
+.in-link:hover {
+  color: var(--clr-grey-2);
+  text-decoration-thickness: 0.1rem;
+}
+
+.in-link:visited {
+  color: var(--clr-grey-4);
+}
