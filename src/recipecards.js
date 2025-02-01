@@ -855,7 +855,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc: "/images/lamb-pulao-rice/200/lamb-pulao-rice-in-dish-02.webp",
+    imgTitle: "lamb pulao rice served in a dish",
+    imgAlt: "lamb pulao rice in dish",
+    caption: "lamb pulao rice",
+    page: `lamb-pulao-rice`,
+  },
 
   {
     type: "recipe",
