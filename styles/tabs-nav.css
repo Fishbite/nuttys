@@ -877,6 +877,7 @@ footer a:hover {
   text-transform: capitalize;
 }
 
+/* collapse the grid into a single column on devices < 650px */
 @media screen and (max-width: 650px) {
   .recipe-grid {
     grid-template-columns: 1fr;
