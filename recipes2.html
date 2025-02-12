@@ -5,6 +5,10 @@
   body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  }
+  .iframe-container {
+    margin: 0;
     max-width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -13,13 +17,16 @@
     align-items: center;
   }
   iframe {
-    width: 95vw;
+    width: 98vw;
     height: 100vh;
     border: none;
   }
 </style>
 </head>
 <body>
-  <iframe src="https://nuttys.is-best.net/recipes.php"></iframe>
+  <div class="iframe-container">
+    <iframe src="https://nuttys.is-best.net/recipes.php"></iframe>
+  </div>
+  
 </body>
 </html>
