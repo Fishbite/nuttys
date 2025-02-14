@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutty's Recipes | Nuttys Kitchen All Recipes</title>
+    <link rel="icon" href="favicon.svg" />
+    <meta
+      name="description"
+      content="Indulge in a mouth-watering mix of Italian, Mexican, Indian and English dishes. Stay tuned for more recipes and share your thoughts with us. Happy cooking!"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/tabs-nav.css" />
+    <!-- <link rel="stylesheet" href="./styles/tabs-nav-minified.css" /> -->
+
+    <style>
+      .iframe-container {
+        margin: 0;
+        max-width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      iframe {
+        width: 98vw;
+        height: 100vh;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/recipes3.html">Recipes</a></li>
+        <li><a href="/contact-form.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- RECIPE PAGE NAVIGATION -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- RECIPE PAGE NAVIGATION -->
+
+    <div class="spacer"></div>
+
+    <!-- This is the container that holds the recipe categories
+         and the individual recipes.
+        See recipecards.js:
+        `class GridEntry` uses the configuration `Objects` defined
+        in `const gridContent` to create each grid entry
+         create each category and recipe entry -->
+    <!--========= Grid Container START =========-->
+    <!-- div used by recipecards.js -->
+    <!-- <div class="recipe-grid"></div> -->
+    <!--========= Grid Container END =========-->
+
+    <!--========= iframe Container START =========-->
+    <!-- div used by recipecards.js -->
+    <div class="recipe-grid"></div>
+    <div class="iframe-container">
+      <iframe src="https://nuttys.is-best.net/recipes.php"></iframe>
+    </div>
+    <!--========= iframe Container END =========-->
+
+    <!-- Load the app' that creates the `tabs` on each recipe page,
+         the navigation menu & the footer on each page -->
+    <script src="./src/app.js"></script>
+
+    <!-- Load the app that populates the recipe page with recipes -->
+    <!-- <script src="./src/recipecards.js"></script> -->
+  </body>
+</html>
