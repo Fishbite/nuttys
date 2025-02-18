@@ -54,7 +54,7 @@ class GridEntry {
 
       div.addEventListener(
         "click",
-        () => (location.href = `./${this.page}.html`)
+        () => (location.href = `/${this.page}.html`)
       );
 
       grid.appendChild(div);
@@ -98,7 +98,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages & bacon",
-    imgSrc: `./images/sausagecasserole/200/sausagecasserole.jpg`,
+    imgSrc: `/images/sausagecasserole/200/sausagecasserole.jpg`,
     imgTitle: "sausage casserole",
     imgAlt: "sausage casserole",
     caption: "sausage casserole",
@@ -108,7 +108,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages & bacon",
-    imgSrc: "./images/sausagepasta/200/16-add-marjoram-leaves.jpg",
+    imgSrc: "/images/sausagepasta/200/16-add-marjoram-leaves.jpg",
     imgTitle: "sausage & penne pasta",
     imgAlt: "add marjoram leaves",
     caption: "sausage & penne pasta",
@@ -129,7 +129,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages & bacon",
-    imgSrc: "./images/sausagepepperpie/200/sausagepeppermashpie-01.webp",
+    imgSrc: "/images/sausagepepperpie/200/sausagepeppermashpie-01.webp",
     imgTitle: "sausage pepper mash pie",
     imgAlt: "sausage peppermash pie",
     caption: "sausage & pepper mash pie",
@@ -139,7 +139,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sausages & bacon",
-    imgSrc: "./images/sausageonionpie/200/pie-on-board-07.jpg",
+    imgSrc: "/images/sausageonionpie/200/pie-on-board-07.jpg",
     imgTitle: "sausage & onion pie",
     imgAlt: "pie on board",
     caption: "sausage & onion pie",
@@ -202,7 +202,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickensoup/200/Chicken-soup-in-large-dish.webp",
+    imgSrc: "/images/chickensoup/200/Chicken-soup-in-large-dish.webp",
     imgTitle: "grandma's chicken soup",
     imgAlt: "chickensoup soup in large dish",
     caption: "grandma's chicken soup",
@@ -212,7 +212,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickenchillimex/200/chicken-chilli-cooking.jpg",
+    imgSrc: "/images/chickenchillimex/200/chicken-chilli-cooking.jpg",
     imgTitle: "chicken chilli mexican",
     imgAlt: "chicken chilli cooking",
     caption: "chicken chilli mexican",
@@ -222,7 +222,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/easychickencurry/200/finished-curry-in-pan.png",
+    imgSrc: "/images/easychickencurry/200/finished-curry-in-pan.png",
     imgTitle: "easy chicken curry",
     imgAlt: "finished curry in pan",
     caption: "easy chicken curry",
@@ -232,7 +232,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickenmushroompasta/200/pasta-sauce-in-pan.jpg",
+    imgSrc: "/images/chickenmushroompasta/200/pasta-sauce-in-pan.jpg",
     imgTitle: "chicken & mushroom pasta",
     imgAlt: "pasta sauce in pan",
     caption: "chicken & mushroom pasta",
@@ -242,7 +242,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickenlasagne/200/chicken-lasagne-01.jpg",
+    imgSrc: "/images/chickenlasagne/200/chicken-lasagne-01.jpg",
     imgTitle: "chicken & mushroom lasagne",
     imgAlt: "chicken lasagne",
     caption: "chicken & mushroom lasagne",
@@ -253,7 +253,7 @@ const gridContent = [
     type: "recipe",
     cat: "chicken",
     imgSrc:
-      "./images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg",
+      "/images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg",
     imgTitle: "sweet & sour chicken",
     imgAlt: "spring onion added to sauce",
     caption: "sweet & sour roast chicken",
@@ -263,7 +263,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickenvindaloo/200/vindaloo-simmering.webp",
+    imgSrc: "/images/chickenvindaloo/200/vindaloo-simmering.webp",
     imgTitle: "indian chicken vindaloo",
     imgAlt: "vindaloo simmering",
     caption: "indian chicken vindaloo",
@@ -295,7 +295,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "./images/chickenmushroompie/200/chicken-pie-cooked-01.jpg",
+    imgSrc: "/images/chickenmushroompie/200/chicken-pie-cooked-01.jpg",
     imgTitle: "chicken & mushroom pie",
     imgAlt: "chicken pie cooked",
     caption: "chicken & mushroom pie",
@@ -487,7 +487,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/cornedbeefmash/200/cornedbeef-mash-pie.jpg",
+    imgSrc: "/images/cornedbeefmash/200/cornedbeef-mash-pie.jpg",
     imgTitle: "corned beef mash pie",
     imgAlt: "",
     caption: "corned beef mash pie",
@@ -497,7 +497,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beefspinachcurry/200/spinach-added-to-curry.jpg",
+    imgSrc: "/images/beefspinachcurry/200/spinach-added-to-curry.jpg",
     imgTitle: "beef & spinach curry",
     imgAlt: "spinach added to curry",
     caption: "beef & spinach curry",
@@ -507,7 +507,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beefporkpastasauce/200/pasta-sauce-marjoram.jpg",
+    imgSrc: "/images/beefporkpastasauce/200/pasta-sauce-marjoram.jpg",
     imgTitle: "beef & pork pasta sauce",
     imgAlt: "pasta sauce marjoram",
     caption: "beef & pork pasta sauce",
@@ -517,7 +517,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beefporkchilli/200/beef-and-pork-chilli.webp",
+    imgSrc: "/images/beefporkchilli/200/beef-and-pork-chilli.webp",
     imgTitle: "beef & pork chilli ready to serve",
     imgAlt: "beef & pork chilli",
     caption: "beef & pork mexican chilli",
@@ -527,7 +527,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beefporkpastabake/200/pasta-bake-done.jpg",
+    imgSrc: "/images/beefporkpastabake/200/pasta-bake-done.jpg",
     imgTitle: "beef & pork pasta bake",
     imgAlt: "pasta bake done",
     caption: "beef & pork pasta bake",
@@ -537,7 +537,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/cottage-pie/200/cottage-pie-cooked-2.jpg",
+    imgSrc: "/images/cottage-pie/200/cottage-pie-cooked-2.jpg",
     imgTitle: "cottage pie in square serving dish",
     imgAlt: "cottage pie cooked 1",
     caption: "cottage pie",
@@ -547,7 +547,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beef-pork-madras/200/beef-and-pork-madras.webp",
+    imgSrc: "/images/beef-pork-madras/200/beef-and-pork-madras.webp",
     imgTitle: "beef and pork madras",
     imgAlt: "beef pork madras in pan",
     caption: "beef & pork madras",
@@ -557,7 +557,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc: "./images/beefy-meatballs/200/meatballs-finished.webp",
+    imgSrc: "/images/beefy-meatballs/200/meatballs-finished.webp",
     imgTitle: "beefy meatballs in onion gravy",
     imgAlt: "meatballs finished",
     caption: "beefy meatballs in onion gravy",
@@ -578,7 +578,7 @@ const gridContent = [
     type: "recipe",
     cat: "beef",
     imgSrc:
-      "./images/beef-curry-with-green-beans/200/beef-curry-with-green-beans-1.jpg",
+      "/images/beef-curry-with-green-beans/200/beef-curry-with-green-beans-1.jpg",
     imgTitle: "beef curry with green beans in a pan",
     imgAlt: "beef curry with green beans 1",
     caption: "beef curry with green beans",
@@ -588,8 +588,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "beef",
-    imgSrc:
-      "./images/beef-mushroom-suet-pie/200/pie-and-broccoli-plated-2.webp",
+    imgSrc: "/images/beef-mushroom-suet-pie/200/pie-and-broccoli-plated-2.webp",
     imgTitle: "beef and mushroom suet pastry pie & boccoli",
     imgAlt: "pie and broccoli plated 2",
     caption: "beef and mushroom suet pastry pie",
@@ -1061,7 +1060,7 @@ const gridContent = [
   {
     type: "info",
     cat: "sauce",
-    imgSrc: "./images/cheesesauce/shop-bought-ingredients.jpg",
+    imgSrc: "/images/cheesesauce/shop-bought-ingredients.jpg",
     imgTitle: "ingredients NOT included",
     imgAlt: "shop bought ingredients",
     caption: "ingredients NOT included!",
@@ -1071,7 +1070,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
-    imgSrc: "./images/whitesauce/200/white-sauce.jpg",
+    imgSrc: "/images/whitesauce/200/white-sauce.jpg",
     imgTitle: "white sauce",
     imgAlt: "white sauce",
     caption: "white sauce",
@@ -1091,7 +1090,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
-    imgSrc: "./images/onionsauce/200/onion-sauce-jug-01.webp",
+    imgSrc: "/images/onionsauce/200/onion-sauce-jug-01.webp",
     imgTitle: "onion sauce",
     imgAlt: "onion sauce jug",
     caption: "onion sauce",
@@ -1101,7 +1100,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "sauce",
-    imgSrc: "./images/cheesesauce/200/cheese-sauce-in-pan.jpg",
+    imgSrc: "/images/cheesesauce/200/cheese-sauce-in-pan.jpg",
     imgTitle: "cheese sauce",
     imgAlt: "cheese sauce in pan",
     caption: "cheese sauce",
@@ -1120,7 +1119,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc: "./images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
+    imgSrc: "/images/tomatomexicanrice/200/cooked-rice-in-pan.jpg",
     imgTitle: "tomato mexican rice",
     imgAlt: "cooked rice in pan",
     caption: "tomato mexican rice",
@@ -1130,7 +1129,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc: "./images/chapati/200/chapati-cooking-01.webp",
+    imgSrc: "/images/chapati/200/chapati-cooking-01.webp",
     imgTitle: "chapati flat bread",
     imgAlt: "chapati cooking",
     caption: "chapati flat bread",
@@ -1140,7 +1139,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc: "./images/egg-fried-rice/200/egg-fried-rice-cooked.webp",
+    imgSrc: "/images/egg-fried-rice/200/egg-fried-rice-cooked.webp",
     imgTitle: "egg fried rice",
     imgAlt: "egg fried rice",
     caption: "egg fried rice",
@@ -1150,8 +1149,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc:
-      "./images/chinese-noodles-with-beansprouts/200/stirfry-noodles.webp",
+    imgSrc: "/images/chinese-noodles-with-beansprouts/200/stirfry-noodles.webp",
     imgTitle: "chinese noodles with beansprouts",
     imgAlt: "stirfry noodles",
     caption: "noodles with beansprouts",
@@ -1274,7 +1272,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: "./images/pineapplepud/200/cake-cooked.jpg",
+    imgSrc: "/images/pineapplepud/200/cake-cooked.jpg",
     imgTitle: "pineapple pudding upside down",
     imgAlt: "cake cooked",
     caption: "pineapple pudding upside down",
@@ -1284,7 +1282,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: "./images/pearalmondtart/200/pear-almond-tart-cooling.jpg",
+    imgSrc: "/images/pearalmondtart/200/pear-almond-tart-cooling.jpg",
     imgTitle: "pear almond tart",
     imgAlt: "pear almond tart cooling",
     caption: "pear almond tart",
@@ -1295,7 +1293,7 @@ const gridContent = [
     type: "recipe",
     cat: "puddings",
     imgSrc:
-      "./images/appleblackberrycrumble/200/apple-blackberry-crumble-01.webp",
+      "/images/appleblackberrycrumble/200/apple-blackberry-crumble-01.webp",
     imgTitle: "apple & blackberry crumble",
     imgAlt: "apple blackberry crumble",
     caption: "apple & blackberry crumble",
@@ -1305,7 +1303,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: "./images/gingerbread/200/cake-finished.jpg",
+    imgSrc: "/images/gingerbread/200/cake-finished.jpg",
     imgTitle: "sticky gingerbread pud",
     imgAlt: "cake-finished",
     caption: "sticky gingerbread pud",
@@ -1315,7 +1313,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: "./images/blackcherrypie/200/cherry-pie-cooked.jpg",
+    imgSrc: "/images/blackcherrypie/200/cherry-pie-cooked.jpg",
     imgTitle: "black cherry lattice tart",
     imgAlt: "cherry pie cooked",
     caption: "black cherry lattice tart",
@@ -1336,7 +1334,7 @@ const gridContent = [
   {
     type: "recipe",
     cat: "puddings",
-    imgSrc: "./images/victoria-sponge-cake/200/victoria-sponge-slice.webp",
+    imgSrc: "/images/victoria-sponge-cake/200/victoria-sponge-slice.webp",
     imgTitle: "a slice of victoria sponge cake",
     imgAlt: "victoria sponge slice",
     caption: "victoria sponge cake",
