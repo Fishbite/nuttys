@@ -1036,6 +1036,19 @@ const gridContent = [
     page: `fish-fillets-with-chilli-sauce`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc: "/images/celeriac-soup/200/celeriac-soup.webp",
+    imgTitle: "celeriac soup with crispy celeriac & onion toppin",
+    imgAlt: "celeriac soup",
+    caption: "celeriac soup",
+    page: `celeriac-soup`,
+  },
+
   // ****** vege END ****** \\
 
   // ****** sauce START ****** \\
