@@ -1036,7 +1036,16 @@ const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc: "/images/sambar/200/sambar-with-naan-on-the-side.webp",
+    imgTitle: "sambar - south Indian lentils & vegetables",
+    imgAlt: "sambar with naan on the side",
+    caption: "sambar &mdash; south Indian lentils & vegetables",
+    page: `sambar`,
+  },
 
   {
     type: "recipe",
