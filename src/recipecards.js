@@ -627,6 +627,30 @@ const gridContent = [
     page: `rogan-josh-beef-curry`,
   },
 
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/savoury-mince-and-mash/200/savoury-mince-and-mash-plated.webp",
+    imgTitle: "savoury mince with fluffy mashed potatoes",
+    imgAlt: "savoury mince and mash plated",
+    caption: "savoury mince & mash",
+    page: `savoury-mince-and-mash`,
+  },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/beef-stew-and-dumplings/200/beef-stew-and-duplings-cooked.webp",
+    imgTitle: "beef stew & dumplings cooked in a Dutch Oven",
+    imgAlt: "rogan josh plated",
+    caption: "beef  stew & dumplings",
+    page: `beef-stew-and-dumplings`,
+  },
+
   // ****** beef END ****** \\
 
   // ****** pork ****** \\
