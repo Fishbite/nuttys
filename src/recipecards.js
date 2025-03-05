@@ -475,6 +475,21 @@ const gridContent = [
     page: `chicken-tikka-grilled-escalope`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/luxury-chicken-pie/200/pie-with-trimmed-golden-pastry.webp",
+    imgTitle:
+      "luxury chicken pie with mushrooms & leeks with trimmed pastry top",
+    imgAlt: "pie with trimmed golden pastry",
+    caption: "luxury chicken pie",
+    page: `luxury-chicken-pie`,
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
