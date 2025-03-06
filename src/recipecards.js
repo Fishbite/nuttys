@@ -481,11 +481,9 @@ const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc:
-      "/images/luxury-chicken-pie/200/pie-with-trimmed-golden-pastry.webp",
-    imgTitle:
-      "luxury chicken pie with mushrooms & leeks with trimmed pastry top",
-    imgAlt: "pie with trimmed golden pastry",
+    imgSrc: "/images/luxury-chicken-pie/200/cold-pie-on-a-plate-with-fork.webp",
+    imgTitle: "luxury chicken, mushroom & leek pie with a fork on a plate",
+    imgAlt: "cold pie on a plate with a fork",
     caption: "luxury chicken pie",
     page: `luxury-chicken-pie`,
   },
