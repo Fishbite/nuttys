@@ -1,0 +1,83 @@
+This document contains git commands that need to be used in order to synchronize branches of the main repository.
+
+These are just for info with an explanation of what they do:
+git checkout main
+git pull origin main
+git checkout -b feature-branch-name
+git push origin feature-branch-name
+
+1. git checkout main
+
+This command switches your current branch to the main branch. If you are on a different branch, this will move you to the main branch.
+
+2. git pull origin main
+
+This command fetches the latest changes from the main branch on the remote repository (referred to as origin) and merges them into your local main branch. This ensures your local main branch is up-to-date with the remote repository.
+
+3. git checkout -b feature-branch-name
+
+This command creates a new branch called feature-branch-name and switches to it immediately. The new branch is created based on the branch you were on before running this command, typically the main branch.
+
+4. git push origin feature-branch-name
+
+This command pushes your newly created branch (feature-branch-name) to the remote repository (referred to as origin). This makes your branch available to others who have access to the repository.
+
+By using these commands, you can create a new branch for your feature, ensure it is based on the latest state of the main branch, and then push it to the remote repository for collaboration.
+
+*****************************************************************
+*****************************************************************
+
+We often see the message "This branch is 'n' commits behind 'master'.
+
+This is how to resolve it so the message reads "This branch is up to date with 'master'.
+
+Resolving n commits behind master:
+
+git checkout master - to switch to the master branch
+git pull origin master - to pull the latest changes from master
+git checkout stu - to switch back to the stu branch
+git merge master - to merge the latest changes from master into stu
+git push origin stu - to push the updated stu branch to the remote repository
+
+git checkout master
+git pull origin master
+git checkout stu
+git merge master
+git push origin stu
+
+*****************************************************************
+*****************************************************************
+Reference - some git commands & what they do
+*****************************************************************
+
+*****************************************************************
+
+git status - list all new or modified files to be committed
+
+git add . - adds all the files in the local repo and stages them for commits
+git reset HEAD <file> - to unstage a specific file
+
+git add FILENAME.ext - add a specific file e.g. git add README.txt
+
+git commit -m "your commit message" - commit files you added to the local repo
+
+git reset HEAD~1 - remove the most recent commit
+
+git remote -v - list remote repos you are connected to
+
+git push -u origin branchname - push changes to the remote repo 'branchname'
+
+git diff - show file changes not yet staged (press 'q' to quit the command)
+
+git checkout . - revert back to the last committed version of the repo
+    or:
+git checkout -- <filename> - revert back to the last committed version of a specific file
+
+git log - view the commit history of your files (q to quite the cmd)
+
+Each time you make changes that you want to be reflected on GitHub, the following are the most common flow of commands:
+
+$ git add .
+$ git status # Lists all new or modified files to be committed
+$ git commit -m "Second commit"
+$ git push -u origin master
