@@ -50,17 +50,34 @@ git push origin stu
 Reference - some git commands & what they do
 *****************************************************************
 
+*****************************************************************
+
 git status - list all new or modified files to be committed
 
 git add . - adds all the files in the local repo and stages them for commits
-git reset HEAD <file>..." - to unstage a specific file
+git reset HEAD <file> - to unstage a specific file
 
-git add FILNAME.ext - add a specific file e.g. git add README.txt
+git add FILENAME.ext - add a specific file e.g. git add README.txt
 
 git commit -m "your commit message" - commit files you added to the local repo
 
 git reset HEAD~1 - remove the most recent commit
 
-git remote -v - list remote repo's you are connected to
+git remote -v - list remote repos you are connected to
 
-git push -u origin branch name
+git push -u origin branchname - push changes to the remote repo 'branchname'
+
+git diff - show file changes not yet staged (press 'q' to quit the command)
+
+git checkout . - revert back to the last committed version of the repo
+    or:
+git checkout -- <filename> - revert back to the last committed version of a specific file
+
+git log - view the commit history of your files (q to quite the cmd)
+
+Each time you make changes that you want to be reflected on GitHub, the following are the most common flow of commands:
+
+$ git add .
+$ git status # Lists all new or modified files to be committed
+$ git commit -m "Second commit"
+$ git push -u origin master
