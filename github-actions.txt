@@ -81,3 +81,34 @@ $ git add .
 $ git status # Lists all new or modified files to be committed
 $ git commit -m "Second commit"
 $ git push -u origin master
+
+*****************************************************************
+*****************************************************************
+Testing collaborator's changes before merging:
+
+1. Fetch all branches from the remote repository:
+   git fetch origin
+
+2. Check out the collaborator's branch:
+   git checkout nette
+   # If the branch does not exist locally, use:
+   # git checkout -b nette origin/nette
+
+3. Test the changes:
+   Run any tests or perform any manual testing required to verify the changes made by the collaborator.
+
+4. Merge the collaborator's branch into a local master branch:
+   git checkout master
+   git pull origin master
+   git merge nette
+
+5. Push the changes to the remote master branch:
+   git push origin master
+
+Pushing a local branch to GitHub:
+
+1. Ensure you are on the `nette` branch:
+   git checkout nette
+
+2. Push the `nette` branch to the remote repository:
+   git push origin nette
