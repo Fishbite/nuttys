@@ -81,3 +81,77 @@ $ git add .
 $ git status # Lists all new or modified files to be committed
 $ git commit -m "Second commit"
 $ git push -u origin master
+
+*****************************************************************
+*****************************************************************
+Testing collaborator's changes before merging:
+
+1. Fetch all branches from the remote repository:
+   git fetch origin
+
+2. Check out the collaborator's branch:
+   git checkout nette
+   # If the branch does not exist locally, use:
+   # git checkout -b nette origin/nette
+
+3. Test the changes:
+   Run any tests or perform any manual testing required to verify the changes made by the collaborator.
+
+4. Merge the collaborator's branch into a local master branch:
+   git checkout master
+   git pull origin master
+   git merge nette
+
+5. Push the changes to the remote master branch:
+   git push origin master
+
+Pushing a local branch to GitHub:
+
+1. Ensure you are on the `nette` branch:
+   git checkout nette
+
+2. Push the `nette` branch to the remote repository:
+   git push origin nette
+
+*****************************************************************
+Ensuring 'nette' has the latest changes from 'stu':
+
+1. Fetch the latest changes from the remote repository:
+   git fetch origin
+
+2. Check out the `nette` branch:
+   git checkout nette
+
+3. Merge the `stu` branch into the `nette` branch:
+   git merge stu
+
+4. Resolve any merge conflicts if they arise.
+
+5. Push the updated `nette` branch to the remote repository:
+   git push origin nette
+
+   *****************************************************************
+Deleting a local branch:
+
+1. Ensure you are not on the `nuttysedits` branch:
+   git branch
+   # If you are on the `nuttysedits` branch, switch to another branch:
+   git checkout master
+
+2. Delete the `nuttysedits` branch:
+   git branch -d nuttysedits
+   # If the branch has not been merged and you want to force delete it, use:
+   git branch -D nuttysedits
+
+   *****************************************************************
+
+To clean up the local references to remote branches that no longer exist on the remote repository, you can use the git remote prune command. This will remove the local references to remote branches that have been deleted on the remote repository.
+
+Cleaning up remote branches:
+
+1. Prune the remote branches:
+   git remote prune origin
+
+2. Verify the remote branches:
+   git branch -r
+   # Ensure only the actual remote branches are listed: master, stu, nette
