@@ -130,6 +130,18 @@ Ensuring 'nette' has the latest changes from 'stu':
 5. Push the updated `nette` branch to the remote repository:
    git push origin nette
 
+Copy and paste these into a Git bash terminal and press 'Enter':
+
+git fetch origin
+git checkout nette
+git merge stu
+
+Then, if there are no conflicts, copy and paste this into
+Git bash terminal and press 'Enter'
+
+git push origin nette
+
+
    *****************************************************************
 Deleting a local branch:
 
