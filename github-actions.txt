@@ -136,6 +136,8 @@ git fetch origin
 git checkout nette
 git merge stu
 
+WARNING: If there are conflicts, STOP!!! Do no more, these have to be fixed!!!
+
 Then, if there are no conflicts, copy and paste this into
 Git bash terminal and press 'Enter'
 
