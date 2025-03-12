@@ -98,6 +98,12 @@ ol {
   line-height: 1.5;
   list-style-position: inside;
 }
+ol ul {
+  list-style-type: circle;
+  color: var(--clr-grey-4);
+  line-height: 1.5;
+  padding: 1rem 0 0 1rem;
+}
 a {
   text-decoration: none;
 }
