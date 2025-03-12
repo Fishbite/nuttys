@@ -39,11 +39,21 @@ git checkout stu - to switch back to the stu branch
 git merge master - to merge the latest changes from master into stu
 git push origin stu - to push the updated stu branch to the remote repository
 
+for Stu:
+**********
 git checkout master
 git pull origin master
 git checkout stu
 git merge master
 git push origin stu
+
+For Nette:
+**********
+git checkout master
+git pull origin master
+git checkout nette
+git merge master
+git push origin nette
 
 *****************************************************************
 *****************************************************************
