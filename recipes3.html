@@ -74,7 +74,8 @@
     <!--========= iframe Container END =========-->
 
     <!--========= using JS to fetch and insert content dynamically START =========-->
-    <div id="search-container"></div>
+    <!-- DOES NOT WORK!!!!! -->
+    <!-- <div id="search-container"></div>
     <script>
       fetch("https://nuttys.is-best.net/views/recipes.view.php")
         .then((response) => response.text())
@@ -83,7 +84,7 @@
             (document.getElementById("search-container").innerHTML = data)
         )
         .catch((error) => console.error("Error loading search:", error));
-    </script>
+    </script> -->
     <!--========= using JS to fetch and insert content dynamically END =========-->
 
     <!-- Load the app' that creates the `tabs` on each recipe page,
