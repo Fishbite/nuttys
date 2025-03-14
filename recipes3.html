@@ -36,10 +36,6 @@
         border: none;
       }
     </style>
-
-    <script>
-      document.cookie = "__test=1; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/";
-    </script>
   </head>
   <body>
     <!-- <nav class="nav-main">
@@ -68,14 +64,27 @@
 
     <!--========= iframe Container START =========-->
     <!-- div used by recipecards.js -->
-    <div class="recipe-grid"></div>
+    <!-- <div class="recipe-grid"></div>
     <div class="iframe-container">
       <iframe
         sandbox="allow-scripts allow-same-origin"
         src="https://nuttys.is-best.net/views/recipes.view.php"
       ></iframe>
-    </div>
+    </div> -->
     <!--========= iframe Container END =========-->
+
+    <!--========= using JS to fetch and insert content dynamically START =========-->
+    <div id="search-container"></div>
+    <script>
+      fetch("https://nuttys.is-best.net/views/recipes.view.php")
+        .then((response) => response.text())
+        .then(
+          (data) =>
+            (document.getElementById("search-container").innerHTML = data)
+        )
+        .catch((error) => console.error("Error loading search:", error));
+    </script>
+    <!--========= using JS to fetch and insert content dynamically END =========-->
 
     <!-- Load the app' that creates the `tabs` on each recipe page,
          the navigation menu & the footer on each page -->
