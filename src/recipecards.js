@@ -1001,7 +1001,7 @@ const gridContent = [
     cat: "fish & veg",
     imgSrc:
       "/images/blue-cheese-macaroni-pie/200/blue-cheese-macaroni-pie-baked.webp",
-    imgTitle: "cauliflower curry finished cooking in a pan",
+    imgTitle: "blue cheese macaroni pie in a dish",
     imgAlt: "blue cheese macaroni pie baked",
     caption: "blue cheese macaroni pie",
     page: `blue-cheese-macaroni-pie`,
