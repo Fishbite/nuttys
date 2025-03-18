@@ -119,7 +119,7 @@ const gridContent = [
     type: "recipe",
     cat: "sausages & bacon",
     imgSrc:
-      "images/sausage-pasta-sauce/200/sausage-pasta-sauce-and-fusilli.webp",
+      "/images/sausage-pasta-sauce/200/sausage-pasta-sauce-and-fusilli.webp",
     imgTitle: "sausage pasta sauce topped with cheese",
     imgAlt: "sausage pasta sauce and fusilli",
     caption: "sausage pasta sauce",
