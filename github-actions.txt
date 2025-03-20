@@ -104,6 +104,14 @@ Testing collaborator's changes before merging:
    # If the branch does not exist locally, use:
    # git checkout -b nette origin/nette
 
+2.5 Pull the latest changes into the local `nette` branch
+	git pull origin nette
+	# You should now see the changes that have been made & commited to the `nette` branch by nette
+	# If you can not see the changes, check the current branch, check for uncommited changes, then compare the local branch with the remote branch:
+	git branch
+	git status
+	git diff origin/nette
+   
 3. Test the changes:
    Run any tests or perform any manual testing required to verify the changes made by the collaborator.
 
