@@ -128,6 +128,9 @@ Pushing a local branch to GitHub:
 *****************************************************************
 Ensuring 'nette' has the latest changes from 'stu':
 
+*****************************************************************
+Ensuring 'nette' has the latest changes from 'stu':
+
 1. Fetch the latest changes from the remote repository:
    git fetch origin
 
@@ -140,15 +143,18 @@ Ensuring 'nette' has the latest changes from 'stu':
 4. If the `stu` branch does not exist locally, create a local copy of the remote `stu` branch:
    git checkout -b stu origin/stu
 
-5. Check out the `nette` branch:
+5. Pull the latest changes into the `stu` branch:
+   git pull origin stu
+
+6. Check out the `nette` branch:
    git checkout nette
 
-6. Merge the `stu` branch into the `nette` branch:
+7. Merge the `stu` branch into the `nette` branch:
    git merge stu
 
-7. Resolve any merge conflicts if they arise.
+8. Resolve any merge conflicts if they arise.
 
-8. Push the updated `nette` branch to the remote repository:
+9. Push the updated `nette` branch to the remote repository:
    git push origin nette
 
 Copy and paste these into a Git bash terminal and press 'Enter':
@@ -157,8 +163,10 @@ git fetch origin
 git branch --list stu
 # If the `stu` branch exists locally:
 git checkout stu
+git pull origin stu
 # If the `stu` branch does not exist locally:
 git checkout -b stu origin/stu
+git pull origin stu
 git checkout nette
 git merge stu
 
@@ -168,6 +176,7 @@ Then, if there are no conflicts, copy and paste this into
 Git bash terminal and press 'Enter'
 
 git push origin nette
+*****************************************************************
 
 
    *****************************************************************
