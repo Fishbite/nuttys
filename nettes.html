@@ -129,15 +129,7 @@
               </li>
             </ul>
           </li>
-          <li>
-            If the `stu` branch does not exist locally, create a local copy of
-            the remote `stu` branch:
-            <ul>
-              <li>
-                <code>git checkout -b stu origin/stu</code>
-              </li>
-            </ul>
-          </li>
+
           <li>
             If the `stu` branch <strong>does not exist locally</strong>, create
             a local copy of the remote `stu` branch:
@@ -149,11 +141,13 @@
           </li>
         </ol>
         <div class="spacer"></div>
+
+        <p>Otherwise skip to step 5.</p>
         <h3>
           # Now we are sure the 'stu' branch exists on your pc we can proceed:
         </h3>
 
-        <ol start="6">
+        <ol start="5">
           <li>
             Pull the latest changes into the local `stu` branch with the
             following command:
@@ -214,18 +208,12 @@
 
       <div class="spacer"></div>
       <p>
-        # If the `stu` branch exists locally it will be shown in the termiminal,
-        so, copy & paste the following into the 'Git Bash' terminal & press
-        'Enter':
+        # If the `stu` branch exists locally it will be shown in the termiminal.
       </p>
 
-      <code>git checkout stu</code><br />
-      <code>git pull origin stu</code>
-
-      <div class="spacer"></div>
       <p>
-        # If the `stu` branch does not exist locally copy & paste the following
-        into the 'Git Bash' terminal & press 'Enter':
+        # If the `stu` branch <strong>does not exist locally</strong> copy &
+        paste the following into the 'Git Bash' terminal & press 'Enter':
       </p>
 
       <code>git checkout -b stu origin/stu</code><br />
@@ -236,6 +224,7 @@
         the following into the 'Git Bash' terminal & press 'Enter':
       </p>
 
+      <code>git checkout stu</code><br />
       <code>git pull origin stu</code><br />
       <code>git checkout nette</code><br />
       <code>git merge stu</code><br />
