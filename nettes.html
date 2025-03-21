@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Source Control</title>
+    <link rel="stylesheet" href="/styles/tabs-nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="title">
+      <h1>Source control</h1>
+      <h2>How to keep up to date</h2>
+
+      <p>
+        This document contains git commands that need to be used in order to
+        synchronize branches of the main repository.
+      </p>
+      <p>
+        To keep up to date with the latest changes in the repository (Git Hub)
+        we need to do a few things on our pc, otherwise,
+        <strong>CONFLICTS WILL HAPPEN!!!</strong>
+      </p>
+      <hr />
+    </header>
+
+    <article class="section-center" style="width: 66ch">
+      <h1>Ensuring 'nette' has the latest changes from 'stu':</h1>
+      <p>
+        <strong>IMPORTANT!</strong> We need to make sure that everything is up
+        to date with github BEFORE we start to make changes to ANY file in VS
+        Code.
+      </p>
+      <h3>Open Nutty's Kitchen in VS Code (the code editor)</h3>
+
+      <figure class="card_image">
+        <figcaption>open Nutty's Kitchen in vs code</figcaption>
+        <img
+          style="width: 100%"
+          src="/images/vscode/edited/vscode-nuttys-kitchen.webp"
+          alt="vs code nuttys kitchen"
+          title="vs code nuttys kitchen"
+        />
+      </figure>
+      <div class="spacer"></div>
+      <p>
+        # Open a terminal window: Press CTRL and hold while you press ' (it's on
+        the same key as the @ symbol)
+      </p>
+      <figure class="card_image">
+        <figcaption>open a terminal window: press CTRL + '</figcaption>
+        <img
+          style="width: 100%"
+          src="/images/vscode/edited/terminal-window.webp"
+          alt="terminal window"
+          title="terminal window"
+        />
+      </figure>
+      <div class="spacer"></div>
+      <p>
+        # Open a Git Bash Terminal: Press the down arrow (next to the '+'
+        symbol) on top right hand side of the terminal window.
+      </p>
+      <p>Select 'Git Bash' from the pop up menu.</p>
+
+      <figure class="card_image">
+        <figcaption>open a Git Bash terminal:</figcaption>
+        <img
+          style="width: 100%"
+          src="/images/vscode/edited/open-git-bash.webp"
+          alt="open git bash"
+          title="open git bash"
+        />
+      </figure>
+      <div class="spacer"></div>
+
+      <figure class="card_image">
+        <figcaption>the Git Bash terminal:</figcaption>
+        <img
+          style="width: 100%"
+          src="/images/vscode/edited/git-bash-terminal.webp"
+          alt="git bash terminal"
+          title="git bash terminal"
+        />
+      </figure>
+      <div class="spacer"></div>
+
+      <p>
+        # Now we can run the following commands to ensure that your branch
+        (nette) is up to date with my branch (stu):
+      </p>
+      <p>
+        Copy & paste the commands (shown as:
+        <code>git some-command-to-run</code>) into the Git Bash terminal and
+        press ENTER to run the command.
+      </p>
+
+      <div class="spaced-ol-list">
+        <ol>
+          <li>
+            Fetch the latest changes from the remote repository with the
+            following command:
+            <ul>
+              <li>
+                <code>git fetch origin</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Check if the `stu` branch exists locally. It should be shown in the
+            terminal:
+            <ul>
+              <li>
+                <code>git branch --list stu</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            If the `stu` branch exists locally, check it out ('checkout' means
+            'switch to'):
+            <ul>
+              <li>
+                <code>git checkout stu</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            If the `stu` branch does not exist locally, create a local copy of
+            the remote `stu` branch:
+            <ul>
+              <li>
+                <code>git checkout -b stu origin/stu</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            If the `stu` branch <strong>does not exist locally</strong>, create
+            a local copy of the remote `stu` branch:
+            <ul>
+              <li>
+                <code>git checkout -b stu origin/stu</code>
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <div class="spacer"></div>
+        <h3>
+          # Now we are sure the 'stu' branch exists on your pc we can proceed:
+        </h3>
+
+        <ol start="6">
+          <li>
+            Pull the latest changes into the local `stu` branch with the
+            following command:
+            <ul>
+              <li>
+                <code>git pull origin stu</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Check out (switch to) the `nette` branch with the following command:
+            <ul>
+              <li>
+                <code>git checkout nette</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Merge the `stu` branch into the `nette` branch with the following
+            command:
+            <ul>
+              <li>
+                <code>git merge stu</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Resolve any merge conflicts if they arise.
+            <ul>
+              <li>
+                <strong
+                  ># STOP IF THERE ARE CONFLICTS!!! and go no further. Otherwise
+                  proceed:</strong
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Push the updated `nette` branch to the remote repository with the
+            following command:
+            <ul>
+              <li>
+                <code>git push origin nette</code>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+      <div class="spacer"></div>
+
+      <hr />
+      <div class="spacer"></div>
+      <h3>### This is a shorter version of the above!!!!!</h3>
+      <p># Copy and paste these into a Git bash terminal and press 'ENTER':</p>
+
+      <code>git fetch origin</code><br />
+      <code>git branch --list stu</code>
+
+      <div class="spacer"></div>
+      <p>
+        # If the `stu` branch exists locally it will be shown in the termiminal,
+        so, copy & paste the following into the 'Git Bash' terminal & press
+        'Enter':
+      </p>
+
+      <code>git checkout stu</code><br />
+      <code>git pull origin stu</code>
+
+      <div class="spacer"></div>
+      <p>
+        # If the `stu` branch does not exist locally copy & paste the following
+        into the 'Git Bash' terminal & press 'Enter':
+      </p>
+
+      <code>git checkout -b stu origin/stu</code><br />
+
+      <div class="spacer"></div>
+      <p>
+        # Now we know the 'stu' branch definately exist on your pc, copy & paste
+        the following into the 'Git Bash' terminal & press 'Enter':
+      </p>
+
+      <code>git pull origin stu</code><br />
+      <code>git checkout nette</code><br />
+      <code>git merge stu</code><br />
+
+      <div class="spacer"></div>
+      <p>
+        <strong>WARNING:</strong> If there are conflicts
+        <strong>STOP!!!</strong> Do no more, these have to be fixed!!!
+      </p>
+      <p>
+        # If there are no conflicts, proceed to `push` the updated local `nette`
+        branch to the remote branch (on Git Hub)
+      </p>
+
+      <code>git push origin nette</code><br />
+      <div class="spacer"></div>
+
+      <p>
+        Just take note of any spurious messages in the terminal and then close
+        each terminal with the following command:
+      </p>
+      <code>exit</code><br />
+
+      <div class="spacer"></div>
+
+      <p>All should be good now.</p>
+      <p><strong>Happy Coding!</strong></p>
+    </article>
+  </body>
+</html>
