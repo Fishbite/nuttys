@@ -640,7 +640,16 @@ const gridContent = [
     page: `rogan-josh-beef-curry`,
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/steak-and-ale-pie/200/steak-and-ale-pie-with-veg-on-a-plate-02.webp",
+    imgTitle: "steak and ale pie with veg on a plate",
+    imgAlt: "steak and ale pie with veg on a plate",
+    caption: "steak & ale pie",
+    page: `steak-and-ale-pie`,
+  },
 
   {
     type: "recipe",
