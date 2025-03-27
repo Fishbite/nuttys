@@ -56,6 +56,9 @@ if (categoryValues.length) {
   node generateSQL.mjs
   C:\Stuart\Root\nuttyskitchen\nuttys\src> node generateSQL.js
 
+  ask co-pilot if you need help with this
+  3. The SQL files will be generated in the specified paths.
+
 */
 
 const recipesOutputFilePath =
