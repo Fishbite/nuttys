@@ -49,7 +49,7 @@ if (categoryValues.length) {
   
   1. change the current directory to that where generateSQL.js is located: 
 
-  C:\Stuart\Root\nuttyskitchen\nuttys\src> cd src
+  C:\Stuart\Root\nuttyskitchen\nuttys> cd src
   
   2. run the following command in the terminal:
 
