@@ -391,7 +391,17 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/curry-leaf-masala-chicken-fry/200/curry-leaf-masala-and-rice-02.webp",
+    imgTitle:
+      "authentic indian curry leaf masala chicken fry with basmati rice",
+    imgAlt: "Curry Leaf Masala and rice",
+    caption: "Curry Leaf Masala Chicken Fry",
+    page: `curry-leaf-masala-chicken-fry`,
+  },
 
   {
     type: "recipe",

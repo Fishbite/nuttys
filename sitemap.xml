@@ -3,12 +3,12 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2025-03-07</lastmod>
+		<lastmod>2025-03-28</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/beef-stroganoff.html</loc>
 		<priority>0.50</priority>
-
+		<lastmod>NaN-NaN-NaN</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/spicy-balti-potatoes.html</loc>
@@ -328,7 +328,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/lamb-curry-with-spinach.html</loc>
 		<priority>0.50</priority>
-
+		<lastmod>NaN-NaN-NaN</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/kofitest.html</loc>
@@ -733,6 +733,6 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/mushroom-fried-rice.html</loc>
 		<priority>0.50</priority>
-
+		<lastmod>NaN-NaN-NaN</lastmod>
 	</url>
 </urlset>
