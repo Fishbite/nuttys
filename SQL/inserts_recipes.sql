@@ -1,122 +1,253 @@
-INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) VALUES
-('sausages & bacon', 'undefined', 'sausage casserole', 'sausagecasserole', 'sausage casserole', 'undefined'),
-('sausages & bacon', 'undefined', 'sausage & penne pasta', 'sausagepasta', 'sausage & penne pasta', 'undefined'),
-('sausages & bacon', 'undefined', 'sausage pasta sauce', 'sausage-pasta-sauce', 'sausage pasta sauce topped with cheese', 'undefined'),
-('sausages & bacon', 'undefined', 'sausage & pepper mash pie', 'sausagepepperpie', 'sausage pepper mash pie', 'undefined'),
-('sausages & bacon', 'undefined', 'sausage & onion pie', 'sausageonionpie', 'sausage & onion pie', 'undefined'),
-('sausages & bacon', 'undefined', 'cauliflower cheese & frankfurter bake', 'caulifrankcheese', 'cauliflower cheese & frankfurter bake', 'undefined'),
-('sausages & bacon', 'undefined', 'gammon joint & mustard sauce', 'gammon-joint-with-mustard-sauce', 'gammon with mustard sauce, creamy mash & roast cauliflower', 'undefined'),
-('sausages & bacon', 'undefined', 'quiche lorraine', 'quiche-lorraine', 'the ultimate quiche lorraine', 'undefined'),
-('sausages & bacon', 'undefined', 'Sausage Roll & Caramalised Onion', 'sausage-roll-and-caramalised-onion', 'sausage roll sliced with home made tomato chutney', 'undefined'),
-('chicken', 'undefined', 'grandma's chicken soup', 'chickensoup', 'grandma's chicken soup', 'undefined'),
-('chicken', 'undefined', 'chicken chilli mexican', 'chickenchilimex', 'chicken chilli mexican', 'undefined'),
-('chicken', 'undefined', 'easy chicken curry', 'easy-chicken-curry', 'easy chicken curry', 'undefined'),
-('chicken', 'undefined', 'chicken & mushroom pasta', 'chickenmushroompasta', 'chicken & mushroom pasta', 'undefined'),
-('chicken', 'undefined', 'chicken & mushroom lasagne', 'chickenlasagne', 'chicken & mushroom lasagne', 'undefined'),
-('chicken', 'undefined', 'sweet & sour roast chicken', 'sweet-and-sour-roast-chicken', 'sweet & sour chicken', 'undefined'),
-('chicken', 'undefined', 'indian chicken vindaloo', 'chickenvindaloo', 'indian chicken vindaloo', 'undefined'),
-('chicken', 'undefined', 'chicken thighs in spicy hot sauce', 'chicken-thighs-in-spicy-hot-sauce', 'chicken thighs in spicy hot sauce', 'undefined'),
-('chicken', 'undefined', 'karahi chicken curry', 'karahi-chicken-curry', 'corriander added to finish the karahi chicken curry', 'undefined'),
-('chicken', 'undefined', 'chicken & mushroom pie', 'chickenmushroompie', 'chicken & mushroom pie', 'undefined'),
-('chicken', 'undefined', 'chicken & gammon pie', 'chicken-and-gammon-pie', 'chicken & gammon pie', 'undefined'),
-('chicken', 'undefined', 'jerk chicken', 'jerk-chicken', 'jerk chicken stacked on a plate ready to serve', 'undefined'),
-('chicken', 'undefined', 'spicy masala chicken', 'spicy-masala-chicken', 'spicy masala chicken served with tarka dhal and naan bread', 'undefined'),
-('chicken', 'undefined', 'jerked chicken curry', 'jerked-chicken-curry', 'jerked chicken curry served with blue cheese macaroni pie', 'undefined'),
-('chicken', 'undefined', 'chipotle chicken burrito', 'chipotle-chicken-burrito', 'chipotle chicken burrito served with cheese and lettuce', 'undefined'),
-('chicken', 'undefined', 'classic tandoori chicken', 'tandoori-chicken', 'tandoori chicken on plate ready to serve', 'undefined'),
-('chicken', 'undefined', 'chicken with mango', 'chicken-with-mango', 'chicken with mango plated with plain basmati rice', 'undefined'),
-('chicken', 'undefined', 'chicken in cashew nut sauce', 'chicken-in-cashew-nut-sauce', 'chicken in cashew nut sauce with basmati rice', 'undefined'),
-('chicken', 'undefined', 'chicken tandoori grill', 'chicken-tandoori-grill', 'chicken tandoori grill, salad, rice salad & raita', 'undefined'),
-('chicken', 'undefined', 'khara masala balti chicken', 'khara-masala-balti-chicken', 'khara masala balti chicken with salad & naan', 'undefined'),
-('chicken', 'undefined', 'jerked chicken escalope grill', 'jerked-chicken-escalope-grill', 'jerked chicken escalope grill with new potatoes & salad', 'undefined'),
-('chicken', 'undefined', 'chinese chicken curry', 'chinese-chicken-curry', 'chinese chicken curry and rice - just like the takeaway does it!', 'undefined'),
-('chicken', 'undefined', 'chicken & tomato balti', 'chicken-and-tomato-balti', 'chicken & tomato balti plated with plain basmati rice', 'undefined'),
-('chicken', 'undefined', 'chicken in creamy peppercorn sauce', 'chicken-in-creamy-peppercorn-sauce', 'chicken creamy peppercorn sauce mash and veg', 'undefined'),
-('chicken', 'undefined', 'butter chicken', 'butter-chicken', 'butter chicken served with jeera rice', 'undefined'),
-('chicken', 'undefined', 'chicken tikka grilled escalope', 'chicken-tikka-grilled-escalope', 'chicken tikka grilled escalope with naan raita & salad', 'undefined'),
-('chicken', 'undefined', 'luxury chicken pie', 'luxury-chicken-pie', 'luxury chicken, mushroom & leek pie with a fork on a plate', 'undefined'),
-('beef', 'undefined', 'corned beef mash pie', 'cornedbeefmashpie', 'corned beef mash pie', 'undefined'),
-('beef', 'undefined', 'beef & spinach curry', 'beefspinachcurry', 'beef & spinach curry', 'undefined'),
-('beef', 'undefined', 'beef & pork pasta sauce', 'beefporkpastasauce', 'beef & pork pasta sauce', 'undefined'),
-('beef', 'undefined', 'beef & pork mexican chilli', 'beefporkchilli', 'beef & pork chilli ready to serve', 'undefined'),
-('beef', 'undefined', 'beef & pork pasta bake', 'beefporkpastabake', 'beef & pork pasta bake', 'undefined'),
-('beef', 'undefined', 'cottage pie', 'cottage-pie', 'cottage pie in square serving dish', 'undefined'),
-('beef', 'undefined', 'beef & pork madras', 'beef-pork-madras', 'beef and pork madras', 'undefined'),
-('beef', 'undefined', 'beefy meatballs in onion gravy', 'beefy-meatballs-onion-gravy', 'beefy meatballs in onion gravy', 'undefined'),
-('beef', 'undefined', 'mum's braised steak & mash', 'mums-braised-steak', 'mum's braised steak & mash', 'undefined'),
-('beef', 'undefined', 'beef curry with green beans', 'beef-curry-with-green-beans', 'beef curry with green beans in a pan', 'undefined'),
-('beef', 'undefined', 'beef and mushroom suet pastry pie', 'beef-and-mushroom-suet-pastry-pie', 'beef and mushroom suet pastry pie & boccoli', 'undefined'),
-('beef', 'undefined', 'nutty's braised steak', 'nuttys-braised-steak', 'nuttys braised steak served with mash & veg', 'undefined'),
-('beef', 'undefined', 'authentic seekh kebab', 'authentic-seekh-kebabs', 'authentic seekh kebab with salad raita and pita bread', 'undefined'),
-('beef', 'undefined', 'rogan josh beef curry', 'rogan-josh-beef-curry', 'rogan josh beef curry with yogurt, basmati rice & naan', 'undefined'),
-('beef', 'undefined', 'steak & ale pie', 'steak-and-ale-pie', 'steak and ale pie with veg on a plate', 'undefined'),
-('beef', 'undefined', 'savoury mince & mash', 'savoury-mince-and-mash', 'savoury mince with fluffy mashed potatoes', 'undefined'),
-('beef', 'undefined', 'beef  stew & dumplings', 'beef-stew-and-dumplings', 'beef stew & dumplings cooked in a Dutch Oven', 'undefined'),
-('pork', 'undefined', 'pork fried rice', 'pork-fried-rice', 'pork fried rice', 'undefined'),
-('pork', 'undefined', 'sweet and sour pork', 'sweet-and-sour-pork', 'sweet and sour pork', 'undefined'),
-('pork', 'undefined', 'fresh pork vindaloo', 'pork-vindaloo', 'pork vindaloo made with fresh pork', 'undefined'),
-('pork', 'undefined', 'roast pork vindaloo', 'roastporkvindaloo', 'roast pork vindaloo', 'undefined'),
-('pork', 'undefined', 'pork and peppers in black bean sauce', 'pork-blackbean-sauce-and-peppers', 'pork and peppers in black bean sauce', 'undefined'),
-('pork', 'undefined', 'pork madras curry', 'pork-madras', 'pork madras curry', 'undefined'),
-('pork', 'undefined', 'belly pork dinner', 'bellyporkdinner', 'belly pork dinner', 'undefined'),
-('pork', 'undefined', 'pork chilli', 'pork-chilli', 'pork chilli served with a pitta bread', 'undefined'),
-('pork', 'undefined', 'roast pork stroganoff', 'roast-pork-stroganoff', 'roast pork stroganoff plated with sweet root mash & brocolli', 'undefined'),
-('pork', 'undefined', 'pork in creamy pepper sauce', 'porksupreme', 'pork in creamy pepper sauce', 'undefined'),
-('pork', 'undefined', 'jerked pork steaks grill', 'jerked-pork-steaks-grill', 'jerked pork steak served with potato salad & salad', 'undefined'),
-('pork', 'undefined', 'peri peri pork steaks', 'peri-peri-pork-steaks', 'peri peri pork steaks served with side salad & jacket potato with cheese', 'undefined'),
-('pork', 'undefined', 'jerked pork curry', 'jerked-pork-curry', 'jerked pork curry rice and peas', 'undefined'),
-('pork', 'undefined', 'mediterranean style veg' with pork steaks', 'mediterranean-style-vegetables-with-pork-steaks', 'Mediterranean style vegetables with pork steaks', 'undefined'),
-('pork', 'undefined', 'rogan josh pork curry', 'rogan-josh-pork-curry', 'rogan josh pork curry', 'undefined'),
-('lamb', 'undefined', 'lamb peas & mint curry', 'lamb-peas-mint-curry', 'lamb peas & mint curry', 'undefined'),
-('lamb', 'undefined', 'lamb & mash pie', 'lambmashpie', 'lamb & mash pie', 'undefined'),
-('lamb', 'undefined', 'lamb kofta curry', 'lamb-kofta-curry', 'lamb kofta curry served with basmati rice', 'undefined'),
-('lamb', 'undefined', 'my dodgy kebab', 'dodgy-kebab', 'Dodgy Kebab! with salad on the side', 'undefined'),
-('lamb', 'undefined', 'lamb curry with spinach', 'lamb-curry-with-spinach', 'lamb curry with spinach', 'undefined'),
-('lamb', 'undefined', 'lamb pulao rice', 'lamb-pulao-rice', 'lamb pulao rice served in a dish', 'undefined'),
-('lamb', 'undefined', 'lamb tikka grill steaks', 'lamb-tikka-grill-steaks', 'lamb tikka grill steaks with tomato rice & raita', 'undefined'),
-('fish & veg', 'undefined', 'cauliflower cheese & beans bake', 'caulicheese', 'cauliflower cheese & beans bake', 'undefined'),
-('fish & veg', 'undefined', 'vegetarian-chilli', 'vegetarian-chilli', 'vegetarian-chilli and buttered bread', 'undefined'),
-('fish & veg', 'undefined', 'baked macaroni pie', 'macaroni-pie', 'macaroni pie baked in the oven', 'undefined'),
-('fish & veg', 'undefined', 'cauli cheese & smoked haddock', 'cauli-cheese-smoked-haddock-bake', 'cauliflower cheese smoked haddock bake', 'undefined'),
-('fish & veg', 'undefined', 'aloo gobi', 'aloo-gobi', 'aloo gobi on a plate', 'undefined'),
-('fish & veg', 'undefined', 'smoked haddock in cheese sauce', 'smoked-haddock-in-cheese-sauce', 'smoked haddock in cheese sauce served with mashed potatoes and warm buttered baguette', 'undefined'),
-('fish & veg', 'undefined', 'mum's fish pie', 'fish-pie', 'mum's fish pie', 'undefined'),
-('fish & veg', 'undefined', 'blue cheese macaroni pie', 'blue-cheese-macaroni-pie', 'blue cheese macaroni pie in a dish', 'undefined'),
-('fish & veg', 'undefined', 'cheese & onion quiche', 'cheese-and-onion-quiche', 'cheese and onion quiche cooked', 'undefined'),
-('fish & veg', 'undefined', 'cauliflower curry', 'cauliflower-curry', 'cauliflower curry finished cooking in a pan', 'undefined'),
-('fish & veg', 'undefined', 'chorizo cod stew', 'chorizo-cod-stew', 'baked chorizo cod stew served with finely shredded iceberg lettuce', 'undefined'),
-('fish & veg', 'undefined', 'smoked haddock bacon bake', 'smoked-haddock-bacon-bake', 'smoked haddock bacon bake straight from the oven', 'undefined'),
-('fish & veg', 'undefined', 'Fish & Chorizo Potato Pie', 'fish-and-chorizo-potato-pie', 'Fish & Chorizo Potato Pie', 'undefined'),
-('fish & veg', 'undefined', 'fish fillets with chilli sauce', 'fish-fillets-with-chilli-sauce', 'fish fillets with chilli sauce & safron rice', 'undefined'),
-('fish & veg', 'undefined', 'sambar &mdash; south Indian lentils & vegetables', 'sambar', 'sambar - south Indian lentils & vegetables', 'undefined'),
-('fish & veg', 'undefined', 'celeriac soup', 'celeriac-soup', 'celeriac soup with crispy celeriac & onion toppin', 'undefined'),
-('sauce', 'undefined', 'white sauce', 'whitesauce', 'white sauce', 'undefined'),
-('sauce', 'undefined', 'parsley sauce', 'parsley-sauce', 'probably the best home-made parsley in the world!', 'undefined'),
-('sauce', 'undefined', 'onion sauce', 'onionsauce', 'onion sauce', 'undefined'),
-('sauce', 'undefined', 'cheese sauce', 'cheesesauce', 'cheese sauce', 'undefined'),
-('accompaniments', 'undefined', 'tomato mexican rice', 'tomatomexicanrice', 'tomato mexican rice', 'undefined'),
-('accompaniments', 'undefined', 'chapati flat bread', 'chapati', 'chapati flat bread', 'undefined'),
-('accompaniments', 'undefined', 'egg fried rice', 'egg-fried-rice', 'egg fried rice', 'undefined'),
-('accompaniments', 'undefined', 'noodles with beansprouts', 'chinese-noodles-with-beansprouts', 'chinese noodles with beansprouts', 'undefined'),
-('accompaniments', 'undefined', 'basmati rice', 'basmati-rice', 'cooked basmati rice in a bowl', 'undefined'),
-('accompaniments', 'undefined', 'dhal with fried spices', 'dhal-with-fried-spices', 'dhal with fried spices served in a dish', 'undefined'),
-('accompaniments', 'undefined', 'tarka dhal', 'tarka-dhal', 'tarka dhal', 'undefined'),
-('accompaniments', 'undefined', 'mashed roots', 'mashed-roots', 'mashed roots side dish', 'undefined'),
-('accompaniments', 'undefined', 'spicy potato wedges', 'spicy-potato-wedges', 'spicy potato wedges', 'undefined'),
-('accompaniments', 'undefined', 'tomato chutney', 'tomato-chutney', 'home made tomato chutney in storage jar', 'undefined'),
-('accompaniments', 'undefined', 'jamaican rice & peas', 'jamaican-rice-and-peas', 'jamaican rice & Peas', 'undefined'),
-('accompaniments', 'undefined', 'Christmas prepared!', 'christmas-prepared', 'bacon and cheese puffs raw', 'undefined'),
-('accompaniments', 'undefined', 'spicy baked beans & peppers', 'spicy-baked-beans-and-peppers', 'spicy baked beans & peppers with spicy potato wedges', 'undefined'),
-('accompaniments', 'undefined', 'saffron and cardamom rice', 'saffron-and-cardamom-rice', 'saffron and cardamom rice in a serving dish', 'undefined'),
-('puddings', 'undefined', 'pineapple pudding upside down', 'pineapplepudding', 'pineapple pudding upside down', 'undefined'),
-('puddings', 'undefined', 'pear almond tart', 'pearalmondtart', 'pear almond tart', 'undefined'),
-('puddings', 'undefined', 'apple & blackberry crumble', 'appleblackberrycrumble', 'apple & blackberry crumble', 'undefined'),
-('puddings', 'undefined', 'sticky gingerbread pud', 'gingerbread', 'sticky gingerbread pud', 'undefined'),
-('puddings', 'undefined', 'black cherry lattice tart', 'blackcherrypie', 'black cherry lattice tart', 'undefined'),
-('puddings', 'undefined', 'chocolate cake', 'chocolate-cake', 'chocolate cake with butter cream and fruit & nut chocolate bar topping', 'undefined'),
-('puddings', 'undefined', 'victoria sponge cake', 'victoria-sponge-cake', 'a slice of victoria sponge cake', 'undefined'),
-('puddings', 'undefined', 'steamed sponge pudding', 'steamed-sponge-pudding', 'sliced steamed sponge pudding with jam topping', 'undefined'),
-('puddings', 'undefined', 'damson & soured cream tart', 'damson-and-soured-cream-tart', 'a slice of damson and soured ceam tart on a plate', 'undefined'),
-('puddings', 'undefined', 'Pear, Coconut & Blackberry Cake', 'pear-coconut-blackberry-cake', 'Pear, Coconut & Blackberry Cake Sliced', 'undefined'),
-('puddings', 'undefined', 'Blackberry & Soured Cream Flan', 'blackberry-and-soured-cream-flan', 'Blackberry & Soured Cream Flan', 'undefined'),
-('puddings', 'undefined', 'fruit cake', 'fruit-cake', 'Probably the best fruit cake in the world', 'undefined');
+CREATE TABLE IF NOT EXISTS recipe_cards (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    category VARCHAR(50) NOT NULL,
+    image VARCHAR(255) NOT NULL,
+    caption VARCHAR(255) NOT NULL,
+    page VARCHAR(100) NOT NULL,
+    imgTitle VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NOT NULL
+);
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'sausage casserole', 'sausagecasserole', 'sausage casserole', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'sausage & penne pasta', 'sausagepasta', 'sausage & penne pasta', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'sausage pasta sauce', 'sausage-pasta-sauce', 'sausage pasta sauce topped with cheese', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'sausage & pepper mash pie', 'sausagepepperpie', 'sausage pepper mash pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'sausage & onion pie', 'sausageonionpie', 'sausage & onion pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'cauliflower cheese & frankfurter bake', 'caulifrankcheese', 'cauliflower cheese & frankfurter bake', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'gammon joint & mustard sauce', 'gammon-joint-with-mustard-sauce', 'gammon with mustard sauce, creamy mash & roast cauliflower', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'quiche lorraine', 'quiche-lorraine', 'the ultimate quiche lorraine', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sausages & bacon', '', 'Sausage Roll & Caramalised Onion', 'sausage-roll-and-caramalised-onion', 'sausage roll sliced with home made tomato chutney', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'grandma''s chicken soup', 'chickensoup', 'grandma''s chicken soup', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken chilli mexican', 'chickenchilimex', 'chicken chilli mexican', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'easy chicken curry', 'easy-chicken-curry', 'easy chicken curry', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken & mushroom pasta', 'chickenmushroompasta', 'chicken & mushroom pasta', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken & mushroom lasagne', 'chickenlasagne', 'chicken & mushroom lasagne', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'sweet & sour roast chicken', 'sweet-and-sour-roast-chicken', 'sweet & sour chicken', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'indian chicken vindaloo', 'chickenvindaloo', 'indian chicken vindaloo', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken thighs in spicy hot sauce', 'chicken-thighs-in-spicy-hot-sauce', 'chicken thighs in spicy hot sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'karahi chicken curry', 'karahi-chicken-curry', 'corriander added to finish the karahi chicken curry', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken & mushroom pie', 'chickenmushroompie', 'chicken & mushroom pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken & gammon pie', 'chicken-and-gammon-pie', 'chicken & gammon pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'jerk chicken', 'jerk-chicken', 'jerk chicken stacked on a plate ready to serve', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'spicy masala chicken', 'spicy-masala-chicken', 'spicy masala chicken served with tarka dhal and naan bread', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'jerked chicken curry', 'jerked-chicken-curry', 'jerked chicken curry served with blue cheese macaroni pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chipotle chicken burrito', 'chipotle-chicken-burrito', 'chipotle chicken burrito served with cheese and lettuce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'classic tandoori chicken', 'tandoori-chicken', 'tandoori chicken on plate ready to serve', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken with mango', 'chicken-with-mango', 'chicken with mango plated with plain basmati rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken in cashew nut sauce', 'chicken-in-cashew-nut-sauce', 'chicken in cashew nut sauce with basmati rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken tandoori grill', 'chicken-tandoori-grill', 'chicken tandoori grill, salad, rice salad & raita', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'khara masala balti chicken', 'khara-masala-balti-chicken', 'khara masala balti chicken with salad & naan', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'jerked chicken escalope grill', 'jerked-chicken-escalope-grill', 'jerked chicken escalope grill with new potatoes & salad', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chinese chicken curry', 'chinese-chicken-curry', 'chinese chicken curry and rice - just like the takeaway does it!', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken & tomato balti', 'chicken-and-tomato-balti', 'chicken & tomato balti plated with plain basmati rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken in creamy peppercorn sauce', 'chicken-in-creamy-peppercorn-sauce', 'chicken creamy peppercorn sauce mash and veg', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'butter chicken', 'butter-chicken', 'butter chicken served with jeera rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'chicken tikka grilled escalope', 'chicken-tikka-grilled-escalope', 'chicken tikka grilled escalope with naan raita & salad', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'Curry Leaf Masala Chicken Fry', 'curry-leaf-masala-chicken-fry', 'authentic indian curry leaf masala chicken fry with basmati rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '', 'luxury chicken pie', 'luxury-chicken-pie', 'luxury chicken, mushroom & leek pie with a fork on a plate', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'corned beef mash pie', 'cornedbeefmashpie', 'corned beef mash pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef & spinach curry', 'beefspinachcurry', 'beef & spinach curry', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef & pork pasta sauce', 'beefporkpastasauce', 'beef & pork pasta sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef & pork mexican chilli', 'beefporkchilli', 'beef & pork chilli ready to serve', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef & pork pasta bake', 'beefporkpastabake', 'beef & pork pasta bake', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'cottage pie', 'cottage-pie', 'cottage pie in square serving dish', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef & pork madras', 'beef-pork-madras', 'beef and pork madras', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beefy meatballs in onion gravy', 'beefy-meatballs-onion-gravy', 'beefy meatballs in onion gravy', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'mum''s braised steak & mash', 'mums-braised-steak', 'mum''s braised steak & mash', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef curry with green beans', 'beef-curry-with-green-beans', 'beef curry with green beans in a pan', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef and mushroom suet pastry pie', 'beef-and-mushroom-suet-pastry-pie', 'beef and mushroom suet pastry pie & boccoli', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'nutty''s braised steak', 'nuttys-braised-steak', 'nuttys braised steak served with mash & veg', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'authentic seekh kebab', 'authentic-seekh-kebabs', 'authentic seekh kebab with salad raita and pita bread', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'rogan josh beef curry', 'rogan-josh-beef-curry', 'rogan josh beef curry with yogurt, basmati rice & naan', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'steak & ale pie', 'steak-and-ale-pie', 'steak and ale pie with veg on a plate', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'savoury mince & mash', 'savoury-mince-and-mash', 'savoury mince with fluffy mashed potatoes', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('beef', '', 'beef  stew & dumplings', 'beef-stew-and-dumplings', 'beef stew & dumplings cooked in a Dutch Oven', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'pork fried rice', 'pork-fried-rice', 'pork fried rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'sweet and sour pork', 'sweet-and-sour-pork', 'sweet and sour pork', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'fresh pork vindaloo', 'pork-vindaloo', 'pork vindaloo made with fresh pork', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'roast pork vindaloo', 'roastporkvindaloo', 'roast pork vindaloo', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'pork and peppers in black bean sauce', 'pork-blackbean-sauce-and-peppers', 'pork and peppers in black bean sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'pork madras curry', 'pork-madras', 'pork madras curry', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'belly pork dinner', 'bellyporkdinner', 'belly pork dinner', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'pork chilli', 'pork-chilli', 'pork chilli served with a pitta bread', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'roast pork stroganoff', 'roast-pork-stroganoff', 'roast pork stroganoff plated with sweet root mash & brocolli', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'pork in creamy pepper sauce', 'porksupreme', 'pork in creamy pepper sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'jerked pork steaks grill', 'jerked-pork-steaks-grill', 'jerked pork steak served with potato salad & salad', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'peri peri pork steaks', 'peri-peri-pork-steaks', 'peri peri pork steaks served with side salad & jacket potato with cheese', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'jerked pork curry', 'jerked-pork-curry', 'jerked pork curry rice and peas', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'mediterranean style veg'' with pork steaks', 'mediterranean-style-vegetables-with-pork-steaks', 'Mediterranean style vegetables with pork steaks', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '', 'rogan josh pork curry', 'rogan-josh-pork-curry', 'rogan josh pork curry', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'lamb peas & mint curry', 'lamb-peas-mint-curry', 'lamb peas & mint curry', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'lamb & mash pie', 'lambmashpie', 'lamb & mash pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'lamb kofta curry', 'lamb-kofta-curry', 'lamb kofta curry served with basmati rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'my dodgy kebab', 'dodgy-kebab', 'Dodgy Kebab! with salad on the side', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'lamb curry with spinach', 'lamb-curry-with-spinach', 'lamb curry with spinach', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'lamb pulao rice', 'lamb-pulao-rice', 'lamb pulao rice served in a dish', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('lamb', '', 'lamb tikka grill steaks', 'lamb-tikka-grill-steaks', 'lamb tikka grill steaks with tomato rice & raita', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'cauliflower cheese & beans bake', 'caulicheese', 'cauliflower cheese & beans bake', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'vegetarian-chilli', 'vegetarian-chilli', 'vegetarian-chilli and buttered bread', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'baked macaroni pie', 'macaroni-pie', 'macaroni pie baked in the oven', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'cauli cheese & smoked haddock', 'cauli-cheese-smoked-haddock-bake', 'cauliflower cheese smoked haddock bake', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'aloo gobi', 'aloo-gobi', 'aloo gobi on a plate', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'smoked haddock in cheese sauce', 'smoked-haddock-in-cheese-sauce', 'smoked haddock in cheese sauce served with mashed potatoes and warm buttered baguette', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'mum''s fish pie', 'fish-pie', 'mum''s fish pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'blue cheese macaroni pie', 'blue-cheese-macaroni-pie', 'blue cheese macaroni pie in a dish', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'cheese & onion quiche', 'cheese-and-onion-quiche', 'cheese and onion quiche cooked', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'cauliflower curry', 'cauliflower-curry', 'cauliflower curry finished cooking in a pan', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'chorizo cod stew', 'chorizo-cod-stew', 'baked chorizo cod stew served with finely shredded iceberg lettuce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'smoked haddock bacon bake', 'smoked-haddock-bacon-bake', 'smoked haddock bacon bake straight from the oven', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'Fish & Chorizo Potato Pie', 'fish-and-chorizo-potato-pie', 'Fish & Chorizo Potato Pie', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'fish fillets with chilli sauce', 'fish-fillets-with-chilli-sauce', 'fish fillets with chilli sauce & safron rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'sambar &mdash; south Indian lentils & vegetables', 'sambar', 'sambar - south Indian lentils & vegetables', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '', 'celeriac soup', 'celeriac-soup', 'celeriac soup with crispy celeriac & onion toppin', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sauce', '', 'white sauce', 'whitesauce', 'white sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sauce', '', 'parsley sauce', 'parsley-sauce', 'probably the best home-made parsley in the world!', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sauce', '', 'onion sauce', 'onionsauce', 'onion sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('sauce', '', 'cheese sauce', 'cheesesauce', 'cheese sauce', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'tomato mexican rice', 'tomatomexicanrice', 'tomato mexican rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'chapati flat bread', 'chapati', 'chapati flat bread', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'egg fried rice', 'egg-fried-rice', 'egg fried rice', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'noodles with beansprouts', 'chinese-noodles-with-beansprouts', 'chinese noodles with beansprouts', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'basmati rice', 'basmati-rice', 'cooked basmati rice in a bowl', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'dhal with fried spices', 'dhal-with-fried-spices', 'dhal with fried spices served in a dish', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'tarka dhal', 'tarka-dhal', 'tarka dhal', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'mashed roots', 'mashed-roots', 'mashed roots side dish', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'spicy potato wedges', 'spicy-potato-wedges', 'spicy potato wedges', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'tomato chutney', 'tomato-chutney', 'home made tomato chutney in storage jar', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'jamaican rice & peas', 'jamaican-rice-and-peas', 'jamaican rice & Peas', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'Christmas prepared!', 'christmas-prepared', 'bacon and cheese puffs raw', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'spicy baked beans & peppers', 'spicy-baked-beans-and-peppers', 'spicy baked beans & peppers with spicy potato wedges', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '', 'saffron and cardamom rice', 'saffron-and-cardamom-rice', 'saffron and cardamom rice in a serving dish', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'pineapple pudding upside down', 'pineapplepudding', 'pineapple pudding upside down', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'pear almond tart', 'pearalmondtart', 'pear almond tart', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'apple & blackberry crumble', 'appleblackberrycrumble', 'apple & blackberry crumble', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'sticky gingerbread pud', 'gingerbread', 'sticky gingerbread pud', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'black cherry lattice tart', 'blackcherrypie', 'black cherry lattice tart', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'chocolate cake', 'chocolate-cake', 'chocolate cake with butter cream and fruit & nut chocolate bar topping', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'victoria sponge cake', 'victoria-sponge-cake', 'a slice of victoria sponge cake', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'steamed sponge pudding', 'steamed-sponge-pudding', 'sliced steamed sponge pudding with jam topping', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'damson & soured cream tart', 'damson-and-soured-cream-tart', 'a slice of damson and soured ceam tart on a plate', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'Pear, Coconut & Blackberry Cake', 'pear-coconut-blackberry-cake', 'Pear, Coconut & Blackberry Cake Sliced', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'Blackberry & Soured Cream Flan', 'blackberry-and-soured-cream-flan', 'Blackberry & Soured Cream Flan', '');
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('puddings', '', 'fruit cake', 'fruit-cake', 'Probably the best fruit cake in the world', '');
