@@ -40,7 +40,7 @@ gridContent.forEach((item) => {
 gridContent.forEach((item) => {
   if (item.type === "recipe") {
     const category = item.cat ? item.cat.replace(/'/g, "''") : "";
-    const image = item.img ? item.img.replace(/'/g, "''") : "";
+    const image = item.imgSrc ? item.imgSrc.replace(/'/g, "''") : "";
     const caption = item.caption ? item.caption.replace(/'/g, "''") : "";
     const page = item.page ? item.page.replace(/'/g, "''") : "";
     const imgTitle = item.imgTitle ? item.imgTitle.replace(/'/g, "''") : "";
