@@ -3,27 +3,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2025-03-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/beef-stroganoff.html</loc>
-		<priority>0.50</priority>
-		<lastmod>NaN-NaN-NaN</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/spicy-balti-potatoes.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-03-23</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/masala-veg-with-fresh-fenugreek.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-03-25</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/cauliflower-cheese.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-03-21</lastmod>
+		<lastmod>2025-03-29</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/whitesauce.html</loc>
@@ -88,7 +68,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/steak-and-ale-pie.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-03-23</lastmod>
+		<lastmod>2025-03-25</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/spicy-potato-wedges.html</loc>
@@ -99,6 +79,11 @@
 		<loc>https://www.nuttyskitchen.co.uk/spicy-masala-chicken.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/spicy-balti-potatoes.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-25</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/spicy-baked-beans-and-peppers.html</loc>
@@ -203,7 +188,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/recipepage.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-03-27</lastmod>
+		<lastmod>2025-03-29</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/quiche-lorraine.html</loc>
@@ -248,7 +233,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/peri-peri-pork-steaks.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-03-22</lastmod>
+		<lastmod>2025-03-25</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/pearalmondtart.html</loc>
@@ -276,6 +261,16 @@
 		<lastmod>2025-03-07</lastmod>
 	</url>
 	<url>
+		<loc>https://www.nuttyskitchen.co.uk/nettes.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/mushroom-fried-rice.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-28</lastmod>
+	</url>
+	<url>
 		<loc>https://www.nuttyskitchen.co.uk/mums-braised-steak.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-03-07</lastmod>
@@ -289,6 +284,11 @@
 		<loc>https://www.nuttyskitchen.co.uk/mashed-roots.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/masala-veg-with-fresh-fenugreek.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-26</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/macaroni-pie.html</loc>
@@ -328,7 +328,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/lamb-curry-with-spinach.html</loc>
 		<priority>0.50</priority>
-		<lastmod>NaN-NaN-NaN</lastmod>
+		<lastmod>2025-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/kofitest.html</loc>
@@ -388,7 +388,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/gravy.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-03-20</lastmod>
+		<lastmod>2025-03-21</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/google66a73f74d88ed190.html</loc>
@@ -410,5 +410,334 @@
 		<priority>0.50</priority>
 		<lastmod>2025-03-07</lastmod>
 	</url>
-	
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/fluffy-mashed-potatoes.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-31</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/fish-pie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/fish-fillets-with-chilli-sauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/fish-and-chorizo-potato-pie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/egg-fried-rice.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/easy-chicken-curry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/dodgy-kebab.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/dhal-with-fried-spices.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/damson-and-soured-cream-tart.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/curry-leaf-masala-chicken-fry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-30</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/creamy-peppercorn-sauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cottage-pie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cornedbeefmashpie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/contact-form.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/christmas-prepared.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chorizo-cod-stew.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chocolate-cake.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chipotle-chicken-burrito.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chinese-noodles-with-beansprouts.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chinese-chicken-curry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chickenvindaloo.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chickensoup.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chickenmushroompie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chickenmushroompasta.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chickenlasagne.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chickenchilimex.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-with-mango.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-tikka-grilled-escalope.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-thighs-in-spicy-hot-sauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-tandoori-grill.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-in-creamy-peppercorn-sauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-in-cashew-nut-sauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-and-tomato-balti.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-and-gammon-pie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cheesesauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cheese-and-onion-quiche.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chapati.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/celeriac-soup.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/caulifrankcheese.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cauliflower-curry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cauliflower-cheese.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/caulicheese.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/cauli-cheese-smoked-haddock-bake.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/caribbean-creamy-pork-curry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/butter-chicken.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/blue-cheese-macaroni-pie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/blackcherrypie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/blackberry-and-soured-cream-flan.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/bellyporkdinner.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beefy-meatballs-onion-gravy.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beefspinachcurry.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beefporkpastasauce.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beefporkpastabake.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beefporkchilli.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beef-stroganoff.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beef-stew-and-dumplings.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beef-pork-madras.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beef-curry-with-green-beans.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/beef-and-mushroom-suet-pastry-pie.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/basmati-rice.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/authentic-seekh-kebabs.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/appleblackberrycrumble.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/aloo-gobi.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/aloo-gobi-temp.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/aloo-gobi-old.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/1year.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-03-07</lastmod>
+	</url>
 </urlset>
