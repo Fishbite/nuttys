@@ -3,6 +3,14 @@ CREATE TABLE IF NOT EXISTS category_cards (
     name VARCHAR(50) NOT NULL UNIQUE,
     description TEXT NOT NULL
 );
+INSERT INTO category_cards (name, description) VALUES ('a test modified', 'Such a versatile & in-expensive ingredient. I tend to use pork Cumberland or
+      Lincolnshire, but please feel free to experiment with vegetarian or chicken
+      sausages. With one exception, sausage & onion pie, I think that really needs
+      pork sausage meat.')
+      ON DUPLICATE KEY UPDATE description='Such a versatile & in-expensive ingredient. I tend to use pork Cumberland or
+      Lincolnshire, but please feel free to experiment with vegetarian or chicken
+      sausages. With one exception, sausage & onion pie, I think that really needs
+      pork sausage meat.';
 INSERT INTO category_cards (name, description) VALUES ('sausages & bacon', 'Such a versatile & in-expensive ingredient. I tend to use pork Cumberland or
       Lincolnshire, but please feel free to experiment with vegetarian or chicken
       sausages. With one exception, sausage & onion pie, I think that really needs

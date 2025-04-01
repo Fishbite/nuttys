@@ -9,6 +9,10 @@ CREATE TABLE IF NOT EXISTS recipe_cards (
     UNIQUE KEY unique_recipe (category, page)
 );
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('a test', '/images/aloo-gobi/650x366/aloo-gobi-curry-and-rice-02.webp', 'aloo gobi old', 'aloo-gobi-old', 'sausage roll sliced with home made tomato chutney', '')
+             ON DUPLICATE KEY UPDATE 
+             image='/images/aloo-gobi/650x366/aloo-gobi-curry-and-rice-02.webp', caption='aloo gobi old', imgTitle='sausage roll sliced with home made tomato chutney', description='';
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('sausages & bacon', '/images/sausagecasserole/200/sausagecasserole.jpg', 'sausage casserole', 'sausagecasserole', 'sausage casserole', '')
              ON DUPLICATE KEY UPDATE 
              image='/images/sausagecasserole/200/sausagecasserole.jpg', caption='sausage casserole', imgTitle='sausage casserole', description='';
@@ -449,6 +453,10 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/saffron-and-cardamom-rice/650x366/saffron-and-cardamom-rice.webp', caption='saffron and cardamom rice', imgTitle='saffron and cardamom rice in a serving dish', description='';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '/images/fluffy-mashed-potatoes/650x366/fluffy-mash-in-a-bowl-01.webp', 'fluffy mashed potatoes', 'fluffy-mashed-potatoes', 'fluffy mashed potatoes in a bowl', '')
+             ON DUPLICATE KEY UPDATE 
+             image='/images/fluffy-mashed-potatoes/650x366/fluffy-mash-in-a-bowl-01.webp', caption='fluffy mashed potatoes', imgTitle='fluffy mashed potatoes in a bowl', description='';
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('puddings', '/images/pineapplepud/200/cake-cooked.jpg', 'pineapple pudding upside down', 'pineapplepudding', 'pineapple pudding upside down', '')
              ON DUPLICATE KEY UPDATE 
              image='/images/pineapplepud/200/cake-cooked.jpg', caption='pineapple pudding upside down', imgTitle='pineapple pudding upside down', description='';
@@ -499,6 +507,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
 
     DELETE FROM recipe_cards 
     WHERE (category, page) NOT IN (
+        ('a test', 'aloo-gobi-old'),
         ('sausages & bacon', 'sausagecasserole'),
         ('sausages & bacon', 'sausagepasta'),
         ('sausages & bacon', 'sausage-pasta-sauce'),
@@ -609,6 +618,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
         ('accompaniments', 'christmas-prepared'),
         ('accompaniments', 'spicy-baked-beans-and-peppers'),
         ('accompaniments', 'saffron-and-cardamom-rice'),
+        ('accompaniments', 'fluffy-mashed-potatoes'),
         ('puddings', 'pineapplepudding'),
         ('puddings', 'pearalmondtart'),
         ('puddings', 'appleblackberrycrumble'),

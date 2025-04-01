@@ -1,5 +1,5 @@
 // generateSQL.mjs
-import { gridContent } from "./gridContent.mjs";
+import { gridContent } from "./gridContent_test.mjs";
 import fs from "fs";
 
 const recipeCardsSQL = [];
