@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS category_cards (
     name VARCHAR(50) NOT NULL UNIQUE,
     description TEXT NOT NULL
 );
-INSERT INTO category_cards (name, description) VALUES ('a test modified', 'Such a versatile & in-expensive ingredient. I tend to use pork Cumberland or
+INSERT INTO category_cards (name, description) VALUES ('a n other test', 'Such a versatile & in-expensive ingredient. I tend to use pork Cumberland or
       Lincolnshire, but please feel free to experiment with vegetarian or chicken
       sausages. With one exception, sausage & onion pie, I think that really needs
       pork sausage meat.')
@@ -35,3 +35,18 @@ INSERT INTO category_cards (name, description) VALUES ('accompaniments', 'What d
       ON DUPLICATE KEY UPDATE description='What do I serve with the main star of my dish? Indian dishes cry out for flat breads, Chinese dishes needle for noodles, sausage and - has to be mash! So, every time I make a dish that really benefits from a specific side - I''ll try and put it in here. Do shout out if you would like me to put something here.';
 INSERT INTO category_cards (name, description) VALUES ('puddings', 'Num num num! Time to polish off that meal, just to make sure everyone''s had enough to eat :¬P')
       ON DUPLICATE KEY UPDATE description='Num num num! Time to polish off that meal, just to make sure everyone''s had enough to eat :¬P';
+
+    DELETE FROM category_cards 
+    WHERE name NOT IN (
+        'a n other test',
+        'sausages & bacon',
+        'chicken',
+        'beef',
+        'pork',
+        'lamb',
+        'fish & veg',
+        'sauce',
+        'accompaniments',
+        'puddings'
+    )
+    AND name NOT IN (SELECT DISTINCT category FROM recipe_cards);
