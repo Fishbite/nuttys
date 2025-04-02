@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS recipe_cards (
     UNIQUE KEY unique_recipe (category, page)
 );
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('a test', '/images/aloo-gobi/650x366/aloo-gobi-curry-and-rice-02.webp', 'aloo gobi old', 'aloo-gobi-old', 'sausage roll sliced with home made tomato chutney', '')
+             VALUES ('a n other test', '/images/aloo-gobi/650x366/aloo-gobi-curry-and-rice-02.webp', 'aloo gobi old', 'aloo-gobi-old', 'sausage roll sliced with home made tomato chutney', '')
              ON DUPLICATE KEY UPDATE 
              image='/images/aloo-gobi/650x366/aloo-gobi-curry-and-rice-02.webp', caption='aloo gobi old', imgTitle='sausage roll sliced with home made tomato chutney', description='';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
@@ -507,7 +507,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
 
     DELETE FROM recipe_cards 
     WHERE (category, page) NOT IN (
-        ('a test', 'aloo-gobi-old'),
+        ('a n other test', 'aloo-gobi-old'),
         ('sausages & bacon', 'sausagecasserole'),
         ('sausages & bacon', 'sausagepasta'),
         ('sausages & bacon', 'sausage-pasta-sauce'),
