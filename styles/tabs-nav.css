@@ -104,6 +104,9 @@ ol ul {
   line-height: 1.5;
   padding: 1rem 0 0 1rem;
 }
+ol ul:last-child {
+  padding-bottom: 1rem;
+}
 a {
   text-decoration: none;
 }
