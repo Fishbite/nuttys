@@ -1240,6 +1240,20 @@ export const gridContent = [
     page: `saffron-and-cardamom-rice`,
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "/images/fluffy-mashed-potatoes/650x366/fluffy-mash-in-a-bowl-01.webp",
+    imgTitle: "fluffy mashed potatoes in a bowl",
+    imgAlt: "fluffy mash in a bowl",
+    caption: "fluffy mashed potatoes",
+    page: `fluffy-mashed-potatoes`,
+  },
+
   // ****** accompaniments END ****** \\
 
   // ****** puddings START ****** \\
