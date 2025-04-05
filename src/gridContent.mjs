@@ -670,6 +670,7 @@ export const gridContent = [
     imgAlt: "pork fried rice",
     caption: "pork fried rice",
     page: `pork-fried-rice`,
+    desc: "A flavour-packed Chinese-style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.",
   },
 
   {
@@ -680,6 +681,7 @@ export const gridContent = [
     imgAlt: "sweet and sour pork cooked",
     caption: "sweet and sour pork",
     page: `sweet-and-sour-pork`,
+    desc: "Crispy pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!",
   },
 
   {
@@ -690,6 +692,7 @@ export const gridContent = [
     imgAlt: "pork vindaloo cooked",
     caption: "fresh pork vindaloo",
     page: `pork-vindaloo`,
+    desc: "A fiery, spicy Goan-inspired curry that packs a punch! Tender pork in a vinegar-rich sauce with deep, bold spices.",
   },
 
   {
@@ -700,6 +703,7 @@ export const gridContent = [
     imgAlt: "roast pork vindaloo simmering",
     caption: "roast pork vindaloo",
     page: `roastporkvindaloo`,
+    desc: "A brilliant way to repurpose roast pork into a mouth-tingling vindaloo curry. Big flavours, easy prep!",
   },
 
   {
@@ -711,6 +715,7 @@ export const gridContent = [
     imgAlt: "pork and peppers in black bean sauce",
     caption: "pork and peppers in black bean sauce",
     page: `pork-blackbean-sauce-and-peppers`,
+    desc: "A savoury Chinese-inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!",
   },
 
   {
@@ -721,6 +726,7 @@ export const gridContent = [
     imgAlt: "pork madras curry",
     caption: "pork madras curry",
     page: `pork-madras`,
+    desc: "A hot and hearty South Indian curry featuring pork in a spiced tomato-based sauce. Fragrant, bold, and deeply satisfying.",
   },
 
   {
@@ -731,6 +737,7 @@ export const gridContent = [
     imgAlt: "dinner plated",
     caption: "belly pork dinner",
     page: `bellyporkdinner`,
+    desc: "Slow-roasted belly pork with crackling, served with rich gravy and vegetables — a comforting, indulgent Sunday roast.",
   },
 
   {
@@ -741,6 +748,7 @@ export const gridContent = [
     imgAlt: "pork chilli served",
     caption: "pork chilli",
     page: `pork-chilli`,
+    desc: "A spicy take on classic chilli using minced pork, kidney beans, and smoky chilli spices. Great with rice or over a jacket potato!",
   },
 
   {
@@ -751,6 +759,7 @@ export const gridContent = [
     imgAlt: "pork stroganoff plated 3",
     caption: "roast pork stroganoff",
     page: `roast-pork-stroganoff`,
+    desc: "A creamy, comforting dish using roast pork in a sour cream and mushroom sauce. A brilliant twist on a Russian favourite.",
   },
 
   {
@@ -761,6 +770,7 @@ export const gridContent = [
     imgAlt: "pork in creamy pepper sauce",
     caption: "pork in creamy pepper sauce",
     page: `porksupreme`,
+    desc: "Juicy pork steaks in a luxurious creamy sauce with herbs and mushrooms — a simple, elegant dinner that feels fancy but is easy to make.",
   },
 
   {
@@ -771,6 +781,7 @@ export const gridContent = [
     imgAlt: "jerked pork steak plated",
     caption: "jerked pork steaks grill",
     page: `jerked-pork-steaks-grill`,
+    desc: "Pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!",
   },
 
   {
@@ -783,6 +794,7 @@ export const gridContent = [
     imgAlt: "pork steaks plated",
     caption: "peri peri pork steaks",
     page: `peri-peri-pork-steaks`,
+    desc: "Zingy and spicy peri-peri pork steaks grilled for that fiery Portuguese-inspired flavour — great with chips or salad!",
   },
 
   {
@@ -793,6 +805,7 @@ export const gridContent = [
     imgAlt: "jerked pork rice and peas 01",
     caption: "jerked pork curry",
     page: `jerked-pork-curry`,
+    desc: "A spicy Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.",
   },
 
   {
@@ -804,6 +817,7 @@ export const gridContent = [
     imgAlt: "Mediterranean style vegetables with pork steaks plated 03",
     caption: "mediterranean style veg' with pork steaks",
     page: `mediterranean-style-vegetables-with-pork-steaks`,
+    desc: "A light, colourful dish of pork steaks paired with roasted Mediterranean vegetables — olive oil, herbs, sunshine on a plate.",
   },
 
   { type: "blank" },
@@ -817,6 +831,7 @@ export const gridContent = [
     imgAlt: "rogan josh pork curry",
     caption: "rogan josh pork curry",
     page: `rogan-josh-pork-curry`,
+    desc: "A rich, Kashmiri-style pork curry with warm spices and a deep red sauce. Comforting and aromatic with every bite.",
   },
 
   // ****** pork END ****** \\
@@ -837,6 +852,7 @@ export const gridContent = [
     imgAlt: "curry in pan",
     caption: "lamb peas & mint curry",
     page: `lamb-peas-mint-curry`,
+    desc: "A delicious lamb curry cooked with peas and fresh mint for a sweet and savoury balance, ideal with rice or naan.",
   },
 
   {
@@ -847,6 +863,7 @@ export const gridContent = [
     imgAlt: "lamb mash-pie ready",
     caption: "lamb & mash pie",
     page: `lambmashpie`,
+    desc: "A comforting lamb pie with rich minced lamb and creamy mashed potato topping, perfect for chilly evenings.",
   },
 
   {
@@ -857,6 +874,7 @@ export const gridContent = [
     imgAlt: "lamb kofta curry and rice",
     caption: "lamb kofta curry",
     page: `lamb-kofta-curry`,
+    desc: "Tender lamb meatballs simmered in a rich, spiced tomato curry sauce — full of flavour and great with rice or flatbread.",
   },
 
   {
@@ -867,6 +885,7 @@ export const gridContent = [
     imgAlt: "kebab closed with salad",
     caption: "my dodgy kebab",
     page: `dodgy-kebab`,
+    desc: "A cheeky homemade take on the classic late-night kebab — tasty, healthier, and fun to make!",
   },
 
   {
@@ -877,6 +896,7 @@ export const gridContent = [
     imgAlt: "garam masala added",
     caption: "lamb curry with spinach",
     page: `lamb-curry-with-spinach`,
+    desc: "Slow-cooked lamb in a fragrant curry sauce with fresh spinach for a nutrient-packed, hearty dish.",
   },
 
   { type: "blank" },
@@ -889,6 +909,7 @@ export const gridContent = [
     imgAlt: "lamb pulao rice in dish",
     caption: "lamb pulao rice",
     page: `lamb-pulao-rice`,
+    desc: "Fragrant rice cooked with tender lamb, aromatic spices and herbs, perfect for a special meal.",
   },
 
   {
@@ -900,6 +921,7 @@ export const gridContent = [
     imgAlt: "lamb tikka grill steaks plated",
     caption: "lamb tikka grill steaks",
     page: `lamb-tikka-grill-steaks`,
+    desc: "Juicy lamb steaks marinated in tikka spices and grilled to perfection — packed with smoky flavour.",
   },
 
   // ****** lamb END ****** \\
@@ -919,6 +941,7 @@ export const gridContent = [
     imgAlt: "cauli cheese ready",
     caption: "cauliflower cheese & beans bake",
     page: `caulicheese`,
+    desc: "A creamy, cheesy baked cauliflower classic — the perfect side dish or comfort food main.",
   },
 
   {
@@ -930,6 +953,7 @@ export const gridContent = [
     imgAlt: "vegetarian-chilli and buttered bread",
     caption: "vegetarian-chilli",
     page: `vegetarian-chilli`,
+    desc: "Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn’t compromise on flavour.",
   },
 
   {
@@ -940,6 +964,7 @@ export const gridContent = [
     imgAlt: "macaroni pie baked",
     caption: "baked macaroni pie",
     page: `macaroni-pie`,
+    desc: "A rich and cheesy baked macaroni pie with a golden crust — a Caribbean-inspired twist on mac and cheese.",
   },
 
   {
@@ -951,6 +976,7 @@ export const gridContent = [
     imgAlt: "cauli cheese smoked hadock baked 01",
     caption: "cauli cheese & smoked haddock",
     page: `cauli-cheese-smoked-haddock-bake`,
+    desc: "Comforting baked dish with cauliflower cheese and smoked haddock — creamy, savoury, and deeply satisfying.",
   },
 
   {
@@ -961,6 +987,7 @@ export const gridContent = [
     imgAlt: "aloo gobi plated",
     caption: "aloo gobi",
     page: `aloo-gobi`,
+    desc: "Classic Indian dry curry of potatoes and cauliflower with fragrant spices — vegan and full of flavour.",
   },
 
   {
@@ -973,6 +1000,7 @@ export const gridContent = [
     imgAlt: "smoked haddock in cheese sauce plated",
     caption: "smoked haddock in cheese sauce",
     page: `smoked-haddock-in-cheese-sauce`,
+    desc: "Poached smoked haddock served in a rich, cheesy sauce — simple, hearty, and perfect with mash or rice.",
   },
 
   {
@@ -983,6 +1011,7 @@ export const gridContent = [
     imgAlt: "fish pie baked 02",
     caption: "mum's fish pie",
     page: `fish-pie`,
+    desc: "Traditional creamy fish pie with a mash topping — comforting, filling, and a real family favourite.",
   },
 
   {
@@ -994,6 +1023,7 @@ export const gridContent = [
     imgAlt: "blue cheese macaroni pie baked",
     caption: "blue cheese macaroni pie",
     page: `blue-cheese-macaroni-pie`,
+    desc: "An indulgent twist on macaroni cheese with bold blue cheese baked into a golden pie crust.",
   },
 
   {
@@ -1005,6 +1035,7 @@ export const gridContent = [
     imgAlt: "cheese and onion quiche cooked",
     caption: "cheese & onion quiche",
     page: `cheese-and-onion-quiche`,
+    desc: "A savoury quiche with tangy cheese and caramelised onions — perfect hot or cold for lunch or picnics.",
   },
 
   {
@@ -1015,6 +1046,7 @@ export const gridContent = [
     imgAlt: "cauliflower curry in a pan",
     caption: "cauliflower curry",
     page: `cauliflower-curry`,
+    desc: "Simple yet fragrant curry made with cauliflower and warming Indian spices — naturally vegan and delicious.",
   },
 
   {
@@ -1026,6 +1058,7 @@ export const gridContent = [
     imgAlt: "chorizo cod stew plated 04",
     caption: "chorizo cod stew",
     page: `chorizo-cod-stew`,
+    desc: "Spanish-inspired stew with spicy chorizo, tender cod, and a rich tomato base — warming and rustic.",
   },
 
   {
@@ -1037,6 +1070,7 @@ export const gridContent = [
     imgAlt: "smoked haddock bacon bake",
     caption: "smoked haddock bacon bake",
     page: `smoked-haddock-bacon-bake`,
+    desc: "Smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven dish.",
   },
 
   {
@@ -1048,6 +1082,7 @@ export const gridContent = [
     imgAlt: "Fish & Chorizo Potato Pie",
     caption: "Fish & Chorizo Potato Pie",
     page: `fish-and-chorizo-potato-pie`,
+    desc: "A bold and tasty pie layered with fish, spicy chorizo, and sliced potato — perfect for spice lovers.",
   },
 
   {
@@ -1059,6 +1094,7 @@ export const gridContent = [
     imgAlt: "fish fillets with chilli sauce & safron rice",
     caption: "fish fillets with chilli sauce",
     page: `fish-fillets-with-chilli-sauce`,
+    desc: "Pan-fried fish fillets topped with a zingy homemade chilli sauce — fiery, fresh and quick to cook.",
   },
 
   { type: "blank" },
@@ -1071,6 +1107,7 @@ export const gridContent = [
     imgAlt: "sambar with naan on the side",
     caption: "sambar &mdash; south Indian lentils & vegetables",
     page: `sambar`,
+    desc: "A South Indian lentil and vegetable stew with tamarind and spices — tangy, warming, and packed with goodness.",
   },
 
   {
@@ -1081,6 +1118,7 @@ export const gridContent = [
     imgAlt: "celeriac soup",
     caption: "celeriac soup",
     page: `celeriac-soup`,
+    desc: "Silky smooth soup made from earthy celeriac and a touch of cream — elegant and comforting.",
   },
 
   // ****** vege END ****** \\
@@ -1110,6 +1148,7 @@ export const gridContent = [
     imgAlt: "white sauce",
     caption: "white sauce",
     page: `whitesauce`,
+    desc: "Basic white sauce (béchamel) recipe — the essential base for cheese sauce, lasagne and more.",
   },
 
   {
@@ -1120,6 +1159,7 @@ export const gridContent = [
     imgAlt: "parsley sauce",
     caption: "parsley sauce",
     page: `parsley-sauce`,
+    desc: "Fresh and creamy parsley sauce — perfect poured over fish, ham, or potatoes.",
   },
 
   {
@@ -1130,6 +1170,7 @@ export const gridContent = [
     imgAlt: "onion sauce jug",
     caption: "onion sauce",
     page: `onionsauce`,
+    desc: "Sweet, savoury onion sauce made from slow-cooked onions — ideal with sausages or pork.",
   },
 
   {
@@ -1140,6 +1181,7 @@ export const gridContent = [
     imgAlt: "cheese sauce in pan",
     caption: "cheese sauce",
     page: `cheesesauce`,
+    desc: "Classic homemade cheese sauce — rich, velvety, and perfect for pouring over pasta, veg, or nachos.",
   },
 
   // ****** sauce END ****** \\
@@ -1159,6 +1201,7 @@ export const gridContent = [
     imgAlt: "cooked rice in pan",
     caption: "tomato mexican rice",
     page: `tomatomexicanrice`,
+    desc: "Spiced tomato rice with Mexican flair — a vibrant side dish that pairs beautifully with grilled meats or beans.",
   },
 
   {
@@ -1169,6 +1212,7 @@ export const gridContent = [
     imgAlt: "chapati cooking",
     caption: "chapati flat bread",
     page: `chapati`,
+    desc: "Soft and warm Indian flatbreads made from wholemeal flour — perfect for scooping up curries.",
   },
 
   {
@@ -1179,6 +1223,7 @@ export const gridContent = [
     imgAlt: "egg fried rice",
     caption: "egg fried rice",
     page: `egg-fried-rice`,
+    desc: "Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.",
   },
 
   {
@@ -1189,6 +1234,7 @@ export const gridContent = [
     imgAlt: "stirfry noodles",
     caption: "noodles with beansprouts",
     page: `chinese-noodles-with-beansprouts`,
+    desc: "Stir-fried noodles tossed with crunchy beansprouts and soy — a speedy and satisfying dish.",
   },
 
   {
@@ -1199,6 +1245,7 @@ export const gridContent = [
     imgAlt: "basmati rice 2",
     caption: "basmati rice",
     page: `basmati-rice`,
+    desc: "Fluffy, fragrant basmati rice cooked to perfection — the essential side for countless dishes.",
   },
 
   {
@@ -1209,6 +1256,7 @@ export const gridContent = [
     imgAlt: "dhal with fried spices in dish",
     caption: "dhal with fried spices",
     page: `dhal-with-fried-spices`,
+    desc: "Comforting yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan-friendly.",
   },
 
   {
@@ -1219,6 +1267,7 @@ export const gridContent = [
     imgAlt: "tarka-dhal",
     caption: "tarka dhal",
     page: `tarka-dhal`,
+    desc: "Indian lentil curry with a sizzling spice topping (tarka) — simple, rich, and full of flavour.",
   },
 
   {
@@ -1229,6 +1278,7 @@ export const gridContent = [
     imgAlt: "swede carrot potato mash 1",
     caption: "mashed roots",
     page: `mashed-roots`,
+    desc: "A rustic mash of seasonal root vegetables — creamy, earthy, and great with roasts or stews.",
   },
 
   {
@@ -1239,6 +1289,7 @@ export const gridContent = [
     imgAlt: "spicy potato wedges",
     caption: "spicy potato wedges",
     page: `spicy-potato-wedges`,
+    desc: "Golden baked potato wedges seasoned with bold spices — crispy on the outside, fluffy inside.",
   },
 
   {
@@ -1249,6 +1300,7 @@ export const gridContent = [
     imgAlt: "tomato chutney",
     caption: "tomato chutney",
     page: `tomato-chutney`,
+    desc: "Sweet and tangy tomato chutney with a gentle chilli kick — ideal with curries or cold cuts.",
   },
 
   {
@@ -1259,6 +1311,7 @@ export const gridContent = [
     imgAlt: "jamaican rice and Peas in a bowl",
     caption: "jamaican rice & peas",
     page: `jamaican-rice-and-peas`,
+    desc: "Coconut-infused rice with kidney beans and thyme — an iconic Caribbean side bursting with flavour.",
   },
 
   {
@@ -1271,6 +1324,7 @@ export const gridContent = [
       "Christmas prepared savoury sides & snacks ready to pop into the oven",
     caption: "Christmas prepared!",
     page: `christmas-prepared`,
+    desc: "A handy festive checklist and prep guide — make your Christmas dinner stress-free and delicious!",
   },
 
   {
@@ -1282,6 +1336,7 @@ export const gridContent = [
     imgAlt: "spicy baked beans & peppers",
     caption: "spicy baked beans & peppers",
     page: `spicy-baked-beans-and-peppers`,
+    desc: "Baked beans with a twist — spiced up with peppers and seasoning for a fiery side dish or main.",
   },
 
   {
@@ -1293,6 +1348,7 @@ export const gridContent = [
     imgAlt: "saffron and cardamom rice",
     caption: "saffron and cardamom rice",
     page: `saffron-and-cardamom-rice`,
+    desc: "Delicate, aromatic rice infused with saffron and cardamom — a luxurious, subtly sweet accompaniment.",
   },
 
   { type: "blank" },
@@ -1307,6 +1363,7 @@ export const gridContent = [
     imgAlt: "fluffy mash in a bowl",
     caption: "fluffy mashed potatoes",
     page: `fluffy-mashed-potatoes`,
+    desc: "Fluffy, creamy mashed potatoes — the ultimate comfort food side dish, perfect with any meal.",
   },
 
   // ****** accompaniments END ****** \\
@@ -1326,6 +1383,7 @@ export const gridContent = [
     imgAlt: "cake cooked",
     caption: "pineapple pudding upside down",
     page: `pineapplepudding`,
+    desc: "A light and fruity baked pudding with juicy pineapple and a golden sponge topping — sunshine in every bite.",
   },
 
   {
@@ -1336,6 +1394,7 @@ export const gridContent = [
     imgAlt: "pear almond tart cooling",
     caption: "pear almond tart",
     page: `pearalmondtart`,
+    desc: "Elegant pear tart nestled in frangipane almond filling — sweet, nutty, and buttery with a crisp base.",
   },
 
   {
@@ -1347,6 +1406,7 @@ export const gridContent = [
     imgAlt: "apple blackberry crumble",
     caption: "apple & blackberry crumble",
     page: `appleblackberrycrumble`,
+    desc: "Classic British crumble with juicy apples and tangy blackberries under a golden, crunchy topping.",
   },
 
   {
@@ -1357,6 +1417,7 @@ export const gridContent = [
     imgAlt: "cake-finished",
     caption: "sticky gingerbread pud",
     page: `gingerbread`,
+    desc: "Old-fashioned sticky gingerbread — rich with spice and treacle, perfect with custard or a cuppa.",
   },
 
   {
@@ -1367,6 +1428,7 @@ export const gridContent = [
     imgAlt: "cherry pie cooked",
     caption: "black cherry lattice tart",
     page: `blackcherrypie`,
+    desc: "Deep-filled pie bursting with juicy black cherries — sweet, tart, and perfect with a scoop of cream.",
   },
 
   {
@@ -1378,6 +1440,7 @@ export const gridContent = [
     imgAlt: "chocolate cake",
     caption: "chocolate cake",
     page: `chocolate-cake`,
+    desc: "Decadent chocolate cake — rich, moist layers smothered in a smooth, dark ganache.",
   },
 
   {
@@ -1388,6 +1451,7 @@ export const gridContent = [
     imgAlt: "victoria sponge slice",
     caption: "victoria sponge cake",
     page: `victoria-sponge-cake`,
+    desc: "Light sponge sandwiched with jam and cream — a timeless British teatime favourite.",
   },
 
   {
@@ -1398,6 +1462,7 @@ export const gridContent = [
     imgAlt: "steamed pudding sliced",
     caption: "steamed sponge pudding",
     page: `steamed-sponge-pudding`,
+    desc: "Soft, warm sponge pudding — steamed to fluffy perfection and best served with lashings of custard.",
   },
 
   {
@@ -1409,6 +1474,7 @@ export const gridContent = [
     imgAlt: "damson & soured cream tart plated",
     caption: "damson & soured cream tart",
     page: `damson-and-soured-cream-tart`,
+    desc: "Sharp damsons balanced by creamy filling in a sweet tart shell — a refined and fruity treat.",
   },
 
   {
@@ -1420,6 +1486,7 @@ export const gridContent = [
     imgAlt: "pear coconut blackberry cake sliced 01",
     caption: "Pear, Coconut & Blackberry Cake",
     page: `pear-coconut-blackberry-cake`,
+    desc: "A moist and rustic cake packed with fruit and coconut — perfect with a mug of tea.",
   },
 
   {
@@ -1431,6 +1498,7 @@ export const gridContent = [
     imgAlt: "Blackberry & Soured Cream Flan 02",
     caption: "Blackberry & Soured Cream Flan",
     page: `blackberry-and-soured-cream-flan`,
+    desc: "Sweet pastry flan filled with tart blackberries and mellow soured cream — delicate and delicious.",
   },
 
   { type: "blank" },
@@ -1444,6 +1512,7 @@ export const gridContent = [
     imgAlt: "fruit cake sliced",
     caption: "fruit cake",
     page: `fruit-cake`,
+    desc: "Rich and moist traditional fruit cake — loaded with soaked dried fruit and festive cheer.",
   },
 
   // ****** puddings END ****** \\
