@@ -74,7 +74,7 @@ export const gridContent = [
     imgAlt: "meal cooked",
     caption: "cauliflower cheese & frankfurter bake",
     page: `caulifrankcheese`,
-    desc: "A comforting bake of tender cauliflower florets and frankfurters smothered in a creamy cheese sauce, then baked until bubbly and golden.",
+    desc: "A comforting bake of tender cauliflower florets and frankfurter sausage smothered in a creamy cheese sauce, then baked until bubbly and golden.",
   },
 
   {
@@ -86,7 +86,7 @@ export const gridContent = [
     imgAlt: "gammon dinner plated 1",
     caption: "gammon joint & mustard sauce",
     page: `gammon-joint-with-mustard-sauce`,
-    desc: "Succulent gammon joint roasted to perfection and served with a tangy mustard sauce, making for an impressive centerpiece.",
+    desc: "Succulent gammon joint cooked to perfection and served with a tangy mustard sauce, making for an impressive centerpiece.",
   },
 
   {
@@ -142,7 +142,7 @@ export const gridContent = [
     imgAlt: "chicken chilli cooking",
     caption: "chicken chilli mexican",
     page: `chickenchilimex`,
-    desc: "A spicy Mexican-inspired chicken chili featuring tender chicken, beans, and a blend of bold spices. Perfect with rice or tortillas.",
+    desc: "A spicy Mexican-inspired chicken chilli featuring tender chicken, beans, and a blend of bold spices. Perfect with rice or tortillas.",
   },
 
   {
@@ -153,7 +153,7 @@ export const gridContent = [
     imgAlt: "finished curry in pan",
     caption: "easy chicken curry",
     page: `easy-chicken-curry`,
-    desc: "A simple yet flavorful chicken curry with tender chicken pieces simmered in a rich, aromatic sauce. Great for a quick weeknight dinner.",
+    desc: "A simple yet flavourful chicken curry with tender chicken pieces simmered in a rich, tomato sauce. Great for a quick weeknight dinner.",
   },
 
   {
@@ -187,7 +187,7 @@ export const gridContent = [
     imgAlt: "spring onion added to sauce",
     caption: "sweet & sour roast chicken",
     page: `sweet-and-sour-roast-chicken`,
-    desc: "Roast chicken glazed with a tangy sweet and sour sauce, resulting in a flavorful and juicy main course.",
+    desc: "Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.",
   },
 
   {
@@ -210,7 +210,7 @@ export const gridContent = [
     imgAlt: "lemon garlic ginger added",
     caption: "chicken thighs in spicy hot sauce",
     page: `chicken-thighs-in-spicy-hot-sauce`,
-    desc: "Juicy chicken thighs cooked in a spicy hot sauce, delivering a flavorful and heat-packed dish.",
+    desc: "Juicy chicken thighs cooked in a spicy hot sauce, delivering a flavourful and heat-packed dish.",
   },
 
   {
@@ -279,7 +279,7 @@ export const gridContent = [
     imgAlt: "jerked chicken and macaroni pie plated 03",
     caption: "jerked chicken curry",
     page: `jerked-chicken-curry`,
-    desc: "A fusion dish combining Jamaican jerk flavors with a hearty chicken curry. Spicy, flavorful, and unique.",
+    desc: "A fusion dish combining Jamaican jerk flavours with a hearty chicken curry. Spicy, flavourful, and unique.",
   },
 
   {
@@ -303,7 +303,7 @@ export const gridContent = [
     imgAlt: "cooked tandoori chicken on plate 02",
     caption: "classic tandoori chicken",
     page: `tandoori-chicken`,
-    desc: "Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smoky flavor.",
+    desc: "Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smokey flavour.",
   },
 
   {
@@ -314,7 +314,7 @@ export const gridContent = [
     imgAlt: "chicken with mango plated",
     caption: "chicken with mango",
     page: `chicken-with-mango`,
-    desc: "A delightful combination of tender chicken pieces and sweet, juicy mango in a flavorful sauce.",
+    desc: "A delightful combination of tender chicken pieces and tangy, juicy mango in a flavourful sauce.",
   },
 
   {
@@ -338,7 +338,7 @@ export const gridContent = [
     imgAlt: "chicken tandoori grill plated 01",
     caption: "chicken tandoori grill",
     page: `chicken-tandoori-grill`,
-    desc: "Grilled tandoori chicken with a smoky flavor and vibrant spices. Perfect for outdoor grilling.",
+    desc: "Grilled tandoori chicken with a smokey flavour and vibrant spices. Perfect for outdoor grilling.",
   },
 
   {
@@ -350,7 +350,7 @@ export const gridContent = [
     imgAlt: "khara masala balti chicken plated",
     caption: "khara masala balti chicken",
     page: `khara-masala-balti-chicken`,
-    desc: "A flavorful Balti-style chicken curry with whole spices and a rich, aromatic sauce.",
+    desc: "A flavourful Balti-style chicken curry with whole spices and a rich, aromatic sauce.",
   },
 
   {
@@ -375,7 +375,7 @@ export const gridContent = [
     imgAlt: "chinese chicken curry and rice",
     caption: "chinese chicken curry",
     page: `chinese-chicken-curry`,
-    desc: "A Chinese takeout favorite featuring tender chicken pieces in a mild and flavorful curry sauce.",
+    desc: "A Chinese takeout favorite featuring tender chicken pieces in a spicy and flavourful curry sauce.",
   },
 
   {
@@ -437,7 +437,7 @@ export const gridContent = [
     imgAlt: "Curry Leaf Masala and rice",
     caption: "Curry Leaf Masala Chicken Fry",
     page: `curry-leaf-masala-chicken-fry`,
-    desc: "A deeply authentic Indian dish with rich, earthy masala and the unmistakable aroma of fresh curry leaves. It’s not fiery hot — just full of bold, balanced flavour.",
+    desc: "A deeply authentic Indian dish with rich, earthy masala and the unmistakable aroma of fresh curry leaves. It's not fiery hot — just full of bold, balanced flavour.",
   },
 
   {
@@ -448,7 +448,7 @@ export const gridContent = [
     imgAlt: "cold pie on a plate with a fork",
     caption: "luxury chicken pie",
     page: `luxury-chicken-pie`,
-    desc: "A proper Sunday dinner pie—chunks of chicken in creamy white sauce with leeks and mushrooms under buttery pastry.",
+    desc: "A proper Sunday dinner pie — chunks of chicken in creamy white sauce with leeks and mushrooms under buttery pastry.",
   },
 
   // ****** chicken END ****** \\
@@ -468,7 +468,7 @@ export const gridContent = [
     imgAlt: "",
     caption: "corned beef mash pie",
     page: `cornedbeefmashpie`,
-    desc: "Comforting corned beef mash pie, layered with seasoned mash and savoury beef—budget-friendly and tasty.",
+    desc: "Comforting corned beef mash pie, layered with seasoned mashed potatoes and savoury beef—budget-friendly and tasty.",
   },
 
   {
@@ -490,7 +490,7 @@ export const gridContent = [
     imgAlt: "pasta sauce marjoram",
     caption: "beef & pork pasta sauce",
     page: `beefporkpastasauce`,
-    desc: "Rich and savoury beef & pork pasta sauce—perfect for spaghetti, lasagne, or pasta bakes.",
+    desc: "Rich and savoury beef & pork pasta sauce — perfect for spaghetti, lasagne, or pasta bakes.",
   },
 
   {
@@ -501,7 +501,7 @@ export const gridContent = [
     imgAlt: "beef & pork chilli",
     caption: "beef & pork mexican chilli",
     page: `beefporkchilli`,
-    desc: "A spicy twist on classic chilli—beef and pork slow-cooked with beans, tomatoes, and heat.",
+    desc: "A spicy twist on classic chilli — beef and pork slow-cooked with beans, tomatoes, and heat.",
   },
 
   {
@@ -512,7 +512,7 @@ export const gridContent = [
     imgAlt: "pasta bake done",
     caption: "beef & pork pasta bake",
     page: `beefporkpastabake`,
-    desc: "Cheesy pasta bake with beef and pork mince in a tomato sauce—comfort food at its best.",
+    desc: "Cheesy pasta bake with beef and pork mince in a tomato sauce — comfort food at its best.",
   },
 
   {
@@ -523,7 +523,7 @@ export const gridContent = [
     imgAlt: "cottage pie cooked 1",
     caption: "cottage pie",
     page: `cottage-pie`,
-    desc: "Hearty cottage pie with a savoury mince base and fluffy mashed potato topping—an old-school classic.",
+    desc: "Hearty cottage pie with a savoury mince base and fluffy mashed potato topping — an old-school classic.",
   },
 
   {
@@ -534,7 +534,7 @@ export const gridContent = [
     imgAlt: "beef pork madras in pan",
     caption: "beef & pork madras",
     page: `beef-pork-madras`,
-    desc: "Madras-style curry with beef and pork mince, cooked with a fiery blend of spices—deeply satisfying.",
+    desc: "Madras-style curry with beef and pork mince, cooked with a fiery blend of spices — deeply satisfying.",
   },
 
   {
@@ -545,7 +545,7 @@ export const gridContent = [
     imgAlt: "meatballs finished",
     caption: "beefy meatballs in onion gravy",
     page: `beefy-meatballs-onion-gravy`,
-    desc: "Juicy meatballs in rich onion gravy—serve with mash or chips for a proper homely dinner.",
+    desc: "Juicy meatballs in rich onion gravy — serve with mash or chips for a proper homely dinner.",
   },
 
   {
@@ -556,7 +556,7 @@ export const gridContent = [
     imgAlt: "braised steak mash and broccoli",
     caption: "mum's braised steak & mash",
     page: `mums-braised-steak`,
-    desc: "Slow-braised steak just like Mum made—tender meat in savoury gravy, perfect with mash.",
+    desc: "Slow-braised steak just like Mum made — tender meat in savoury gravy, perfect with mash.",
   },
 
   {
@@ -568,7 +568,7 @@ export const gridContent = [
     imgAlt: "beef curry with green beans 1",
     caption: "beef curry with green beans",
     page: `beef-curry-with-green-beans`,
-    desc: "A warming curry of beef with green beans, slow-cooked in aromatic spices—great with rice or naan.",
+    desc: "A warming curry of beef with green beans, slow-cooked in aromatic spices — great with rice or naan.",
   },
 
   {
@@ -579,7 +579,7 @@ export const gridContent = [
     imgAlt: "pie and broccoli plated 2",
     caption: "beef and mushroom suet pastry pie",
     page: `beef-and-mushroom-suet-pastry-pie`,
-    desc: "Beef and mushrooms in rich gravy, topped with a traditional suet crust—classic British pie comfort.",
+    desc: "Beef and mushrooms in rich gravy, topped with a traditional suet crust — classic British pie comfort.",
   },
 
   {
@@ -591,7 +591,7 @@ export const gridContent = [
     imgAlt: "braised steak mash and veg plated",
     caption: "nutty's braised steak",
     page: `nuttys-braised-steak`,
-    desc: "Nutty’s signature braised steak—tender beef slow-cooked in a rich onion gravy with homestyle flavours.",
+    desc: "Nutty's signature braised steak — tender beef slow-cooked in a rich onion gravy with homestyle flavours.",
   },
 
   {
@@ -603,7 +603,7 @@ export const gridContent = [
     imgAlt: "seekh kebab with salad raita and pita bread",
     caption: "authentic seekh kebab",
     page: `authentic-seekh-kebabs`,
-    desc: "Authentic seekh kebabs made with spiced minced meat—grilled and juicy, perfect for wraps or sides.",
+    desc: "Authentic seekh kebabs made with spiced minced meat — grilled and juicy, perfect for wraps or sides.",
   },
 
   {
@@ -614,7 +614,7 @@ export const gridContent = [
     imgAlt: "rogan josh plated",
     caption: "rogan josh beef curry",
     page: `rogan-josh-beef-curry`,
-    desc: "Deeply flavoured Rogan Josh made with beef—rich, spicy, and slow-cooked to perfection.",
+    desc: "Deeply flavoured Rogan Josh made with beef — rich, spicy, and slow-cooked to perfection.",
   },
 
   {
@@ -638,7 +638,7 @@ export const gridContent = [
     imgAlt: "savoury mince and mash plated",
     caption: "savoury mince & mash",
     page: `savoury-mince-and-mash`,
-    desc: "Quick and tasty savoury mince served over creamy mash—easy comfort food on a budget.",
+    desc: "Quick and tasty savoury mince served with creamy mash potatoes — easy comfort food on a budget.",
   },
 
   {
@@ -874,7 +874,7 @@ export const gridContent = [
     imgAlt: "lamb kofta curry and rice",
     caption: "lamb kofta curry",
     page: `lamb-kofta-curry`,
-    desc: "Tender lamb meatballs simmered in a rich, spiced tomato curry sauce — full of flavour and great with rice or flatbread.",
+    desc: "Tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.",
   },
 
   {
@@ -953,7 +953,7 @@ export const gridContent = [
     imgAlt: "vegetarian-chilli and buttered bread",
     caption: "vegetarian-chilli",
     page: `vegetarian-chilli`,
-    desc: "Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn’t compromise on flavour.",
+    desc: "Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn't compromise on flavour.",
   },
 
   {
@@ -976,7 +976,7 @@ export const gridContent = [
     imgAlt: "cauli cheese smoked hadock baked 01",
     caption: "cauli cheese & smoked haddock",
     page: `cauli-cheese-smoked-haddock-bake`,
-    desc: "Comforting baked dish with cauliflower cheese and smoked haddock — creamy, savoury, and deeply satisfying.",
+    desc: "Comforting baked dish with cauliflower cheese and smoked haddock fish — creamy, savoury, and deeply satisfying.",
   },
 
   {
@@ -987,7 +987,7 @@ export const gridContent = [
     imgAlt: "aloo gobi plated",
     caption: "aloo gobi",
     page: `aloo-gobi`,
-    desc: "Classic Indian dry curry of potatoes and cauliflower with fragrant spices — vegan and full of flavour.",
+    desc: "Classic Indian dry curry of potato and cauliflower with fragrant spices — vegan and full of flavour.",
   },
 
   {
@@ -1000,7 +1000,7 @@ export const gridContent = [
     imgAlt: "smoked haddock in cheese sauce plated",
     caption: "smoked haddock in cheese sauce",
     page: `smoked-haddock-in-cheese-sauce`,
-    desc: "Poached smoked haddock served in a rich, cheesy sauce — simple, hearty, and perfect with mash or rice.",
+    desc: "Poached smoked haddock fish served in a rich, cheesy sauce — simple, hearty, and perfect with mash or rice.",
   },
 
   {
@@ -1011,7 +1011,7 @@ export const gridContent = [
     imgAlt: "fish pie baked 02",
     caption: "mum's fish pie",
     page: `fish-pie`,
-    desc: "Traditional creamy fish pie with a mash topping — comforting, filling, and a real family favourite.",
+    desc: "Traditional creamy fish pie with a mash potato topping — comforting, filling, and a real family favourite.",
   },
 
   {
@@ -1058,7 +1058,7 @@ export const gridContent = [
     imgAlt: "chorizo cod stew plated 04",
     caption: "chorizo cod stew",
     page: `chorizo-cod-stew`,
-    desc: "Spanish-inspired stew with spicy chorizo, tender cod, and a rich tomato base — warming and rustic.",
+    desc: "Spanish-inspired fish stew with spicy chorizo, tender cod, and a rich tomato base — warming and rustic.",
   },
 
   {
@@ -1070,7 +1070,7 @@ export const gridContent = [
     imgAlt: "smoked haddock bacon bake",
     caption: "smoked haddock bacon bake",
     page: `smoked-haddock-bacon-bake`,
-    desc: "Smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven dish.",
+    desc: "Smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.",
   },
 
   {
@@ -1105,7 +1105,7 @@ export const gridContent = [
     imgSrc: "/images/sambar/200/sambar-with-naan-on-the-side.webp",
     imgTitle: "sambar - south Indian lentils & vegetables",
     imgAlt: "sambar with naan on the side",
-    caption: "sambar &mdash; south Indian lentils & vegetables",
+    caption: "sambar - south Indian lentils & vegetables",
     page: `sambar`,
     desc: "A South Indian lentil and vegetable stew with tamarind and spices — tangy, warming, and packed with goodness.",
   },
@@ -1170,7 +1170,7 @@ export const gridContent = [
     imgAlt: "onion sauce jug",
     caption: "onion sauce",
     page: `onionsauce`,
-    desc: "Sweet, savoury onion sauce made from slow-cooked onions — ideal with sausages or pork.",
+    desc: "Sweet, savoury onion sauce made from soft - cooked onions — ideal with roast chicken, sausages or pork.",
   },
 
   {
@@ -1256,7 +1256,7 @@ export const gridContent = [
     imgAlt: "dhal with fried spices in dish",
     caption: "dhal with fried spices",
     page: `dhal-with-fried-spices`,
-    desc: "Comforting yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan-friendly.",
+    desc: "Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan-friendly.",
   },
 
   {
@@ -1300,7 +1300,7 @@ export const gridContent = [
     imgAlt: "tomato chutney",
     caption: "tomato chutney",
     page: `tomato-chutney`,
-    desc: "Sweet and tangy tomato chutney with a gentle chilli kick — ideal with curries or cold cuts.",
+    desc: "Sweet and tangy tomato chutney with a gentle chilli kick — ideal with pork pie, sausage rolls or cold cuts.",
   },
 
   {
@@ -1512,7 +1512,7 @@ export const gridContent = [
     imgAlt: "fruit cake sliced",
     caption: "fruit cake",
     page: `fruit-cake`,
-    desc: "Rich and moist traditional fruit cake — loaded with soaked dried fruit and festive cheer.",
+    desc: "Rich and moist traditional fruit cake — loaded with soaked dried fruit and not too sweet.",
   },
 
   // ****** puddings END ****** \\

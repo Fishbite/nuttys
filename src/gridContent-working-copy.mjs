@@ -74,7 +74,7 @@ export const gridContent = [
     imgAlt: "meal cooked",
     caption: "cauliflower cheese & frankfurter bake",
     page: `caulifrankcheese`,
-    desc: "A comforting bake of tender cauliflower florets and frankfurter sausage smothered in a creamy cheese sauce, then baked until bubbly and golden.",
+    desc: "A comforting bake of tender cauliflower florets and frankfurters smothered in a creamy cheese sauce, then baked until bubbly and golden.",
   },
 
   {
@@ -86,7 +86,7 @@ export const gridContent = [
     imgAlt: "gammon dinner plated 1",
     caption: "gammon joint & mustard sauce",
     page: `gammon-joint-with-mustard-sauce`,
-    desc: "Succulent gammon joint cooked to perfection and served with a tangy mustard sauce, making for an impressive centerpiece.",
+    desc: "Succulent gammon joint roasted to perfection and served with a tangy mustard sauce, making for an impressive centerpiece.",
   },
 
   {
@@ -153,7 +153,7 @@ export const gridContent = [
     imgAlt: "finished curry in pan",
     caption: "easy chicken curry",
     page: `easy-chicken-curry`,
-    desc: "A simple yet flavourful chicken curry with tender chicken pieces simmered in a rich, tomato sauce. Great for a quick weeknight dinner.",
+    desc: "A simple yet flavorful chicken curry with tender chicken pieces simmered in a rich, aromatic sauce. Great for a quick weeknight dinner.",
   },
 
   {
@@ -279,7 +279,7 @@ export const gridContent = [
     imgAlt: "jerked chicken and macaroni pie plated 03",
     caption: "jerked chicken curry",
     page: `jerked-chicken-curry`,
-    desc: "A fusion dish combining Jamaican jerk flavours with a hearty chicken curry. Spicy, flavourful, and unique.",
+    desc: "A fusion dish combining Jamaican jerk flavors with a hearty chicken curry. Spicy, flavorful, and unique.",
   },
 
   {
@@ -303,7 +303,7 @@ export const gridContent = [
     imgAlt: "cooked tandoori chicken on plate 02",
     caption: "classic tandoori chicken",
     page: `tandoori-chicken`,
-    desc: "Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smokey flavour.",
+    desc: "Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smoky flavor.",
   },
 
   {
@@ -314,7 +314,7 @@ export const gridContent = [
     imgAlt: "chicken with mango plated",
     caption: "chicken with mango",
     page: `chicken-with-mango`,
-    desc: "A delightful combination of tender chicken pieces and tangy, juicy mango in a flavourful sauce.",
+    desc: "A delightful combination of tender chicken pieces and tangy, juicy mango in a flavorful sauce.",
   },
 
   {
@@ -338,7 +338,7 @@ export const gridContent = [
     imgAlt: "chicken tandoori grill plated 01",
     caption: "chicken tandoori grill",
     page: `chicken-tandoori-grill`,
-    desc: "Grilled tandoori chicken with a smokey flavour and vibrant spices. Perfect for outdoor grilling.",
+    desc: "Grilled tandoori chicken with a smokey flavor and vibrant spices. Perfect for outdoor grilling.",
   },
 
   {
@@ -350,7 +350,7 @@ export const gridContent = [
     imgAlt: "khara masala balti chicken plated",
     caption: "khara masala balti chicken",
     page: `khara-masala-balti-chicken`,
-    desc: "A flavourful Balti-style chicken curry with whole spices and a rich, aromatic sauce.",
+    desc: "A flavorful Balti-style chicken curry with whole spices and a rich, aromatic sauce.",
   },
 
   {
@@ -375,7 +375,7 @@ export const gridContent = [
     imgAlt: "chinese chicken curry and rice",
     caption: "chinese chicken curry",
     page: `chinese-chicken-curry`,
-    desc: "A Chinese takeout favorite featuring tender chicken pieces in a spicy and flavourful curry sauce.",
+    desc: "A Chinese takeout favorite featuring tender chicken pieces in a spicy and flavorful curry sauce.",
   },
 
   {
@@ -448,7 +448,7 @@ export const gridContent = [
     imgAlt: "cold pie on a plate with a fork",
     caption: "luxury chicken pie",
     page: `luxury-chicken-pie`,
-    desc: "A proper Sunday dinner pie — chunks of chicken in creamy white sauce with leeks and mushrooms under buttery pastry.",
+    desc: "A proper Sunday dinner pie —c hunks of chicken in creamy white sauce with leeks and mushrooms under buttery pastry.",
   },
 
   // ****** chicken END ****** \\
@@ -468,7 +468,7 @@ export const gridContent = [
     imgAlt: "",
     caption: "corned beef mash pie",
     page: `cornedbeefmashpie`,
-    desc: "Comforting corned beef mash pie, layered with seasoned mashed potatoes and savoury beef—budget-friendly and tasty.",
+    desc: "Comforting corned beef mash pie, layered with seasoned mash and savoury beef—budget-friendly and tasty.",
   },
 
   {
@@ -614,7 +614,7 @@ export const gridContent = [
     imgAlt: "rogan josh plated",
     caption: "rogan josh beef curry",
     page: `rogan-josh-beef-curry`,
-    desc: "Deeply flavoured Rogan Josh made with beef — rich, spicy, and slow-cooked to perfection.",
+    desc: "Deeply flavoured Rogan Josh made with beef—rich, spicy, and slow-cooked to perfection.",
   },
 
   {
@@ -953,7 +953,7 @@ export const gridContent = [
     imgAlt: "vegetarian-chilli and buttered bread",
     caption: "vegetarian-chilli",
     page: `vegetarian-chilli`,
-    desc: "Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn't compromise on flavour.",
+    desc: "Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn’t compromise on flavour.",
   },
 
   {
@@ -976,7 +976,7 @@ export const gridContent = [
     imgAlt: "cauli cheese smoked hadock baked 01",
     caption: "cauli cheese & smoked haddock",
     page: `cauli-cheese-smoked-haddock-bake`,
-    desc: "Comforting baked dish with cauliflower cheese and smoked haddock fish — creamy, savoury, and deeply satisfying.",
+    desc: "Comforting baked dish with cauliflower cheese and smoked haddock — creamy, savoury, and deeply satisfying.",
   },
 
   {
@@ -1000,7 +1000,7 @@ export const gridContent = [
     imgAlt: "smoked haddock in cheese sauce plated",
     caption: "smoked haddock in cheese sauce",
     page: `smoked-haddock-in-cheese-sauce`,
-    desc: "Poached smoked haddock fish served in a rich, cheesy sauce — simple, hearty, and perfect with mash or rice.",
+    desc: "Poached smoked haddock served in a rich, cheesy sauce — simple, hearty, and perfect with mash or rice.",
   },
 
   {
@@ -1058,7 +1058,7 @@ export const gridContent = [
     imgAlt: "chorizo cod stew plated 04",
     caption: "chorizo cod stew",
     page: `chorizo-cod-stew`,
-    desc: "Spanish-inspired fish stew with spicy chorizo, tender cod, and a rich tomato base — warming and rustic.",
+    desc: "Spanish-inspired stew with spicy chorizo, tender cod, and a rich tomato base — warming and rustic.",
   },
 
   {
@@ -1105,7 +1105,7 @@ export const gridContent = [
     imgSrc: "/images/sambar/200/sambar-with-naan-on-the-side.webp",
     imgTitle: "sambar - south Indian lentils & vegetables",
     imgAlt: "sambar with naan on the side",
-    caption: "sambar - south Indian lentils & vegetables",
+    caption: "sambar &mdash; south Indian lentils & vegetables",
     page: `sambar`,
     desc: "A South Indian lentil and vegetable stew with tamarind and spices — tangy, warming, and packed with goodness.",
   },
@@ -1512,7 +1512,7 @@ export const gridContent = [
     imgAlt: "fruit cake sliced",
     caption: "fruit cake",
     page: `fruit-cake`,
-    desc: "Rich and moist traditional fruit cake — loaded with soaked dried fruit and not too sweet.",
+    desc: "Rich and moist traditional fruit cake — loaded with soaked dried fruit and and not too sweet.",
   },
 
   // ****** puddings END ****** \\
