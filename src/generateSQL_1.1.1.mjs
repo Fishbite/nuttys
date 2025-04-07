@@ -1,5 +1,5 @@
 // generateSQL.mjs
-import { gridContent } from "./gridContent_test.mjs";
+import { gridContent } from "./gridContent_test_1.1.mjs";
 import fs from "fs";
 
 const recipeCardsSQL = [];
@@ -14,7 +14,8 @@ recipeCardsSQL.push(`CREATE TABLE IF NOT EXISTS recipe_cards (
     page VARCHAR(100) NOT NULL,
     imgTitle VARCHAR(255) NOT NULL,
     description VARCHAR(255) NOT NULL,
-    UNIQUE KEY unique_recipe (category, page)
+    UNIQUE KEY unique_recipe (category, page),
+    KEY idx_description (description)
 );`);
 
 categoryCardsSQL.push(`CREATE TABLE IF NOT EXISTS category_cards (
@@ -46,7 +47,7 @@ gridContent.forEach((item) => {
     const caption = item.caption ? item.caption.replace(/'/g, "''") : "";
     const page = item.page ? item.page.replace(/'/g, "''") : "";
     const imgTitle = item.imgTitle ? item.imgTitle.replace(/'/g, "''") : "";
-    const description = item.text ? item.text.replace(/'/g, "''") : "";
+    const description = item.desc ? item.desc.replace(/'/g, "''") : "";
 
     recipeCardsSQL.push(
       `INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
