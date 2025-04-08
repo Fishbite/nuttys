@@ -21,3 +21,6 @@ index -BAK.html
 index-spice.html
 src/gridContent_test.mjs
 template-bare.html
+SQL/inserts_recipes.sql
+SQL/inserts_categories.sql
+SQL/inserts_recipes.sql
