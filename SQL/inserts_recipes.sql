@@ -106,9 +106,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/chipotle-chicken-burrito/200/chipotle-chicken-chilli-burrito.webp', caption='chipotle chicken burrito', imgTitle='chipotle chicken burrito served with cheese and lettuce', description='A hearty burrito filled with smoky chipotle-seasoned chicken, beans, rice, and fresh toppings.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('chicken', '/images/tandoori-chicken/200/cooked-tandori-chicken-on-plate-02.webp', 'classic tandoori chicken', 'tandoori-chicken', 'tandoori chicken on plate ready to serve', 'Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smokey flavour.')
+             VALUES ('chicken', '/images/tandoori-chicken/200/cooked-tandori-chicken-on-plate-02.webp', 'classic tandoori chicken', 'tandoori-chicken', 'tandoori chicken on plate ready to serve', 'Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smoky flavour.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/tandoori-chicken/200/cooked-tandori-chicken-on-plate-02.webp', caption='classic tandoori chicken', imgTitle='tandoori chicken on plate ready to serve', description='Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smokey flavour.';
+             image='/images/tandoori-chicken/200/cooked-tandori-chicken-on-plate-02.webp', caption='classic tandoori chicken', imgTitle='tandoori chicken on plate ready to serve', description='Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smoky flavour.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('chicken', '/images/chicken-with-mango/200/chicken-with-mango-plated-02.webp', 'chicken with mango', 'chicken-with-mango', 'chicken with mango plated with plain basmati rice', 'A delightful combination of tender chicken pieces and tangy, juicy mango in a flavourful sauce.')
              ON DUPLICATE KEY UPDATE 
@@ -118,9 +118,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/chicken-in-cashew-nut-sauce/200/chicken-in-cashew-nut-sauce-plated.webp', caption='chicken in cashew nut sauce', imgTitle='chicken in cashew nut sauce with basmati rice', description='Rich and creamy chicken dish featuring a luscious cashew nut-based sauce.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('chicken', '/images/chicken-tandoori-grill/200/chicken-tandoori-grill-plated-01.webp', 'chicken tandoori grill', 'chicken-tandoori-grill', 'chicken tandoori grill, salad, rice salad & raita', 'Grilled tandoori chicken with a smokey flavour and vibrant spices. Perfect for outdoor grilling.')
+             VALUES ('chicken', '/images/chicken-tandoori-grill/200/chicken-tandoori-grill-plated-01.webp', 'chicken tandoori grill', 'chicken-tandoori-grill', 'chicken tandoori grill, salad, rice salad & raita', 'Grilled tandoori chicken with a smoky flavour and vibrant spices. Perfect for outdoor grilling.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/chicken-tandoori-grill/200/chicken-tandoori-grill-plated-01.webp', caption='chicken tandoori grill', imgTitle='chicken tandoori grill, salad, rice salad & raita', description='Grilled tandoori chicken with a smokey flavour and vibrant spices. Perfect for outdoor grilling.';
+             image='/images/chicken-tandoori-grill/200/chicken-tandoori-grill-plated-01.webp', caption='chicken tandoori grill', imgTitle='chicken tandoori grill, salad, rice salad & raita', description='Grilled tandoori chicken with a smoky flavour and vibrant spices. Perfect for outdoor grilling.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('chicken', '/images/khara-masala-balti-chicken/200/khara-masala-balti-chicken-plated-03.webp', 'khara masala balti chicken', 'khara-masala-balti-chicken', 'khara masala balti chicken with salad & naan', 'A flavourful Balti-style chicken curry with whole spices and a rich, aromatic sauce.')
              ON DUPLICATE KEY UPDATE 
@@ -282,6 +282,10 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/mediterranean-style-vegetables-with-pork-steaks/200/mediterranean-style-veg-with-pork-steaks-plated-03.webp', caption='mediterranean style veg'' with pork steaks', imgTitle='Mediterranean style vegetables with pork steaks', description='A light, colourful dish of pork steaks paired with roasted Mediterranean vegetables — olive oil, herbs, sunshine on a plate.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('pork', '/images/caribbean-creamy-pork-curry/200/caribbean-creamy-pork-curry-and-rice.webp', 'caribbean creamy pork curry', 'caribbean-creamy-pork-curry', 'caribbean creamy pork curry and rice with a slice of lime', 'caribbean inspired pork curry with a creamy texture, tangy tropical coconut flavoured sauce. Mildy spiced and chilli free, quick to make and deliciously comforting.')
+             ON DUPLICATE KEY UPDATE 
+             image='/images/caribbean-creamy-pork-curry/200/caribbean-creamy-pork-curry-and-rice.webp', caption='caribbean creamy pork curry', imgTitle='caribbean creamy pork curry and rice with a slice of lime', description='caribbean inspired pork curry with a creamy texture, tangy tropical coconut flavoured sauce. Mildy spiced and chilli free, quick to make and deliciously comforting.';
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('pork', '/images/rogan-josh-pork-curry/200/rogan-josh-pork-curry.webp', 'rogan josh pork curry', 'rogan-josh-pork-curry', 'rogan josh pork curry', 'A rich, Kashmiri-style pork curry with warm spices and a deep red sauce. Comforting and aromatic with every bite.')
              ON DUPLICATE KEY UPDATE 
              image='/images/rogan-josh-pork-curry/200/rogan-josh-pork-curry.webp', caption='rogan josh pork curry', imgTitle='rogan josh pork curry', description='A rich, Kashmiri-style pork curry with warm spices and a deep red sauce. Comforting and aromatic with every bite.';
@@ -358,9 +362,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/chorizo-cod/200/chorizo-cod-stew-plated-04.webp', caption='chorizo cod stew', imgTitle='baked chorizo cod stew served with finely shredded iceberg lettuce', description='Spanish-inspired fish stew with spicy chorizo, tender cod, and a rich tomato base — warming and rustic.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('fish & veg', '/images/smoked-haddock-bacon-bake/200/smoked-haddock-bacon-bake.webp', 'smoked haddock bacon bake', 'smoked-haddock-bacon-bake', 'smoked haddock bacon bake straight from the oven', 'Smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.')
+             VALUES ('fish & veg', '/images/smoked-haddock-bacon-bake/200/smoked-haddock-bacon-bake.webp', 'smoked haddock bacon bake', 'smoked-haddock-bacon-bake', 'smoked haddock bacon bake straight from the oven', 'smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/smoked-haddock-bacon-bake/200/smoked-haddock-bacon-bake.webp', caption='smoked haddock bacon bake', imgTitle='smoked haddock bacon bake straight from the oven', description='Smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.';
+             image='/images/smoked-haddock-bacon-bake/200/smoked-haddock-bacon-bake.webp', caption='smoked haddock bacon bake', imgTitle='smoked haddock bacon bake straight from the oven', description='smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('fish & veg', '/images/fish-and-chorizo-potato-pie/200/fish-and-chorizo-potato-pie-cooked-01.webp', 'Fish & Chorizo Potato Pie', 'fish-and-chorizo-potato-pie', 'Fish & Chorizo Potato Pie', 'A bold and tasty pie layered with fish, spicy chorizo, and sliced potato — perfect for spice lovers.')
              ON DUPLICATE KEY UPDATE 
@@ -572,6 +576,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
         ('pork', 'peri-peri-pork-steaks'),
         ('pork', 'jerked-pork-curry'),
         ('pork', 'mediterranean-style-vegetables-with-pork-steaks'),
+        ('pork', 'caribbean-creamy-pork-curry'),
         ('pork', 'rogan-josh-pork-curry'),
         ('lamb', 'lamb-peas-mint-curry'),
         ('lamb', 'lambmashpie'),
