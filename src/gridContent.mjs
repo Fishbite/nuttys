@@ -210,7 +210,7 @@ export const gridContent = [
     imgAlt: "lemon garlic ginger added",
     caption: "chicken thighs in spicy hot sauce",
     page: `chicken-thighs-in-spicy-hot-sauce`,
-    desc: "Juicy chicken thighs cooked in a spicy hot sauce, delivering a flavourful and heat-packed dish.",
+    desc: "Indian inspired juicy chicken thighs cooked in a spicy hot sauce, delivering a flavourful and heat-packed dish.",
   },
 
   {
@@ -314,7 +314,7 @@ export const gridContent = [
     imgAlt: "chicken with mango plated",
     caption: "chicken with mango",
     page: `chicken-with-mango`,
-    desc: "A delightful combination of tender chicken pieces and tangy, juicy mango in a flavourful sauce.",
+    desc: "An Indian inspired delightful combination of tender chicken pieces and tangy, juicy mango in a flavourful sauce.",
   },
 
   {
@@ -326,7 +326,7 @@ export const gridContent = [
     imgAlt: "chicken in cashew nut sauce plated",
     caption: "chicken in cashew nut sauce",
     page: `chicken-in-cashew-nut-sauce`,
-    desc: "Rich and creamy chicken dish featuring a luscious cashew nut-based sauce.",
+    desc: "An Indian inspired rich and creamy chicken dish featuring a luscious cashew nut-based sauce.",
   },
 
   {
@@ -338,7 +338,7 @@ export const gridContent = [
     imgAlt: "chicken tandoori grill plated 01",
     caption: "chicken tandoori grill",
     page: `chicken-tandoori-grill`,
-    desc: "Grilled tandoori chicken with a smoky flavour and vibrant spices. Perfect for outdoor grilling.",
+    desc: "An Indian inspired grilled tandoori chicken with a smoky flavour and vibrant spices. Perfect for indoor or outdoor grilling.",
   },
 
   {
@@ -350,7 +350,7 @@ export const gridContent = [
     imgAlt: "khara masala balti chicken plated",
     caption: "khara masala balti chicken",
     page: `khara-masala-balti-chicken`,
-    desc: "A flavourful Balti-style chicken curry with whole spices and a rich, aromatic sauce.",
+    desc: "A flavourful Indian inspired Balti-style chicken curry with whole spices and a rich, aromatic sauce.",
   },
 
   {
@@ -387,7 +387,7 @@ export const gridContent = [
     imgAlt: "chicken & tomato balti plated 03",
     caption: "chicken & tomato balti",
     page: `chicken-and-tomato-balti`,
-    desc: "Succulent chicken simmered with tomatoes and warming spices in this easy homemade balti, perfect with rice or naan.",
+    desc: "Succulent chicken simmered with tomatoes and warming spices in this Indian inspired easy homemade balti, perfect with rice or naan.",
   },
 
   {
@@ -410,7 +410,7 @@ export const gridContent = [
     imgAlt: "butter chicken plated",
     caption: "butter chicken",
     page: `butter-chicken`,
-    desc: "Classic butter chicken with rich, spiced tomato sauce and tender chunks of chicken, finished with cream.",
+    desc: "Classic Indian butter chicken with rich, spiced tomato sauce and tender chunks of chicken, finished with cream.",
   },
 
   {
@@ -422,7 +422,7 @@ export const gridContent = [
     imgAlt: "chicken tikka grilled escalope",
     caption: "chicken tikka grilled escalope",
     page: `chicken-tikka-grilled-escalope`,
-    desc: "Grilled chicken escalopes marinated in tikka spices—flavourful, fast, and great with salad or wraps.",
+    desc: "Indian inspired grilled chicken escalopes marinated in tikka spices—flavourful, fast, and great with salad or wraps.",
   },
 
   { type: "blank" },
@@ -501,7 +501,7 @@ export const gridContent = [
     imgAlt: "beef & pork chilli",
     caption: "beef & pork mexican chilli",
     page: `beefporkchilli`,
-    desc: "A spicy twist on classic chilli — beef and pork slow-cooked with beans, tomatoes, and heat.",
+    desc: "A spicy twist on classic Mexican chilli — beef and pork slow-cooked with beans, tomatoes, and heat.",
   },
 
   {
@@ -534,7 +534,7 @@ export const gridContent = [
     imgAlt: "beef pork madras in pan",
     caption: "beef & pork madras",
     page: `beef-pork-madras`,
-    desc: "Madras-style curry with beef and pork mince, cooked with a fiery blend of spices — deeply satisfying.",
+    desc: "An Indian inspired Madras - style curry with beef and pork mince, cooked with a fiery blend of spices — deeply satisfying.",
   },
 
   {
@@ -568,7 +568,7 @@ export const gridContent = [
     imgAlt: "beef curry with green beans 1",
     caption: "beef curry with green beans",
     page: `beef-curry-with-green-beans`,
-    desc: "A warming curry of beef with green beans, slow-cooked in aromatic spices — great with rice or naan.",
+    desc: "A warming Indian curry of beef with green beans, slow-cooked in aromatic spices — great with rice or naan.",
   },
 
   {
@@ -603,7 +603,7 @@ export const gridContent = [
     imgAlt: "seekh kebab with salad raita and pita bread",
     caption: "authentic seekh kebab",
     page: `authentic-seekh-kebabs`,
-    desc: "Authentic seekh kebabs made with spiced minced meat — grilled and juicy, perfect for wraps or sides.",
+    desc: "Authentic Indian seekh kebabs made with spiced minced meat — grilled and juicy, perfect for wraps or sides.",
   },
 
   {
@@ -614,7 +614,7 @@ export const gridContent = [
     imgAlt: "rogan josh plated",
     caption: "rogan josh beef curry",
     page: `rogan-josh-beef-curry`,
-    desc: "Deeply flavoured Rogan Josh made with beef — rich, spicy, and slow-cooked to perfection.",
+    desc: "Deeply flavoured Indian inspired Rogan Josh made with beef — rich, spicy, and slow-cooked to perfection.",
   },
 
   {
@@ -781,7 +781,7 @@ export const gridContent = [
     imgAlt: "jerked pork steak plated",
     caption: "jerked pork steaks grill",
     page: `jerked-pork-steaks-grill`,
-    desc: "Pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!",
+    desc: "Jamaican inspired pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!",
   },
 
   {
@@ -805,7 +805,7 @@ export const gridContent = [
     imgAlt: "jerked pork rice and peas 01",
     caption: "jerked pork curry",
     page: `jerked-pork-curry`,
-    desc: "A spicy Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.",
+    desc: "A spicy Jamaican - Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.",
   },
 
   {
@@ -842,7 +842,7 @@ export const gridContent = [
     imgAlt: "rogan josh pork curry",
     caption: "rogan josh pork curry",
     page: `rogan-josh-pork-curry`,
-    desc: "A rich, Kashmiri-style pork curry with warm spices and a deep red sauce. Comforting and aromatic with every bite.",
+    desc: "A rich, Indian Kashmiri - style pork curry with warm spices and a deep red sauce. Comforting and aromatic with every bite.",
   },
 
   // ****** pork END ****** \\
@@ -885,7 +885,7 @@ export const gridContent = [
     imgAlt: "lamb kofta curry and rice",
     caption: "lamb kofta curry",
     page: `lamb-kofta-curry`,
-    desc: "Tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.",
+    desc: "A Pakistani inspired dish of tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.",
   },
 
   {
@@ -896,7 +896,7 @@ export const gridContent = [
     imgAlt: "kebab closed with salad",
     caption: "my dodgy kebab",
     page: `dodgy-kebab`,
-    desc: "A cheeky homemade take on the classic late-night kebab — tasty, healthier, and fun to make!",
+    desc: "An Indian inspired cheeky homemade take on the classic late-night kebab — tasty, healthier, and fun to make!",
   },
 
   {
@@ -907,7 +907,7 @@ export const gridContent = [
     imgAlt: "garam masala added",
     caption: "lamb curry with spinach",
     page: `lamb-curry-with-spinach`,
-    desc: "Slow-cooked lamb in a fragrant curry sauce with fresh spinach for a nutrient-packed, hearty dish.",
+    desc: "An Indian inspired slow-cooked lamb in a fragrant curry sauce with fresh spinach for a nutrient-packed, hearty dish.",
   },
 
   { type: "blank" },
@@ -932,7 +932,7 @@ export const gridContent = [
     imgAlt: "lamb tikka grill steaks plated",
     caption: "lamb tikka grill steaks",
     page: `lamb-tikka-grill-steaks`,
-    desc: "Juicy lamb steaks marinated in tikka spices and grilled to perfection — packed with smoky flavour.",
+    desc: "Indian inspired juicy lamb steaks marinated in tikka spices and grilled to perfection — packed with smoky flavour.",
   },
 
   // ****** lamb END ****** \\
@@ -1359,7 +1359,7 @@ export const gridContent = [
     imgAlt: "saffron and cardamom rice",
     caption: "saffron and cardamom rice",
     page: `saffron-and-cardamom-rice`,
-    desc: "Delicate, aromatic rice infused with saffron and cardamom — a luxurious, subtly sweet accompaniment.",
+    desc: "Delicate, aromatic rice infused with saffron and cardamom — a luxurious, subtly sweet authentic Indian accompaniment.",
   },
 
   { type: "blank" },
