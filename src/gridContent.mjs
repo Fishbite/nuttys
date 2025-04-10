@@ -975,7 +975,7 @@ export const gridContent = [
     imgAlt: "macaroni pie baked",
     caption: "baked macaroni pie",
     page: `macaroni-pie`,
-    desc: "A rich and cheesy baked macaroni pie with a golden crust — a Caribbean-inspired twist on mac and cheese.",
+    desc: "A rich and cheesy baked macaroni pie with a golden crust — a Caribbean - inspired twist on mac and cheese.",
   },
 
   {
