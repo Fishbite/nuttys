@@ -191,7 +191,7 @@ Ensuring 'nette' has the latest changes from 'stu':
    git push origin nette
 
 
-### Below is a shorter version of the above!!!!!
+###### Below is a shorter version of the above!!!!! ######
 #Copy and paste these into a Git bash terminal and press 'Enter':
 
 # Run these commands first (copy & paste into the 'Git Bash' terminal & press 'Enter'):
@@ -227,6 +227,38 @@ git push origin nette
 *****************************************************************
 *****************************************************************
 
+*****************************************************************
+Ensuring 'stu' has the latest changes from 'nette'
+
+*****************************************************************
+
+git fetch origin
+git branch --list nette
+
+# If the `nette` branch exists locally:
+#(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git checkout nette
+git pull origin nette
+
+# If the `nette` branch does not exist locally:
+#(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git checkout -b nette origin/nette
+
+# Now we know the 'stu' branch definately exist on your pc:
+#(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git pull origin nette
+git checkout stu
+git merge nette
+
+WARNING: If there are conflicts, STOP!!! Do no more, these have to be fixed!!!
+
+#Then, if there are no conflicts
+##(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git push origin stu
 
    *****************************************************************
 Deleting a local branch:
@@ -241,6 +273,65 @@ Deleting a local branch:
    # If the branch has not been merged and you want to force delete it, use:
    git branch -D nuttysedits
 
+   *****************************************************************
+   *****************************************************************
+                     Resolving Conflicts
+
+   *****************************************************************
+   *****************************************************************
+
+When facing many conflicts, you have several options:
+
+Option 1 - Start Fresh:
+# Delete your local changes and get a fresh copy
+git checkout master
+git pull origin master
+git checkout -b new-stu-branch
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Option 2 - Create a Backup and Reset:
+# Backup your changes
+git checkout stu
+git branch stu-backup
+
+# Reset your branch to match master
+git reset --hard origin/master
+# Then make your changes again
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Option 3 - Resolve Conflicts File by File:
+# Stay on your branch and merge master
+git checkout stu
+git merge master
+# Then resolve conflicts one file at a time using:
+git checkout --ours filename.html   # Keep your version
+# OR
+git checkout --theirs filename.html # Keep master's version
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Option 4 - Cherry-pick Changes:
+# Create a new branch from master
+git checkout master
+git checkout -b new-stu-branch
+# Then cherry-pick specific commits from your old branch
+git cherry-pick <commit-hash>
+
+   *****************************************************************
+   *****************************************************************
+                  Undo A Commit Safely
+   *****************************************************************
+   *****************************************************************
+   
+   A safe way to undo a commit is to create a new commit that undoes
+   the changes:
+
+   git revert HEAD    # Creates a new commit that undoes the last commit
+   git push origin stu
+
+   *****************************************************************
    *****************************************************************
 
 To clean up the local references to remote branches that no longer exist on the remote repository, you can use the git remote prune command. This will remove the local references to remote branches that have been deleted on the remote repository.
