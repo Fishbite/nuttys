@@ -198,7 +198,7 @@ export const gridContent = [
     imgAlt: "vindaloo simmering",
     caption: "indian chicken vindaloo",
     page: `chickenvindaloo`,
-    desc: "A fiery Goan-style chicken curry with bold spices and a tangy sauce. Perfect for those who enjoy a spicy kick.",
+    desc: "A fiery Indian inspired Goan - style chicken curry with bold spices and a tangy sauce. Perfect for those who enjoy a spicy kick.",
   },
 
   {
@@ -692,7 +692,7 @@ export const gridContent = [
     imgAlt: "pork vindaloo cooked",
     caption: "fresh pork vindaloo",
     page: `pork-vindaloo`,
-    desc: "A fiery, spicy Goan-inspired curry that packs a punch! Tender pork in a vinegar-rich sauce with deep, bold spices.",
+    desc: "A fiery, spicy Indian Goan - inspired curry that packs a punch! Tender pork in a vinegar-rich sauce with deep, bold spices.",
   },
 
   {
@@ -703,7 +703,7 @@ export const gridContent = [
     imgAlt: "roast pork vindaloo simmering",
     caption: "roast pork vindaloo",
     page: `roastporkvindaloo`,
-    desc: "A brilliant way to repurpose roast pork into a mouth-tingling vindaloo curry. Big flavours, easy prep!",
+    desc: "A brilliant way to repurpose roast pork into an Indian inspired mouth-tingling vindaloo curry. Big flavours, easy prep!",
   },
 
   {

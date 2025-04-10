@@ -66,9 +66,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/chickenlasagne/200/chicken-lasagne-01.jpg', caption='chicken & mushroom lasagne', imgTitle='chicken & mushroom lasagne', description='A delightful twist on the classic lasagne, featuring layers of pasta, tender chicken, rich tomato sauce, and creamy béchamel.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('chicken', '/images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg', 'sweet & sour roast chicken', 'sweet-and-sour-roast-chicken', 'sweet & sour chicken', 'Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.')
+             VALUES ('chicken', '/images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg', 'sweet & sour roast chicken', 'sweet-and-sour-roast-chicken', 'sweet & sour chicken', 'Chinese Style - Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg', caption='sweet & sour roast chicken', imgTitle='sweet & sour chicken', description='Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.';
+             image='/images/sweet-sour-roast-chicken/200/spring-onion-added-to-sauce.jpg', caption='sweet & sour roast chicken', imgTitle='sweet & sour chicken', description='Chinese Style - Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('chicken', '/images/chickenvindaloo/200/vindaloo-simmering.webp', 'indian chicken vindaloo', 'chickenvindaloo', 'indian chicken vindaloo', 'A fiery Goan-style chicken curry with bold spices and a tangy sauce. Perfect for those who enjoy a spicy kick.')
              ON DUPLICATE KEY UPDATE 
@@ -94,9 +94,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/jerk-chicken/200/jerk-chicken-plated.webp', caption='jerk chicken', imgTitle='jerk chicken stacked on a plate ready to serve', description='Authentic Jamaican jerk chicken marinated in a spicy blend of herbs and spices, then grilled to perfection.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('chicken', '/images/spicy-masala-chicken/200/spicy-masala-chicken-tarka-dhal-naan-plated.webp', 'spicy masala chicken', 'spicy-masala-chicken', 'spicy masala chicken served with tarka dhal and naan bread', 'An Indian-inspired dish featuring chicken cooked in a spicy and aromatic masala sauce.')
+             VALUES ('chicken', '/images/spicy-masala-chicken/200/spicy-masala-chicken-tarka-dhal-naan-plated.webp', 'spicy masala chicken', 'spicy-masala-chicken', 'spicy masala chicken served with tarka dhal and naan bread', 'An Indian - inspired dish featuring chicken cooked in a spicy and aromatic masala sauce.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/spicy-masala-chicken/200/spicy-masala-chicken-tarka-dhal-naan-plated.webp', caption='spicy masala chicken', imgTitle='spicy masala chicken served with tarka dhal and naan bread', description='An Indian-inspired dish featuring chicken cooked in a spicy and aromatic masala sauce.';
+             image='/images/spicy-masala-chicken/200/spicy-masala-chicken-tarka-dhal-naan-plated.webp', caption='spicy masala chicken', imgTitle='spicy masala chicken served with tarka dhal and naan bread', description='An Indian - inspired dish featuring chicken cooked in a spicy and aromatic masala sauce.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('chicken', '/images/jerked-chicken-curry/200/jerked-chicken-and-macaroni-pie-plated-03.webp', 'jerked chicken curry', 'jerked-chicken-curry', 'jerked chicken curry served with blue cheese macaroni pie', 'A fusion dish combining Jamaican jerk flavours with a hearty chicken curry. Spicy, flavourful, and unique.')
              ON DUPLICATE KEY UPDATE 
@@ -226,13 +226,13 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/beef-stew-and-dumplings/200/beef-stew-and-duplings-cooked.webp', caption='beef  stew & dumplings', imgTitle='beef stew & dumplings cooked in a Dutch Oven', description='Slow-cooked beef stew packed with veg, served with fluffy dumplings for the ultimate winter warmer.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('pork', '/images/pork-fried-rice/200/pork-fried-rice.webp', 'pork fried rice', 'pork-fried-rice', 'pork fried rice', 'A flavour-packed Chinese-style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.')
+             VALUES ('pork', '/images/pork-fried-rice/200/pork-fried-rice.webp', 'pork fried rice', 'pork-fried-rice', 'pork fried rice', 'A flavour-packed Chinese - style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/pork-fried-rice/200/pork-fried-rice.webp', caption='pork fried rice', imgTitle='pork fried rice', description='A flavour-packed Chinese-style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.';
+             image='/images/pork-fried-rice/200/pork-fried-rice.webp', caption='pork fried rice', imgTitle='pork fried rice', description='A flavour-packed Chinese - style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('pork', '/images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp', 'sweet and sour pork', 'sweet-and-sour-pork', 'sweet and sour pork', 'Crispy pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!')
+             VALUES ('pork', '/images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp', 'sweet and sour pork', 'sweet-and-sour-pork', 'sweet and sour pork', 'Chinese Style - succulent pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!')
              ON DUPLICATE KEY UPDATE 
-             image='/images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp', caption='sweet and sour pork', imgTitle='sweet and sour pork', description='Crispy pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!';
+             image='/images/sweet-sour-pork-fresh/200/sweet-and-sour-pork-cooked.webp', caption='sweet and sour pork', imgTitle='sweet and sour pork', description='Chinese Style - succulent pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('pork', '/images/pork-vindaloo-fresh/200/vindaloo-cooked-1.webp', 'fresh pork vindaloo', 'pork-vindaloo', 'pork vindaloo made with fresh pork', 'A fiery, spicy Goan-inspired curry that packs a punch! Tender pork in a vinegar-rich sauce with deep, bold spices.')
              ON DUPLICATE KEY UPDATE 
@@ -242,9 +242,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/porkvindaloo/200/pork-vindaloo-simmering.webp', caption='roast pork vindaloo', imgTitle='roast pork vindaloo', description='A brilliant way to repurpose roast pork into a mouth-tingling vindaloo curry. Big flavours, easy prep!';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('pork', '/images/pork-blackbean-peppers/200/pork-and-peppers-in-blackbean-sauce.webp', 'pork and peppers in black bean sauce', 'pork-blackbean-sauce-and-peppers', 'pork and peppers in black bean sauce', 'A savoury Chinese-inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!')
+             VALUES ('pork', '/images/pork-blackbean-peppers/200/pork-and-peppers-in-blackbean-sauce.webp', 'pork and peppers in black bean sauce', 'pork-blackbean-sauce-and-peppers', 'pork and peppers in black bean sauce', 'A savoury Chinese - inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!')
              ON DUPLICATE KEY UPDATE 
-             image='/images/pork-blackbean-peppers/200/pork-and-peppers-in-blackbean-sauce.webp', caption='pork and peppers in black bean sauce', imgTitle='pork and peppers in black bean sauce', description='A savoury Chinese-inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!';
+             image='/images/pork-blackbean-peppers/200/pork-and-peppers-in-blackbean-sauce.webp', caption='pork and peppers in black bean sauce', imgTitle='pork and peppers in black bean sauce', description='A savoury Chinese - inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('pork', '/images/pork-madras/200/pork-madras-curry-finished.webp', 'pork madras curry', 'pork-madras', 'pork madras curry', 'A hot and hearty South Indian curry featuring pork in a spiced tomato-based sauce. Fragrant, bold, and deeply satisfying.')
              ON DUPLICATE KEY UPDATE 
@@ -406,9 +406,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/chapati/200/chapati-cooking-01.webp', caption='chapati flat bread', imgTitle='chapati flat bread', description='Soft and warm Indian flatbreads made from wholemeal flour — perfect for scooping up curries.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('accompaniments', '/images/egg-fried-rice/200/egg-fried-rice-cooked.webp', 'egg fried rice', 'egg-fried-rice', 'egg fried rice', 'Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.')
+             VALUES ('accompaniments', '/images/egg-fried-rice/200/egg-fried-rice-cooked.webp', 'egg fried rice', 'egg-fried-rice', 'egg fried rice', 'Chinese Style - Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/egg-fried-rice/200/egg-fried-rice-cooked.webp', caption='egg fried rice', imgTitle='egg fried rice', description='Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.';
+             image='/images/egg-fried-rice/200/egg-fried-rice-cooked.webp', caption='egg fried rice', imgTitle='egg fried rice', description='Chinese Style - Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('accompaniments', '/images/chinese-noodles-with-beansprouts/200/stirfry-noodles.webp', 'noodles with beansprouts', 'chinese-noodles-with-beansprouts', 'chinese noodles with beansprouts', 'Stir-fried noodles tossed with crunchy beansprouts and soy — a speedy and satisfying dish.')
              ON DUPLICATE KEY UPDATE 
@@ -418,9 +418,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/basmati-rice/200/basmati-rice-2.webp', caption='basmati rice', imgTitle='cooked basmati rice in a bowl', description='Fluffy, fragrant basmati rice cooked to perfection — the essential side for countless dishes.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('accompaniments', '/images/dhal-fried-spices/200/dhal-with-fried-spices-in-dish.webp', 'dhal with fried spices', 'dhal-with-fried-spices', 'dhal with fried spices served in a dish', 'Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan-friendly.')
+             VALUES ('accompaniments', '/images/dhal-fried-spices/200/dhal-with-fried-spices-in-dish.webp', 'dhal with fried spices', 'dhal-with-fried-spices', 'dhal with fried spices served in a dish', 'Authentic Indian dhall - Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan - friendly.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/dhal-fried-spices/200/dhal-with-fried-spices-in-dish.webp', caption='dhal with fried spices', imgTitle='dhal with fried spices served in a dish', description='Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan-friendly.';
+             image='/images/dhal-fried-spices/200/dhal-with-fried-spices-in-dish.webp', caption='dhal with fried spices', imgTitle='dhal with fried spices served in a dish', description='Authentic Indian dhall - Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan - friendly.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('accompaniments', '/images/tarka-dhal/200/tarka-dhal-finished.webp', 'tarka dhal', 'tarka-dhal', 'tarka dhal', 'Indian lentil curry with a sizzling spice topping (tarka) — simple, rich, and full of flavour.')
              ON DUPLICATE KEY UPDATE 
