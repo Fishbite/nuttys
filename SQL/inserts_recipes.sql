@@ -326,9 +326,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/vegetarian-chilli/200/vegetarian-chilli-and-buttered-bread-03.webp', caption='vegetarian-chilli', imgTitle='vegetarian-chilli and buttered bread', description='Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn''t compromise on flavour.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('fish & veg', '/images/macaroni-pie/200/macaroni-pie-baked.webp', 'baked macaroni pie', 'macaroni-pie', 'macaroni pie baked in the oven', 'A rich and cheesy baked macaroni pie with a golden crust — a Caribbean-inspired twist on mac and cheese.')
+             VALUES ('fish & veg', '/images/macaroni-pie/200/macaroni-pie-baked.webp', 'baked macaroni pie', 'macaroni-pie', 'macaroni pie baked in the oven', 'A rich and cheesy baked macaroni pie with a golden crust — a Caribbean - inspired twist on mac and cheese.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/macaroni-pie/200/macaroni-pie-baked.webp', caption='baked macaroni pie', imgTitle='macaroni pie baked in the oven', description='A rich and cheesy baked macaroni pie with a golden crust — a Caribbean-inspired twist on mac and cheese.';
+             image='/images/macaroni-pie/200/macaroni-pie-baked.webp', caption='baked macaroni pie', imgTitle='macaroni pie baked in the oven', description='A rich and cheesy baked macaroni pie with a golden crust — a Caribbean - inspired twist on mac and cheese.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('fish & veg', '/images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked-02.webp', 'cauli cheese & smoked haddock', 'cauli-cheese-smoked-haddock-bake', 'cauliflower cheese smoked haddock bake', 'Comforting baked dish with cauliflower cheese and smoked haddock fish — creamy, savoury, and deeply satisfying.')
              ON DUPLICATE KEY UPDATE 
