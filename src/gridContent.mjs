@@ -303,7 +303,7 @@ export const gridContent = [
     imgAlt: "cooked tandoori chicken on plate 02",
     caption: "classic tandoori chicken",
     page: `tandoori-chicken`,
-    desc: "Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smokey flavour.",
+    desc: "Classic Indian dish of chicken marinated in yogurt and spices, then roasted to achieve a smoky flavour.",
   },
 
   {
@@ -338,7 +338,7 @@ export const gridContent = [
     imgAlt: "chicken tandoori grill plated 01",
     caption: "chicken tandoori grill",
     page: `chicken-tandoori-grill`,
-    desc: "Grilled tandoori chicken with a smokey flavour and vibrant spices. Perfect for outdoor grilling.",
+    desc: "Grilled tandoori chicken with a smoky flavour and vibrant spices. Perfect for outdoor grilling.",
   },
 
   {
@@ -821,7 +821,18 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "pork",
+    imgSrc:
+      "/images/caribbean-creamy-pork-curry/200/caribbean-creamy-pork-curry-and-rice.webp",
+    imgTitle: "caribbean creamy pork curry and rice with a slice of lime",
+    imgAlt: "caribbean creamy pork curry and rice",
+    caption: "caribbean creamy pork curry",
+    page: `caribbean-creamy-pork-curry`,
+    desc: "caribbean inspired pork curry with a creamy texture, tangy tropical coconut flavoured sauce. Mildy spiced and chilli free, quick to make and deliciously comforting.",
+  },
 
   {
     type: "recipe",
@@ -1070,7 +1081,7 @@ export const gridContent = [
     imgAlt: "smoked haddock bacon bake",
     caption: "smoked haddock bacon bake",
     page: `smoked-haddock-bacon-bake`,
-    desc: "Smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.",
+    desc: "smoky haddock and crispy bacon baked with creamy potato and cheese — a hearty oven fish dish.",
   },
 
   {
