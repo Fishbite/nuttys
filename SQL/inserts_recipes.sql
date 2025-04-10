@@ -266,17 +266,17 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/porksupreme/200/pork-in-creamy-pepper-sauce.jpg', caption='pork in creamy pepper sauce', imgTitle='pork in creamy pepper sauce', description='Juicy pork steaks in a luxurious creamy sauce with herbs and mushrooms — a simple, elegant dinner that feels fancy but is easy to make.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('pork', '/images/jerked-pork-steaks/200/jerked-pork-steak-plated-01.webp', 'jerked pork steaks grill', 'jerked-pork-steaks-grill', 'jerked pork steak served with potato salad & salad', 'Pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!')
+             VALUES ('pork', '/images/jerked-pork-steaks/200/jerked-pork-steak-plated-01.webp', 'jerked pork steaks grill', 'jerked-pork-steaks-grill', 'jerked pork steak served with potato salad & salad', 'Jamaican inspired pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!')
              ON DUPLICATE KEY UPDATE 
-             image='/images/jerked-pork-steaks/200/jerked-pork-steak-plated-01.webp', caption='jerked pork steaks grill', imgTitle='jerked pork steak served with potato salad & salad', description='Pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!';
+             image='/images/jerked-pork-steaks/200/jerked-pork-steak-plated-01.webp', caption='jerked pork steaks grill', imgTitle='jerked pork steak served with potato salad & salad', description='Jamaican inspired pork steaks rubbed with spicy jerk seasoning and grilled to perfection — smoky, spicy, and packed with Caribbean flair!';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('pork', '/images/peri-peri-pork-steaks/200/peri-peri-pork-steaks-plated.webp', 'peri peri pork steaks', 'peri-peri-pork-steaks', 'peri peri pork steaks served with side salad & jacket potato with cheese', 'Zingy and spicy peri-peri pork steaks grilled for that fiery Portuguese-inspired flavour — great with chips or salad!')
              ON DUPLICATE KEY UPDATE 
              image='/images/peri-peri-pork-steaks/200/peri-peri-pork-steaks-plated.webp', caption='peri peri pork steaks', imgTitle='peri peri pork steaks served with side salad & jacket potato with cheese', description='Zingy and spicy peri-peri pork steaks grilled for that fiery Portuguese-inspired flavour — great with chips or salad!';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('pork', '/images/jerked-pork-curry/200/jerked-pork-rice-and-peas-01.webp', 'jerked pork curry', 'jerked-pork-curry', 'jerked pork curry rice and peas', 'A spicy Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.')
+             VALUES ('pork', '/images/jerked-pork-curry/200/jerked-pork-rice-and-peas-01.webp', 'jerked pork curry', 'jerked-pork-curry', 'jerked pork curry rice and peas', 'A spicy Jamaican - Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/jerked-pork-curry/200/jerked-pork-rice-and-peas-01.webp', caption='jerked pork curry', imgTitle='jerked pork curry rice and peas', description='A spicy Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.';
+             image='/images/jerked-pork-curry/200/jerked-pork-rice-and-peas-01.webp', caption='jerked pork curry', imgTitle='jerked pork curry rice and peas', description='A spicy Jamaican - Caribbean fusion curry with bold jerk flavours simmered into tender pork chunks. Warming and full of character.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('pork', '/images/mediterranean-style-vegetables-with-pork-steaks/200/mediterranean-style-veg-with-pork-steaks-plated-03.webp', 'mediterranean style veg'' with pork steaks', 'mediterranean-style-vegetables-with-pork-steaks', 'Mediterranean style vegetables with pork steaks', 'A light, colourful dish of pork steaks paired with roasted Mediterranean vegetables — olive oil, herbs, sunshine on a plate.')
              ON DUPLICATE KEY UPDATE 
@@ -298,9 +298,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/lambmashpie/200/lamb-mash-pie-ready.webp', caption='lamb & mash pie', imgTitle='lamb & mash pie', description='A comforting lamb pie with rich minced lamb and creamy mashed potato topping, perfect for chilly evenings.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('lamb', '/images/lamb-kofta-curry/200/lamb-kofta-curry-and-rice.webp', 'lamb kofta curry', 'lamb-kofta-curry', 'lamb kofta curry served with basmati rice', 'Tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.')
+             VALUES ('lamb', '/images/lamb-kofta-curry/200/lamb-kofta-curry-and-rice.webp', 'lamb kofta curry', 'lamb-kofta-curry', 'lamb kofta curry served with basmati rice', 'A Pakistani inspired dish of tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/lamb-kofta-curry/200/lamb-kofta-curry-and-rice.webp', caption='lamb kofta curry', imgTitle='lamb kofta curry served with basmati rice', description='Tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.';
+             image='/images/lamb-kofta-curry/200/lamb-kofta-curry-and-rice.webp', caption='lamb kofta curry', imgTitle='lamb kofta curry served with basmati rice', description='A Pakistani inspired dish of tender lamb meatballs simmered in a rich, spiced curry sauce — full of flavour and great with rice or flatbread.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('lamb', '/images/dodgy-kebab/200/kebab-closed-with-salad-2.webp', 'my dodgy kebab', 'dodgy-kebab', 'Dodgy Kebab! with salad on the side', 'An Indian inspired cheeky homemade take on the classic late-night kebab — tasty, healthier, and fun to make!')
              ON DUPLICATE KEY UPDATE 
@@ -326,9 +326,9 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/vegetarian-chilli/200/vegetarian-chilli-and-buttered-bread-03.webp', caption='vegetarian-chilli', imgTitle='vegetarian-chilli and buttered bread', description='Spicy, hearty veggie chilli with beans and veg — a meat-free favourite that doesn''t compromise on flavour.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
-             VALUES ('fish & veg', '/images/macaroni-pie/200/macaroni-pie-baked.webp', 'baked macaroni pie', 'macaroni-pie', 'macaroni pie baked in the oven', 'A rich and cheesy baked macaroni pie with a golden crust — a Caribbean-inspired twist on mac and cheese.')
+             VALUES ('fish & veg', '/images/macaroni-pie/200/macaroni-pie-baked.webp', 'baked macaroni pie', 'macaroni-pie', 'macaroni pie baked in the oven', 'A rich and cheesy baked macaroni pie with a golden crust — a Caribbean - inspired twist on mac and cheese.')
              ON DUPLICATE KEY UPDATE 
-             image='/images/macaroni-pie/200/macaroni-pie-baked.webp', caption='baked macaroni pie', imgTitle='macaroni pie baked in the oven', description='A rich and cheesy baked macaroni pie with a golden crust — a Caribbean-inspired twist on mac and cheese.';
+             image='/images/macaroni-pie/200/macaroni-pie-baked.webp', caption='baked macaroni pie', imgTitle='macaroni pie baked in the oven', description='A rich and cheesy baked macaroni pie with a golden crust — a Caribbean - inspired twist on mac and cheese.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('fish & veg', '/images/caulicheesesmokedhaddock/200/cauli-cheese-smoked-haddock-baked-02.webp', 'cauli cheese & smoked haddock', 'cauli-cheese-smoked-haddock-bake', 'cauliflower cheese smoked haddock bake', 'Comforting baked dish with cauliflower cheese and smoked haddock fish — creamy, savoury, and deeply satisfying.')
              ON DUPLICATE KEY UPDATE 
