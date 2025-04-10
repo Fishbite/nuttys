@@ -187,7 +187,7 @@ export const gridContent = [
     imgAlt: "spring onion added to sauce",
     caption: "sweet & sour roast chicken",
     page: `sweet-and-sour-roast-chicken`,
-    desc: "Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.",
+    desc: "Chinese Style - Roast chicken cooked with a tangy sweet and sour sauce, resulting in a flavourful and juicy main course.",
   },
 
   {
@@ -267,7 +267,7 @@ export const gridContent = [
     imgAlt: "spicy  masala chicken tarka dhal naan plated",
     caption: "spicy masala chicken",
     page: `spicy-masala-chicken`,
-    desc: "An Indian-inspired dish featuring chicken cooked in a spicy and aromatic masala sauce.",
+    desc: "An Indian - inspired dish featuring chicken cooked in a spicy and aromatic masala sauce.",
   },
 
   {
@@ -670,7 +670,7 @@ export const gridContent = [
     imgAlt: "pork fried rice",
     caption: "pork fried rice",
     page: `pork-fried-rice`,
-    desc: "A flavour-packed Chinese-style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.",
+    desc: "A flavour-packed Chinese - style pork fried rice with tender strips of pork, egg, spring onions and light soy, perfect as a main or side.",
   },
 
   {
@@ -681,7 +681,7 @@ export const gridContent = [
     imgAlt: "sweet and sour pork cooked",
     caption: "sweet and sour pork",
     page: `sweet-and-sour-pork`,
-    desc: "Crispy pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!",
+    desc: "Chinese Style - succulent pork in a vibrant, tangy sauce with pineapple, peppers, and onion. This Chinese-style classic is sweet, sour, and totally moreish!",
   },
 
   {
@@ -715,7 +715,7 @@ export const gridContent = [
     imgAlt: "pork and peppers in black bean sauce",
     caption: "pork and peppers in black bean sauce",
     page: `pork-blackbean-sauce-and-peppers`,
-    desc: "A savoury Chinese-inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!",
+    desc: "A savoury Chinese - inspired stir-fry with juicy pork, crunchy peppers, and rich black bean sauce. Fast and full of umami!",
   },
 
   {
@@ -1234,7 +1234,7 @@ export const gridContent = [
     imgAlt: "egg fried rice",
     caption: "egg fried rice",
     page: `egg-fried-rice`,
-    desc: "Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.",
+    desc: "Chinese Style - Quick and tasty egg fried rice — light, fluffy, and packed with savoury goodness in every bite.",
   },
 
   {
@@ -1267,7 +1267,7 @@ export const gridContent = [
     imgAlt: "dhal with fried spices in dish",
     caption: "dhal with fried spices",
     page: `dhal-with-fried-spices`,
-    desc: "Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan-friendly.",
+    desc: "Authentic Indian dhall - Comforting tiny yellow lentils infused with aromatic fried spices — hearty, nourishing, and vegan - friendly.",
   },
 
   {
