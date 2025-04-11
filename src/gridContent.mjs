@@ -425,7 +425,17 @@ export const gridContent = [
     desc: "Indian inspired grilled chicken escalopes marinated in tikka spices—flavourful, fast, and great with salad or wraps.",
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/spring-onion-chicken/200/spring-onion-chicken-with-noodles-in-dish.webp",
+    imgTitle: "spring onion chicken with mushroom chow mein noodles in a dish",
+    imgAlt: "spring onion chicken with noodles in dish",
+    caption: "spring onion chicken",
+    page: `spring-onion-chicken`,
+    desc: "A quick & easy Chinese inspired dish of delicious tender chicken stir fried with spring onions and mushrooms",
+  },
 
   {
     type: "recipe",
