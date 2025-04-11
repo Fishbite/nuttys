@@ -458,6 +458,10 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/saffron-and-cardamom-rice/650x366/saffron-and-cardamom-rice.webp', caption='saffron and cardamom rice', imgTitle='saffron and cardamom rice in a serving dish', description='Delicate, aromatic rice infused with saffron and cardamom — a luxurious, subtly sweet authentic Indian accompaniment.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('accompaniments', '/images/mushroom-chow-mein/650x366/mushroom-chow-mein-in-serving-dish-02.webp', 'mushroom chow mein', 'mushroom-chow-mein', 'mushroom chow mein in serving dish', 'Chinese inspired stir fried noodles with mushrooms and srping onions - a quick, easy and delicious side or main')
+             ON DUPLICATE KEY UPDATE 
+             image='/images/mushroom-chow-mein/650x366/mushroom-chow-mein-in-serving-dish-02.webp', caption='mushroom chow mein', imgTitle='mushroom chow mein in serving dish', description='Chinese inspired stir fried noodles with mushrooms and srping onions - a quick, easy and delicious side or main';
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('accompaniments', '/images/fluffy-mashed-potatoes/650x366/fluffy-mash-in-a-bowl-01.webp', 'fluffy mashed potatoes', 'fluffy-mashed-potatoes', 'fluffy mashed potatoes in a bowl', 'Creamy, cloud-like mashed potatoes with just the right balance of butter, seasoning, and fluff — perfect alongside roasts, stews, or simply with gravy!')
              ON DUPLICATE KEY UPDATE 
              image='/images/fluffy-mashed-potatoes/650x366/fluffy-mash-in-a-bowl-01.webp', caption='fluffy mashed potatoes', imgTitle='fluffy mashed potatoes in a bowl', description='Creamy, cloud-like mashed potatoes with just the right balance of butter, seasoning, and fluff — perfect alongside roasts, stews, or simply with gravy!';
@@ -624,6 +628,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
         ('accompaniments', 'christmas-prepared'),
         ('accompaniments', 'spicy-baked-beans-and-peppers'),
         ('accompaniments', 'saffron-and-cardamom-rice'),
+        ('accompaniments', 'mushroom-chow-mein'),
         ('accompaniments', 'fluffy-mashed-potatoes'),
         ('puddings', 'pineapplepudding'),
         ('puddings', 'pearalmondtart'),
