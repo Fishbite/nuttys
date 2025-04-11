@@ -1373,7 +1373,18 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "/images/mushroom-chow-mein/650x366/mushroom-chow-mein-in-serving-dish-02.webp",
+    imgTitle: "mushroom chow mein in serving dish",
+    imgAlt: "mushroom chow mein in serving dish",
+    caption: "mushroom chow mein",
+    page: `mushroom-chow-mein`,
+    desc: "Chinese inspired stir fried noodles with mushrooms and srping onions - a quick, easy and delicious side or main",
+  },
 
   {
     type: "recipe",
