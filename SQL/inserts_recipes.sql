@@ -150,6 +150,10 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/chicken-tikka-grilled-escalope/200/chicken-tikka-dinner-01.webp', caption='chicken tikka grilled escalope', imgTitle='chicken tikka grilled escalope with naan raita & salad', description='Indian inspired grilled chicken escalopes marinated in tikka spices—flavourful, fast, and great with salad or wraps.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('chicken', '/images/spring-onion-chicken/200/spring-onion-chicken-with-noodles-in-dish.webp', 'spring onion chicken', 'spring-onion-chicken', 'spring onion chicken with mushroom chow mein noodles in a dish', 'A quick & easy Chinese inspired dish of delicious tender chicken stir fried with spring onions and mushrooms')
+             ON DUPLICATE KEY UPDATE 
+             image='/images/spring-onion-chicken/200/spring-onion-chicken-with-noodles-in-dish.webp', caption='spring onion chicken', imgTitle='spring onion chicken with mushroom chow mein noodles in a dish', description='A quick & easy Chinese inspired dish of delicious tender chicken stir fried with spring onions and mushrooms';
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('chicken', '/images/curry-leaf-masala-chicken-fry/200/curry-leaf-masala-and-rice-02.webp', 'Curry Leaf Masala Chicken Fry', 'curry-leaf-masala-chicken-fry', 'authentic indian curry leaf masala chicken fry with basmati rice', 'A deeply authentic Indian dish with rich, earthy masala and the unmistakable aroma of fresh curry leaves. It''s not fiery hot — just full of bold, balanced flavour.')
              ON DUPLICATE KEY UPDATE 
              image='/images/curry-leaf-masala-chicken-fry/200/curry-leaf-masala-and-rice-02.webp', caption='Curry Leaf Masala Chicken Fry', imgTitle='authentic indian curry leaf masala chicken fry with basmati rice', description='A deeply authentic Indian dish with rich, earthy masala and the unmistakable aroma of fresh curry leaves. It''s not fiery hot — just full of bold, balanced flavour.';
@@ -543,6 +547,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
         ('chicken', 'chicken-in-creamy-peppercorn-sauce'),
         ('chicken', 'butter-chicken'),
         ('chicken', 'chicken-tikka-grilled-escalope'),
+        ('chicken', 'spring-onion-chicken'),
         ('chicken', 'curry-leaf-masala-chicken-fry'),
         ('chicken', 'luxury-chicken-pie'),
         ('beef', 'cornedbeefmashpie'),
