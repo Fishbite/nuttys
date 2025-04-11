@@ -225,10 +225,41 @@ WARNING: If there are conflicts, STOP!!! Do no more, these have to be fixed!!!
 git push origin nette
 
 *****************************************************************
+Ensure stu has the latest updates from nette:
+
+# Run these commands first (copy & paste into the 'Git Bash' terminal & press 'Enter'):
+
+git fetch origin
+git branch --list nette
+
+# If the `nette` branch exists locally:
+#(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git checkout nette
+git pull origin nette
+
+# If the `nette` branch does not exist locally:
+#(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git checkout -b stu origin/nette
+
+# Now we know the 'stu' branch definately exist on your pc:
+#(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git pull origin nette
+git checkout stu
+git merge nette
+
+WARNING: If there are conflicts, STOP!!! Do no more, these have to be fixed!!!
+
+#Then, if there are no conflicts
+##(copy & paste the following into the 'Git Bash' terminal & press 'Enter'):
+
+git push origin stu
 *****************************************************************
 
 
-   *****************************************************************
+*****************************************************************
 Deleting a local branch:
 
 1. Ensure you are not on the `nuttysedits` branch:
