@@ -204,35 +204,75 @@ function navMenu(navContent) {
     else if not, just load the static recipe page
    ===============================================
 */
-function goToRecipePage(event) {
-  event.preventDefault();
 
-  console.log("checking...");
-  const dynamicURL = "https://recipes.nuttyskitchen.co.uk/";
-  const staticURL = "https://www.nuttyskitchen.co.uk/recipepage.html";
+class RecipePageRedirector {
+  constructor({ dynamicURL, staticURL, selector, testImage }) {
+    this.dynamicURL = dynamicURL;
+    this.staticURL = staticURL;
+    this.selector = selector;
+    this.testImage = testImage;
+    this.init();
+  }
 
-  fetch(dynamicURL, { method: "GET", mode: "cors" })
-    .then((response) => {
-      if (response.ok) {
-        console.log("OK! We have a searchable recipe page");
-        window.location.href = dynamicURL;
-      } else {
-        console.log("FAILED! Response not OK, fallback to static recipe page");
-        window.location.href = staticURL;
-      }
-    })
-    .catch((error) => {
-      console.log("FAILED! Could not reach dynamic site:", error);
-      window.location.href = staticURL;
+  checkAvailability(callback) {
+    const img = new Image();
+    img.onload = () => callback(true);
+    img.onerror = () => callback(false);
+    img.src = `${this.testImage}?ping=${Date.now()}`;
+  }
+
+  handleClick(event) {
+    event.preventDefault();
+    this.checkAvailability((isUp) => {
+      window.location.href = isUp ? this.dynamicURL : this.staticURL;
     });
+  }
+
+  init() {
+    document.querySelectorAll(this.selector).forEach((link) => {
+      link.addEventListener("click", this.handleClick.bind(this));
+    });
+  }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const recipeLinks = document.querySelectorAll("a.recipe-page-link");
-  recipeLinks.forEach((link) => {
-    link.addEventListener("click", goToRecipePage);
-  });
+// Usage
+new RecipePageRedirector({
+  dynamicURL: "https://recipes.nuttyskitchen.co.uk/",
+  staticURL: "https://www.nuttyskitchen.co.uk/recipepage.html",
+  selector: "a.recipe-page-link",
+  testImage: "https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg",
 });
+
+// Note: Can't use this, no CORS allowed
+// function goToRecipePage(event) {
+//   event.preventDefault();
+
+//   console.log("checking...");
+//   const dynamicURL = "https://recipes.nuttyskitchen.co.uk/";
+//   const staticURL = "https://www.nuttyskitchen.co.uk/recipepage.html";
+
+//   fetch(dynamicURL, { method: "GET", mode: "cors" })
+//     .then((response) => {
+//       if (response.ok) {
+//         console.log("OK! We have a searchable recipe page");
+//         window.location.href = dynamicURL;
+//       } else {
+//         console.log("FAILED! Response not OK, fallback to static recipe page");
+//         window.location.href = staticURL;
+//       }
+//     })
+//     .catch((error) => {
+//       console.log("FAILED! Could not reach dynamic site:", error);
+//       window.location.href = staticURL;
+//     });
+// }
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const recipeLinks = document.querySelectorAll("a.recipe-page-link");
+//   recipeLinks.forEach((link) => {
+//     link.addEventListener("click", goToRecipePage);
+//   });
+// });
 
 // function goToRecipePage(event) {
 //   event.preventDefault();
