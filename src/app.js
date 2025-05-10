@@ -197,3 +197,68 @@ function navMenu(navContent) {
     Navigation Menu END
    =======================
 */
+
+/* ===============================================
+    Check recipes.nuttyskitchen.co.uk IS Available
+    if so, take me there!
+    else if not, just load the static recipe page
+   ===============================================
+*/
+function goToRecipePage(event) {
+  event.preventDefault();
+
+  console.log("checking...");
+  const dynamicURL = "https://recipes.nuttyskitchen.co.uk/";
+  const staticURL = "https://www.nuttyskitchen.co.uk/recipepage.html";
+
+  fetch(dynamicURL, { method: "HEAD", mode: "cors" })
+    .then((response) => {
+      if (response.ok) {
+        console.log("OK! We have a searchable recipe page");
+        window.location.href = dynamicURL;
+      } else {
+        console.log("FAILED! Response not OK, fallback to static recipe page");
+        window.location.href = staticURL;
+      }
+    })
+    .catch((error) => {
+      console.log("FAILED! Could not reach dynamic site:", error);
+      window.location.href = staticURL;
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const recipeLinks = document.querySelectorAll("a.recipe-page-link");
+  recipeLinks.forEach((link) => {
+    link.addEventListener("click", goToRecipePage);
+  });
+});
+
+// function goToRecipePage(event) {
+//   event.preventDefault();
+
+//   console.log("checking...");
+//   const dynamicURL = "https://recipes.nuttyskitchen.co.uk/";
+//   const staticURL = "https://www.nuttyskitchen.co.uk/recipepage.html";
+
+//   // Try fetching the dynamic recipe site
+//   fetch(dynamicURL, { method: "HEAD", mode: "no-cors" })
+//     .then(() => {
+//       console.log("OK! We have a searchable recipe page");
+//       // May still silently succeed even if offline, due to no-cors
+//       window.location.href = dynamicURL;
+//     })
+//     .catch(() => {
+//       console.log("FAILED! Fall back to static recipe page");
+//       // If request fails, fall back to the static version
+//       window.location.href = staticURL;
+//     });
+// }
+
+// // Optional: Attach globally if all 'Recipe Page' links share a class or ID
+// document.addEventListener("DOMContentLoaded", () => {
+//   const recipeLinks = document.querySelectorAll("a.recipe-page-link");
+//   recipeLinks.forEach((link) => {
+//     link.addEventListener("click", goToRecipePage);
+//   });
+// });
