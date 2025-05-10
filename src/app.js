@@ -211,7 +211,7 @@ function goToRecipePage(event) {
   const dynamicURL = "https://recipes.nuttyskitchen.co.uk/";
   const staticURL = "https://www.nuttyskitchen.co.uk/recipepage.html";
 
-  fetch(dynamicURL, { method: "HEAD", mode: "cors" })
+  fetch(dynamicURL, { method: "GET", mode: "cors" })
     .then((response) => {
       if (response.ok) {
         console.log("OK! We have a searchable recipe page");
