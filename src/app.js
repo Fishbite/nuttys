@@ -237,7 +237,7 @@ class RecipePageRedirector {
 
 // Usage
 new RecipePageRedirector({
-  dynamicURL: "https://recipes.nuttyskitchen.co.uk/",
+  dynamicURL: "https://recipes.nuttyskitchen.co.uk/recipes",
   staticURL: "https://www.nuttyskitchen.co.uk/recipepage.html",
   selector: "a.recipe-page-link",
   testImage: "https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg",
