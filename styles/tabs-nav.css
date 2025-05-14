@@ -215,6 +215,13 @@ p {
   color: var(--clr-primary-10);
 }
 
+/* .nav-main:hover .recipe-page-link {
+  box-shadow: inset 2px 1px 2px var(--clr-yellow-golden-pale),
+    inset -2px 1px 2px var(--clr-yellow-golden-pale),
+    inset -2px -1px 2px var(--clr-yellow-golden-pale);
+  border-radius: 0.5rem;
+} */
+
 @media screen and (max-width: 350px) {
   .nav-main a {
     padding-right: 0.75rem;
