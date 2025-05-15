@@ -184,14 +184,14 @@ p {
   top: 0.5rem;
   left: 0.5rem;
   padding: 0.5rem 1rem;
-  background: #000;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 0.25rem;
+  background-color: var(--clr-primary-1); /* Match the site’s blue tone */
+  color: var(--clr-primary-10);
+  font-weight: 600;
+  border: 2px solid var(--clr-grey-5); /* Slightly lighter border */
+  border-radius: 5px;
+  box-shadow: 0 2px 6px var(--clr-grey-0); /* Dark soft shadow for visibility */
   z-index: 1000;
 
-  /* Hidden by default */
   transform: translateY(-200%);
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -200,6 +200,7 @@ p {
 .skip-link:focus {
   transform: translateY(0);
   opacity: 1;
+  outline: none; /* We’re styling the focus ourselves */
 }
 /* ARIA 'Skip-to' END */
 
