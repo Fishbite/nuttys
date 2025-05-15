@@ -65,7 +65,8 @@
     <!-- <link rel="stylesheet" href="./styles/tabs-nav-minified.css"> -->
   </head>
   <body>
-    <nav class="nav-main">
+    <a href="#content" class="skip-link">Skip to Main Content</a>
+    <nav class="nav-main" aria-label="main navigation">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="#" class="recipe-page-link">Recipes</a></li>
@@ -86,7 +87,7 @@
             alt="logo left"
             title="nuttys kitchen logo left"
           />
-          <h1>Welcome to Nutty's Kitchen</h1>
+          <h1 id="content" tabindex="-1">Welcome to Nutty's Kitchen</h1>
           <img
             width="60"
             height="32"
@@ -155,7 +156,7 @@
       <!-- class section-center = set width -->
       <main class="about-center section-center justify">
         <!-- single item -->
-        <section class="about-content-main">
+        <article class="about-content-main">
           <h2>Cooking on a Budget</h2>
 
           <p>
@@ -177,11 +178,11 @@
             />
             <figcaption>budget doesn't mean bread and jam!</figcaption>
           </figure>
-        </section>
+        </article>
         <!-- end of single item -->
 
         <!-- single item -->
-        <section class="about-content-main">
+        <article class="about-content-main">
           <h2>Bulking out with veg</h2>
 
           <p>
@@ -207,11 +208,11 @@
             />
             <figcaption>the holy trinity: carrots, onion, celery</figcaption>
           </figure>
-        </section>
+        </article>
         <!-- end of single item -->
 
         <!-- single item -->
-        <section class="about-content-main">
+        <article class="about-content-main">
           <div class="title-icon">
             <h2>Freeze for another day</h2>
             <img
@@ -252,11 +253,11 @@
 
           <div class="spacer"></div>
           <p>Click or tap the pic for the recipe!</p>
-        </section>
+        </article>
         <!-- end of single item -->
 
         <!-- single item -->
-        <section class="about-content-main">
+        <article class="about-content-main">
           <div class="title-icon">
             <h2>Latest</h2>
             <img
@@ -305,17 +306,17 @@
           <p>
             Click or tap the pic for the recipe! You just have to try this :¬)
           </p>
-        </section>
+        </article>
         <!-- end of single item -->
 
         <!-- single item -->
-        <section
+        <article
           style="background-color: #0c0600; border: none; color: burlywood"
           class="about-content-main"
         >
           <h2>1 year one hundred recipes!</h2>
 
-          <p style="color: burlywood">
+          <p style="color: burlywood" aria-label="birthday-celebration">
             Well! Doesn't time fly! I can hardly believe that it's a whole year
             since I published my first recipes on
             <strong>Nutty's Kitchen</strong>. In that time I've created
@@ -353,7 +354,7 @@
             >
             for the full method and ingredients.
           </p>
-        </section>
+        </article>
         <!-- end of single item -->
       </main>
     </div>
