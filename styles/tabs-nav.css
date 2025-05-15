@@ -184,14 +184,14 @@ p {
   top: 0.5rem;
   left: 0.5rem;
   padding: 0.5rem 1rem;
-  background: #000;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 0.25rem;
+  background-color: var(--clr-primary-1); /* Match the site’s blue tone */
+  color: var(--clr-primary-10);
+  font-weight: 600;
+  border: 2px solid var(--clr-grey-5); /* Slightly lighter border */
+  border-radius: var(--radius);
+  box-shadow: 0 2px 6px var(--clr-grey-0); /* Dark soft shadow for visibility */
   z-index: 1000;
 
-  /* Hidden by default */
   transform: translateY(-200%);
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -200,6 +200,7 @@ p {
 .skip-link:focus {
   transform: translateY(0);
   opacity: 1;
+  outline: none; /* We’re styling the focus ourselves */
 }
 /* ARIA 'Skip-to' END */
 
@@ -229,16 +230,18 @@ p {
   font-size: 1rem;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 0.125rem;
 }
 
 .nav-main ul {
   display: flex;
   flex-direction: row;
+  gap: 0.125rem;
 }
-.nav-main a {
+/* .nav-main a {
   padding-right: 2rem;
   color: var(--clr-primary-10);
-}
+} */
 
 /* .nav-main:hover .recipe-page-link {
   box-shadow: inset 2px 1px 2px var(--clr-yellow-golden-pale),
@@ -246,6 +249,30 @@ p {
     inset -2px -1px 2px var(--clr-yellow-golden-pale);
   border-radius: 0.5rem;
 } */
+
+/* Apply to all nav links */
+.nav-main a {
+  display: inline-block;
+  padding: 0.125rem 1rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--clr-primary-10); /* Or your base link color */
+  transition: background-color 0.3s ease;
+}
+
+/* Custom focus style */
+.nav-main a:focus {
+  outline: none;
+  background-color: var(--clr-grey-3); /* A visible but gentle lowlight */
+  box-shadow: 0 0 0 2px var(--clr-grey-5); /* Soft blue glow */
+  /* color: var(--clr-yellow-golden-pale); */
+}
+
+/* Optional: Add hover for consistency */
+.nav-main a:hover {
+  background-color: var(--clr-grey-2);
+  box-shadow: 0 0 0 2px var(--clr-grey-5);
+}
 
 @media screen and (max-width: 350px) {
   .nav-main a {
