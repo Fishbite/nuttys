@@ -257,10 +257,10 @@ p {
   border-radius: var(--radius);
   text-decoration: none;
   color: var(--clr-primary-10); /* Or your base link color */
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Custom focus style */
+/* Custom focus style START */
 .nav-main a:focus {
   outline: none;
   background-color: var(--clr-grey-3); /* A visible but gentle lowlight */
@@ -287,6 +287,8 @@ p {
 .nav-main a:visited {
   color: var(--clr-primary-10);
 }
+
+/* Custom focus style END */
 
 /* section */
 .section {
