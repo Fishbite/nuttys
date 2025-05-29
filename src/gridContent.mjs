@@ -1118,8 +1118,6 @@ export const gridContent = [
     desc: "Pan-fried fish fillets topped with a zingy homemade chilli sauce — fiery, fresh and quick to cook.",
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "fish & veg",
@@ -1140,6 +1138,18 @@ export const gridContent = [
     caption: "celeriac soup",
     page: `celeriac-soup`,
     desc: "Silky smooth soup made from earthy celeriac and a touch of cream — elegant and comforting.",
+  },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/masala-veg-with-fresh-fenugreek/200/masala-veg-with-fresh-fenugreek.webp",
+    imgTitle: "masala veg with fresh fenugreek in a serving dish",
+    imgAlt: "masala veg with fresh fenugreek",
+    caption: "Masala Veg with Fresh Fenugreek",
+    page: `masala-veg-with-fresh-fenugreek`,
+    desc: "Masala veg with fresh fenugreek - cauliflower, green beans and onions in a delicate blend of spices",
   },
 
   // ****** vege END ****** \\
