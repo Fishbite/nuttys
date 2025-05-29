@@ -386,6 +386,10 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
              ON DUPLICATE KEY UPDATE 
              image='/images/celeriac-soup/200/celeriac-soup.webp', caption='celeriac soup', imgTitle='celeriac soup with crispy celeriac & onion toppin', description='Silky smooth soup made from earthy celeriac and a touch of cream — elegant and comforting.';
 INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
+             VALUES ('fish & veg', '/images/masala-veg-with-fresh-fenugreek/200/masala-veg-with-fresh-fenugreek.webp', 'Masala Veg with Fresh Fenugreek', 'masala-veg-with-fresh-fenugreek', 'masala veg with fresh fenugreek in a serving dish', 'Masala veg with fresh fenugreek - cauliflower, green beans and onions in a delicate blend of spices')
+             ON DUPLICATE KEY UPDATE 
+             image='/images/masala-veg-with-fresh-fenugreek/200/masala-veg-with-fresh-fenugreek.webp', caption='Masala Veg with Fresh Fenugreek', imgTitle='masala veg with fresh fenugreek in a serving dish', description='Masala veg with fresh fenugreek - cauliflower, green beans and onions in a delicate blend of spices';
+INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description) 
              VALUES ('sauce', '/images/whitesauce/200/white-sauce.jpg', 'white sauce', 'whitesauce', 'white sauce', 'Basic white sauce (béchamel) recipe — the essential base for cheese sauce, lasagne and more.')
              ON DUPLICATE KEY UPDATE 
              image='/images/whitesauce/200/white-sauce.jpg', caption='white sauce', imgTitle='white sauce', description='Basic white sauce (béchamel) recipe — the essential base for cheese sauce, lasagne and more.';
@@ -610,6 +614,7 @@ INSERT INTO recipe_cards (category, image, caption, page, imgTitle, description)
         ('fish & veg', 'fish-fillets-with-chilli-sauce'),
         ('fish & veg', 'sambar'),
         ('fish & veg', 'celeriac-soup'),
+        ('fish & veg', 'masala-veg-with-fresh-fenugreek'),
         ('sauce', 'whitesauce'),
         ('sauce', 'parsley-sauce'),
         ('sauce', 'onionsauce'),
