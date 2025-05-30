@@ -1149,7 +1149,7 @@ export const gridContent = [
     imgAlt: "masala veg with fresh fenugreek",
     caption: "Masala Veg with Fresh Fenugreek",
     page: `masala-veg-with-fresh-fenugreek`,
-    desc: "Masala veg with fresh fenugreek - cauliflower, green beans and onions in a delicate blend of spices",
+    desc: "Indian Masala veg with fresh fenugreek - cauliflower, green beans and onions in a delicate blend of spices",
   },
 
   // ****** vege END ****** \\
