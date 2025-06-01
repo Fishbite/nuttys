@@ -206,42 +206,79 @@ function navMenu(navContent) {
 */
 
 class RecipePageRedirector {
-  constructor({ dynamicURL, staticURL, selector, testImage }) {
-    this.dynamicURL = dynamicURL;
-    this.staticURL = staticURL;
+  constructor(selector) {
     this.selector = selector;
-    this.testImage = testImage;
     this.init();
   }
 
-  checkAvailability(callback) {
+  checkAvailability(testImage, callback) {
     const img = new Image();
     img.onload = () => callback(true);
     img.onerror = () => callback(false);
-    img.src = `${this.testImage}?ping=${Date.now()}`;
+    img.src = `${testImage}?ping=${Date.now()}`;
   }
 
-  handleClick(event) {
+  handleClick(event, link) {
     event.preventDefault();
-    this.checkAvailability((isUp) => {
-      window.location.href = isUp ? this.dynamicURL : this.staticURL;
+    const dynamicURL = link.getAttribute("href");
+    const staticURL = link.dataset.fallback;
+    const testImage = link.dataset.testImage;
+
+    this.checkAvailability(testImage, (isUp) => {
+      window.location.href = isUp ? dynamicURL : staticURL;
     });
   }
 
   init() {
     document.querySelectorAll(this.selector).forEach((link) => {
-      link.addEventListener("click", this.handleClick.bind(this));
+      link.addEventListener("click", (event) => this.handleClick(event, link));
     });
   }
 }
 
-// Usage
-new RecipePageRedirector({
-  dynamicURL: "https://recipes.nuttyskitchen.co.uk/recipes",
-  staticURL: "https://www.nuttyskitchen.co.uk/recipepage.html",
-  selector: "a.recipe-page-link",
-  testImage: "https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg",
+// ensure the link is actually available before adding event listener
+document.addEventListener("DOMContentLoaded", function () {
+  new RecipePageRedirector("a.recipe-page-link");
 });
+
+// old class before data attributes used
+// class RecipePageRedirector {
+//   constructor({ dynamicURL, staticURL, selector, testImage }) {
+//     this.dynamicURL = dynamicURL;
+//     this.staticURL = staticURL;
+//     this.selector = selector;
+//     this.testImage = testImage;
+//     this.init();
+//   }
+
+//   checkAvailability(callback) {
+//     const img = new Image();
+//     img.onload = () => callback(true);
+//     img.onerror = () => callback(false);
+//     img.src = `${this.testImage}?ping=${Date.now()}`;
+//   }
+
+//   handleClick(event) {
+//     event.preventDefault();
+//     this.checkAvailability((isUp) => {
+//       window.location.href = isUp ? this.dynamicURL : this.staticURL;
+//     });
+//   }
+
+//   init() {
+//     document.querySelectorAll(this.selector).forEach((link) => {
+//       link.addEventListener("click", this.handleClick.bind(this));
+//     });
+//   }
+// }
+
+// // Usage
+// new RecipePageRedirector({
+//   dynamicURL: "https://recipes.nuttyskitchen.co.uk/recipes",
+//   staticURL: "https://www.nuttyskitchen.co.uk/recipepage.html",
+//   selector: "a.recipe-page-link",
+//   testImage: "https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg",
+// });
 
 // Note: Can't use this, no CORS allowed
 // function goToRecipePage(event) {
