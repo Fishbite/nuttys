@@ -148,7 +148,7 @@ export const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "/images/easychickencurry/200/finished-curry-in-pan.png",
+    imgSrc: "/images/easy-chicken-curry/200/finished-curry-in-pan.png",
     imgTitle: "easy chicken curry",
     imgAlt: "finished curry in pan",
     caption: "easy chicken curry",
