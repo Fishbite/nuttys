@@ -1077,3 +1077,22 @@ header .fb-form {
 .in-link:visited {
   color: var(--clr-grey-4);
 }
+
+/* =======================
+   ** PENCIL **
+   =======================
+*/
+
+.pencil {
+  background-color: rgb(253, 253, 128);
+  padding: 0 2rem 0 1rem;
+  border: 2px solid var(--clr-grey-5);
+  border-radius: 1rem;
+  clip-path: polygon(82% 0, 102% 50%, 82% 100%, 0 100%, 0 0);
+}
+
+.underline-link {
+  color: hsl(209, 28%, 39%);
+  text-decoration: underline;
+  font-weight: bold;
+}
