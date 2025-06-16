@@ -6,29 +6,9 @@
 		<lastmod>2025-06-02</lastmod>
 	</url>
 	<url>
-		<loc>https://recipes.nuttyskitchen.co.uk/recipes</loc>
-		<priority>0.80</priority>
-		<lastmod>2025-05-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/chicken-biryani.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-06-02</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/mushroom-chow-mein.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-06-02</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/spring-onion-chicken.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-06-02</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/caribbean-creamy-pork-curry.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2025-06-02</lastmod>
+		<loc>https://www.nuttyskitchen.co.uk/index for recipe list.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-06-16</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/whitesauce.html</loc>
@@ -66,6 +46,11 @@
 		<lastmod>2025-06-05</lastmod>
 	</url>
 	<url>
+		<loc>https://www.nuttyskitchen.co.uk/template-bare-BAK.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-06-05</lastmod>
+	</url>
+	<url>
 		<loc>https://www.nuttyskitchen.co.uk/tarka-dhal.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
@@ -96,6 +81,11 @@
 		<lastmod>2025-06-02</lastmod>
 	</url>
 	<url>
+		<loc>https://www.nuttyskitchen.co.uk/spring-onion-chicken.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-06-02</lastmod>
+	</url>
+	<url>
 		<loc>https://www.nuttyskitchen.co.uk/spicy-potato-wedges.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
@@ -117,6 +107,11 @@
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/spice-up-your-life.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-06-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/special-fried-rice.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
 	</url>
@@ -296,6 +291,11 @@
 		<lastmod>2025-06-02</lastmod>
 	</url>
 	<url>
+		<loc>https://www.nuttyskitchen.co.uk/mushroom-chow-mein.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-06-02</lastmod>
+	</url>
+	<url>
 		<loc>https://www.nuttyskitchen.co.uk/mums-braised-steak.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
@@ -324,6 +324,11 @@
 		<loc>https://www.nuttyskitchen.co.uk/luxury-chicken-pie.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/logo-test.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-05-27</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/lambmashpie.html</loc>
@@ -596,6 +601,11 @@
 		<lastmod>2025-06-02</lastmod>
 	</url>
 	<url>
+		<loc>https://www.nuttyskitchen.co.uk/chicken-biryani.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-06-02</lastmod>
+	</url>
+	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chicken-and-tomato-balti.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
@@ -647,6 +657,11 @@
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/cauli-cheese-smoked-haddock-bake.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2025-06-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/caribbean-creamy-pork-curry.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-06-02</lastmod>
 	</url>
@@ -751,8 +766,18 @@
 		<lastmod>2025-03-07</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/special-fried-rice.html</loc>
+		<loc>https://www.nuttyskitchen.co.uk/generate_all_recipes.php</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-06-02</lastmod>
+		<lastmod>2025-06-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index.php</loc>
+		<priority>0.33</priority>
+		<lastmod>2025-06-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/tools/SitemapFilter.php</loc>
+		<priority>0.00</priority>
+		<lastmod>2025-06-16</lastmod>
 	</url>
 </urlset>
