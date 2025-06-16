@@ -8,9 +8,8 @@ $output = __DIR__ . '/../recipe-links.html';
 $xml = simplexml_load_file($sitemap);
 $urls = $xml->url;
 
-$recipeLinks = [];
+$linksByLetter = [];
 
-// Extract and filter links
 foreach ($urls as $entry) {
     $loc = (string) $entry->loc;
 
@@ -18,63 +17,80 @@ foreach ($urls as $entry) {
         continue;
     }
 
-    $path = parse_url($loc, PHP_URL_PATH);
-
-    $label = ucfirst(str_replace('-', ' ', basename($path, '.html')));
-    $label = trim($label);
-
-    if ($label === '') {
-        continue; // Skip invalid or empty labels
-    }
-
-    $anchor = strtoupper($label[0]);
-    $recipeLinks[$anchor][] = [
+    $label = ucfirst(str_replace('-', ' ', basename(parse_url($loc, PHP_URL_PATH), '.html')));
+    $firstLetter = strtoupper($label[0]);
+    $linksByLetter[$firstLetter][] = [
         'href' => $loc,
-        'label' => $label,
+        'label' => $label
     ];
-
 }
 
-// Sort links alphabetically
-ksort($recipeLinks);
-foreach ($recipeLinks as &$group) {
-    usort($group, fn ($a, $b) => strcmp($a['label'], $b['label']));
-}
+ksort($linksByLetter);
 
-$html = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n";
-$html .= "  <meta charset=\"UTF-8\">\n";
-$html .= "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n";
-$html .= "  <title>Recipe Index</title>\n";
-$html .= "  <link rel=\"stylesheet\" href=\"/styles/recipe-index.css\">\n";
-$html .= "</head>\n<body>\n";
+$navLetters = '';
+$listItems = '';
 
-$html .= "  <header>\n";
-$html .= "    <h1>Recipe Index</h1>\n";
-$html .= "    <nav class=\"index-nav\">\n";
-
-foreach (array_keys($recipeLinks) as $letter) {
-    $html .= "        <a href=\"#$letter\">$letter</a>\n";
-}
-
-$html .= "    </nav>\n";
-$html .= "  </header>\n";
-
-$html .= "  <main>\n";
-foreach ($recipeLinks as $letter => $links) {
-    $html .= "    <section id=\"$letter\">\n";
-    $html .= "      <h2>$letter</h2>\n";
-    $html .= "      <ul>\n";
+foreach ($linksByLetter as $letter => $links) {
+    $navLetters .= "<a href=\"#$letter\">$letter</a> ";
+    $listItems .= "<h2 id=\"$letter\">$letter</h2>\n<ul class=\"recipe-list\">\n";
     foreach ($links as $link) {
         $href = htmlspecialchars($link['href']);
-        $label = htmlspecialchars($link['label']);
-        $html .= "        <li><a href=\"$href\">$label</a></li>\n";
+        $text = htmlspecialchars($link['label']);
+        $listItems .= "  <li><a href=\"$href\">$text</a></li>\n";
     }
-    $html .= "      </ul>\n";
-    $html .= "    </section>\n";
+    $listItems .= "</ul>\n";
 }
-$html .= "  </main>\n";
 
-$html .= "</body>\n</html>";
+$template = <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Full index of all Nutty's Kitchen recipes in A–Z format" />
+  <title>Recipe Index | Nutty's Kitchen</title>
+  <link rel="icon" href="favicon.svg" />
+  <link rel="canonical" href="https://www.nuttyskitchen.co.uk/recipe-index.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/tabs-nav.css" />
+  <link rel="stylesheet" href="/styles/recipe-index.css" />
+</head>
+<body>
+  <a href="#content" class="skip-link">Skip to Main Content</a>
+  <nav class="nav-main" aria-label="main navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/recipes/">Recipes</a></li>
+      <li><a href="/contact-form.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div id="nav-container" class="nav-container"></div>
 
-file_put_contents($output, $html);
+  <header class="title">
+    <div class="title-wrap">
+      <img src="/images/logo-left.svg" width="60" height="32" alt="logo left" />
+      <h1 id="content">Recipe Index</h1>
+      <img src="/images/logo-right.svg" width="60" height="32" alt="logo right" />
+    </div>
+    <img class="logo-main" src="/images/nuttys-kitchen-logo.svg" alt="nuttys kitchen logo" width="160" height="40" />
+    <p class="fb-form head-p">
+      For those who like to read books, we thought we'd give you an index page — they tend to be quite useful when all else fails!
+    </p>
+  </header>
+
+  <section class="justify">
+    <nav class="alpha-nav">
+      $navLetters
+    </nav>
+    $listItems
+  </section>
+
+  <script src="./src/app.js"></script>
+</body>
+</html>
+HTML;
+
+file_put_contents($output, $template);
 echo "✅ Recipe index generated: $output\n";

@@ -1,0 +1,103 @@
+/* Reset some basic spacing */
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f2;
+  color: #333;
+}
+
+/* Header title styling */
+header.title {
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, #fddbb0, #fff2e0);
+}
+
+header.title h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.fb-form.head-p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+/* Index navigation bar */
+#nav-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+#nav-index a {
+  display: inline-block;
+  background-color: #ffbb88;
+  color: #000;
+  text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#nav-index a:hover {
+  background-color: #ffa066;
+}
+
+/* Recipe list */
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  list-style: none;
+}
+
+.recipe-list li {
+  padding: 0.5rem;
+}
+
+.recipe-list a {
+  text-decoration: none;
+  color: #4b2e2e;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.recipe-list a:hover {
+  color: #b85900;
+}
+
+/* Section spacing */
+section.justify {
+  margin-bottom: 3rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+  .recipe-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 1rem;
+  }
+
+  header.title h1 {
+    font-size: 1.5rem;
+  }
+
+  #nav-index {
+    gap: 0.3rem;
+  }
+
+  #nav-index a {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}
