@@ -57,8 +57,8 @@ $recipeGroupsHtml = "";
 foreach ($recipesByLetter as $letter => $recipes) {
     usort($recipes, fn ($a, $b) => strcasecmp($a['label'], $b['label']));
 
-    $recipeGroupsHtml .= "<section class=\"alpha-group\" id=\"$letter\">\n";
-    $recipeGroupsHtml .= "  <h2 class=\"alpha-label\">$letter</h2>\n";
+    $recipeGroupsHtml .= "<section class=\"alpha-group\" id=\"$letter\" aria-labelledby=\"heading-$letter\">\n";
+    $recipeGroupsHtml .= "  <h2 class=\"alpha-label\" id=\"heading-$letter\">$letter</h2>\n";
     $recipeGroupsHtml .= "  <div class=\"recipe-grid\">\n";
     foreach ($recipes as $recipe) {
         $recipeGroupsHtml .= "    <a href=\"{$recipe['href']}\">{$recipe['label']}</a>\n";

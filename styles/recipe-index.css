@@ -108,7 +108,7 @@ h1 {
 }
 .alpha-label {
   font-size: 2rem;
-  color: var(--clr-grey-2);
+  color: var(--clr-grey-4);
 }
 .recipe-grid a {
   background-color: var(--clr-grey-2);
