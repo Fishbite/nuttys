@@ -225,7 +225,7 @@ p {
 
 .nav-main {
   display: flex;
-  height: 2.6rem;
+  height: 4.6rem;
   background: var(--clr-grey-4);
   font-size: 1rem;
   justify-content: flex-end;
@@ -234,9 +234,12 @@ p {
 }
 
 .nav-main ul {
+  max-width: 80vw;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 0.125rem;
+  justify-content: flex-end;
 }
 /* .nav-main a {
   padding-right: 2rem;
@@ -353,7 +356,7 @@ About
 }
 .logo-main {
   position: absolute;
-  top: 50px;
+  top: 85px;
 }
 
 .hero {
