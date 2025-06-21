@@ -18,6 +18,7 @@ class SitemapFilter
         '/kofitest.html',
         '/index-spice.html',
         '/upload-recipe-form.html',
+        '/cauliflower-cheese.html',
     ];
     
 

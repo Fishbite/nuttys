@@ -761,23 +761,13 @@
 		<lastmod>2025-06-16</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index-3.php</loc>
+		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index.php</loc>
 		<priority>0.33</priority>
 		<lastmod>2025-06-20</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index.php</loc>
-		<priority>0.33</priority>
-		<lastmod>2025-06-16</lastmod>
-	</url>
-	<url>
-		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index-2.php</loc>
-		<priority>0.33</priority>
-		<lastmod>2025-06-17</lastmod>
-	</url>
-	<url>
 		<loc>https://www.nuttyskitchen.co.uk/tools/SitemapFilter.php</loc>
 		<priority>0.00</priority>
-		<lastmod>2025-06-16</lastmod>
+		<lastmod>2025-06-21</lastmod>
 	</url>
 </urlset>
