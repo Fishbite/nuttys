@@ -70,6 +70,9 @@ h1 {
   max-width: 80vw;
   margin: auto;
   justify-content: center;
+  background-color: rgba(235, 247, 255, 0.5);
+  padding-bottom: 0.5rem;
+  border-radius: var(--radius);
 }
 
 .az-nav a {
