@@ -89,6 +89,7 @@ h1 {
   background-color: var(--clr-primary-8);
   border: 1px solid var(--clr-primary-1);
   color: var(--clr-primary-2);
+  box-shadow: 0px 1px 1px 1px var(--clr-grey-3);
 }
 
 /* * {
@@ -113,17 +114,23 @@ h1 {
 .recipe-grid a {
   background-color: var(--clr-grey-2);
   font-size: 0.75rem;
+  font-weight: 400;
   color: var(--clr-white);
   display: flex;
   align-content: center;
   justify-content: center;
   text-align: center;
   padding: 0.8rem 0.5rem;
+  border: 1px solid var(--clr-primary-10);
   border-radius: var(--radius);
   margin: 0;
   letter-spacing: 0.03rem;
 }
 .recipe-grid a:hover {
   text-decoration: underline;
-  color: var(--clr-yellow-bg);
+  font-weight: 600;
+  color: var(--clr-grey-1);
+  border: 1px solid var(--clr-primary-1);
+  background-color: var(--clr-primary-8);
+  box-shadow: 0px 1px 1px 1px var(--clr-grey-3);
 }
