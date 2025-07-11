@@ -1107,11 +1107,12 @@ header .fb-form {
 
 .related {
   text-align: center;
-  margin-bottom: -2rem;
+  margin: 2rem 0 0;
   padding: 2rem 0;
   width: 100%;
-  /* background-color: var(--clr-grey-1); */
-  /* color: var(--clr-white); */
+  background-color: var(--clr-grey-1);
+  color: var(--clr-white);
+  border-radius: var(--radius);
 }
 .related h1 {
   font-size: 1rem;
@@ -1126,16 +1127,16 @@ header .fb-form {
 }
 
 .related a:visited {
-  color: var(--clr-grey-4);
+  color: var(--clr-grey-10);
 }
 .related a {
-  color: var(--clr-grey-4);
+  color: var(--clr-grey-10);
 }
 .related a:active {
   color: var(--clr-black);
 }
 .related a:hover {
-  color: var(--clr-black);
+  color: var(--clr-yellow-golden-pale);
 }
 
 .related li:not(:last-child) {
