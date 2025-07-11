@@ -1099,3 +1099,45 @@ header .fb-form {
   text-decoration: underline;
   font-weight: bold;
 }
+
+/* =======================
+   ** RELATED **
+   =======================
+*/
+
+.related {
+  text-align: center;
+  margin-bottom: -2rem;
+  padding: 2rem 0;
+  width: 100%;
+  /* background-color: var(--clr-grey-1); */
+  /* color: var(--clr-white); */
+}
+.related h1 {
+  font-size: 1rem;
+}
+
+.related ul {
+  display: flex;
+  justify-content: center;
+}
+.related li {
+  padding: 0 1rem;
+}
+
+.related a:visited {
+  color: var(--clr-grey-4);
+}
+.related a {
+  color: var(--clr-grey-4);
+}
+.related a:active {
+  color: var(--clr-black);
+}
+.related a:hover {
+  color: var(--clr-black);
+}
+
+.related li:not(:last-child) {
+  padding-bottom: 1rem;
+}
