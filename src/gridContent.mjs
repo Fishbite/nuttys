@@ -461,6 +461,19 @@ export const gridContent = [
     desc: "A proper Sunday dinner pie — chunks of chicken in creamy white sauce with leeks and mushrooms under buttery pastry.",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/jamaican-pumpkin-soup/200/jamaican-pumpkin-soup.webp",
+    imgTitle: "Jamaican Pumpkin Soup in a dish",
+    imgAlt: "jamaican pumpkin soup in dish",
+    caption: "jamaican pumpkin soup",
+    page: `jamaican-pumpkin-soup`,
+    desc: "Jamaican pumpkin soup - a caribbean style soup with chicken & scotch bonnet chillies.",
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
