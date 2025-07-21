@@ -685,6 +685,7 @@ Navigation END NB: Dynamically Gernerated with `navMenu(navContent)`
 /* space the list elements to make them more easily
    readable when  */
 .spaced-ol-list ol > li:not(:last-child) {
+  background-color: red;
   padding-bottom: 1rem;
 }
 
