@@ -8,10 +8,17 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/pomegranate-chicken-curry.html</loc>
 		<priority>0.67</priority>
+
 		<lastmod>2025-07-21</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/generate_all_recipes.php</loc>
+		<loc>https://www.nuttyskitchen.co.uk/pomegranate-chicken-curry-old.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-07-21</lastmod>
+
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/whitesauce.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-07-04</lastmod>
 	</url>
