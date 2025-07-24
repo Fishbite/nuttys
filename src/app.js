@@ -74,6 +74,7 @@ class MakeFooter {
   constructor(social, email, list, ip) {
     this.social = social;
     this.email = email;
+    // this.terms = terms;
     this.ip = ip;
     this.list = list;
   }
@@ -87,8 +88,8 @@ class MakeFooter {
     ${this.social}
     <p>${this.email}</p>
     </div> 
-    <ul>${this.list}</ul>
-    <p>${this.ip}</p>`;
+    <ul>${this.list}</ul>    
+    <ul>${this.ip}</ul>`;
   }
 }
 const social = `<a href="https://www.facebook.com/nutty.s.kitchen.co.uk" target="_blank" >
@@ -106,7 +107,9 @@ const footerEmail = `<a href="&#109;ailto&#58;nutty&#64;nuttyskitchen&#46;co&#46
 
 const year = new Date().getFullYear();
 const footerList = `<li><a href="./contact-form.html">Contact Us</a></li><li><a href="https://www.ratufa.io/" target="_blank">ratufa.io</a></li><li><a href="https://icons8.com" target="_blank">icons by icons8</a></li>`;
-const footerIp = `copyright © fishbite ${year}`;
+// const terms = `<a href="/terms.html" target="_blank">terms & privacy policy</a>`;
+// const footerIp = `copyright © fishbite ${year}`;
+const footerIp = `<li><a href="/terms.html" target="_blank">terms & privacy policy</a></li><li><p>copyright © fishbite ${year}</p></li>`;
 
 const footerContent = new MakeFooter(social, footerEmail, footerList, footerIp);
 const footer = document.createElement("footer");

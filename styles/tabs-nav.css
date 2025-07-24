@@ -1146,7 +1146,15 @@ header .fb-form {
 .related li:not(:last-child) {
   padding-bottom: 1rem;
 }
+/* =======================
+   ***** RELATED END *****
+   =======================
+*/
 
+/* =======================
+   ***** RELATED END *****
+   =======================
+*/
 .readable {
   max-width: 66ch;
 }
@@ -1158,4 +1166,15 @@ header .fb-form {
 }
 .readable li {
   line-height: 1.5;
+}
+
+.readable a {
+  color: var(--clr-grey-2);
+}
+.readable a:hover {
+  text-decoration: underline;
+  color: var(--clr-grey-2);
+}
+.readable a:visited {
+  color: var(--clr-grey-2);
 }
