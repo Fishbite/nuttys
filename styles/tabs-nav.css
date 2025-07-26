@@ -1178,3 +1178,19 @@ header .fb-form {
 .readable a:visited {
   color: var(--clr-grey-2);
 }
+
+/* =======================
+   ***** home page nutty image START *****
+   =======================
+*/
+.nutty {
+  margin: 0 auto;
+  width: 650px;
+  max-width: 95vw;
+  border: 3px solid var(--clr-grey-9);
+  box-shadow: 1px 1px 6px 2px var(--clr-grey-8);
+}
+/* =======================
+   ***** home page nutty image END *****
+   =======================
+*/
