@@ -1152,32 +1152,37 @@ header .fb-form {
 */
 
 /* =======================
-   ***** RELATED END *****
+   ***** terms START *****
    =======================
 */
-.readable {
+.terms {
   max-width: 66ch;
 }
-.readable ul {
+.terms ul {
   list-style-type: disc;
   list-style-position: inside;
   padding-bottom: 1rem;
   font-style: italic;
 }
-.readable li {
+.terms li {
   line-height: 1.5;
 }
 
-.readable a {
+.terms a {
   color: var(--clr-grey-2);
 }
-.readable a:hover {
+.terms a:hover {
   text-decoration: underline;
   color: var(--clr-grey-2);
 }
-.readable a:visited {
+.terms a:visited {
   color: var(--clr-grey-2);
 }
+
+/* =======================
+   ***** terms END *****
+   =======================
+*/
 
 /* =======================
    ***** home page nutty image START *****
@@ -1189,6 +1194,10 @@ header .fb-form {
   max-width: 95vw;
   border: 3px solid var(--clr-grey-9);
   box-shadow: 1px 1px 6px 2px var(--clr-grey-8);
+}
+.strapline {
+  text-align: center;
+  margin-top: 0.5rem;
 }
 /* =======================
    ***** home page nutty image END *****
