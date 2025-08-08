@@ -19,6 +19,7 @@ class SitemapFilter
         '/index-spice.html',
         '/upload-recipe-form.html',
         '/cauliflower-cheese.html',
+        '/spice-up-your-life.html',
     ];
     
 
