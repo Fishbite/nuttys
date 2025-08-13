@@ -93,7 +93,7 @@ class MakeFooter {
   }
 }
 const social = `<a href="https://www.facebook.com/nutty.s.kitchen.co.uk" target="_blank" >
-    <img src="./images/facebook-circle.png" alt="facebook logo"  />
+    <img src="/images/facebook-circle.png" alt="facebook logo"  />
   </a>`;
 
 const footerEmail = `<a href="&#109;ailto&#58;nutty&#64;nuttyskitchen&#46;co&#46;uk">email: nutty&#64;nuttyskitchen&#46;co&#46;uk</a>`;
