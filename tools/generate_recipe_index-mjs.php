@@ -1,5 +1,6 @@
 <?php
 // run: `cd tools` then `php generate_recipe_index_from_mjs.php` from command line
+// creates/overwrites recipe-links.html - SO CHANGE $output to test!!!!!!!!!!!!!!!
 // Build recipe-links.html from gridContent.mjs using the same HEREDOC template
 
 $gridContentFile = __DIR__ . '/../src/gridContent.mjs';         // <-- update if needed
