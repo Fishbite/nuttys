@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+    <style>
+      * {
+        background-color: darkslategrey;
+      }
+
+      #sample_video::cue {
+        background-color: darkslategrey;
+        color: #ffffff;
+        outline-style: solid;
+        outline-color: #222222;
+        font-size: 32px;
+        font-family: "Times New Roman", cursive;
+        white-space: pre;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Check the console for test outputs</h1>
+
+    <!-- <section style="width: 650px">
+      <video
+        style="max-width: 100%; border-radius: 50%"
+        autoplay
+        src="/images/video/nutty_drumming.mp4"
+      ></video>
+    </section> -->
+
+    <h2>Output:</h2>
+    <p><span id="output"></span></p>
+
+    <!-- <video id="sample_video" width="800" height="600" controls>
+      <source src="/images/video/nutty_drumming.mp4" type="video/mp4" />
+      <track
+        label="English"
+        kind="subtitles"
+        srclang="en"
+        src="/images/video/webvtt.vtt"
+        default
+      />
+    </video> -->
+
+    <video id="sample_video" width="800" height="600" controls>
+      <source src="/images/video/nutty_drumming.mp4" type="video/mp4" />
+      <track
+        label="English"
+        kind="subtitles"
+        srclang="en"
+        src="/images/video/webvtt.vtt"
+        default
+      />
+    </video>
+
+    <script type="module" src="js_object_to_json.js"></script>
+  </body>
+</html>
