@@ -487,6 +487,7 @@ p {
   background: var(--clr-primary-10);
   color: var(--clr-primary-5);
 }
+
 .about-content {
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
@@ -1210,3 +1211,9 @@ header .fb-form {
    ***** home page nutty image END *****
    =======================
 */
+
+/* sticky tabs */
+.btn-container {
+  position: sticky;
+  top: 0;
+}
