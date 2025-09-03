@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+
+    <!-- *********************FACEBOOK START******************** -->
+    <!-- facebook meta tags to ensure correct image / page is shared START-->
+
+    <!-- set the URL that you want Facebook to point to in this tag -->
+    <meta
+      property="og:url"
+      content="https://www.nuttyskitchen.co.uk/cauliflower-curry.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cauliflower Curry" />
+
+    <!-- set a very short description of the page in this tag -->
+    <meta property="og:description" content="Short description here please!" />
+
+    <!-- set the image that you want Facebook to display in this tag-->
+    <meta
+      property="og:image"
+      content="https://www.nuttyskitchen.co.uk/images/cauli-curry/650x366/cauliflower-curry-in-a-pan-01.webp"
+    />
+    <!-- facebook meta tags to ensure correct image / page is shared END-->
+    <!-- *********************FACEBOOK END********************* -->
+
+    <!-- Set the webpage title here - it shows up in the browser tab -->
+    <title>Indian Shepards Pie | Nutty's Kitchen</title>
+
+    <!--set the image that shows in the browser tabs -->
+    <link rel="icon" href="favicon.svg" />
+
+    <!-- tell google to use this page as the canonical page -->
+    <link rel="canonical" href="https://www.nuttyskitchen.co.uk/index.html" />
+
+    <!-- Pre-load the font used on the website: "Poppins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- load the CSS stylesheets here -->
+    <link rel="stylesheet" href="/styles/tabs-nav.css" />
+    <link rel="stylesheet" href="/styles/background.css" />
+
+    <!-- Set CSS variables here -->
+    <style>
+      :root {
+        /* set the background image */
+        --bg-img: url("/images/icons/blank.png");
+
+        /* set the background size */
+        --bg-size: 32px;
+
+        /* set the start of the 2nd colour of the gradient */
+        /* basically, increase the value until the background
+           images are below the intro' paragraphs */
+        --bg-1st-col-stop: 35%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-main" aria-label="main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/recipe-links.html">Index</a></li>
+        <li>
+          <a
+            href="https://recipes.nuttyskitchen.co.uk/recipes"
+            class="recipe-page-link"
+            data-fallback="https://www.nuttyskitchen.co.uk/recipepage.html"
+            data-test-image="https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg"
+          >
+            Recipes
+          </a>
+        </li>
+        <li><a href="/contact-form.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- RECIPE PAGE NAVIGATION -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- RECIPE PAGE NAVIGATION -->
+
+    <section class="fg">
+      <header class="title">
+        <div class="title-wrap">
+          <img
+            width="60"
+            height="32"
+            src="/images/logo-left.svg"
+            alt="logo left"
+            title="nuttys kitchen logo left"
+          />
+
+          <!-- Set the page title here -->
+          <h1>Indian Shepards pie</h1>
+
+          <img
+            width="60"
+            height="32"
+            src="/images/logo-right.svg"
+            alt="logo right"
+            title="nuttys kitchen logo right"
+          />
+        </div>
+        <img
+          src="/images/nuttys-kitchen-logo.svg"
+          alt="nuttys kitchen logo"
+          width="160"
+          height="40"
+          title="nuttys kitchen logo"
+          class="logo-main"
+        />
+
+        <!-- First paragraph after the page title -->
+        <p>
+          If you love traditional Shepards Pie and also have a passion for a
+          little spice this dish will be right up your street. The addition of
+          fresh chilli's and some store cupboard spices will transform your
+          comfort food into an Indian dinner. This is so easy to make, it may
+          well become a goto version of classic with an Indian twist. It is
+          healthier than my Lamb Mash Pie as it is topped with mashed potatoe &
+          butternut squash made without butter or milk.
+        </p>
+
+        <!-- Final paragraph before 2 col layout -->
+        <p>
+          Click the <strong>Method</strong> tab below to see a step-by-step
+          guide on how to make <strong>Indian Shepards Pie</strong> along with
+          some pictures as a guide.
+        </p>
+      </header>
+
+      <!-- ######## Two column layout colapses into one on small screens -->
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <!-- first image on the page sits underneath the final paragraphs -->
+        <!--  - img on left, ingredients/method tabs on right  -->
+        <figure class="about-img">
+          <img
+            src="/images/sausagepepperpie/sausageandpepperpie03.jpg"
+            alt="sausage and pepper pie"
+            title=""
+          />
+        </figure>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button
+              title="Click this tab to reveal the ingredients"
+              class="tab-btn active"
+              data-id="ingredients"
+            >
+              ingredients
+            </button>
+            <button
+              title="Click this tab to read the recipe method and see pictures of how to make this dish"
+              class="tab-btn"
+              data-id="method"
+            >
+              method
+            </button>
+          </div>
+
+          <!-- This is where the "Ingredients" & "Method" tabs are created -->
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+
+            <!-- the class `active` is applied to show the contents of the tab. "Ingredients" is active by default -->
+            <div class="content active" id="ingredients">
+              <h2>ingredients</h2>
+              <p>Here's what you need :¬)</p>
+
+              <!-- Ingredients List Goes Below Here!!! -->
+              <h2>serves 4</h2>
+
+              <h2>For the Indian Shepards Pie mince</h2>
+              <ul>
+                <li>2 Tbsp oil</li>
+                <li>1 green chilli slit</li>
+                <li>1 red chilli slit</li>
+                <li>1 Tbsp ginger paste</li>
+                <li>1 Tbsp garlic paste</li>
+                <li>250g onions finely chopped</li>
+                <li>2 carrots peeled & grated</li>
+                <li>2 celery sticks finely diced</li>
+                <li>1 tsp extra hot chilli powder</li>
+                <li>1/2 tsp ground black pepper powder</li>
+                <li>1 tsp sea salt</li>
+                <li>1 tsp ground coriander powder</li>
+                <li>1 tsp ground cumin powder</li>
+                <li>1/4 tsp turmeric powder</li>
+                <li>2 tsp garam masala powder</li>
+                <li>2 tsp tomato paste</li>
+                <li>475 grams lamb mince</li>
+                <li>2 Tbsp yogurt, whisked</li>
+                <li>A handful of chopped coriander</li>
+                <li>100g frozen petite pois or garden peas</li>
+              </ul>
+              <div class="spacer"></div>
+
+              <h2>Optional Mushroom layer</h2>
+
+              <ul>
+                <li>150g chestnut mushrooms</li>
+                <li>2 tsp oil</li>
+                <li>2 tsp butter</li>
+                <li>salt & pepper to taste</li>
+              </ul>
+              <div class="spacer"></div>
+
+              <h2>For the mash topping</h2>
+              <ul>
+                <li>350g potatoes in skins</li>
+                <li>450g Butternut squash peeled & diced</li>
+                <li>1 egg yolk</li>
+                <li>30g grated parmesan cheese</li>
+                <li>salt & white pepper to taste</li>
+              </ul>
+              <!-- Ingredients List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <!-- The method tab  does not have the class `active` by default, thus it is hidden from view. When the user clicks
+            the "Method" tab the `active` class is applied here and
+            removed from the "Ingredients" tab, which is then hidden
+            from view
+             -->
+            <div class="content" id="method">
+              <h2>method</h2>
+              <p>This recipe is a four stage process:-</p>
+
+              <ol>
+                <ul>
+                  <li>cook your mince</li>
+                  <li>cook your optional layer of mushrooms</li>
+                  <li>cook your potatoes & butternut squash*</li>
+                  <li>mash both & assemble your pie</li>
+                </ul>
+              </ol>
+              <div class="spacer"></div>
+              <p>*Cook your potatoes & butternut squash in the microwave.</p>
+
+              <p>
+                It really important to be organised with your ingredients
+                &mdash; prepare well and you are bound to succeed! ;-).
+              </p>
+              <p>
+                I served this with a simple mint raita &mdash; which marries
+                with the lamb and mash excellently :-P
+              </p>
+
+              <!-- Method List Goes Below Here!!! -->
+
+              <h2>Mince method</h2>
+
+              <ol>
+                <li>
+                  Heat a heavy based pan & add the oil once hot then add the
+                  green & red chillies on a low heat till they look fried.
+                </li>
+                <li>
+                  Add the ginger and garlic paste and saute for a few seconds.
+                </li>
+                <li>
+                  Add the chopped onions and fry till they turn translucent.
+                </li>
+                <li>
+                  Add your carrots & celery fry till they have softened &
+                  reduced in volume.
+                </li>
+                <li>Add the tomato paste and fry for a few seconds.</li>
+                <li>
+                  Reduce the heat completely and add the spice powders. Mix &
+                  fry for a few seconds before adding the minced meat.
+                </li>
+                <li>
+                  Add the meat on a medium high heat till sealed, around 3-4
+                  minutes &mdash; continue to cook on medium heat (turning
+                  occassionally) till the meat is well browned..
+                </li>
+                <li>
+                  Then add the whisked yogurt, salt to taste and chopped
+                  coriander leaves.
+                </li>
+                <li>
+                  Add the frozen peas and continue to cook for another minute.
+                  Remove from the heat and keep aside.
+                </li>
+              </ol>
+              <div class="spacer"></div>
+
+              <h2>mushroom layer method</h2>
+              <ol>
+                <li>
+                  To make the optional mushroom layer, wipe then cut the
+                  mushrooms into thin slices.
+                </li>
+                <li>
+                  Heat a saucepan and add the butter & oil. Add the sliced
+                  mushrooms and fry them on a high heat till they soften and
+                  shrink in size.
+                </li>
+                <li>
+                  Season with salt & pepper. Remove from heat & keep aside.
+                </li>
+              </ol>
+              <div class="spacer"></div>
+              <h2>Mash method</h2>
+
+              <p>
+                We are basically going to bake our potatoes in their skin, then
+                remove the skins & discard. I vacuum packed my squash, pricked
+                some holes in the bag & microwaved. You can simply cover with
+                cling film if you do not have a vacuum pack machine and prick
+                some holes in the film.
+              </p>
+              <ol>
+                <li>
+                  Cook both your potatoes & squash separately in the microwave
+                </li>
+                <li>
+                  About 5 minutes per potato (until soft) as a rough guide
+                </li>
+                <li>
+                  About 5 minutes for the diced butternut squash &mdash; again
+                  this is a rough guide
+                </li>
+                <li>
+                  Once tender drain any liquid & mash them into a pan on a low
+                  heat.
+                </li>
+                <li>
+                  Add the egg yolk, salt, white pepper & grated parmesan cheese
+                  and mash everything together again.
+                </li>
+              </ol>
+              <div class="spacer"></div>
+              <h2>Assemble the pie</h2>
+              <ol>
+                <li>
+                  To assemble, grease a 9 x 9 inch square or 9 inch round
+                  ceramic or glass, oven safe dish with butter.
+                </li>
+                <li>Add the cooked mince mixture and level off the surface.</li>
+                <li>
+                  Top it up with the optional mushroom layer or directly add the
+                  mashed potato & butternut squash mixture
+                </li>
+                <li>
+                  Level off the surface of the mashed potatoes & butternut
+                  squash mixture, then run a fork through the surface to form a
+                  pretty design.
+                </li>
+                <li>
+                  Place the dish into the air fryer @ 180c for 15 to 20 minutes
+                  if using a conventional oven see method below
+                </li>
+                <li>
+                  Preheat an oven at 180 degrees C and bake for 12 minutes.
+                </li>
+                <li>
+                  Then change the oven setting to 'grill' mode and grill for 3-4
+                  minutes or till the pie gets a beautiful golden crust.
+                </li>
+                <li>
+                  Remove, cool slightly and then gently run a knife through to
+                  create 4 equal portions.
+                </li>
+                <li>Serve hot with a cooling mint raita</li>
+              </ol>
+
+              <!-- 
+                   Image with spacers before and after, you can copy and
+                   paste this and change the details to point to a new
+                   image.
+
+                   NOTE: The `alt` & `title` parameters are REALLY
+                   important for Google and disabled folks! The text in
+                   the `alt` parameter should be exactly the same as the 
+                   descriptive filename but without the dashes!
+                   Use the title to push the key words of the page.
+                   e.g. "sausage pasta" in this instance!
+              -->
+              <div class="spacer"></div>
+              <figure class="card_image">
+                <figcaption>brown sausages</figcaption>
+                <img
+                  src="/images/sausagepasta/650x366/sausage-browning-in-pan-02.jpg"
+                  alt=""
+                  title=""
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <!-- Method List Goes Above Here!!! -->
+
+              <!-- This is THE END!!!!!! -->
+              <!-- don't mess with the closing tags or anything below here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <section class="related">
+              <h1>Related recipes</h1>
+              <ul>
+                <li>
+                  <a
+                    class="underline"
+                    href="https://www.nuttyskitchen.co.uk/lambmashpie.html"
+                    >lamb & mash pie (sheperd's pie)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.nuttyskitchen.co.uk/chicken-tikka-grilled-escalope.html"
+                    class="underline"
+                    >chicken tikka grilled escalope - for my mint raita
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+
+    <!-- `app.js` is the program that runs on every page to create 
+         the menu and footer amongst other things such as controlling
+         the visibility of the tabs when a user clicks on them
+    -->
+    <script src="/src/app.js"></script>
+
+    <!-- NOTE: recipecards.js only runs on the `recipepage.html` -->
+  </body>
+</html>
