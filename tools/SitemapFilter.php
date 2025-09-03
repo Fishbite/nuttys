@@ -1,5 +1,5 @@
 <?php
-
+// Purpose: exclude files from sitemap.xlm when running generate_recipe_index_sitemap.php
 class SitemapFilter
 {
     private array $excludePaths = [
@@ -19,13 +19,14 @@ class SitemapFilter
         '/index-spice.html',
         '/upload-recipe-form.html',
         '/cauliflower-cheese.html',
+        '/spice-up-your-life.html',
     ];
     
 
     private array $excludePatterns = [
         '#^/tools/.*\.php$#',              // Exclude PHP tools in /tools/
         '#/google[\w\-]+\.html$#',         // Specific one-off Google file
-        '#^/(?!.*\.html$).*#',             // 🚫 Exclude all URLs NOT ending in .html
+        '#^/(?!.*\.html$).*#',             // Exclude all URLs NOT ending in .html
     ];
     /*      The regex:
 

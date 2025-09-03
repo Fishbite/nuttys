@@ -3,12 +3,37 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk</loc>
 		<priority>1.00</priority>
-		<lastmod>2025-07-05</lastmod>
+		<lastmod>2025-08-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/recipe-links-from-sitemap-BAKUP.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-08-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/pomegranate-chicken-curry-old.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-07-21</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/pomegranate-chicken-curry.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2025-07-17</lastmod>
+		<lastmod>2025-07-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/pomegranate-chicken-curry-drumsticks.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-07-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/terms.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-08-03</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/tabs-sticky.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-08-29</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/whitesauce.html</loc>
@@ -43,7 +68,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/template-bare.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-07-11</lastmod>
+		<lastmod>2025-08-29</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/template-bare-BAK.html</loc>
@@ -473,7 +498,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/dhal-with-fried-spices.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-07-09</lastmod>
+		<lastmod>2025-08-28</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/damson-and-soured-cream-tart.html</loc>
@@ -503,7 +528,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/contact-form.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-07-04</lastmod>
+		<lastmod>2025-07-24</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/christmas-prepared.html</loc>
@@ -578,7 +603,7 @@
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chicken-thighs-in-spicy-hot-sauce.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2025-07-08</lastmod>
+		<lastmod>2025-08-10</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/chicken-tandoori-grill.html</loc>
@@ -761,18 +786,28 @@
 		<lastmod>2025-03-07</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/generate_all_recipes.php</loc>
+		<loc>https://www.nuttyskitchen.co.uk/whitesauce.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2025-07-04</lastmod>
 	</url>
 	<url>
-		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index.php</loc>
+		<loc>https://www.nuttyskitchen.co.uk/videotestpage.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2025-07-04</lastmod>
+		<lastmod>2025-08-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index-sitemap.php</loc>
+		<priority>0.33</priority>
+		<lastmod>2025-08-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.nuttyskitchen.co.uk/tools/generate_recipe_index-mjs.php</loc>
+		<priority>0.33</priority>
+		<lastmod>2025-08-13</lastmod>
 	</url>
 	<url>
 		<loc>https://www.nuttyskitchen.co.uk/tools/SitemapFilter.php</loc>
 		<priority>0.00</priority>
-		<lastmod>2025-06-21</lastmod>
+		<lastmod>2025-08-13</lastmod>
 	</url>
 </urlset>

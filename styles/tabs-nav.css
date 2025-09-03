@@ -299,13 +299,13 @@ p {
 }
 
 .section-center {
-  width: 90vw;
+  width: 96vw;
   margin: 0 auto;
   max-width: 1170px;
 }
 @media screen and (min-width: 992px) {
   .section-center {
-    width: 95vw;
+    width: 96vw;
   }
 }
 main {
@@ -322,6 +322,10 @@ About
 .title {
   text-align: center;
   margin: 3.5rem 0 2rem 0;
+}
+.title h2 {
+  width: 80%;
+  margin: 0 auto;
 }
 .title p {
   width: 80%;
@@ -483,6 +487,7 @@ p {
   background: var(--clr-primary-10);
   color: var(--clr-primary-5);
 }
+
 .about-content {
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
@@ -686,6 +691,10 @@ Navigation END NB: Dynamically Gernerated with `navMenu(navContent)`
    readable when  */
 .spaced-ol-list ol > li:not(:last-child) {
   padding-bottom: 1rem;
+}
+
+.spaced-ol > li:not(:last-child) {
+  padding-bottom: 0.75rem;
 }
 
 /* ====================================
@@ -1141,4 +1150,70 @@ header .fb-form {
 
 .related li:not(:last-child) {
   padding-bottom: 1rem;
+}
+/* =======================
+   ***** RELATED END *****
+   =======================
+*/
+
+/* =======================
+   ***** terms START *****
+   =======================
+*/
+.terms {
+  max-width: 66ch;
+}
+.terms h2 {
+  padding-top: 1rem;
+}
+.terms ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-bottom: 1rem;
+  font-style: italic;
+}
+.terms li {
+  line-height: 1.5;
+}
+
+.terms a {
+  color: var(--clr-grey-2);
+}
+.terms a:hover {
+  text-decoration: underline;
+  color: var(--clr-grey-2);
+}
+.terms a:visited {
+  color: var(--clr-grey-2);
+}
+
+/* =======================
+   ***** terms END *****
+   =======================
+*/
+
+/* =======================
+   ***** home page nutty image START *****
+   =======================
+*/
+.nutty {
+  margin: 0 auto;
+  width: 650px;
+  max-width: 95vw;
+  border: 3px solid var(--clr-grey-9);
+  box-shadow: 1px 1px 6px 2px var(--clr-grey-8);
+}
+.strapline {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+/* =======================
+   ***** home page nutty image END *****
+   =======================
+*/
+
+/* sticky tabs */
+.btn-container {
+  position: sticky;
+  top: 0;
 }

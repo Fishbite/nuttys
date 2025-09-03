@@ -1,74 +1,92 @@
 <?php
-require_once __DIR__ . '/SitemapFilter.php';
+// run: `cd tools` then `php generate_recipe_index_from_mjs.php` from command line
+// creates/overwrites recipe-links.html - SO CHANGE $output to test!!!!!!!!!!!!!!!
+// Build recipe-links.html from gridContent.mjs using the same HEREDOC template
 
-$filter = new SitemapFilter();
-$sitemap = __DIR__ . '/../sitemap.xml';
-$output = __DIR__ . '/../recipe-links.html';
+$gridContentFile = __DIR__ . '/../src/gridContent.mjs';         // <-- update if needed
+$output          = __DIR__ . '/../recipe-links.html';  // safe test output
 
-$xml = simplexml_load_file($sitemap);
-$urls = $xml->url;
-
-
-$recipesByLetter = [];
-
-foreach ($urls as $entry) {
-    
-    $loc = (string) $entry->loc;
-    // echo '$loc: ' . $loc . "\n";
-
-    if ($filter->isExcluded($loc)) {
-        continue;
-    }
-
-    // create the label text by extracting the trailing name of the parsed URL
-    // after replacing any "-"'s with spaces  " "
-    $label = ucfirst(str_replace('-', ' ', basename(parse_url($loc, PHP_URL_PATH), '.html')));
-    // echo '$label: ' . $label . "\n";
-
-    // Skip any empty label or label that equals 'www.nuttyskitchen.co.uk'
-    if (empty($label) || strtolower($label) === 'www.nuttyskitchen.co.uk') {
-        continue;
-    }
-
-    // convert the first letter of the string to uppercase
-    $firstLetter = strtoupper($label[0]);
-
-    if (!isset($recipesByLetter[$firstLetter])) {
-        $recipesByLetter[$firstLetter] = [];
-    }
-
-    $recipesByLetter[$firstLetter][] = [
-        'href' => $loc,
-        'label' => $label
-    ];
-    // echo print_r($recipesByLetter[$firstLetter][0]) . "\n";
+if (!file_exists($gridContentFile)) {
+    die("Error: gridContent.mjs not found at $gridContentFile\n");
 }
 
+$mjs = file_get_contents($gridContentFile);
+if ($mjs === false) {
+    die("Error: Unable to read gridContent.mjs\n");
+}
+
+// 1) Grab each object that has type: "recipe"
+$recipeObjectsPattern = '/\{[^{}]*?type\s*:\s*["\']recipe["\'][\s\S]*?\}/i';
+preg_match_all($recipeObjectsPattern, $mjs, $objMatches);
+
+$recipes = [];
+foreach ($objMatches[0] as $obj) {
+    // 2) Extract caption (must be "...")
+    // if (!preg_match('/caption\s*:\s*["\']([^"\']+)["\']/', $obj, $mCap)) {
+    //     continue;
+    // }
+    if (!preg_match('/caption\s*:\s*([`"\'])(.*?)\1/s', $obj, $mCap)) {
+        continue;
+    }
+    // 3) Extract page (can be "...", '...', or `...`)
+    // if (!preg_match('/page\s*:\s*[`"\']([^`"\']+)[`"\']/', $obj, $mPage)) {
+    //     continue;
+    // }
+    if (!preg_match('/page\s*:\s*([`"\'])(.*?)\1/s', $obj, $mPage)) {
+        continue;
+    }
+
+    $caption = trim($mCap[2]);
+    $page    = trim($mPage[2]); // slug without .html
+
+    // Guard: must start with A–Z (you said there should be none otherwise)
+    if ($caption === '' || !ctype_alpha($caption[0])) {
+        continue;
+    }
+
+    $recipes[] = ['caption' => $caption, 'page' => $page];
+}
+
+if (!$recipes) {
+    die("No recipes found in gridContent.mjs\n");
+}
+
+// 4) Sort by caption (case-insensitive)
+usort($recipes, fn ($a, $b) => strcasecmp($a['caption'], $b['caption']));
+
+// 5) Group by first letter
+$recipesByLetter = [];
+foreach ($recipes as $r) {
+    $letter = strtoupper($r['caption'][0]);
+    $recipesByLetter[$letter][] = $r;
+}
 ksort($recipesByLetter);
 
-$azNav = "";
+// 6) Build A–Z nav (skip empty letters)
+$azNav = '';
 foreach (array_keys($recipesByLetter) as $letter) {
     $azNav .= "<a href=\"#$letter\">$letter</a> ";
 }
 
-// echo '$azNav: ' . $azNav . "\n";
-
-$recipeGroupsHtml = "";
-foreach ($recipesByLetter as $letter => $recipes) {
-    usort($recipes, fn ($a, $b) => strcasecmp($a['label'], $b['label']));
-
+// 7) Build grouped HTML (match your existing structure/classes)
+$recipeGroupsHtml = '';
+foreach ($recipesByLetter as $letter => $items) {
     $recipeGroupsHtml .= "<section class=\"alpha-group\" id=\"$letter\" aria-labelledby=\"heading-$letter\">\n";
     $recipeGroupsHtml .= "  <h2 class=\"alpha-label\" id=\"heading-$letter\">$letter</h2>\n";
     $recipeGroupsHtml .= "  <div class=\"recipe-grid\">\n";
-    foreach ($recipes as $recipe) {
-        $recipeGroupsHtml .= "    <a href=\"{$recipe['href']}\">{$recipe['label']}</a>\n";
+    foreach ($items as $it) {
+        // $href  = "/../" . rawurlencode($it['page']) . ".html";
+        // FIX for above
+        $href  = "/../" . rawurlencode($it['page']) . ".html";
+        
+        $label = htmlspecialchars($it['caption'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+        $recipeGroupsHtml .= "    <a href=\"{$href}\">{$label}</a>\n";
     }
     $recipeGroupsHtml .= "  </div>\n";
     $recipeGroupsHtml .= "</section>\n";
 }
 
-// echo '$recipeGroupsHtml: ' . $recipeGroupsHtml;
-
+// 8) Your exact HEREDOC template
 $template = <<<HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -138,25 +156,12 @@ $template = <<<HTML
     <script>
       document.querySelectorAll(".az-nav a").forEach((link) => {
         link.addEventListener("click", function (event) {
-          event.preventDefault(); // Prevent default anchor behavior
-
-          // Get the target section's ID from the href attribute
-          // `this` referes to the element that triggered the event
-          // listener i.e. the <a> that was clicked
-          // `substring(1)` strips the # off the `href` value i.e. #A
+          event.preventDefault();
           const targetId = this.getAttribute("href").substring(1);
           const targetElement = document.getElementById(targetId);
-
-          // Scroll to the target section, adjusting for the navigation height
           const navHeight = document.querySelector(".az-nav").offsetHeight;
-          const targetPosition =
-            targetElement.getBoundingClientRect().top +
-            window.scrollY -
-            navHeight;
-
-          window.scrollTo({
-            top: targetPosition,
-          });
+          const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navHeight;
+          window.scrollTo({ top: targetPosition });
         });
       });
     </script>
@@ -164,6 +169,9 @@ $template = <<<HTML
 </html>
 HTML;
 
-// file_put_contents(__DIR__ . '/../recipe-groups.html', $recipeGroupsHtml);
-file_put_contents($output, $template);
+// 9) Write the file
+if (file_put_contents($output, $template) === false) {
+    die("Error: Unable to write to $output\n");
+}
+
 echo "✅ Recipe index generated: $output\n";
