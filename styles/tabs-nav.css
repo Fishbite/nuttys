@@ -768,6 +768,15 @@ header a:visited {
   font-weight: bold;
 }
 
+.list-wrap {
+  margin: 0 auto;
+  display: inline-block;
+  max-width: 80vw;
+}
+.left-justified {
+  outline: red;
+  text-align: left;
+}
 /* =====================
    ** Title with Icon START **
    =====================
