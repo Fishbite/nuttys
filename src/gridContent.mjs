@@ -461,8 +461,29 @@ export const gridContent = [
     desc: "A proper Sunday dinner pie — chunks of chicken in creamy white sauce with leeks and mushrooms under buttery pastry.",
   },
 
-  { type: "blank" },
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/pomegranate-chicken-curry/200/fresh-pomegranate-seeds-in-curry.webp",
+    imgTitle: "fresh pomegranate seeds added to curry",
+    imgAlt: "fresh pomegranate seeds in curry",
+    caption: "pomegranate chicken curry",
+    page: `pomegranate-chicken-curry`,
+    desc: "pomegranate chicken curry - a delicious Indian curry from Himachal Pradesh using pomegranate seeds",
+  },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/pomegranate-chicken-curry-drumsticks/200/pomegranate-chicken-curry-in-wok.webp",
+    imgTitle: "pomegranate chicken curry cooking",
+    imgAlt: "pomegranate chicken curry in wok",
+    caption: "pomegranate chicken curry drumsticks",
+    page: `pomegranate-chicken-curry-drumsticks`,
+    desc: "pomegranate chicken curry - a budget friendly Indian curry from Himachal Pradesh using pomegranate seeds",
+  },
   {
     type: "recipe",
     cat: "chicken",
