@@ -1,0 +1,82 @@
+Nutty's Kitchen Workflow
+
+##############################################################
+######## Create a new Recipe in nuttys static website ########
+it should be here:
+C:\Stuart\Root\nuttyskitchen\nuttys
+
+Copy template-bare.html
+rename the copy to something like: new-recipe-name.html
+
+create image folder with the name: new-recipe-name
+create sub-folders named: 650x366 & 200
+Note: 650x366 holds images for the recipe
+      200 holds the image for recipepage.html
+
+update 'new-recipe-name.html' with text & pictures & meta data in <head>
+######## Create a new Recipe in nuttys static website END ########
+##################################################################
+
+
+###############################################
+######## Add new recipe to recipe page ########
+
+add new-recipe-name to gridContent.mjs
+######## Add new recipe to recipe page END ########
+###################################################
+
+
+###############################
+######## Update the DB ########
+
+open phpMyAdmin
+click on recipe_db
+
+#back up the database tables:
+select EXPORT from the top ab menu
+click the EXPORT button - a file named recipe_db.sql will be downloaded keep it somewhere safe until you know the import was successful
+
+click on STRUCTURE from the top tab menu
+click on IMPORT from the top tab menu
+
+click the BROWSE button and search for inserts_categories.sql
+they should be here:
+C:\Stuart\Root\nuttyskitchen\nuttys\sql\inserts_categories.sql
+
+check the Character set of the file - it should be utf-8
+
+click the IMPORT button at the bottom of the page
+click on category_cards in the left hand menu under recipe_db
+
+check all the categories are correct in the table
+
+click on recipe_db in the left hand menu
+
+click on STRUCTURE from the top tab menu
+click on IMPORT from the top tab menu
+
+click the BROWSE button and search for inserts_recipes.sql
+they should be here:
+C:\Stuart\Root\nuttyskitchen\nuttys\sql\inserts_recipes.sql
+
+click the IMPORT button at the bottom of the page
+click on category_cards in the left hand menu under recipe_db
+
+check all the recipes are correct in the table - just note the number of rows if you like
+Note: if any recipes were added to gridcontent.mjs you should see an increase in the numer of rows under the ROWS column on the recipe cards table
+
+if you can see your additional recipes in the table - you're good to go.
+
+You should now be safe to delete the recipe_db.sql file
+
+######## Update the DB END ########
+###################################
+
+
+###################################################################
+######## Create a new Recipe in nuttys_recipes PHP website ########
+it should be here:
+
+
+
+
