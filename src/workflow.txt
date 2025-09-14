@@ -14,6 +14,19 @@ Note: 650x366 holds images for the recipe
       200 holds the image for recipepage.html
 
 update 'new-recipe-name.html' with text & pictures & meta data in <head>
+
+Save the completed file and commit to the remote branch
+click the blue SYNCHRONIZE button when it shows
+
+go to github.com/fishbite/nuttys
+click on the CODE tab
+select the branch you committed to (stu or nette) from the dropdown showing MASTER
+click on the message "this branch is 'n' commits ahead of master"
+create a PULL REQUEST and follow instructions
+
+click ACTIONS from  the tab menu to watch the pull request being merged
+click on the nuttyskitchen.co.uk link and check the new recipe is all good
+
 ######## Create a new Recipe in nuttys static website END ########
 ##################################################################
 
@@ -22,6 +35,7 @@ update 'new-recipe-name.html' with text & pictures & meta data in <head>
 ######## Add new recipe to recipe page ########
 
 add new-recipe-name to gridContent.mjs
+
 ######## Add new recipe to recipe page END ########
 ###################################################
 
@@ -75,7 +89,12 @@ You should now be safe to delete the recipe_db.sql file
 
 ###################################################################
 ######## Create a new Recipe in nuttys_recipes PHP website ########
-it should be here:
+###################################################################
+the website code should be here:
+
+C:\xampp\htdocs\nuttys_recipes>
+
+open the folder in VS Code and follow the instructions there in workflow.txt
 
 
 
