@@ -50,6 +50,7 @@ click on recipe_db
 select EXPORT from the top ab menu
 click the EXPORT button - a file named recipe_db.sql will be downloaded keep it somewhere safe until you know the import was successful
 
+#IMPORT CATEGORIES & RECIPES
 click on STRUCTURE from the top tab menu
 click on IMPORT from the top tab menu
 
