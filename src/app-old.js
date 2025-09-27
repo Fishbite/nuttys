@@ -1,8 +1,6 @@
-/*
-    NOTE: rename this file to app.JS to restore
-    the behaviour of the `tabs` prior to
-    implementing `sticky` behaviour of the
-    ingredients/method lists
+/*    ======================
+            STICKY TABS TEST
+      ======================
 */
 /*    ======================
             START TABS
@@ -22,39 +20,62 @@ const about = document.querySelector(".about");
 const articles = document.querySelectorAll(".content");
 // console.log("articles node list", articles);
 
+// store last scroll positions per tab id
+const scrollPositions = new Map();
+// ...existing code...
+
 // attach an event listener to the about class
 if (about) {
   about.addEventListener("click", clickhandler, false);
 }
 
 function clickhandler(e) {
-  // we want to identify which button was clicked
-  // each button has a custom data attribute of `data-id`
-  // console.log(e.target.dataset.id);
-  // create a reference to e.target.dataset.id (the article)
   const id = e.target.dataset.id;
 
-  //   thus, if a clicked element has an attribute data-id
-  // we will use that to display the relevant content
-  // i.e. ingredients button has data-id = ingredients, so
-  // we want to show the article with id="ingredients" &
-  // hide the other article at the same time
-
   if (id) {
+    // save scroll for currently visible article (if any)
+    const activeArticle = document.querySelector(".content.active");
+    if (activeArticle) {
+      // if article itself scrolls, save its scrollTop; otherwise save window scroll
+      if (activeArticle.scrollHeight > activeArticle.clientHeight) {
+        scrollPositions.set(activeArticle.id, {
+          type: "el",
+          value: activeArticle.scrollTop,
+        });
+      } else {
+        scrollPositions.set(activeArticle.id, {
+          type: "win",
+          value: window.scrollY,
+        });
+      }
+    }
+
     btns.forEach(function (btn) {
-      // remove `active` from all buttons
       btn.classList.remove("active");
-      // console.log("clicked button:", btn);
-      // add the class `active` to the button that was clicked
       e.target.classList.add("active");
 
-      // hide all articles with a class of`active
       articles.forEach(function (article) {
         article.classList.remove("active");
       });
-      // add class 'active' to the relevant article
+
       const element = document.getElementById(id);
       element.classList.add("active");
+
+      // restore scroll for the shown tab (defer to let layout settle)
+      const saved = scrollPositions.get(id);
+      if (saved) {
+        requestAnimationFrame(() => {
+          if (
+            saved.type === "el" &&
+            element.scrollHeight > element.clientHeight
+          ) {
+            element.scrollTop = saved.value;
+          } else {
+            // ensure element is visible at same relative position on page
+            window.scrollTo({ top: saved.value, behavior: "auto" });
+          }
+        });
+      }
     });
   }
 }
