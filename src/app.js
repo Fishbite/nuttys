@@ -7,8 +7,7 @@
       ======================
 */
 
-// get all the buttons from the document
-// this will create a node list
+// ...existing code...
 const btns = document.querySelectorAll(".tab-btn");
 // console.log("Buttons node list:", btns);
 
@@ -22,7 +21,6 @@ const articles = document.querySelectorAll(".content");
 
 // store last scroll positions per tab id
 const scrollPositions = new Map();
-// ...existing code...
 
 // attach an event listener to the about class
 if (about) {
@@ -75,13 +73,44 @@ function clickhandler(e) {
             window.scrollTo({ top: saved.value, behavior: "auto" });
           }
         });
+      } else {
+        // NEW: when there's no saved position (first time opening this tab),
+        // ensure the tab content starts at the top so its h2 is visible,
+        // accounting for the sticky tab bar height.
+        requestAnimationFrame(() => {
+          // if the content itself scrolls, reset its internal scroll to top
+          if (element.scrollHeight > element.clientHeight) {
+            element.scrollTop = 0;
+          }
+
+          // find heading inside the content; fall back to element top
+          const heading = element.querySelector("h2");
+          const headingRect = heading ? heading.getBoundingClientRect() : null;
+          const headingDocTop = headingRect
+            ? window.scrollY + headingRect.top
+            : element.offsetTop;
+
+          // measure sticky tab bar height (if present)
+          const btnContainer = about.querySelector(".btn-container");
+          const btnHeight = btnContainer
+            ? btnContainer.getBoundingClientRect().height
+            : 0;
+
+          // if you have a fixed site header, add its height here (px)
+          const extraTop = 0;
+
+          const targetTop = Math.max(0, headingDocTop - btnHeight - extraTop);
+
+          // scroll so the h2 is visible below the sticky tabs
+          window.scrollTo({ top: targetTop, behavior: "auto" });
+        });
       }
     });
   }
 }
 /*    ======================
              END TABS
-      ======================
+      ====================== 
 */
 
 /*    ======================
