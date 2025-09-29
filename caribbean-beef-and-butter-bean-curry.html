@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="robots" content="noindex" />
+
+    <!-- *********************FACEBOOK START******************** -->
+    <!-- facebook meta tags to ensure correct image / page is shared START-->
+
+    <!-- set the URL that you want Facebook to point to in this tag -->
+    <meta
+      property="og:url"
+      content="https://www.nuttyskitchen.co.uk/cauliflower-curry.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cauliflower Curry" />
+
+    <!-- set a very short description of the page in this tag -->
+    <meta property="og:description" content="Short description here please!" />
+
+    <!-- set the image that you want Facebook to display in this tag-->
+    <meta
+      property="og:image"
+      content="https://www.nuttyskitchen.co.uk/images/cauli-curry/650x366/cauliflower-curry-in-a-pan-01.webp"
+    />
+    <!-- facebook meta tags to ensure correct image / page is shared END-->
+    <!-- *********************FACEBOOK END********************* -->
+
+    <!-- Set the webpage title here - it shows up in the browser tab -->
+    <title>A Recipe | Nutty's Kitchen</title>
+
+    <!--set the image that shows in the browser tabs -->
+    <link rel="icon" href="favicon.svg" />
+
+    <!-- tell google to use this page as the canonical page -->
+    <link rel="canonical" href="https://www.nuttyskitchen.co.uk/index.html" />
+
+    <!-- Pre-load the font used on the website: "Poppins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- load the CSS stylesheets here -->
+    <link rel="stylesheet" href="/styles/tabs-nav.css" />
+    <link rel="stylesheet" href="/styles/background.css" />
+
+    <!-- Set CSS variables here -->
+    <style>
+      :root {
+        /* set the background image */
+        --bg-img: url("/images/icons/blank.png");
+
+        /* set the background size */
+        --bg-size: 32px;
+
+        /* set the start of the 2nd colour of the gradient */
+        /* basically, increase the value until the background
+           images are below the intro' paragraphs */
+        --bg-1st-col-stop: 35%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-main" aria-label="main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/recipe-links.html">Index</a></li>
+        <li>
+          <a
+            href="https://recipes.nuttyskitchen.co.uk/recipes"
+            class="recipe-page-link"
+            data-fallback="https://www.nuttyskitchen.co.uk/recipepage.html"
+            data-test-image="https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg"
+          >
+            Recipes
+          </a>
+        </li>
+        <li><a href="/contact-form.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- RECIPE PAGE NAVIGATION -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- RECIPE PAGE NAVIGATION -->
+
+    <section class="fg">
+      <header class="title">
+        <div class="title-wrap">
+          <img
+            width="60"
+            height="32"
+            src="/images/logo-left.svg"
+            alt="logo left"
+            title="nuttys kitchen logo left"
+          />
+
+          <!-- Set the page title here -->
+          <h1>Carribbean Beef & Butter Bean Curry</h1>
+
+          <img
+            width="60"
+            height="32"
+            src="/images/logo-right.svg"
+            alt="logo right"
+            title="nuttys kitchen logo right"
+          />
+        </div>
+        <img
+          src="/images/nuttys-kitchen-logo.svg"
+          alt="nuttys kitchen logo"
+          width="160"
+          height="40"
+          title="nuttys kitchen logo"
+          class="logo-main"
+        />
+
+        <!-- First paragraph after the page title -->
+        <p>
+          So we are heading into autumn and I can feel the weather beginning to
+          turn to those frosty mornings with dark evenings &mdash; the perfect
+          combination for a slow cooked dish.
+          <strong>Carribbean Beef & Butter Bean Curry</strong>
+        </p>
+
+        <p>
+          So um really I question even Nutty "will just 300g of meat will it
+          feed 4". With some Nutty loves it will and I guarentee ya will smile.
+          Add in a touch of spices and butter beans you have a perfect stewed
+          curry dish full of Caribbean influences. I will cook this low and slow
+          on the hob for 3 hours but you can of course use a pressure cooker for
+          30 minutes or set it into a slow cooker for 6 hours. A paragraph
+          explaination of each method is at the end of the method page.
+        </p>
+
+        <p>
+          The dish requires very little meat just 300g as the butter beans add a
+          huge amount of protein massively reducing cost but not at the expense
+          of <strong>protien</strong> or indeed <strong>flavour</strong>.
+        </p>
+
+        <p>
+          A nod to <em>Mama's kitchen</em> those were the days when paying for a
+          take away was easy. I shall always smile over not my Mama's kitchen
+          but a massive influence on my life and indeed what I cook. I can not
+          fully replicate her. But oh my word I do try, as we all should.
+          Soulfull equates to from the heart. This is dish so full of
+          <em>Mama's kitchen</em> soul feels like she typed it. Pretty sure it
+          was Nutty but I'll never truely know...
+        </p>
+
+        <!-- Final paragraph before 2 col layout -->
+        <p>
+          Click the <strong>Method</strong> tab below to see a step-by-step
+          guide on how to make
+          <strong>Carribbean Beef & Butter Bean Curry</strong> along with some
+          pictures as a guide.
+        </p>
+      </header>
+
+      <!-- ######## Two column layout colapses into one on small screens -->
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <!-- first image on the page sits underneath the final paragraphs -->
+        <!--  - img on left, ingredients/method tabs on right  -->
+        <figure class="about-img">
+          <img
+            src="/images/sausagepepperpie/sausageandpepperpie03.jpg"
+            alt="sausage and pepper pie"
+            title=""
+          />
+        </figure>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button
+              title="Click this tab to reveal the ingredients"
+              class="tab-btn active"
+              data-id="ingredients"
+            >
+              ingredients
+            </button>
+            <button
+              title="Click this tab to read the recipe method and see pictures of how to make this dish"
+              class="tab-btn"
+              data-id="method"
+            >
+              method
+            </button>
+          </div>
+
+          <!-- This is where the "Ingredients" & "Method" tabs are created -->
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+
+            <!-- the class `active` is applied to show the contents of the tab. "Ingredients" is active by default -->
+            <div class="content active" id="ingredients">
+              <h2>Ingredients</h2>
+              <p>Here's what you need :¬)</p>
+
+              <!-- Ingredients List Goes Below Here!!! -->
+              <h2>Serves 4</h2>
+
+              <h2>Ingredients for the mariade</h2>
+              <ul>
+                <li>300g stewing beef</li>
+                <li>2 Tbsp Dunns River&trade; Hot Caribbean curry powder</li>
+                <li>1 tsp ground pimento (allspice)</li>
+                <li>1 tsp ground cumin</li>
+                <li>1 tsp ground smoked paprika</li>
+                <li>1 tsp ground black pepper</li>
+                <li>1/2 tsp sea salt</li>
+                <li>2 inch piece of fresh ginger finely diced</li>
+                <li>5 cloves garlic finely diced</li>
+                <li>1 OXO&trade; beef stock cube crumbled</li>
+              </ul>
+              <div class="spacer"></div>
+
+              <h2>Ingredients for the curry</h2>
+              <ul>
+                <li>3 Tbsp vegetable oil</li>
+                <li>1 Tbsp Dunns River&trade; Hot Caribbean curry powder</li>
+                <li>1 large indian bay leaf or 3 small english bay</li>
+                <li>2 medium carrots cut into thin discs</li>
+                <li>1 large white onion finely diced</li>
+                <li>
+                  1 large bunch fresh spring onions (scallions) diced &mdash;
+                  separate the white & green ends and set aside for later
+                </li>
+                <li>A few sprigs of fresh thyme</li>
+                <li>*1 scotch bonnet chilli (optional)</li>
+                <li>1 large ripe tomato diced</li>
+                <li>500ml boiling water</li>
+                <li>**1/2 tsp sea salt as per taste</li>
+                <li>
+                  275g Butter beans drained & rinsed &mdash; add an hour before
+                  the end of the cooking time
+                </li>
+                <li>
+                  greens of the spring onions cut into disks &mdash; add 10
+                  minutes before the end of the cooking time
+                </li>
+              </ul>
+              <div class="spacer"></div>
+              <p>
+                *Keep the scotch bonnet out all together or whole for mild to
+                medium. Prick into it a few times for medium to hot. Finely
+                diced it for very hot hot hot.
+              </p>
+              <p>
+                **Taste taste taste near to the end of the cooking time and add
+                extra salt (1/2 tsp at a time) until the sauce is perfect.
+              </p>
+              <!-- Ingredients List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <!-- The method tab  does not have the class `active` by default, thus it is hidden from view. When the user clicks
+            the "Method" tab the `active` class is applied here and
+            removed from the "Ingredients" tab, which is then hidden
+            from view
+             -->
+            <div class="content" id="method">
+              <h2>method</h2>
+              <p>
+                This dish is fast to put together but slow to cook. Once your
+                meat is in too marinade allow a minimum of an hour but
+                preferably marinade overnight in the fridge, or as long as you
+                can.
+              </p>
+              <p>
+                I have used Dunns River Hot Caribbean curry powder but any
+                Jamacain style containing pimento (allspice) you prefer will be
+                perfect. Check the powder for salt content increase the salt if
+                required you can always add but never take away. So taste taste
+                taste once the dish is near the end of the cooking time. Add in
+                extra if required.
+              </p>
+              <p>
+                The butter beans are going to soak up the meat & spice flavours,
+                so trust me you will not feel hard done by.
+              </p>
+              <p>
+                Now I used two pans my non stick wok to fry with and then I
+                switched to my dutch oven to slow cook the dish.
+              </p>
+
+              <!-- Method List Goes Below Here!!! -->
+
+              <h4>Marinade method</h4>
+
+              <ol class="spaced-ol">
+                <li>
+                  Get a suitable container to mariade your meat in. Never metal
+                  or tin foil containers. (There's a science to it I will not
+                  bore you with that stuffs!)
+                </li>
+                <li>
+                  Place all the ingredients below into the container and shake
+                  as you add:
+                </li>
+                <ul>
+                  <li>300g stewing beef</li>
+                  <li>2 Tbsp Dunns River Hot Caribbean curry powder</li>
+                  <li>1 tsp ground pimento (allspice)</li>
+                  <li>1 tsp ground cumin</li>
+                  <li>1 tsp ground smoked paprika</li>
+                  <li>1 tsp ground black pepper</li>
+                  <li>1/2 tsp sea salt</li>
+                  <li>2 inch piece of fresh ginger finely diced</li>
+                  <li>5 cloves garlic finely diced</li>
+                  <li>1 OXO&trade; beef stock cube crumbled</li>
+                </ul>
+              </ol>
+
+              <ol start="3">
+                <li>
+                  Place into the fridge for at least an hour but preferably
+                  overnight
+                </li>
+              </ol>
+              <div class="spacer"></div>
+
+              <h4>Curry method</h4>
+
+              <ol class="spaced-ol">
+                <li>
+                  Take your marinated meat from the fridge allow to come up to
+                  room temperature slightly as you prepare for the curry.
+                </li>
+                <li>
+                  Chop your carrots, onions, spring onions and gather all your
+                  ingredients ready to be cooked.
+                </li>
+                <li>
+                  Heat a heavy based pan or dutch oven to maximum add the 3 Tbsp
+                  of vegetable oil until it shimmers.
+                </li>
+                <li>
+                  Add your marinated meat few cubes at a time so the pan does
+                  not cool.
+                </li>
+                <li>
+                  Allow to brown but not burn &mdash; so turn occassionally.
+                </li>
+                <li>
+                  Once it is all well-browned set it aside and lower the heat of
+                  the pan.
+                </li>
+                <li>
+                  Add extra oil if required then add your 1 Tbsp of curry
+                  powder. This is to "burn" the flavour of the curry powder into
+                  ever part of the dish. All your actually doing is flavouring
+                  oil to cook the rest of your veg. (Think of it as layering up
+                  the flavour Carribbean's call this "burn" but do not burn it!
+                  Soon as it smells immediately move on.)
+                </li>
+                <li>Add bay leaf</li>
+                <li>Add your onions to the pan allow to slightly soften.</li>
+                <li>Add your carrots stir through the onions to combine.</li>
+                <li>Add your spring onion whites.</li>
+                <li>
+                  Add your chopped tomato combine and you have all your flavour
+                  base.
+                </li>
+                <li>Add 500 ml of water.</li>
+                <li>Place your meat back into the cooking pot</li>
+                <li>
+                  Bring everything to a simmer then add in your scotch bonnet
+                  chilli if using.
+                </li>
+                <li>
+                  Add your fresh thyme and cover setting the heat to low and
+                  cook for 2 hours.
+                </li>
+              </ol>
+
+              <div class="spacer"></div>
+              <p>
+                <em
+                  >*Please refer to other cooking method below if using pressure
+                  cooker or slow cooker</em
+                >
+              </p>
+
+              <ol class="spaced-ol" start="15">
+                <li>
+                  Remove the lid, check the meat is tender & add the butter
+                  beans then cook for another hour
+                </li>
+                <li>
+                  10 minutes before the end of the cook check the salt, adjust &
+                  add your spring onion greens
+                </li>
+                <li>Stir your spring onion greens through & serve.</li>
+              </ol>
+              <div class="spacer"></div>
+
+              <h4>Pressure cooker method</h4>
+
+              <p>
+                *Brown as above then set everything into your pressure cooker
+                pot and cook on meat for 25 minutes. Then release the pressure,
+                add your butter beans and cook for a further 5 minutes on meat.
+                Release the pressure check the salt adjust as required then add
+                your spring onion greens & serve
+              </p>
+
+              <h4>Slow cooker method</h4>
+
+              <p>
+                *Brown as above then set everything into your slow cooker pot
+                cook on low for 5 hours. Then add your butter beans and cook for
+                a further hour. Check the salt, adjust if needed & add your
+                spring onion greens stir through & serve.
+              </p>
+
+              <h4>Serving suggestion</h4>
+              <p>
+                for <strong>Carribean Beef and Butter Bean Curry</strong> Plain
+                basmati rice or mashed potatoes
+              </p>
+
+              <!-- 
+                   Image with spacers before and after, you can copy and
+                   paste this and change the details to point to a new
+                   image.
+
+                   NOTE: The `alt` & `title` parameters are REALLY
+                   important for Google and disabled folks! The text in
+                   the `alt` parameter should be exactly the same as the 
+                   descriptive filename but without the dashes!
+                   Use the title to push the key words of the page.
+                   e.g. "sausage pasta" in this instance!
+              -->
+              <div class="spacer"></div>
+              <figure class="card_image">
+                <figcaption>brown sausages</figcaption>
+                <img
+                  src="/images/sausagepasta/650x366/sausage-browning-in-pan-02.jpg"
+                  alt=""
+                  title=""
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <!-- Method List Goes Above Here!!! -->
+
+              <!-- This is THE END!!!!!! -->
+              <!-- don't mess with the closing tags or anything below here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <section class="related">
+              <h1>Related recipes</h1>
+              <ul>
+                <li>
+                  <a
+                    class="underline"
+                    href="https://www.nuttyskitchen.co.uk/caribbean-creamy-pork-curry.html"
+                    >carribbean creamy pork curry
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.nuttyskitchen.co.uk/jerked-chicken-curry.html"
+                    class="underline"
+                    >jerked chicken curry
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+
+    <!-- `app.js` is the program that runs on every page to create 
+         the menu and footer amongst other things such as controlling
+         the visibility of the tabs when a user clicks on them
+    -->
+    <script src="/src/app.js"></script>
+
+    <!-- NOTE: recipecards.js only runs on the `recipepage.html` -->
+  </body>
+</html>
