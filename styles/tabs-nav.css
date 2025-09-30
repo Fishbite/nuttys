@@ -88,6 +88,15 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+.hr-elipse {
+  height: 2px;
+  width: 90%;
+  margin: 2rem auto;
+  background: hsl(212, 33%, 89%);
+  font-size: 0;
+  border: 0;
+  border-radius: 50%;
+}
 ul {
   list-style-type: none;
   color: var(--clr-grey-4);
