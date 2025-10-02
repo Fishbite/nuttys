@@ -697,6 +697,21 @@ export const gridContent = [
     desc: "Slow-cooked beef stew packed with veg, served with fluffy dumplings for the ultimate winter warmer.",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/jamaican-beef-and-butter-bean-curry/200/jamaican-beef-and-butter-bean-curry.webp",
+    imgTitle: "jamaican beef and butter bean curry in a dutch oven",
+    imgAlt: "jamaican beef and butter bean curry",
+    caption: "jamaican beef & butter bean curry",
+    page: `jamaican-beef-and-butter-bean-curry`,
+    desc: "jamaican beef and butter bean curry slow cooked budget friendly Caribbean stew serves 4 serves four",
+  },
+
   // ****** beef END ****** \\
 
   // ****** pork ****** \\
