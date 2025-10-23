@@ -37,3 +37,5 @@ tools/js_object_to_json.js
 tools/testpage.html
 node_modules/
 images/video/nutty-chillin.webm
+fb-test.html
+fb-test-latest.html
