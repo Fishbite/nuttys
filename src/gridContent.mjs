@@ -487,7 +487,8 @@ export const gridContent = [
   {
     type: "recipe",
     cat: "chicken",
-    imgSrc: "/images/jamaican-pumpkin-soup/200/jamaican-pumpkin-soup.webp",
+    imgSrc:
+      "/images/jamaican-pumpkin-soup/200/close-up-of-jamaican-pumpkin-soup.webp",
     imgTitle: "Jamaican Pumpkin Soup in a dish",
     imgAlt: "jamaican pumpkin soup in dish",
     caption: "jamaican pumpkin soup",
