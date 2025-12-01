@@ -496,6 +496,20 @@ export const gridContent = [
     desc: "Jamaican pumpkin soup - a caribbean style soup with chicken & scotch bonnet chillies.",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/chicken-biryani/200/chicken-biryani-raita-popadoms.webp",
+    imgTitle: "chicken biryani served with raita and popadoms",
+    imgAlt: "chicken biryani raita popadoms",
+    caption: "chicken biryani",
+    page: `chicken-biryani`,
+    desc: "simple, easy, rice, chicken biryani, spice",
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
