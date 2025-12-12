@@ -507,7 +507,7 @@ export const gridContent = [
     imgAlt: "chicken biryani raita popadoms",
     caption: "chicken biryani",
     page: `chicken-biryani`,
-    desc: "simple, easy, rice, chicken biryani, spice",
+    desc: "simple, easy, rice, chicken biryani, chicken drumsticks, spice, Chettinad masala, forgiving, one-pot biryani ",
   },
 
   // ****** chicken END ****** \\
