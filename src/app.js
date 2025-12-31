@@ -141,16 +141,19 @@ class MakeFooter {
   // }
   render() {
     return `<div class="social">
-    ${this.social}
+    <ul>${this.social}</ul>
     <p>${this.email}</p>
     </div> 
     <ul>${this.list}</ul>    
     <ul>${this.ip}</ul>`;
   }
 }
-const social = `<a href="https://www.facebook.com/nutty.s.kitchen.co.uk" target="_blank" >
+const social = `<li><a href="https://www.facebook.com/nuttyskitchenuk" target="_blank" >
     <img src="/images/facebook-circle.png" alt="facebook logo"  />
-  </a>`;
+  </a>
+  <a href="https://www.instagram.com/nuttyskitchenuk/" target="_blank" >
+    <img src="/images/instagram-logo.png" alt="instagram logo"  />
+  </a></li>`;
 
 const footerEmail = `<a href="&#109;ailto&#58;nutty&#64;nuttyskitchen&#46;co&#46;uk">email: nutty&#64;nuttyskitchen&#46;co&#46;uk</a>`;
 /*
