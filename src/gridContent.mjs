@@ -713,13 +713,14 @@ export const gridContent = [
   },
 
   { type: "blank" },
+
   {
     type: "recipe",
     cat: "beef",
     imgSrc:
-      "/images/jamaican-beef-and-butter-bean-curry/200/jamaican-beef-and-butter-bean-curry.webp",
-    imgTitle: "Beaters' beef stew and Yorkshie pudding served in a dish",
-    imgAlt: "Beaters' beef stew and Yorkshie pudding",
+      "/images/beaters-beaf-stew/200/beaters-beef-stew-and-yorkshire-pudding-02.webp",
+    imgTitle: "Beaters beef stew and Yorkshie pudding served in a dish",
+    imgAlt: "Beaters beef stew and Yorkshie pudding",
     caption: "beaters' beef stew",
     page: `beaters-beef-stew`,
     desc: "So this stew is something I cooked for many years and one that was regularly enjoyed by the local shoots' Beaters all through the shooting season, packed with vegetables",
