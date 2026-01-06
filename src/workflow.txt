@@ -43,6 +43,11 @@ add new-recipe-name to gridContent.mjs
 ###############################
 ######## Update the DB ########
 
+create new INSERT statements to add the new recipe/s to the DB tables
+
+open a powershell command prompt then:
+run this command: node C:\Stuart\Root\nuttyskitchen\nuttys\src\generateSQL_1.1.1.mjs
+
 open phpMyAdmin
 click on recipe_db
 
