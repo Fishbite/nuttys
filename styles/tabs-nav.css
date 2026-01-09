@@ -1096,6 +1096,7 @@ header .fb-form {
    =======================
 */
 .in-link {
+  color: var(--clr-grey-2);
   text-decoration: underline double var(--clr-grey-4);
 }
 
