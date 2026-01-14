@@ -1,3 +1,9 @@
+// RUN THIS FILE TO CREATE THE SQL TABLES FOR THE RECIPE SEARCH ENGINE
+// cd C:\Stuart\Root\nuttyskitchen\nuttys\src
+// run this cmd in PowerShell: node generateSQL_1.1.1.mjs
+// Then copy the image folder (containing the new recipe) to recipes.nuttyskitchen.co.uk images folder
+// Then import the SQL files VIA PHPMYAdmin
+
 // generateSQL.mjs
 import { gridContent } from "./gridContent.mjs";
 import fs from "fs";
