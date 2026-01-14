@@ -1227,6 +1227,21 @@ export const gridContent = [
     desc: "Indian Masala veg with fresh fenugreek - cauliflower, green beans and onions in a delicate blend of spices",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/smoked-haddock-and-leek-quiche/200/smoked-haddock-quiche-14.webp",
+    imgTitle: "smoked haddock and leek quiche with pastry trimmed",
+    imgAlt: "smoked haddock quiche",
+    caption: "smoked haddock & leek quiche",
+    page: `smoked-haddock-and-leek-quiche`,
+    desc: "A delicate thin pastry base loaded with leeks, onion, double cream, eggs and seasoned to perfection! The best cheese sauce in a PIE with leeks & Smoked Haddock!",
+  },
+
   // ****** vege END ****** \\
 
   // ****** sauce START ****** \\
