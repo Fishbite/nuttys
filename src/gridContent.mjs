@@ -712,7 +712,17 @@ export const gridContent = [
     desc: "Slow-cooked beef stew packed with veg, served with fluffy dumplings for the ultimate winter warmer.",
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc:
+      "/images/authentic-beef-vindaloo/650x366/beef-vindaloo-and-pickled-onion-plated-05.webp",
+    imgTitle: "beef vindaloo and pickled onion served with chapati",
+    imgAlt: "beef vindaloo and pickled onion plated",
+    caption: "authentic beef vindaloo",
+    page: `authentic-beef-vindaloo`,
+    desc: "Slow-cooked authentic beef vindaloo a classic Goan curry of Portugese origin",
+  },
 
   {
     type: "recipe",
