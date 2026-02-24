@@ -1227,6 +1227,7 @@ header .fb-form {
   margin: 0 auto;
   width: 650px;
   max-width: 95vw;
+  height: auto;
   border: 3px solid var(--clr-grey-9);
   box-shadow: 1px 1px 6px 2px var(--clr-grey-8);
 }
