@@ -714,6 +714,12 @@ Navigation END NB: Dynamically Gernerated with `navMenu(navContent)`
   padding-bottom: 0.75rem;
 }
 
+/* make list numbers bold
+*/
+ol > li::before {
+  font-weight: bold;
+}
+
 /* ====================================
    ** Recipe Method Specific Styles END **
    ====================================
