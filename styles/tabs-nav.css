@@ -716,10 +716,21 @@ Navigation END NB: Dynamically Gernerated with `navMenu(navContent)`
 
 /* make list numbers bold
 */
-ol > li::before {
-  font-weight: bold;
+/* only reset the counter on ols that are not continuing from a previous list */
+ol:not([start]) {
+  counter-reset: item;
 }
 
+/* style just the top‑level list items */
+ol > li {
+  display: block;
+}
+
+ol > li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: bold;
+}
 /* ====================================
    ** Recipe Method Specific Styles END **
    ====================================
