@@ -4,7 +4,7 @@
 // Build recipe-links.html from gridContent.mjs using the same HEREDOC template
 
 $gridContentFile = __DIR__ . '/../src/gridContent.mjs';         // <-- update if needed
-$output          = __DIR__ . '/../recipe-links.html';  // safe test output
+$output          = __DIR__ . '/../test-recipe-links.html';  // safe test output
 
 if (!file_exists($gridContentFile)) {
     die("Error: gridContent.mjs not found at $gridContentFile\n");
