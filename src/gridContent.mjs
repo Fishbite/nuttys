@@ -506,7 +506,7 @@ export const gridContent = [
     imgTitle: "fenugreek chicken plated with a chapati",
     imgAlt: "close up fenugreek chicken plated with a chapati",
     caption: "Fenugreek Chicken",
-    page: `Fenugreek-Chicken`,
+    page: `fenugreek-chicken`,
     desc: "Methi Murg the Indian name or Fenugreek Chicken, inpired by Romy Gill and her delicate dry curry",
   },
 
