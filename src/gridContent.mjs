@@ -497,7 +497,18 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/fenugreek-chicken/200/close-up-fenugreek-chicken-plated-with-a-chapati.webp",
+    imgTitle: "fenugreek chicken plated with a chapati",
+    imgAlt: "close up fenugreek chicken plated with a chapati",
+    caption: "Fenugreek Chicken",
+    page: `Fenugreek-Chicken`,
+    desc: "Methi Murg the Indian name or Fenugreek Chicken, inpired by Romy Gill and her delicate dry curry",
+  },
 
   {
     type: "recipe",
