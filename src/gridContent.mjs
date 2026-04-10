@@ -759,6 +759,19 @@ export const gridContent = [
     desc: "jamaican beef and butter bean curry slow cooked budget friendly Caribbean stew serves 4 serves four",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "/images/beef-stroganoff/200/beef-stroganoff-and-mash-03.webp",
+    imgTitle: "beef stroganoff and mash served in a dish",
+    imgAlt: "beef stroganoff and mash",
+    caption: "beef stroganoff",
+    page: `beef-stroganoff`,
+    desc: "Nutty's Beef Stroganoff: budget friendly, rich, moreish and delicious. It's quick, simple & easy to make with reduced calories",
+  },
+
   // ****** beef END ****** \\
 
   // ****** pork ****** \\
