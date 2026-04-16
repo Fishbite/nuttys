@@ -884,7 +884,7 @@ export const gridContent = [
   {
     type: "recipe",
     cat: "pork",
-    imgSrc: "/images/porksupreme/200/pork-in-creamy-pepper-sauce.jpg",
+    imgSrc: "/images/porksupreme/200/pork-in-creamy-pepper-sauce.webp",
     imgTitle: "pork in creamy pepper sauce",
     imgAlt: "pork in creamy pepper sauce",
     caption: "pork in creamy pepper sauce",
