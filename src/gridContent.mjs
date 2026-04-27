@@ -1668,7 +1668,6 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
 
   {
     type: "recipe",
@@ -1679,6 +1678,18 @@ export const gridContent = [
     caption: "fruit cake",
     page: `fruit-cake`,
     desc: "Rich and moist traditional fruit cake — loaded with soaked dried fruit and not too sweet.",
+  },
+
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc:
+      "/images/sticky-toffee-pudding/200/sticky-toffee-pudding-and-caramel-sauce-03.webp",
+    imgTitle: "sticky toffee and caramel sauce",
+    imgAlt: "sticky toffee pudding and caramel sauce",
+    caption: "sticky toffee pudding",
+    page: `sticky-toffee-pudding`,
+    desc: "Sticky Toffee Pudding & Caramel Sauce. Rich & moist cake with dates & luxurious caramel dressing",
   },
 
   // ****** puddings END ****** \\
