@@ -707,7 +707,7 @@ Navigation END NB: Dynamically Gernerated with `navMenu(navContent)`
 /* space the list elements to make them more easily
    readable when  */
 .spaced-ol-list ol > li:not(:last-child) {
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
 }
 
 .spaced-ol > li:not(:last-child) {
