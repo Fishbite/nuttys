@@ -760,7 +760,7 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+
   {
     type: "recipe",
     cat: "beef",
@@ -770,6 +770,17 @@ export const gridContent = [
     caption: "beef stroganoff",
     page: `beef-stroganoff`,
     desc: "Nutty's Beef Stroganoff: budget friendly, rich, moreish and delicious. It's quick, simple & easy to make with reduced calories",
+  },
+
+  {
+    type: "recipe",
+    cat: "beef",
+    imgSrc: "/images/beef-brisket/200/slow-cooked-beef-joint-on-plate.webp",
+    imgTitle: "slow cooked beef brisket joint on a plate",
+    imgAlt: "slow-cooked-beef-joint-on-plate",
+    caption: "slow cooked beef brisket",
+    page: `beef-brisket`,
+    desc: "slow cooked, slow cooker, slow cooked beef brisket, pressure cooker, easy, tastiest stew",
   },
 
   // ****** beef END ****** \\
