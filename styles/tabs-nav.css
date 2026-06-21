@@ -1267,4 +1267,24 @@ header .fb-form {
 .btn-container {
   position: sticky;
   top: 0;
+  z-index: 1;
+}
+
+/* Nutty Camera Image */
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.00125);
+    opacity: 1;
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite ease-in-out;
+  display: inline-block;
 }
