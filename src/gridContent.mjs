@@ -1040,7 +1040,16 @@ export const gridContent = [
     desc: "An Indian inspired slow-cooked lamb in a fragrant curry sauce with fresh spinach for a nutrient-packed, hearty dish.",
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc: "/images/lamb-madras/200/lamb-madras.webp",
+    imgTitle: "lamb madras served with basmati rice",
+    imgAlt: "lamb-madras",
+    caption: "lamb madras",
+    page: `lamb-madras`,
+    desc: "lamb madras, a classic British - Indian curry with homemade madras paste using lamb mince, minced meat meat",
+  },
 
   {
     type: "recipe",
