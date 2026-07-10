@@ -80,7 +80,7 @@ they should be here:
 C:\Stuart\Root\nuttyskitchen\nuttys\sql\inserts_recipes.sql
 
 click the IMPORT button at the bottom of the page
-click on category_cards in the left hand menu under recipe_db
+click on recipe_cards in the left hand menu under recipe_db
 
 check all the recipes are correct in the table - just note the number of rows if you like
 Note: if any recipes were added to gridcontent.mjs you should see an increase in the numer of rows under the ROWS column on the recipe cards table
