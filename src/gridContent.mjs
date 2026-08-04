@@ -1286,7 +1286,7 @@ export const gridContent = [
     type: "recipe",
     cat: "fish & veg",
     imgSrc:
-      "/images/cod-steak-tomato-balti/650x366/tomato-fish-balti-flaked-01.webp",
+      "/images/cod-steak-tomato-balti/200/tomato-fish-balti-flaked-01.webp",
     imgTitle: "cod steak tomato Balti",
     imgAlt: "tomato fish balti flaked",
     caption: "cod steak tomato Balti",
