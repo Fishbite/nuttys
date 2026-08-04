@@ -1282,7 +1282,17 @@ export const gridContent = [
   },
 
   { type: "blank" },
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "fish & veg",
+    imgSrc:
+      "/images/cod-steak-tomato-balti/650x366/tomato-fish-balti-flaked-01.webp",
+    imgTitle: "cod steak tomato Balti",
+    imgAlt: "tomato fish balti flaked",
+    caption: "cod steak tomato Balti",
+    page: `cod-steak-tomato-balti`,
+    desc: "A quick and easy fish balti curry using frozen Atlantic cod steaks makes this economical. Just a few common spices to create an authentic British curry house classic",
+  },
 
   {
     type: "recipe",
