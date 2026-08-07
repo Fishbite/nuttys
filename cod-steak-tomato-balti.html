@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A quick and easy fish balti curry using frozen Atlantic cod steaks makes this economical. Just a few common spices to create an authentic British curry house classic"
+    />
+
+    <!-- *********************FACEBOOK START******************** -->
+    <!-- facebook meta tags to ensure correct image / page is shared START-->
+
+    <!-- set the URL that you want Facebook to point to in this tag -->
+    <meta
+      property="og:url"
+      content="https://www.nuttyskitchen.co.uk/cod-steak-tomato-balti.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cod Steak Tomato Balti" />
+
+    <!-- set a very short description of the page in this tag -->
+    <meta
+      property="og:description"
+      content="A quick and easy fish balti curry using frozen Atlantic cod steaks"
+    />
+
+    <!-- set the image that you want Facebook to display in this tag-->
+    <meta
+      property="og:image"
+      content="https://www.nuttyskitchen.co.uk/images/cod-steak-tomato-balti/650x366/tomato-fish-balti-flaked-01.webp"
+    />
+    <!-- facebook meta tags to ensure correct image / page is shared END-->
+    <!-- *********************FACEBOOK END********************* -->
+
+    <!-- Set the webpage title here - it shows up in the browser tab -->
+    <title>Cod Steak Tomato Balti | Nutty's Kitchen</title>
+
+    <!--set the image that shows in the browser tabs -->
+    <link rel="icon" href="favicon.svg" />
+
+    <!-- tell google to use this page as the canonical page -->
+    <link rel="canonical" href="https://www.nuttyskitchen.co.uk/index.html" />
+
+    <!-- Pre-load the font used on the website: "Poppins" -->
+    <link
+      rel="preload"
+      href="/fonts/poppins-regular-webfont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- load the CSS stylesheets here -->
+    <link rel="stylesheet" href="/styles/tabs-nav.css" />
+    <link rel="stylesheet" href="/styles/background.css" />
+
+    <!-- Set CSS variables here -->
+    <style>
+      :root {
+        /* set the background image */
+        --bg-img: url("/images/icons/blank.png");
+
+        /* set the background size */
+        --bg-size: 32px;
+
+        /* set the start of the 2nd colour of the gradient */
+        /* basically, increase the value until the background
+           images are below the intro' paragraphs */
+        --bg-1st-col-stop: 35%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-main" aria-label="main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/recipe-links.html">Index</a></li>
+        <li>
+          <a
+            href="https://recipes.nuttyskitchen.co.uk/recipes"
+            class="recipe-page-link"
+            data-fallback="https://www.nuttyskitchen.co.uk/recipepage.html"
+            data-test-image="https://recipes.nuttyskitchen.co.uk/images/icons/blank.svg"
+          >
+            Recipes
+          </a>
+        </li>
+        <li><a href="/contact-form.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- RECIPE PAGE NAVIGATION -->
+    <div id="nav-container" class="nav-container"></div>
+    <!-- RECIPE PAGE NAVIGATION -->
+
+    <section class="fg">
+      <header class="title">
+        <div class="title-wrap">
+          <img
+            width="60"
+            height="32"
+            src="/images/logo-left.svg"
+            alt="logo left"
+            title="nuttys kitchen logo left"
+          />
+
+          <!-- Set the page title here -->
+          <h1>Cod Steak Tomato Balti</h1>
+
+          <img
+            width="60"
+            height="32"
+            src="/images/logo-right.svg"
+            alt="logo right"
+            title="nuttys kitchen logo right"
+          />
+        </div>
+        <img
+          src="/images/nuttys-kitchen-logo.svg"
+          alt="nuttys kitchen logo"
+          width="160"
+          height="40"
+          title="nuttys kitchen logo"
+          class="logo-main"
+        />
+
+        <!-- First paragraph after the page title -->
+        <p>
+          Tomatoes are still in season? Then this is definitely a must cook dish
+          to make the most of out of them.
+        </p>
+        <p>
+          This curry is really quick and easy using frozen cod steaks that are
+          available in every supermarket freezer &mdash; which makes it very
+          economical and I'm using common spices that you wont have any problem
+          finding - probably already in you store cupboard!
+        </p>
+        <p>
+          By poaching cod directly in the spices and tomato sauce it stays
+          beautifully moist and it takes about 10 minutes prep time and 20
+          minutes to cook. So it's like a night off for me :-)
+        </p>
+        <p>
+          What is not to love about that one pan cook? Add rice or roti & dinner
+          is served!
+        </p>
+        <p>
+          This dish is so delicately spiced, so as not to over power the
+          delicate fish. It tastes amazing! A perfect bed partner to basmati
+          rice paired with fried red onions and cumin seeds &mdash; which is
+          also easy to make! A perfect Home away!
+        </p>
+
+        <!-- Final paragraph before 2 col layout -->
+        <p>
+          Click the <strong>Method</strong> tab below to see a step-by-step
+          guide on how to make <strong>Cod Steak Tomato Balti</strong> along
+          with some pictures as a guide.
+        </p>
+      </header>
+
+      <!-- ######## Two column layout colapses into one on small screens -->
+      <!-- class about-center = set columns -->
+      <!-- class section-center = set width -->
+      <div class="about-center section-center">
+        <!-- first image on the page sits underneath the final paragraphs -->
+        <!--  - img on left, ingredients/method tabs on right  -->
+        <figure class="about-img">
+          <img
+            src="/images/cod-steak-tomato-balti/650x366/tomato-fish-balti-flaked-01.webp"
+            alt="tomato-fish-balti-flaked"
+            title="cod steak tomato Balti"
+          />
+        </figure>
+
+        <article class="about">
+          <!-- buttons container -->
+          <div class="btn-container">
+            <!-- class active = show content -->
+            <button
+              title="Click this tab to reveal the ingredients"
+              class="tab-btn active"
+              data-id="ingredients"
+            >
+              ingredients
+            </button>
+            <button
+              title="Click this tab to read the recipe method and see pictures of how to make this dish"
+              class="tab-btn"
+              data-id="method"
+            >
+              method
+            </button>
+          </div>
+
+          <!-- This is where the "Ingredients" & "Method" tabs are created -->
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+
+            <!-- the class `active` is applied to show the contents of the tab. "Ingredients" is active by default -->
+            <div class="content active" id="ingredients">
+              <h2>ingredients</h2>
+              <p>Here's what you need :¬)</p>
+
+              <!-- Ingredients List Goes Below Here!!! -->
+              <h2>serves 4</h2>
+              <h2>For the Balti sauce</h2>
+
+              <ul>
+                <li>4 cod steaks 400g to 600g</li>
+                <li>400g fresh ripe vine tomatoes sliced</li>
+                <li>1 Tbsp ghee</li>
+                <li>1 large onion &frac12; finely sliced &frac12; diced</li>
+                <li>3 cloves fresh garlic minced</li>
+                <li>I Tbsp fresh ginger grated</li>
+                <li>
+                  1 fresh green chilli finger (hot) or bullet (mild) dependent
+                  on your heat preference
+                </li>
+                <div class="spacer"></div>
+              </ul>
+              <h2>For the Spices</h2>
+              <ul>
+                <li>1 tsp cumin ground</li>
+                <li>1 tsp coriander roughly ground</li>
+                <li>1/2 tsp turmeric</li>
+                <li>1 tsp garam masala</li>
+                <li>1 tsp sea salt ground</li>
+                <li>1 tsp white pepper ground</li>
+                <li>125ml vegetable stock - a stock cube is fine!</li>
+                <li>Handful of fresh coriander chopped</li>
+              </ul>
+              <!-- Ingredients List Goes Above Here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <!-- The method tab  does not have the class `active` by default, thus it is hidden from view. When the user clicks
+            the "Method" tab the `active` class is applied here and
+            removed from the "Ingredients" tab, which is then hidden
+            from view
+             -->
+            <div class="content" id="method">
+              <h2>method</h2>
+              <p>Saute all your aromatics. Build the sauce. Poach the fish.</p>
+              <p>This is going to be a breath of fresh air!</p>
+              <p>
+                Still, I will go through each step and prepare everything in
+                advance &mdash; we do not want
+                <em>"damn no fresh coriander"</em> today do we please :-) We
+                have definitely got this one!
+              </p>
+
+              <p>
+                Just take the time to get everything ready, it makes things so
+                much easier.
+              </p>
+
+              <div class="spacer"></div>
+              <figure class="card_image">
+                <figcaption>main ingredients</figcaption>
+                <img
+                  src="/images/cod-steak-tomato-balti/650x366/main-ingredients.webp"
+                  alt="main-ingredients"
+                  title="main ingredients from the pantry"
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <p>Set your ingredients up ready to go:</p>
+
+              <figure class="card_image">
+                <figcaption>ingedients ready</figcaption>
+                <img
+                  src="/images/cod-steak-tomato-balti/650x366/ingredients-prepared.webp"
+                  alt="ingredients-prepared"
+                  title="ingredients ready to cook with"
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <!-- Method List Goes Below Here!!! -->
+
+              <h2>Saute all your aromatics.</h2>
+              <p>
+                <em
+                  >Onions 5 to 6 mins. Garlic, ginger & chilli 1 to 2 mins
+                </em>
+              </p>
+
+              <div class="spaced-ol-list">
+                <ol>
+                  <li>
+                    Heat ghee in a large non stick wok or Balti dish on a medium
+                    heat & have the following ready:
+                  </li>
+                  <ul>
+                    <li>1 Tbsp ghee</li>
+                    <li>1 large onion finely diced & sliced half of each</li>
+                    <li>3 cloves, fresh garlic minced</li>
+                    <li>I Tbsp fresh ginger grated</li>
+                    <li>
+                      1 fresh green chilli finger (hot) or bullet (mild)
+                      dependent on your preference &mdash;sliced
+                    </li>
+                  </ul>
+                  <li>Add your onions cook until softened and golden</li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>add sliced & diced onions</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/onions-frying.webp"
+                    alt="onions-frying"
+                    title="sliced and diced onions added to wok"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <figure class="card_image">
+                  <figcaption>cook till soft & golden</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/lightly-coloured-onions.webp"
+                    alt="lightly-coloured-onions"
+                    title="lightly colour the onions for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>
+                    Add your garlic, ginger & chillies &mdash; saute until the
+                    raw small has gone.
+                  </li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>add garlic, ginger & fresh chilli</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/garlic-ginger-and-chillies-added-to-onions.webp"
+                    alt="garlic-ginger-and-chillies-added-to-onions"
+                    title="garlic, ginger & chilli added to the onions for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <div class="spacer"></div>
+                <h2>For the Balti sauce</h2>
+                <p>
+                  <em
+                    >Cook spices for 1 minute, add tomatoes & 1/2 tsp salt cook
+                    for 8 to 10 minutes</em
+                  >
+                </p>
+
+                <ol>
+                  <li>
+                    Add in the spices below and stir fry into the onions then
+                    stir constantly so the spices toast & do not burn.
+                  </li>
+                  <ul>
+                    <li>1 tsp cumin ground</li>
+                    <li>1 tsp coriander ground</li>
+                    <li>1/2 tsp turmeric</li>
+                  </ul>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>add spices</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/spices-added-to-onions.webp"
+                    alt="spices-added-to-onions"
+                    title="spices added to the onions for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <figure class="card_image">
+                  <figcaption>stir & cook the spices gently</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/spices-mixed-with-onions.webp"
+                    alt="spices-mixed-with-onions"
+                    title="spices cooking with the onions for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>
+                    Now add in your tomatoes, stir through and add in salt
+                  </li>
+                </ol>
+                <ol>
+                  <ul>
+                    <li>400g fresh ripe vine tomatoes</li>
+                    <li>1/2 tsp salt</li>
+                  </ul>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>add tomatoes & salt</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/tomatoes-added-to-onions.webp"
+                    alt="tomatoes-added-to-onions"
+                    title="tomatoes added to the onions for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <figure class="card_image">
+                  <figcaption>stir through</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/tomatoes-stirred-through-onions.webp"
+                    alt="tomatoes-stirred-through-onions"
+                    title="tomatoes stirred through the onions for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <figure class="card_image">
+                  <figcaption>soften a little</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/tomatoes-softened-slightly.webp"
+                    alt="tomatoes-softened-slightly"
+                    title="tomatoes softened slightly for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>
+                    Mash the tomatoes slightly with your spoon, or use a potato
+                    masher (quicker!) so they break down into a rich sauce
+                  </li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>mash them tomatoes!</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/mashing-softened-tomatoes.webp"
+                    alt="mashing-softened-tomatoes"
+                    title="mashin softened tomatoes for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>
+                    Add 125ml water to your crumbled vegetable stock cube & pour
+                    it into your pan.
+                  </li>
+                  <li>simmer until nicely combined</li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>add stock</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/stock-added-to-sauce.webp"
+                    alt="stock-added-to-sauce"
+                    title="stock added to sauce for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <hr class="hr-elipse" />
+
+                <h2>De-ice the cod steaks</h2>
+                <p>
+                  Now your sauce is ready, place the frozen cod steaks into a
+                  little water to remove the excess ice - just so we minimise
+                  the amount of water being added.
+                </p>
+
+                <figure class="card_image">
+                  <figcaption>de-ice fish in a little water</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/fish-de-icing-in-water.webp"
+                    alt="fish-de-icing-in-water"
+                    title="removing excess ice from the fish for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <h2>Poach the fish</h2>
+                <p>
+                  <em>Frozen fish 10 to 12 mins. Fresh fish 6 to 7 mins </em>
+                </p>
+
+                <p>Have the following ingredients ready:</p>
+                <ul>
+                  <li>4 cod steaks 600g to 800g</li>
+                  <li>1 tsp garam masala</li>
+                  <li>1/2 tsp sea salt ground</li>
+                  <li>1 tsp white pepper ground</li>
+                  <li>Handful of fresh coriander &mdash; chopped</li>
+                </ul>
+
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>Pat the fish dry to remove excess water</li>
+                  <li>Now nestle them into your tomato sauce</li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>nestle steaks in sauce</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/fish-fillets-placed-in-sauce.webp"
+                    alt="fish-fillets-placed-in-sauce"
+                    title="cod steaks nestled in sauce for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>
+                    Sprinkle over your garam masala, white pepper, salt if
+                    required and fresh coriander
+                    <ul>
+                      <li>garam masala</li>
+                      <li>white pepper</li>
+                      <li>salt - to taste</li>
+                    </ul>
+                  </li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>add garam masala & seasoning</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/salt-and-spice-added-to-fish.webp"
+                    alt="salt-and-spice-added-to-fish"
+                    title="salt & spices added to fish for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>cover the fish with sauce</li>
+                </ol>
+
+                <div class="spacer"></div>
+                <figure class="card_image">
+                  <figcaption>coat fish in sauce</figcaption>
+                  <img
+                    src="/images/cod-steak-tomato-balti/650x366/fish-covered-in-sauce.webp"
+                    alt="fish-covered-in-sauce"
+                    title="fish covered in sauce for cod steak tomato balti"
+                  />
+                </figure>
+                <div class="spacer"></div>
+
+                <ol>
+                  <li>
+                    Cover and allow to cook until the fish is opaque and flaky
+                    &mdash; 65&deg;C minimum if you own a thermometer
+                  </li>
+                </ol>
+              </div>
+
+              <div class="spacer"></div>
+              <figure class="card_image">
+                <figcaption>cover and simmer till cooked</figcaption>
+                <img
+                  src="/images/cod-steak-tomato-balti/650x366/pan-with-lid.webp"
+                  alt="pan-with-lid"
+                  title="lid on pan to cook cod steak tomato balti"
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <figure class="card_image">
+                <figcaption>add fresh coriander & serve</figcaption>
+                <img
+                  src="/images/cod-steak-tomato-balti/650x366/coriander-added-to-pan.webp"
+                  alt="coriander-added-to-pan"
+                  title="coriander added just before serving"
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <p>Serve immediately to enjoy this at its absolute best!</p>
+
+              <h2>Serving suggestion</h2>
+              <p>
+                Seasoned Basmati rice tossed in cumin seeds & sliced fried red
+                onion. Delicite, balanced and OMW devine!
+              </p>
+
+              <figure class="card_image">
+                <figcaption>cod steak tomato balti & onion rice</figcaption>
+                <img
+                  src="/images/cod-steak-tomato-balti/650x366/tomato-fish-balti-and-onion-rice-01.webp"
+                  alt="tomato-fish-balti-and-onion-rice"
+                  title="cod steak tomato balti served with red onion rice"
+                />
+              </figure>
+              <div class="spacer"></div>
+
+              <!-- 
+                   Image with spacers before and after, you can copy and
+                   paste this and change the details to point to a new
+                   image.
+
+                   NOTE: The `alt` & `title` parameters are REALLY
+                   important for Google and disabled folks! The text in
+                   the `alt` parameter should be exactly the same as the 
+                   descriptive filename with the dashes!
+                   Use the title to push the key words of the page.
+                   e.g. "sausage pasta" in this instance!
+              -->
+
+              <!-- Method List Goes Above Here!!! -->
+
+              <!-- This is THE END!!!!!! -->
+              <!-- don't mess with the closing tags or anything below here!!! -->
+            </div>
+            <!-- end of single item -->
+
+            <section class="related">
+              <h1>Related recipes</h1>
+              <ul>
+                <li>
+                  <a
+                    class="underline"
+                    href="https://www.nuttyskitchen.co.uk/chicken-and-tomato-balti.html"
+                    >chicken and tomato balti
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.nuttyskitchen.co.uk/basmati-rice.html"
+                    class="underline"
+                    >basmati rice
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- javascript -->
+
+    <!-- `app.js` is the program that runs on every page to create 
+         the menu and footer amongst other things such as controlling
+         the visibility of the tabs when a user clicks on them
+    -->
+    <script src="/src/app.js"></script>
+
+    <!-- NOTE: recipecards.js only runs on the `recipepage.html` -->
+  </body>
+</html>
