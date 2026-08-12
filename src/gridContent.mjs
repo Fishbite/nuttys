@@ -496,7 +496,18 @@ export const gridContent = [
     desc: "Jamaican pumpkin soup - a caribbean style soup with chicken & scotch bonnet chillies.",
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc:
+      "/images/rogan-josh-chicken-curry/200/rogan-josh-and-rice-closeup.webp",
+    imgTitle:
+      "close up of rogan josh chicken curry served with cumin & cardamom pilau rice",
+    imgAlt: "rogan-josh-and-rice-closeup",
+    caption: "Rogan Josh Chicken Curry",
+    page: `rogan-josh-chicken-curry`,
+    desc: "Rogan Josh Chicken Curry with mushrooms. A north Indian dish that is rich and warmly spiced with cinnamon, cardamom and roasted red pepper using my homemade spice paste",
+  },
 
   {
     type: "recipe",
