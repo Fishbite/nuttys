@@ -1547,7 +1547,18 @@ export const gridContent = [
     desc: "Delicate, aromatic rice infused with saffron and cardamom — a luxurious, subtly sweet authentic Indian accompaniment.",
   },
 
-  { type: "blank" },
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc:
+      "/images/cumin-and-cardamom-pilau-rice/200/cumin-and-cardomom-pilau-rice-chicken-rogan-josh-plated.webp",
+    imgTitle:
+      "Cumin & Cardamom Pilau Rice served with Rogan Josh Chicken & Mushroom Curry",
+    imgAlt: "cumin-and-cardomom-pilau-rice-chicken-rogan-josh-plated",
+    caption: "Cumin and Cardamom Pilau rice",
+    page: `cumin-and-cardamom-pilau-rice`,
+    desc: "Cumin & Cardamom Pilau Rice is a wonderfully fragrant rice, with delicate aromas that won't fight with or mask the flavours of other homemade home cooked Indian or dishes with delicate complex flavours",
+  },
 
   {
     type: "recipe",
