@@ -1551,7 +1551,7 @@ export const gridContent = [
     type: "recipe",
     cat: "accompaniments",
     imgSrc:
-      "/images/cumin-and-cardamom-pilau-rice/200/cumin-and-cardomom-pilau-rice-chicken-rogan-josh-plated.webp",
+      "/images/cumin-and-cardamom-pilau-rice/200/cumin-and-cardomom-pilau-rice.webp",
     imgTitle:
       "Cumin & Cardamom Pilau Rice served with Rogan Josh Chicken & Mushroom Curry",
     imgAlt: "cumin-and-cardomom-pilau-rice-chicken-rogan-josh-plated",
