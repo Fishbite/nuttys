@@ -41,7 +41,7 @@
     <!-- tell google to use this page as the canonical page -->
     <link
       rel="canonical"
-      href="https://www.nuttyskitchen.co.uk/chickenvindaloo.html"
+      href="https://www.nuttyskitchen.co.uk/chicken-vindaloo.html"
     />
 
     <link
@@ -52,9 +52,25 @@
       crossorigin
     />
 
-    <!-- styles -->
+    <!-- load the CSS stylesheets here -->
     <link rel="stylesheet" href="/styles/tabs-nav.css" />
-    <!-- <link rel="stylesheet" href="/styles/tabs-nav-minified.css" /> -->
+    <link rel="stylesheet" href="/styles/background.css" />
+
+    <!-- Set CSS variables here -->
+    <style>
+      :root {
+        /* set the background image */
+        --bg-img: url("/images/icons/blank.png");
+
+        /* set the background size */
+        --bg-size: 32px;
+
+        /* set the start of the 2nd colour of the gradient */
+        /* basically, increase the value until the background
+           images are below the intro' paragraphs */
+        --bg-1st-col-stop: 35%;
+      }
+    </style>
   </head>
   <body>
     <a href="#content" class="skip-link">Skip to Main Content</a>
@@ -79,7 +95,7 @@
     <div id="nav-container" class="nav-container"></div>
     <!-- RECIPE PAGE NAVIGATION -->
 
-    <section>
+    <section class="fg">
       <header class="title">
         <div class="title-wrap">
           <img
