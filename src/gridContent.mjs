@@ -532,6 +532,20 @@ export const gridContent = [
     desc: "simple, easy, rice, chicken biryani, chicken drumsticks, spice, Chettinad masala, forgiving, one-pot biryani ",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "chicken",
+    imgSrc: "/images/chicken-vindaloo/200/basmati-rice-and-vindaloo.webp",
+    imgTitle: "chicken vindaloo served with basmati rice",
+    imgAlt: "basmati-rice-and-vindaloo",
+    caption: "fresh chicken vindaloo",
+    page: `chicken-vindaloo`,
+    desc: "British - Indian style chicken vindaloo. Very spicy curry. Indian takeaway restaurant. Hot curry. Fresh diced chicken",
+  },
+
   // ****** chicken END ****** \\
 
   // ****** beef ****** \\
