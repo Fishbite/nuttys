@@ -1598,6 +1598,20 @@ export const gridContent = [
     desc: "Creamy, cloud-like mashed potatoes with just the right balance of butter, seasoning, and fluff — perfect alongside roasts, stews, or simply with gravy!",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "accompaniments",
+    imgSrc: "/images/bisanti-pulao/200/dome-of-bisanti-pulao.webp",
+    imgTitle: "bisanti rice, kosha mangsho and chapati",
+    imgAlt: "dome-of-bisanti-pulao",
+    caption: "bisanti pulao",
+    page: `bisanti-pulao`,
+    desc: "Basanti, Mishti or Holud Pulao recipe is an unsweetened  version of the traditional festive Bengali sweet yellow rice dish, it is staple at weddings and celebrations",
+  },
+
   // ****** accompaniments END ****** \\
 
   // ****** puddings START ****** \\
