@@ -1604,11 +1604,11 @@ export const gridContent = [
   {
     type: "recipe",
     cat: "accompaniments",
-    imgSrc: "/images/bisanti-pulao/200/dome-of-bisanti-pulao.webp",
-    imgTitle: "bisanti rice, kosha mangsho and chapati",
-    imgAlt: "dome-of-bisanti-pulao",
-    caption: "bisanti pulao",
-    page: `bisanti-pulao`,
+    imgSrc: "/images/basanti-pulao/200/dome-of-basanti-pulao.webp",
+    imgTitle: "basanti rice, kosha mangsho and chapati",
+    imgAlt: "dome-of-basanti-pulao",
+    caption: "basanti pulao",
+    page: `basanti-pulao`,
     desc: "Basanti, Mishti or Holud Pulao recipe is an unsweetened  version of the traditional festive Bengali sweet yellow rice dish, it is staple at weddings and celebrations",
   },
 
