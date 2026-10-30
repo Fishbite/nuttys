@@ -1747,8 +1747,6 @@ export const gridContent = [
     desc: "Sweet pastry flan filled with tart blackberries and mellow soured cream — delicate and delicious.",
   },
 
-  { type: "blank" },
-
   {
     type: "recipe",
     cat: "puddings",
@@ -1770,6 +1768,17 @@ export const gridContent = [
     caption: "sticky toffee pudding",
     page: `sticky-toffee-pudding`,
     desc: "Sticky Toffee Pudding & Caramel Sauce. Rich & moist cake with dates & luxurious caramel dressing",
+  },
+
+  {
+    type: "recipe",
+    cat: "puddings",
+    imgSrc: "/images/cheesecake/200/cheesecake-with-blueberry-topping.webp",
+    imgTitle: "cheesecake with blueberry topping on a plate",
+    imgAlt: "cheesecake with blueberry topping",
+    caption: "cheesecake",
+    page: `cheesecake`,
+    desc: "Make an easy no-bake cheesecake with creamy mascarpone, cream cheese and vanilla on a buttery digestive biscuit base, finished with optional homemade blueberry compote.",
   },
 
   // ****** puddings END ****** \\
