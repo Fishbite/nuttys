@@ -1099,6 +1099,21 @@ export const gridContent = [
     desc: "Indian inspired juicy lamb steaks marinated in tikka spices and grilled to perfection — packed with smoky flavour.",
   },
 
+  { type: "blank" },
+  { type: "blank" },
+
+  {
+    type: "recipe",
+    cat: "lamb",
+    imgSrc:
+      "/images/kosha-mangsho/200/kosha-mangsho-basanti-pulao-close-up.webp",
+    imgTitle: "kosha mangsho basanti pualo and chapati",
+    imgAlt: "kosha mangsho basanti pualo close up",
+    caption: "kosha mangsho",
+    page: `kosha-mangsho`,
+    desc: "Slow-cooked lamb shanks, bold Bengali spices and a rich, glossy masala. A special-occasion curry made for memorable meals at home.",
+  },
+
   // ****** lamb END ****** \\
 
   // ****** vege ****** \\
