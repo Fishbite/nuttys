@@ -529,7 +529,7 @@ export const gridContent = [
     imgAlt: "chicken biryani raita popadoms",
     caption: "chicken biryani",
     page: `chicken-biryani`,
-    desc: "simple, easy, rice, chicken biryani, chicken drumsticks, spice, Chettinad masala, forgiving, one-pot biryani ",
+    desc: "Chicken Biryani with freshly ground Chettinad Masala: an easy one-pot Chettinad Biryani with fragrant rice and tender chicken drumsticks. Simple to make at home.",
   },
 
   { type: "blank" },
